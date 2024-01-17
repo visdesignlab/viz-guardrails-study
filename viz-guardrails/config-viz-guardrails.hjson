@@ -1,0 +1,68 @@
+{
+    $schema: https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/StudyConfigSchema.json
+    studyMetadata: {
+        title: Visualization Guardrails
+        version: pilot
+        authors: [
+            VDL
+        ]
+        date: 2024-01-11
+        description: A study challenging participants to interact with linecharts that contain contextual data aka guardrails.
+        organizations: [
+            University of Utah
+        ]
+    }
+    uiConfig: {
+        contactEmail: test@test.com
+        logoPath: assets/revisitLogoSquare.svg
+        withProgressBar: true
+        autoDownloadStudy: false
+        sidebar: true
+    }
+    components: {
+        introduction: {
+            type: markdown
+            path: viz-guardrails/introduction.md
+            response: []
+        }
+        exploration: {
+            description: The base line chart to explore.
+            instruction: Explore the data!
+            type: react-component
+            path: viz-guardrails/DataExplorer.tsx
+            parameters: {
+                dataset: clean_data
+                x: date
+                y: value
+                guardrail: none
+            }
+            nextButtonLocation: sidebar
+            response: [
+                {
+                    id: exploration-response
+                    prompt: "Do you enjoy exploring the data?:"
+                    required: true
+                    location: sidebar
+                    type: radio
+                    options: [
+                        {
+                            label: Yes
+                            value: "1"
+                        }
+                        {
+                            label: No
+                            value: "2"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+    sequence: { 
+        order: fixed
+        components:  [
+            introduction
+            exploration
+        ]
+    }
+}

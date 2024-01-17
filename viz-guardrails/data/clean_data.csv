@@ -1,0 +1,3026 @@
+,continent,location,date,value,country_num,country
+0,Europe,Sweden,2020-02-09,0.0,1,Country_1
+1,Europe,Sweden,2020-02-16,0.0,1,Country_1
+2,Europe,Sweden,2020-02-23,0.0,1,Country_1
+3,Europe,Sweden,2020-03-01,0.0,1,Country_1
+4,Europe,Sweden,2020-03-08,0.0,1,Country_1
+5,Europe,Sweden,2020-03-15,0.041,1,Country_1
+6,Europe,Sweden,2020-03-22,0.515,1,Country_1
+7,Europe,Sweden,2020-03-29,2.722,1,Country_1
+8,Europe,Sweden,2020-04-05,8.193,1,Country_1
+9,Europe,Sweden,2020-04-12,17.022,1,Country_1
+10,Europe,Sweden,2020-04-19,26.054,1,Country_1
+11,Europe,Sweden,2020-04-26,33.624,1,Country_1
+12,Europe,Sweden,2020-05-03,40.923,1,Country_1
+13,Europe,Sweden,2020-05-10,47.369,1,Country_1
+14,Europe,Sweden,2020-05-17,50.592,1,Country_1
+15,Europe,Sweden,2020-05-24,50.105,1,Country_1
+16,Europe,Sweden,2020-05-31,44.932,1,Country_1
+17,Europe,Sweden,2020-06-07,39.407,1,Country_1
+18,Europe,Sweden,2020-06-14,35.087,1,Country_1
+19,Europe,Sweden,2020-06-21,30.523,1,Country_1
+20,Europe,Sweden,2020-06-28,25.459,1,Country_1
+21,Europe,Sweden,2020-07-05,21.545,1,Country_1
+22,Europe,Sweden,2020-07-12,17.713,1,Country_1
+23,Europe,Sweden,2020-07-19,14.842,1,Country_1
+24,Europe,Sweden,2020-07-26,11.808,1,Country_1
+25,Europe,Sweden,2020-08-02,8.789,1,Country_1
+26,Europe,Sweden,2020-08-09,6.243,1,Country_1
+27,Europe,Sweden,2020-08-16,4.658,1,Country_1
+28,Europe,Sweden,2020-08-23,3.358,1,Country_1
+29,Europe,Sweden,2020-08-30,2.343,1,Country_1
+30,Europe,Sweden,2020-09-06,1.72,1,Country_1
+31,Europe,Sweden,2020-09-13,1.435,1,Country_1
+32,Europe,Sweden,2020-09-20,1.341,1,Country_1
+33,Europe,Sweden,2020-09-27,1.3,1,Country_1
+34,Europe,Sweden,2020-10-04,1.232,1,Country_1
+35,Europe,Sweden,2020-10-11,1.327,1,Country_1
+36,Europe,Sweden,2020-10-18,1.422,1,Country_1
+37,Europe,Sweden,2020-10-25,1.747,1,Country_1
+38,Europe,Sweden,2020-11-01,2.478,1,Country_1
+39,Europe,Sweden,2020-11-08,4.469,1,Country_1
+40,Europe,Sweden,2020-11-15,7.231,1,Country_1
+41,Europe,Sweden,2020-11-22,11.253,1,Country_1
+42,Europe,Sweden,2020-11-29,16.711,1,Country_1
+43,Europe,Sweden,2020-12-06,22.506,1,Country_1
+44,Europe,Sweden,2020-12-13,28.925,1,Country_1
+45,Europe,Sweden,2020-12-20,36.427,1,Country_1
+46,Europe,Sweden,2020-12-27,42.941,1,Country_1
+47,Europe,Sweden,2021-01-03,49.184,1,Country_1
+48,Europe,Sweden,2021-01-10,53.558,1,Country_1
+49,Europe,Sweden,2021-01-17,56.307,1,Country_1
+50,Europe,Sweden,2021-01-24,57.363,1,Country_1
+51,Europe,Sweden,2021-01-31,55.887,1,Country_1
+52,Europe,Sweden,2021-02-07,51.242,1,Country_1
+53,Europe,Sweden,2021-02-14,45.392,1,Country_1
+54,Europe,Sweden,2021-02-21,38.621,1,Country_1
+55,Europe,Sweden,2021-02-28,31.945,1,Country_1
+56,Europe,Sweden,2021-03-07,25.283,1,Country_1
+57,Europe,Sweden,2021-03-14,20.042,1,Country_1
+58,Europe,Sweden,2021-03-21,16.386,1,Country_1
+59,Europe,Sweden,2021-03-28,14.327,1,Country_1
+60,Europe,Sweden,2021-04-04,13.501,1,Country_1
+61,Europe,Sweden,2021-04-11,12.838,1,Country_1
+62,Europe,Sweden,2021-04-18,12.838,1,Country_1
+63,Europe,Sweden,2021-04-25,12.702,1,Country_1
+64,Europe,Sweden,2021-05-02,12.526,1,Country_1
+65,Europe,Sweden,2021-05-09,12.147,1,Country_1
+66,Europe,Sweden,2021-05-16,11.971,1,Country_1
+67,Europe,Sweden,2021-05-23,10.982,1,Country_1
+68,Europe,Sweden,2021-05-30,9.899,1,Country_1
+69,Europe,Sweden,2021-06-06,8.572,1,Country_1
+70,Europe,Sweden,2021-06-13,7.191,1,Country_1
+71,Europe,Sweden,2021-06-20,5.715,1,Country_1
+72,Europe,Sweden,2021-06-27,4.482,1,Country_1
+73,Europe,Sweden,2021-07-04,3.047,1,Country_1
+74,Europe,Sweden,2021-07-11,2.099,1,Country_1
+75,Europe,Sweden,2021-07-18,1.463,1,Country_1
+76,Europe,Sweden,2021-07-25,0.907,1,Country_1
+77,Europe,Sweden,2021-08-01,0.623,1,Country_1
+78,Europe,Sweden,2021-08-08,0.501,1,Country_1
+79,Europe,Sweden,2021-08-15,0.447,1,Country_1
+80,Europe,Sweden,2021-08-22,0.474,1,Country_1
+81,Europe,Sweden,2021-08-29,0.677,1,Country_1
+82,Europe,Sweden,2021-09-05,0.961,1,Country_1
+83,Europe,Sweden,2021-09-12,1.557,1,Country_1
+84,Europe,Sweden,2021-09-19,2.234,1,Country_1
+85,Europe,Sweden,2021-09-26,2.763,1,Country_1
+86,Europe,Sweden,2021-10-03,3.142,1,Country_1
+87,Europe,Sweden,2021-10-10,3.724,1,Country_1
+88,Europe,Sweden,2021-10-17,3.927,1,Country_1
+89,Europe,Sweden,2021-10-24,3.968,1,Country_1
+90,Europe,Sweden,2021-10-31,3.697,1,Country_1
+91,Europe,Sweden,2021-11-07,3.426,1,Country_1
+92,Europe,Sweden,2021-11-14,3.25,1,Country_1
+93,Europe,Sweden,2021-11-21,3.169,1,Country_1
+94,Europe,Sweden,2021-11-28,2.668,1,Country_1
+95,Europe,Sweden,2021-12-05,2.573,1,Country_1
+96,Europe,Sweden,2021-12-12,2.763,1,Country_1
+97,Europe,Sweden,2021-12-19,3.02,1,Country_1
+98,Europe,Sweden,2021-12-26,3.196,1,Country_1
+99,Europe,Sweden,2022-01-02,3.629,1,Country_1
+100,Europe,Sweden,2022-01-09,4.929,1,Country_1
+101,Europe,Sweden,2022-01-16,6.784,1,Country_1
+102,Europe,Sweden,2022-01-23,9.791,1,Country_1
+103,Europe,Sweden,2022-01-30,13.244,1,Country_1
+104,Europe,Sweden,2022-02-06,17.374,1,Country_1
+105,Europe,Sweden,2022-02-13,21.22,1,Country_1
+106,Europe,Sweden,2022-02-20,25.418,1,Country_1
+107,Europe,Sweden,2022-02-27,28.072,1,Country_1
+108,Europe,Sweden,2022-03-06,29.67,1,Country_1
+109,Europe,Sweden,2022-03-13,29.128,1,Country_1
+110,Europe,Sweden,2022-03-20,27.937,1,Country_1
+111,Europe,Sweden,2022-03-27,25.404,1,Country_1
+112,Europe,Sweden,2022-04-03,22.52,1,Country_1
+113,Europe,Sweden,2022-04-10,19.107,1,Country_1
+114,Europe,Sweden,2022-04-17,15.79,1,Country_1
+115,Europe,Sweden,2022-04-24,13.136,1,Country_1
+116,Europe,Sweden,2022-05-01,11.023,1,Country_1
+117,Europe,Sweden,2022-05-08,8.883,1,Country_1
+118,Europe,Sweden,2022-05-15,7.231,1,Country_1
+119,Europe,Sweden,2022-05-22,6.256,1,Country_1
+120,Europe,Sweden,2022-05-29,4.983,1,Country_1
+121,Europe,Sweden,2022-06-05,4.293,1,Country_1
+122,Europe,Sweden,2022-06-12,3.561,1,Country_1
+123,Europe,Sweden,2022-06-19,3.264,1,Country_1
+124,Europe,Sweden,2022-06-26,3.02,1,Country_1
+125,Europe,Sweden,2022-07-03,2.966,1,Country_1
+126,Europe,Sweden,2022-07-10,3.169,1,Country_1
+127,Europe,Sweden,2022-07-17,3.602,1,Country_1
+128,Europe,Sweden,2022-07-24,4.74,1,Country_1
+129,Europe,Sweden,2022-07-31,5.755,1,Country_1
+130,Europe,Sweden,2022-08-07,6.893,1,Country_1
+131,Europe,Sweden,2022-08-14,8.017,1,Country_1
+132,Europe,Sweden,2022-08-21,9.33,1,Country_1
+133,Europe,Sweden,2022-08-28,9.764,1,Country_1
+134,Europe,Sweden,2022-09-04,10.292,1,Country_1
+135,Europe,Sweden,2022-09-11,9.913,1,Country_1
+136,Europe,Sweden,2022-09-18,9.899,1,Country_1
+137,Europe,Sweden,2022-09-25,9.669,1,Country_1
+138,Europe,Sweden,2022-10-02,9.425,1,Country_1
+139,Europe,Sweden,2022-10-09,8.924,1,Country_1
+140,Europe,Sweden,2022-10-16,8.897,1,Country_1
+141,Europe,Sweden,2022-10-23,8.802,1,Country_1
+142,Europe,Sweden,2022-10-30,8.897,1,Country_1
+143,Europe,Sweden,2022-11-06,8.545,1,Country_1
+144,Europe,Sweden,2022-11-13,8.518,1,Country_1
+145,Europe,Sweden,2022-11-20,8.382,1,Country_1
+146,Europe,Sweden,2022-11-27,8.315,1,Country_1
+147,Europe,Sweden,2022-12-04,8.545,1,Country_1
+148,Europe,Sweden,2022-12-11,9.452,1,Country_1
+149,Europe,Sweden,2022-12-18,11.592,1,Country_1
+150,Europe,Sweden,2022-12-25,15.546,1,Country_1
+151,Europe,Sweden,2023-01-01,19.284,1,Country_1
+152,Europe,Sweden,2023-01-08,23.563,1,Country_1
+153,Europe,Sweden,2023-01-15,26.393,1,Country_1
+154,Europe,Sweden,2023-01-22,28.045,1,Country_1
+155,Europe,Sweden,2023-01-29,27.869,1,Country_1
+156,Europe,Sweden,2023-02-05,25.838,1,Country_1
+157,Europe,Sweden,2023-02-12,21.897,1,Country_1
+158,Europe,Sweden,2023-02-19,17.564,1,Country_1
+159,Europe,Sweden,2023-02-26,12.621,1,Country_1
+160,Europe,Sweden,2023-03-05,9.222,1,Country_1
+161,Europe,Sweden,2023-03-12,6.5,1,Country_1
+162,Europe,Sweden,2023-03-19,4.983,1,Country_1
+163,Europe,Sweden,2023-03-26,3.724,1,Country_1
+164,Europe,Sweden,2023-04-02,3.507,1,Country_1
+165,Europe,Sweden,2023-04-09,3.467,1,Country_1
+166,Europe,Sweden,2023-04-16,3.643,1,Country_1
+167,Europe,Sweden,2023-04-23,3.697,1,Country_1
+168,Europe,Sweden,2023-04-30,4.252,1,Country_1
+169,Europe,Sweden,2023-05-07,4.875,1,Country_1
+170,Europe,Sweden,2023-05-14,5.823,1,Country_1
+171,Europe,Sweden,2023-05-21,5.985,1,Country_1
+172,Europe,Sweden,2023-05-28,6.189,1,Country_1
+173,Europe,Sweden,2023-06-04,6.148,1,Country_1
+174,Europe,Sweden,2023-06-11,5.904,1,Country_1
+175,Europe,Sweden,2023-06-18,5.552,1,Country_1
+176,Europe,Sweden,2023-06-25,4.875,1,Country_1
+177,Europe,Sweden,2023-07-02,4.198,1,Country_1
+178,Europe,Sweden,2023-07-09,3.616,1,Country_1
+179,Europe,Sweden,2023-07-16,3.155,1,Country_1
+180,Europe,Sweden,2023-07-23,2.668,1,Country_1
+181,Europe,Sweden,2023-07-30,2.451,1,Country_1
+182,Europe,Sweden,2023-08-06,2.045,1,Country_1
+183,Europe,Sweden,2023-08-13,1.747,1,Country_1
+184,Europe,Sweden,2023-08-20,1.584,1,Country_1
+185,Europe,Sweden,2023-08-27,1.571,1,Country_1
+186,Europe,Sweden,2023-09-03,1.449,1,Country_1
+187,Europe,Sweden,2023-09-10,1.557,1,Country_1
+188,Europe,Sweden,2023-09-17,1.652,1,Country_1
+189,Europe,Sweden,2023-09-24,2.018,1,Country_1
+190,Europe,Sweden,2023-10-01,2.261,1,Country_1
+191,Europe,Sweden,2023-10-08,2.614,1,Country_1
+192,Europe,Sweden,2023-10-15,2.776,1,Country_1
+193,Europe,Sweden,2023-10-22,3.209,1,Country_1
+194,Europe,Sweden,2023-10-29,3.643,1,Country_1
+195,Europe,Sweden,2023-11-05,4.685,1,Country_1
+196,Europe,Sweden,2023-11-12,6.419,1,Country_1
+197,Europe,Sweden,2023-11-19,8.694,1,Country_1
+198,Europe,Sweden,2023-11-26,11.091,1,Country_1
+199,Europe,Sweden,2023-12-03,13.84,1,Country_1
+200,Europe,Sweden,2023-12-10,15.343,1,Country_1
+201,Europe,Sweden,2023-12-17,14.706,1,Country_1
+202,Europe,Sweden,2023-12-24,13.285,1,Country_1
+203,Europe,Sweden,2023-12-31,10.996,1,Country_1
+204,Europe,Norway,2020-02-09,0.0,2,Country_2
+205,Europe,Norway,2020-02-16,0.0,2,Country_2
+206,Europe,Norway,2020-02-23,0.0,2,Country_2
+207,Europe,Norway,2020-03-01,0.0,2,Country_2
+208,Europe,Norway,2020-03-08,0.0,2,Country_2
+209,Europe,Norway,2020-03-15,0.026,2,Country_2
+210,Europe,Norway,2020-03-22,0.184,2,Country_2
+211,Europe,Norway,2020-03-29,0.526,2,Country_2
+212,Europe,Norway,2020-04-05,1.314,2,Country_2
+213,Europe,Norway,2020-04-12,2.576,2,Country_2
+214,Europe,Norway,2020-04-19,3.891,2,Country_2
+215,Europe,Norway,2020-04-26,5.074,2,Country_2
+216,Europe,Norway,2020-05-03,5.336,2,Country_2
+217,Europe,Norway,2020-05-10,5.415,2,Country_2
+218,Europe,Norway,2020-05-17,5.573,2,Country_2
+219,Europe,Norway,2020-05-24,4.863,2,Country_2
+220,Europe,Norway,2020-05-31,3.628,2,Country_2
+221,Europe,Norway,2020-06-07,2.366,2,Country_2
+222,Europe,Norway,2020-06-14,1.288,2,Country_2
+223,Europe,Norway,2020-06-21,1.052,2,Country_2
+224,Europe,Norway,2020-06-28,0.946,2,Country_2
+225,Europe,Norway,2020-07-05,0.499,2,Country_2
+226,Europe,Norway,2020-07-12,0.447,2,Country_2
+227,Europe,Norway,2020-07-19,0.499,2,Country_2
+228,Europe,Norway,2020-07-26,0.447,2,Country_2
+229,Europe,Norway,2020-08-02,0.342,2,Country_2
+230,Europe,Norway,2020-08-09,0.315,2,Country_2
+231,Europe,Norway,2020-08-16,0.315,2,Country_2
+232,Europe,Norway,2020-08-23,0.342,2,Country_2
+233,Europe,Norway,2020-08-30,0.315,2,Country_2
+234,Europe,Norway,2020-09-06,0.237,2,Country_2
+235,Europe,Norway,2020-09-13,0.263,2,Country_2
+236,Europe,Norway,2020-09-20,0.315,2,Country_2
+237,Europe,Norway,2020-09-27,0.368,2,Country_2
+238,Europe,Norway,2020-10-04,0.368,2,Country_2
+239,Europe,Norway,2020-10-11,0.289,2,Country_2
+240,Europe,Norway,2020-10-18,0.368,2,Country_2
+241,Europe,Norway,2020-10-25,0.394,2,Country_2
+242,Europe,Norway,2020-11-01,0.447,2,Country_2
+243,Europe,Norway,2020-11-08,0.473,2,Country_2
+244,Europe,Norway,2020-11-15,0.631,2,Country_2
+245,Europe,Norway,2020-11-22,0.815,2,Country_2
+246,Europe,Norway,2020-11-29,1.393,2,Country_2
+247,Europe,Norway,2020-12-06,1.998,2,Country_2
+248,Europe,Norway,2020-12-13,2.839,2,Country_2
+249,Europe,Norway,2020-12-20,3.207,2,Country_2
+250,Europe,Norway,2020-12-27,3.575,2,Country_2
+251,Europe,Norway,2021-01-03,3.733,2,Country_2
+252,Europe,Norway,2021-01-10,4.522,2,Country_2
+253,Europe,Norway,2021-01-17,4.968,2,Country_2
+254,Europe,Norway,2021-01-24,4.995,2,Country_2
+255,Europe,Norway,2021-01-31,4.627,2,Country_2
+256,Europe,Norway,2021-02-07,4.679,2,Country_2
+257,Europe,Norway,2021-02-14,4.495,2,Country_2
+258,Europe,Norway,2021-02-21,4.495,2,Country_2
+259,Europe,Norway,2021-02-28,3.785,2,Country_2
+260,Europe,Norway,2021-03-07,3.023,2,Country_2
+261,Europe,Norway,2021-03-14,2.497,2,Country_2
+262,Europe,Norway,2021-03-21,2.234,2,Country_2
+263,Europe,Norway,2021-03-28,1.945,2,Country_2
+264,Europe,Norway,2021-04-04,2.129,2,Country_2
+265,Europe,Norway,2021-04-11,2.024,2,Country_2
+266,Europe,Norway,2021-04-18,2.261,2,Country_2
+267,Europe,Norway,2021-04-25,2.734,2,Country_2
+268,Europe,Norway,2021-05-02,3.076,2,Country_2
+269,Europe,Norway,2021-05-09,3.128,2,Country_2
+270,Europe,Norway,2021-05-16,3.102,2,Country_2
+271,Europe,Norway,2021-05-23,2.839,2,Country_2
+272,Europe,Norway,2021-05-30,2.603,2,Country_2
+273,Europe,Norway,2021-06-06,1.998,2,Country_2
+274,Europe,Norway,2021-06-13,1.393,2,Country_2
+275,Europe,Norway,2021-06-20,0.894,2,Country_2
+276,Europe,Norway,2021-06-27,0.657,2,Country_2
+277,Europe,Norway,2021-07-04,0.552,2,Country_2
+278,Europe,Norway,2021-07-11,0.447,2,Country_2
+279,Europe,Norway,2021-07-18,0.447,2,Country_2
+280,Europe,Norway,2021-07-25,0.499,2,Country_2
+281,Europe,Norway,2021-08-01,0.631,2,Country_2
+282,Europe,Norway,2021-08-08,0.868,2,Country_2
+283,Europe,Norway,2021-08-15,0.946,2,Country_2
+284,Europe,Norway,2021-08-22,0.973,2,Country_2
+285,Europe,Norway,2021-08-29,1.157,2,Country_2
+286,Europe,Norway,2021-09-05,1.393,2,Country_2
+287,Europe,Norway,2021-09-12,1.866,2,Country_2
+288,Europe,Norway,2021-09-19,1.893,2,Country_2
+289,Europe,Norway,2021-09-26,1.945,2,Country_2
+290,Europe,Norway,2021-10-03,1.998,2,Country_2
+291,Europe,Norway,2021-10-10,2.103,2,Country_2
+292,Europe,Norway,2021-10-17,1.998,2,Country_2
+293,Europe,Norway,2021-10-24,1.998,2,Country_2
+294,Europe,Norway,2021-10-31,1.972,2,Country_2
+295,Europe,Norway,2021-11-07,2.708,2,Country_2
+296,Europe,Norway,2021-11-14,3.628,2,Country_2
+297,Europe,Norway,2021-11-21,4.837,2,Country_2
+298,Europe,Norway,2021-11-28,6.099,2,Country_2
+299,Europe,Norway,2021-12-05,7.334,2,Country_2
+300,Europe,Norway,2021-12-12,8.99,2,Country_2
+301,Europe,Norway,2021-12-19,9.595,2,Country_2
+302,Europe,Norway,2021-12-26,9.122,2,Country_2
+303,Europe,Norway,2022-01-02,9.437,2,Country_2
+304,Europe,Norway,2022-01-09,9.332,2,Country_2
+305,Europe,Norway,2022-01-16,8.675,2,Country_2
+306,Europe,Norway,2022-01-23,8.044,2,Country_2
+307,Europe,Norway,2022-01-30,6.861,2,Country_2
+308,Europe,Norway,2022-02-06,6.598,2,Country_2
+309,Europe,Norway,2022-02-13,7.466,2,Country_2
+310,Europe,Norway,2022-02-20,7.518,2,Country_2
+311,Europe,Norway,2022-02-27,8.491,2,Country_2
+312,Europe,Norway,2022-03-06,10.673,2,Country_2
+313,Europe,Norway,2022-03-13,14.011,2,Country_2
+314,Europe,Norway,2022-03-20,18.218,2,Country_2
+315,Europe,Norway,2022-03-27,22.686,2,Country_2
+316,Europe,Norway,2022-04-03,25.788,2,Country_2
+317,Europe,Norway,2022-04-10,27.602,2,Country_2
+318,Europe,Norway,2022-04-17,28.628,2,Country_2
+319,Europe,Norway,2022-04-24,27.76,2,Country_2
+320,Europe,Norway,2022-05-01,25.342,2,Country_2
+321,Europe,Norway,2022-05-08,22.266,2,Country_2
+322,Europe,Norway,2022-05-15,18.139,2,Country_2
+323,Europe,Norway,2022-05-22,14.301,2,Country_2
+324,Europe,Norway,2022-05-29,11.882,2,Country_2
+325,Europe,Norway,2022-06-05,9.543,2,Country_2
+326,Europe,Norway,2022-06-12,8.438,2,Country_2
+327,Europe,Norway,2022-06-19,7.624,2,Country_2
+328,Europe,Norway,2022-06-26,6.782,2,Country_2
+329,Europe,Norway,2022-07-03,7.361,2,Country_2
+330,Europe,Norway,2022-07-10,8.57,2,Country_2
+331,Europe,Norway,2022-07-17,10.095,2,Country_2
+332,Europe,Norway,2022-07-24,11.856,2,Country_2
+333,Europe,Norway,2022-07-31,13.223,2,Country_2
+334,Europe,Norway,2022-08-07,14.327,2,Country_2
+335,Europe,Norway,2022-08-14,15.01,2,Country_2
+336,Europe,Norway,2022-08-21,14.721,2,Country_2
+337,Europe,Norway,2022-08-28,14.301,2,Country_2
+338,Europe,Norway,2022-09-04,12.644,2,Country_2
+339,Europe,Norway,2022-09-11,10.594,2,Country_2
+340,Europe,Norway,2022-09-18,9.253,2,Country_2
+341,Europe,Norway,2022-09-25,7.913,2,Country_2
+342,Europe,Norway,2022-10-02,6.914,2,Country_2
+343,Europe,Norway,2022-10-09,6.046,2,Country_2
+344,Europe,Norway,2022-10-16,5.389,2,Country_2
+345,Europe,Norway,2022-10-23,5.284,2,Country_2
+346,Europe,Norway,2022-10-30,5.284,2,Country_2
+347,Europe,Norway,2022-11-06,4.837,2,Country_2
+348,Europe,Norway,2022-11-13,5.573,2,Country_2
+349,Europe,Norway,2022-11-20,6.046,2,Country_2
+350,Europe,Norway,2022-11-27,6.73,2,Country_2
+351,Europe,Norway,2022-12-04,7.387,2,Country_2
+352,Europe,Norway,2022-12-11,8.465,2,Country_2
+353,Europe,Norway,2022-12-18,9.911,2,Country_2
+354,Europe,Norway,2022-12-25,11.803,2,Country_2
+355,Europe,Norway,2023-01-01,12.829,2,Country_2
+356,Europe,Norway,2023-01-08,14.169,2,Country_2
+357,Europe,Norway,2023-01-15,15.773,2,Country_2
+358,Europe,Norway,2023-01-22,16.167,2,Country_2
+359,Europe,Norway,2023-01-29,15.562,2,Country_2
+360,Europe,Norway,2023-02-05,14.169,2,Country_2
+361,Europe,Norway,2023-02-12,12.04,2,Country_2
+362,Europe,Norway,2023-02-19,10.095,2,Country_2
+363,Europe,Norway,2023-02-26,8.018,2,Country_2
+364,Europe,Norway,2023-03-05,5.363,2,Country_2
+365,Europe,Norway,2023-03-12,3.943,2,Country_2
+366,Europe,Norway,2023-03-19,3.207,2,Country_2
+367,Europe,Norway,2023-03-26,3.049,2,Country_2
+368,Europe,Norway,2023-04-02,3.155,2,Country_2
+369,Europe,Norway,2023-04-09,3.365,2,Country_2
+370,Europe,Norway,2023-04-16,3.707,2,Country_2
+371,Europe,Norway,2023-04-23,4.18,2,Country_2
+372,Europe,Norway,2023-04-30,4.758,2,Country_2
+373,Europe,Norway,2023-05-07,5.1,2,Country_2
+374,Europe,Norway,2023-05-14,5.1,2,Country_2
+375,Europe,Norway,2023-05-21,5.047,2,Country_2
+376,Europe,Norway,2023-05-28,4.837,2,Country_2
+377,Europe,Norway,2023-06-04,4.364,2,Country_2
+378,Europe,Norway,2023-06-11,3.996,2,Country_2
+379,Europe,Norway,2023-06-18,3.155,2,Country_2
+380,Europe,Norway,2023-06-25,2.313,2,Country_2
+381,Europe,Norway,2023-07-02,1.919,2,Country_2
+382,Europe,Norway,2023-07-09,2.024,2,Country_2
+383,Europe,Norway,2023-07-16,1.788,2,Country_2
+384,Europe,Norway,2023-07-23,1.604,2,Country_2
+385,Europe,Norway,2023-07-30,1.367,2,Country_2
+386,Europe,Norway,2023-08-06,1.236,2,Country_2
+387,Europe,Norway,2023-08-13,1.42,2,Country_2
+388,Europe,Norway,2023-08-20,1.288,2,Country_2
+389,Europe,Norway,2023-08-27,0.894,2,Country_2
+390,Europe,Norway,2023-09-03,0.815,2,Country_2
+391,Europe,Norway,2023-09-10,0.92,2,Country_2
+392,Europe,Norway,2023-09-17,1.104,2,Country_2
+393,Europe,Norway,2023-09-24,1.551,2,Country_2
+394,Europe,Norway,2023-10-01,2.234,2,Country_2
+395,Europe,Norway,2023-10-08,2.918,2,Country_2
+396,Europe,Norway,2023-10-15,2.787,2,Country_2
+397,Europe,Norway,2023-10-22,2.655,2,Country_2
+398,Europe,Norway,2023-10-29,2.392,2,Country_2
+399,Europe,Norway,2023-11-05,2.077,2,Country_2
+400,Europe,Norway,2023-11-12,1.577,2,Country_2
+401,Europe,Norway,2023-11-19,0.71,2,Country_2
+402,Europe,Norway,2023-11-26,0.0,2,Country_2
+403,Europe,Norway,2023-12-03,0.0,2,Country_2
+404,Europe,Norway,2023-12-10,0.0,2,Country_2
+405,Europe,Norway,2023-12-17,0.0,2,Country_2
+406,Europe,Norway,2023-12-24,0.0,2,Country_2
+407,Europe,Norway,2023-12-31,0.0,2,Country_2
+408,Europe,Denmark,2020-02-09,0.0,3,Country_3
+409,Europe,Denmark,2020-02-16,0.0,3,Country_3
+410,Europe,Denmark,2020-02-23,0.0,3,Country_3
+411,Europe,Denmark,2020-03-01,0.0,3,Country_3
+412,Europe,Denmark,2020-03-08,0.0,3,Country_3
+413,Europe,Denmark,2020-03-15,0.049,3,Country_3
+414,Europe,Denmark,2020-03-22,0.51,3,Country_3
+415,Europe,Denmark,2020-03-29,1.579,3,Country_3
+416,Europe,Denmark,2020-04-05,3.91,3,Country_3
+417,Europe,Denmark,2020-04-12,6.314,3,Country_3
+418,Europe,Denmark,2020-04-19,8.403,3,Country_3
+419,Europe,Denmark,2020-04-26,10.152,3,Country_3
+420,Europe,Denmark,2020-05-03,11.487,3,Country_3
+421,Europe,Denmark,2020-05-10,12.264,3,Country_3
+422,Europe,Denmark,2020-05-17,11.754,3,Country_3
+423,Europe,Denmark,2020-05-24,9.86,3,Country_3
+424,Europe,Denmark,2020-05-31,7.699,3,Country_3
+425,Europe,Denmark,2020-06-07,5.999,3,Country_3
+426,Europe,Denmark,2020-06-14,4.493,3,Country_3
+427,Europe,Denmark,2020-06-21,3.181,3,Country_3
+428,Europe,Denmark,2020-06-28,2.04,3,Country_3
+429,Europe,Denmark,2020-07-05,1.53,3,Country_3
+430,Europe,Denmark,2020-07-12,1.166,3,Country_3
+431,Europe,Denmark,2020-07-19,0.971,3,Country_3
+432,Europe,Denmark,2020-07-26,0.631,3,Country_3
+433,Europe,Denmark,2020-08-02,0.437,3,Country_3
+434,Europe,Denmark,2020-08-09,0.413,3,Country_3
+435,Europe,Denmark,2020-08-16,0.413,3,Country_3
+436,Europe,Denmark,2020-08-23,0.364,3,Country_3
+437,Europe,Denmark,2020-08-30,0.364,3,Country_3
+438,Europe,Denmark,2020-09-06,0.389,3,Country_3
+439,Europe,Denmark,2020-09-13,0.413,3,Country_3
+440,Europe,Denmark,2020-09-20,0.486,3,Country_3
+441,Europe,Denmark,2020-09-27,0.753,3,Country_3
+442,Europe,Denmark,2020-10-04,0.801,3,Country_3
+443,Europe,Denmark,2020-10-11,1.117,3,Country_3
+444,Europe,Denmark,2020-10-18,1.336,3,Country_3
+445,Europe,Denmark,2020-10-25,1.773,3,Country_3
+446,Europe,Denmark,2020-11-01,2.21,3,Country_3
+447,Europe,Denmark,2020-11-08,2.55,3,Country_3
+448,Europe,Denmark,2020-11-15,2.647,3,Country_3
+449,Europe,Denmark,2020-11-22,3.084,3,Country_3
+450,Europe,Denmark,2020-11-29,3.789,3,Country_3
+451,Europe,Denmark,2020-12-06,4.833,3,Country_3
+452,Europe,Denmark,2020-12-13,5.707,3,Country_3
+453,Europe,Denmark,2020-12-20,7.237,3,Country_3
+454,Europe,Denmark,2020-12-27,10.03,3,Country_3
+455,Europe,Denmark,2021-01-03,14.135,3,Country_3
+456,Europe,Denmark,2021-01-10,18.336,3,Country_3
+457,Europe,Denmark,2021-01-17,22.295,3,Country_3
+458,Europe,Denmark,2021-01-24,26.35,3,Country_3
+459,Europe,Denmark,2021-01-31,28.293,3,Country_3
+460,Europe,Denmark,2021-02-07,28.9,3,Country_3
+461,Europe,Denmark,2021-02-14,27.322,3,Country_3
+462,Europe,Denmark,2021-02-21,23.995,3,Country_3
+463,Europe,Denmark,2021-02-28,19.817,3,Country_3
+464,Europe,Denmark,2021-03-07,15.3,3,Country_3
+465,Europe,Denmark,2021-03-14,10.224,3,Country_3
+466,Europe,Denmark,2021-03-21,7.116,3,Country_3
+467,Europe,Denmark,2021-03-28,4.809,3,Country_3
+468,Europe,Denmark,2021-04-04,3.497,3,Country_3
+469,Europe,Denmark,2021-04-11,2.574,3,Country_3
+470,Europe,Denmark,2021-04-18,2.283,3,Country_3
+471,Europe,Denmark,2021-04-25,2.356,3,Country_3
+472,Europe,Denmark,2021-05-02,2.404,3,Country_3
+473,Europe,Denmark,2021-05-09,2.38,3,Country_3
+474,Europe,Denmark,2021-05-16,2.161,3,Country_3
+475,Europe,Denmark,2021-05-23,1.919,3,Country_3
+476,Europe,Denmark,2021-05-30,1.87,3,Country_3
+477,Europe,Denmark,2021-06-06,1.603,3,Country_3
+478,Europe,Denmark,2021-06-13,1.239,3,Country_3
+479,Europe,Denmark,2021-06-20,0.996,3,Country_3
+480,Europe,Denmark,2021-06-27,0.826,3,Country_3
+481,Europe,Denmark,2021-07-04,0.85,3,Country_3
+482,Europe,Denmark,2021-07-11,0.777,3,Country_3
+483,Europe,Denmark,2021-07-18,0.631,3,Country_3
+484,Europe,Denmark,2021-07-25,0.583,3,Country_3
+485,Europe,Denmark,2021-08-01,0.583,3,Country_3
+486,Europe,Denmark,2021-08-08,0.534,3,Country_3
+487,Europe,Denmark,2021-08-15,0.68,3,Country_3
+488,Europe,Denmark,2021-08-22,0.656,3,Country_3
+489,Europe,Denmark,2021-08-29,0.923,3,Country_3
+490,Europe,Denmark,2021-09-05,1.166,3,Country_3
+491,Europe,Denmark,2021-09-12,1.676,3,Country_3
+492,Europe,Denmark,2021-09-19,1.846,3,Country_3
+493,Europe,Denmark,2021-09-26,2.137,3,Country_3
+494,Europe,Denmark,2021-10-03,2.526,3,Country_3
+495,Europe,Denmark,2021-10-10,2.55,3,Country_3
+496,Europe,Denmark,2021-10-17,2.501,3,Country_3
+497,Europe,Denmark,2021-10-24,2.599,3,Country_3
+498,Europe,Denmark,2021-10-31,2.477,3,Country_3
+499,Europe,Denmark,2021-11-07,2.671,3,Country_3
+500,Europe,Denmark,2021-11-14,2.914,3,Country_3
+501,Europe,Denmark,2021-11-21,3.497,3,Country_3
+502,Europe,Denmark,2021-11-28,4.712,3,Country_3
+503,Europe,Denmark,2021-12-05,6.29,3,Country_3
+504,Europe,Denmark,2021-12-12,7.48,3,Country_3
+505,Europe,Denmark,2021-12-19,8.597,3,Country_3
+506,Europe,Denmark,2021-12-26,11.22,3,Country_3
+507,Europe,Denmark,2022-01-02,12.434,3,Country_3
+508,Europe,Denmark,2022-01-09,13.697,3,Country_3
+509,Europe,Denmark,2022-01-16,15.082,3,Country_3
+510,Europe,Denmark,2022-01-23,15.956,3,Country_3
+511,Europe,Denmark,2022-01-30,17.292,3,Country_3
+512,Europe,Denmark,2022-02-06,19.332,3,Country_3
+513,Europe,Denmark,2022-02-13,20.425,3,Country_3
+514,Europe,Denmark,2022-02-20,24.432,3,Country_3
+515,Europe,Denmark,2022-02-27,28.342,3,Country_3
+516,Europe,Denmark,2022-03-06,32.689,3,Country_3
+517,Europe,Denmark,2022-03-13,37.206,3,Country_3
+518,Europe,Denmark,2022-03-20,40.266,3,Country_3
+519,Europe,Denmark,2022-03-27,41.772,3,Country_3
+520,Europe,Denmark,2022-04-03,41.456,3,Country_3
+521,Europe,Denmark,2022-04-10,39.028,3,Country_3
+522,Europe,Denmark,2022-04-17,35.142,3,Country_3
+523,Europe,Denmark,2022-04-24,30.163,3,Country_3
+524,Europe,Denmark,2022-05-01,25.015,3,Country_3
+525,Europe,Denmark,2022-05-08,20.862,3,Country_3
+526,Europe,Denmark,2022-05-15,17.049,3,Country_3
+527,Europe,Denmark,2022-05-22,13.965,3,Country_3
+528,Europe,Denmark,2022-05-29,11.293,3,Country_3
+529,Europe,Denmark,2022-06-05,9.544,3,Country_3
+530,Europe,Denmark,2022-06-12,8.039,3,Country_3
+531,Europe,Denmark,2022-06-19,6.436,3,Country_3
+532,Europe,Denmark,2022-06-26,5.052,3,Country_3
+533,Europe,Denmark,2022-07-03,4.639,3,Country_3
+534,Europe,Denmark,2022-07-10,4.76,3,Country_3
+535,Europe,Denmark,2022-07-17,4.979,3,Country_3
+536,Europe,Denmark,2022-07-24,5.319,3,Country_3
+537,Europe,Denmark,2022-07-31,5.974,3,Country_3
+538,Europe,Denmark,2022-08-07,7.359,3,Country_3
+539,Europe,Denmark,2022-08-14,8.694,3,Country_3
+540,Europe,Denmark,2022-08-21,9.132,3,Country_3
+541,Europe,Denmark,2022-08-28,9.302,3,Country_3
+542,Europe,Denmark,2022-09-04,9.374,3,Country_3
+543,Europe,Denmark,2022-09-11,9.107,3,Country_3
+544,Europe,Denmark,2022-09-18,8.427,3,Country_3
+545,Europe,Denmark,2022-09-25,7.383,3,Country_3
+546,Europe,Denmark,2022-10-02,6.752,3,Country_3
+547,Europe,Denmark,2022-10-09,6.679,3,Country_3
+548,Europe,Denmark,2022-10-16,6.824,3,Country_3
+549,Europe,Denmark,2022-10-23,7.747,3,Country_3
+550,Europe,Denmark,2022-10-30,8.67,3,Country_3
+551,Europe,Denmark,2022-11-06,9.69,3,Country_3
+552,Europe,Denmark,2022-11-13,9.957,3,Country_3
+553,Europe,Denmark,2022-11-20,9.714,3,Country_3
+554,Europe,Denmark,2022-11-27,9.472,3,Country_3
+555,Europe,Denmark,2022-12-04,8.792,3,Country_3
+556,Europe,Denmark,2022-12-11,8.039,3,Country_3
+557,Europe,Denmark,2022-12-18,7.602,3,Country_3
+558,Europe,Denmark,2022-12-25,7.699,3,Country_3
+559,Europe,Denmark,2023-01-01,8.573,3,Country_3
+560,Europe,Denmark,2023-01-08,10.467,3,Country_3
+561,Europe,Denmark,2023-01-15,11.852,3,Country_3
+562,Europe,Denmark,2023-01-22,13.114,3,Country_3
+563,Europe,Denmark,2023-01-29,13.042,3,Country_3
+564,Europe,Denmark,2023-02-05,12.823,3,Country_3
+565,Europe,Denmark,2023-02-12,11.73,3,Country_3
+566,Europe,Denmark,2023-02-19,10.662,3,Country_3
+567,Europe,Denmark,2023-02-26,8.209,3,Country_3
+568,Europe,Denmark,2023-03-05,6.606,3,Country_3
+569,Europe,Denmark,2023-03-12,5.392,3,Country_3
+570,Europe,Denmark,2023-03-19,5.003,3,Country_3
+571,Europe,Denmark,2023-03-26,4.42,3,Country_3
+572,Europe,Denmark,2023-04-02,4.76,3,Country_3
+573,Europe,Denmark,2023-04-09,4.566,3,Country_3
+574,Europe,Denmark,2023-04-16,5.27,3,Country_3
+575,Europe,Denmark,2023-04-23,5.634,3,Country_3
+576,Europe,Denmark,2023-04-30,5.877,3,Country_3
+577,Europe,Denmark,2023-05-07,6.12,3,Country_3
+578,Europe,Denmark,2023-05-14,6.8,3,Country_3
+579,Europe,Denmark,2023-05-21,6.63,3,Country_3
+580,Europe,Denmark,2023-05-28,6.509,3,Country_3
+581,Europe,Denmark,2023-06-04,6.096,3,Country_3
+582,Europe,Denmark,2023-06-11,5.367,3,Country_3
+583,Europe,Denmark,2023-06-18,4.736,3,Country_3
+584,Europe,Denmark,2023-06-25,3.837,3,Country_3
+585,Europe,Denmark,2023-07-02,2.793,3,Country_3
+586,Europe,Denmark,2023-07-09,2.186,3,Country_3
+587,Europe,Denmark,2023-07-16,1.651,3,Country_3
+588,Europe,Denmark,2023-07-23,1.19,3,Country_3
+589,Europe,Denmark,2023-07-30,0.85,3,Country_3
+590,Europe,Denmark,2023-08-06,0.729,3,Country_3
+591,Europe,Denmark,2023-08-13,0.704,3,Country_3
+592,Europe,Denmark,2023-08-20,0.801,3,Country_3
+593,Europe,Denmark,2023-08-27,0.68,3,Country_3
+594,Europe,Denmark,2023-09-03,0.826,3,Country_3
+595,Europe,Denmark,2023-09-10,0.85,3,Country_3
+596,Europe,Denmark,2023-09-17,1.117,3,Country_3
+597,Europe,Denmark,2023-09-24,1.044,3,Country_3
+598,Europe,Denmark,2023-10-01,1.239,3,Country_3
+599,Europe,Denmark,2023-10-08,1.069,3,Country_3
+600,Europe,Denmark,2023-10-15,1.02,3,Country_3
+601,Europe,Denmark,2023-10-22,0.826,3,Country_3
+602,Europe,Denmark,2023-10-29,0.607,3,Country_3
+603,Europe,Denmark,2023-11-05,1.36,3,Country_3
+604,Europe,Denmark,2023-11-12,2.526,3,Country_3
+605,Europe,Denmark,2023-11-19,3.376,3,Country_3
+606,Europe,Denmark,2023-11-26,4.566,3,Country_3
+607,Europe,Denmark,2023-12-03,5.489,3,Country_3
+608,Europe,Denmark,2023-12-10,5.926,3,Country_3
+609,Europe,Denmark,2023-12-17,5.926,3,Country_3
+610,Europe,Denmark,2023-12-24,4.882,3,Country_3
+611,Europe,Denmark,2023-12-31,3.643,3,Country_3
+612,Europe,Finland,2020-02-09,0.0,4,Country_4
+613,Europe,Finland,2020-02-16,0.0,4,Country_4
+614,Europe,Finland,2020-02-23,0.0,4,Country_4
+615,Europe,Finland,2020-03-01,0.0,4,Country_4
+616,Europe,Finland,2020-03-08,0.026,4,Country_4
+617,Europe,Finland,2020-03-15,0.49,4,Country_4
+618,Europe,Finland,2020-03-22,1.599,4,Country_4
+619,Europe,Finland,2020-03-29,3.197,4,Country_4
+620,Europe,Finland,2020-04-05,4.873,4,Country_4
+621,Europe,Finland,2020-04-12,5.982,4,Country_4
+622,Europe,Finland,2020-04-19,6.549,4,Country_4
+623,Europe,Finland,2020-04-26,7.245,4,Country_4
+624,Europe,Finland,2020-05-03,6.987,4,Country_4
+625,Europe,Finland,2020-05-10,6.033,4,Country_4
+626,Europe,Finland,2020-05-17,4.486,4,Country_4
+627,Europe,Finland,2020-05-24,2.836,4,Country_4
+628,Europe,Finland,2020-05-31,1.727,4,Country_4
+629,Europe,Finland,2020-06-07,1.16,4,Country_4
+630,Europe,Finland,2020-06-14,0.516,4,Country_4
+631,Europe,Finland,2020-06-21,0.335,4,Country_4
+632,Europe,Finland,2020-06-28,0.18,4,Country_4
+633,Europe,Finland,2020-07-05,0.129,4,Country_4
+634,Europe,Finland,2020-07-12,0.129,4,Country_4
+635,Europe,Finland,2020-07-19,0.18,4,Country_4
+636,Europe,Finland,2020-07-26,0.206,4,Country_4
+637,Europe,Finland,2020-08-02,0.129,4,Country_4
+638,Europe,Finland,2020-08-09,0.129,4,Country_4
+639,Europe,Finland,2020-08-16,0.129,4,Country_4
+640,Europe,Finland,2020-08-23,0.18,4,Country_4
+641,Europe,Finland,2020-08-30,0.284,4,Country_4
+642,Europe,Finland,2020-09-06,0.335,4,Country_4
+643,Europe,Finland,2020-09-13,0.387,4,Country_4
+644,Europe,Finland,2020-09-20,0.464,4,Country_4
+645,Europe,Finland,2020-09-27,0.567,4,Country_4
+646,Europe,Finland,2020-10-04,0.696,4,Country_4
+647,Europe,Finland,2020-10-11,0.773,4,Country_4
+648,Europe,Finland,2020-10-18,0.722,4,Country_4
+649,Europe,Finland,2020-10-25,0.645,4,Country_4
+650,Europe,Finland,2020-11-01,1.057,4,Country_4
+651,Europe,Finland,2020-11-08,1.47,4,Country_4
+652,Europe,Finland,2020-11-15,2.398,4,Country_4
+653,Europe,Finland,2020-11-22,3.249,4,Country_4
+654,Europe,Finland,2020-11-29,4.177,4,Country_4
+655,Europe,Finland,2020-12-06,5.105,4,Country_4
+656,Europe,Finland,2020-12-13,5.775,4,Country_4
+657,Europe,Finland,2020-12-20,5.879,4,Country_4
+658,Europe,Finland,2020-12-27,6.085,4,Country_4
+659,Europe,Finland,2021-01-03,5.956,4,Country_4
+660,Europe,Finland,2021-01-10,5.569,4,Country_4
+661,Europe,Finland,2021-01-17,4.899,4,Country_4
+662,Europe,Finland,2021-01-24,4.306,4,Country_4
+663,Europe,Finland,2021-01-31,4.022,4,Country_4
+664,Europe,Finland,2021-02-07,3.945,4,Country_4
+665,Europe,Finland,2021-02-14,4.022,4,Country_4
+666,Europe,Finland,2021-02-21,3.532,4,Country_4
+667,Europe,Finland,2021-02-28,3.61,4,Country_4
+668,Europe,Finland,2021-03-07,3.661,4,Country_4
+669,Europe,Finland,2021-03-14,3.996,4,Country_4
+670,Europe,Finland,2021-03-21,3.996,4,Country_4
+671,Europe,Finland,2021-03-28,3.816,4,Country_4
+672,Europe,Finland,2021-04-04,3.352,4,Country_4
+673,Europe,Finland,2021-04-11,3.249,4,Country_4
+674,Europe,Finland,2021-04-18,2.836,4,Country_4
+675,Europe,Finland,2021-04-25,2.578,4,Country_4
+676,Europe,Finland,2021-05-02,2.011,4,Country_4
+677,Europe,Finland,2021-05-09,2.166,4,Country_4
+678,Europe,Finland,2021-05-16,1.96,4,Country_4
+679,Europe,Finland,2021-05-23,1.727,4,Country_4
+680,Europe,Finland,2021-05-30,1.495,4,Country_4
+681,Europe,Finland,2021-06-06,1.289,4,Country_4
+682,Europe,Finland,2021-06-13,1.16,4,Country_4
+683,Europe,Finland,2021-06-20,0.98,4,Country_4
+684,Europe,Finland,2021-06-27,0.464,4,Country_4
+685,Europe,Finland,2021-07-04,0.464,4,Country_4
+686,Europe,Finland,2021-07-11,0.438,4,Country_4
+687,Europe,Finland,2021-07-18,0.645,4,Country_4
+688,Europe,Finland,2021-07-25,0.902,4,Country_4
+689,Europe,Finland,2021-08-01,1.109,4,Country_4
+690,Europe,Finland,2021-08-08,1.367,4,Country_4
+691,Europe,Finland,2021-08-15,1.599,4,Country_4
+692,Europe,Finland,2021-08-22,1.831,4,Country_4
+693,Europe,Finland,2021-08-29,2.114,4,Country_4
+694,Europe,Finland,2021-09-05,2.088,4,Country_4
+695,Europe,Finland,2021-09-12,2.14,4,Country_4
+696,Europe,Finland,2021-09-19,2.424,4,Country_4
+697,Europe,Finland,2021-09-26,2.913,4,Country_4
+698,Europe,Finland,2021-10-03,3.429,4,Country_4
+699,Europe,Finland,2021-10-10,3.532,4,Country_4
+700,Europe,Finland,2021-10-17,4.254,4,Country_4
+701,Europe,Finland,2021-10-24,5.002,4,Country_4
+702,Europe,Finland,2021-10-31,6.059,4,Country_4
+703,Europe,Finland,2021-11-07,6.781,4,Country_4
+704,Europe,Finland,2021-11-14,7.58,4,Country_4
+705,Europe,Finland,2021-11-21,8.276,4,Country_4
+706,Europe,Finland,2021-11-28,8.947,4,Country_4
+707,Europe,Finland,2021-12-05,9.101,4,Country_4
+708,Europe,Finland,2021-12-12,9.282,4,Country_4
+709,Europe,Finland,2021-12-19,10.004,4,Country_4
+710,Europe,Finland,2021-12-26,11.783,4,Country_4
+711,Europe,Finland,2022-01-02,13.588,4,Country_4
+712,Europe,Finland,2022-01-09,15.625,4,Country_4
+713,Europe,Finland,2022-01-16,17.558,4,Country_4
+714,Europe,Finland,2022-01-23,19.956,4,Country_4
+715,Europe,Finland,2022-01-30,21.89,4,Country_4
+716,Europe,Finland,2022-02-06,23.127,4,Country_4
+717,Europe,Finland,2022-02-13,24.107,4,Country_4
+718,Europe,Finland,2022-02-20,24.906,4,Country_4
+719,Europe,Finland,2022-02-27,26.299,4,Country_4
+720,Europe,Finland,2022-03-06,28.593,4,Country_4
+721,Europe,Finland,2022-03-13,31.558,4,Country_4
+722,Europe,Finland,2022-03-20,33.853,4,Country_4
+723,Europe,Finland,2022-03-27,35.632,4,Country_4
+724,Europe,Finland,2022-04-03,36.896,4,Country_4
+725,Europe,Finland,2022-04-10,36.638,4,Country_4
+726,Europe,Finland,2022-04-17,35.297,4,Country_4
+727,Europe,Finland,2022-04-24,32.1,4,Country_4
+728,Europe,Finland,2022-05-01,27.639,4,Country_4
+729,Europe,Finland,2022-05-08,24.262,4,Country_4
+730,Europe,Finland,2022-05-15,21.065,4,Country_4
+731,Europe,Finland,2022-05-22,16.914,4,Country_4
+732,Europe,Finland,2022-05-29,14.619,4,Country_4
+733,Europe,Finland,2022-06-05,12.634,4,Country_4
+734,Europe,Finland,2022-06-12,11.834,4,Country_4
+735,Europe,Finland,2022-06-19,11.164,4,Country_4
+736,Europe,Finland,2022-06-26,11.216,4,Country_4
+737,Europe,Finland,2022-07-03,11.473,4,Country_4
+738,Europe,Finland,2022-07-10,12.711,4,Country_4
+739,Europe,Finland,2022-07-17,13.974,4,Country_4
+740,Europe,Finland,2022-07-24,15.16,4,Country_4
+741,Europe,Finland,2022-07-31,16.914,4,Country_4
+742,Europe,Finland,2022-08-07,18.151,4,Country_4
+743,Europe,Finland,2022-08-14,17.971,4,Country_4
+744,Europe,Finland,2022-08-21,17.275,4,Country_4
+745,Europe,Finland,2022-08-28,16.939,4,Country_4
+746,Europe,Finland,2022-09-04,16.785,4,Country_4
+747,Europe,Finland,2022-09-11,16.372,4,Country_4
+748,Europe,Finland,2022-09-18,16.914,4,Country_4
+749,Europe,Finland,2022-09-25,18.564,4,Country_4
+750,Europe,Finland,2022-10-02,21.812,4,Country_4
+751,Europe,Finland,2022-10-09,25.783,4,Country_4
+752,Europe,Finland,2022-10-16,28.336,4,Country_4
+753,Europe,Finland,2022-10-23,30.501,4,Country_4
+754,Europe,Finland,2022-10-30,33.441,4,Country_4
+755,Europe,Finland,2022-11-06,34.214,4,Country_4
+756,Europe,Finland,2022-11-13,33.956,4,Country_4
+757,Europe,Finland,2022-11-20,32.383,4,Country_4
+758,Europe,Finland,2022-11-27,31.12,4,Country_4
+759,Europe,Finland,2022-12-04,30.192,4,Country_4
+760,Europe,Finland,2022-12-11,29.522,4,Country_4
+761,Europe,Finland,2022-12-18,27.691,4,Country_4
+762,Europe,Finland,2022-12-25,26.402,4,Country_4
+763,Europe,Finland,2023-01-01,24.313,4,Country_4
+764,Europe,Finland,2023-01-08,21.967,4,Country_4
+765,Europe,Finland,2023-01-15,18.667,4,Country_4
+766,Europe,Finland,2023-01-22,15.882,4,Country_4
+767,Europe,Finland,2023-01-29,12.247,4,Country_4
+768,Europe,Finland,2023-02-05,9.385,4,Country_4
+769,Europe,Finland,2023-02-12,7.348,4,Country_4
+770,Europe,Finland,2023-02-19,6.111,4,Country_4
+771,Europe,Finland,2023-02-26,5.621,4,Country_4
+772,Europe,Finland,2023-03-05,5.698,4,Country_4
+773,Europe,Finland,2023-03-12,5.93,4,Country_4
+774,Europe,Finland,2023-03-19,7.374,4,Country_4
+775,Europe,Finland,2023-03-26,8.921,4,Country_4
+776,Europe,Finland,2023-04-02,9.72,4,Country_4
+777,Europe,Finland,2023-04-09,11.654,4,Country_4
+778,Europe,Finland,2023-04-16,13.381,4,Country_4
+779,Europe,Finland,2023-04-23,14.877,4,Country_4
+780,Europe,Finland,2023-04-30,16.089,4,Country_4
+781,Europe,Finland,2023-05-07,15.908,4,Country_4
+782,Europe,Finland,2023-05-14,15.521,4,Country_4
+783,Europe,Finland,2023-05-21,14.516,4,Country_4
+784,Europe,Finland,2023-05-28,12.737,4,Country_4
+785,Europe,Finland,2023-06-04,11.731,4,Country_4
+786,Europe,Finland,2023-06-11,10.287,4,Country_4
+787,Europe,Finland,2023-06-18,8.715,4,Country_4
+788,Europe,Finland,2023-06-25,7.426,4,Country_4
+789,Europe,Finland,2023-07-02,5.956,4,Country_4
+790,Europe,Finland,2023-07-09,5.389,4,Country_4
+791,Europe,Finland,2023-07-16,4.821,4,Country_4
+792,Europe,Finland,2023-07-23,3.61,4,Country_4
+793,Europe,Finland,2023-07-30,3.017,4,Country_4
+794,Europe,Finland,2023-08-06,2.656,4,Country_4
+795,Europe,Finland,2023-08-13,2.527,4,Country_4
+796,Europe,Finland,2023-08-20,2.785,4,Country_4
+797,Europe,Finland,2023-08-27,3.017,4,Country_4
+798,Europe,Finland,2023-09-03,3.481,4,Country_4
+799,Europe,Finland,2023-09-10,3.919,4,Country_4
+800,Europe,Finland,2023-09-17,4.383,4,Country_4
+801,Europe,Finland,2023-09-24,5.311,4,Country_4
+802,Europe,Finland,2023-10-01,6.807,4,Country_4
+803,Europe,Finland,2023-10-08,8.56,4,Country_4
+804,Europe,Finland,2023-10-15,11.061,4,Country_4
+805,Europe,Finland,2023-10-22,13.201,4,Country_4
+806,Europe,Finland,2023-10-29,14.0,4,Country_4
+807,Europe,Finland,2023-11-05,17.3,4,Country_4
+808,Europe,Finland,2023-11-12,21.245,4,Country_4
+809,Europe,Finland,2023-11-19,22.122,4,Country_4
+810,Europe,Finland,2023-11-26,19.982,4,Country_4
+811,Europe,Finland,2023-12-03,17.275,4,Country_4
+812,Europe,Finland,2023-12-10,14.645,4,Country_4
+813,Europe,Finland,2023-12-17,13.227,4,Country_4
+814,Europe,Finland,2023-12-24,8.998,4,Country_4
+815,Europe,Finland,2023-12-31,3.739,4,Country_4
+816,Europe,United Kingdom,2020-02-09,0.004,5,Country_5
+817,Europe,United Kingdom,2020-02-16,0.004,5,Country_5
+818,Europe,United Kingdom,2020-02-23,0.004,5,Country_5
+819,Europe,United Kingdom,2020-03-01,0.006,5,Country_5
+820,Europe,United Kingdom,2020-03-08,0.019,5,Country_5
+821,Europe,United Kingdom,2020-03-15,0.116,5,Country_5
+822,Europe,United Kingdom,2020-03-22,1.022,5,Country_5
+823,Europe,United Kingdom,2020-03-29,5.263,5,Country_5
+824,Europe,United Kingdom,2020-04-05,17.16,5,Country_5
+825,Europe,United Kingdom,2020-04-12,36.15,5,Country_5
+826,Europe,United Kingdom,2020-04-19,55.366,5,Country_5
+827,Europe,United Kingdom,2020-04-26,71.633,5,Country_5
+828,Europe,United Kingdom,2020-05-03,83.936,5,Country_5
+829,Europe,United Kingdom,2020-05-10,92.568,5,Country_5
+830,Europe,United Kingdom,2020-05-17,95.181,5,Country_5
+831,Europe,United Kingdom,2020-05-24,88.721,5,Country_5
+832,Europe,United Kingdom,2020-05-31,73.891,5,Country_5
+833,Europe,United Kingdom,2020-06-07,57.669,5,Country_5
+834,Europe,United Kingdom,2020-06-14,43.577,5,Country_5
+835,Europe,United Kingdom,2020-06-21,32.755,5,Country_5
+836,Europe,United Kingdom,2020-06-28,24.56,5,Country_5
+837,Europe,United Kingdom,2020-07-05,18.668,5,Country_5
+838,Europe,United Kingdom,2020-07-12,13.979,5,Country_5
+839,Europe,United Kingdom,2020-07-19,10.354,5,Country_5
+840,Europe,United Kingdom,2020-07-26,7.794,5,Country_5
+841,Europe,United Kingdom,2020-08-02,5.976,5,Country_5
+842,Europe,United Kingdom,2020-08-09,4.704,5,Country_5
+843,Europe,United Kingdom,2020-08-16,3.68,5,Country_5
+844,Europe,United Kingdom,2020-08-23,2.954,5,Country_5
+845,Europe,United Kingdom,2020-08-30,2.419,5,Country_5
+846,Europe,United Kingdom,2020-09-06,2.067,5,Country_5
+847,Europe,United Kingdom,2020-09-13,1.877,5,Country_5
+848,Europe,United Kingdom,2020-09-20,1.907,5,Country_5
+849,Europe,United Kingdom,2020-09-27,2.163,5,Country_5
+850,Europe,United Kingdom,2020-10-04,2.715,5,Country_5
+851,Europe,United Kingdom,2020-10-11,3.72,5,Country_5
+852,Europe,United Kingdom,2020-10-18,5.434,5,Country_5
+853,Europe,United Kingdom,2020-10-25,8.329,5,Country_5
+854,Europe,United Kingdom,2020-11-01,12.303,5,Country_5
+855,Europe,United Kingdom,2020-11-08,17.316,5,Country_5
+856,Europe,United Kingdom,2020-11-15,23.184,5,Country_5
+857,Europe,United Kingdom,2020-11-22,29.287,5,Country_5
+858,Europe,United Kingdom,2020-11-29,35.305,5,Country_5
+859,Europe,United Kingdom,2020-12-06,40.335,5,Country_5
+860,Europe,United Kingdom,2020-12-13,44.062,5,Country_5
+861,Europe,United Kingdom,2020-12-20,47.496,5,Country_5
+862,Europe,United Kingdom,2020-12-27,51.028,5,Country_5
+863,Europe,United Kingdom,2021-01-03,55.667,5,Country_5
+864,Europe,United Kingdom,2021-01-10,62.711,5,Country_5
+865,Europe,United Kingdom,2021-01-17,74.058,5,Country_5
+866,Europe,United Kingdom,2021-01-24,87.677,5,Country_5
+867,Europe,United Kingdom,2021-01-31,99.011,5,Country_5
+868,Europe,United Kingdom,2021-02-07,105.44,5,Country_5
+869,Europe,United Kingdom,2021-02-14,107.203,5,Country_5
+870,Europe,United Kingdom,2021-02-21,104.31,5,Country_5
+871,Europe,United Kingdom,2021-02-28,95.886,5,Country_5
+872,Europe,United Kingdom,2021-03-07,81.088,5,Country_5
+873,Europe,United Kingdom,2021-03-14,63.17,5,Country_5
+874,Europe,United Kingdom,2021-03-21,46.845,5,Country_5
+875,Europe,United Kingdom,2021-03-28,34.146,5,Country_5
+876,Europe,United Kingdom,2021-04-04,24.344,5,Country_5
+877,Europe,United Kingdom,2021-04-11,16.865,5,Country_5
+878,Europe,United Kingdom,2021-04-18,11.861,5,Country_5
+879,Europe,United Kingdom,2021-04-25,8.532,5,Country_5
+880,Europe,United Kingdom,2021-05-02,6.194,5,Country_5
+881,Europe,United Kingdom,2021-05-09,4.643,5,Country_5
+882,Europe,United Kingdom,2021-05-16,3.479,5,Country_5
+883,Europe,United Kingdom,2021-05-23,2.747,5,Country_5
+884,Europe,United Kingdom,2021-05-30,2.224,5,Country_5
+885,Europe,United Kingdom,2021-06-06,1.811,5,Country_5
+886,Europe,United Kingdom,2021-06-13,1.513,5,Country_5
+887,Europe,United Kingdom,2021-06-20,1.405,5,Country_5
+888,Europe,United Kingdom,2021-06-27,1.424,5,Country_5
+889,Europe,United Kingdom,2021-07-04,1.56,5,Country_5
+890,Europe,United Kingdom,2021-07-11,1.921,5,Country_5
+891,Europe,United Kingdom,2021-07-18,2.44,5,Country_5
+892,Europe,United Kingdom,2021-07-25,3.352,5,Country_5
+893,Europe,United Kingdom,2021-08-01,4.38,5,Country_5
+894,Europe,United Kingdom,2021-08-08,5.546,5,Country_5
+895,Europe,United Kingdom,2021-08-15,6.64,5,Country_5
+896,Europe,United Kingdom,2021-08-22,7.847,5,Country_5
+897,Europe,United Kingdom,2021-08-29,9.114,5,Country_5
+898,Europe,United Kingdom,2021-09-05,10.369,5,Country_5
+899,Europe,United Kingdom,2021-09-12,11.613,5,Country_5
+900,Europe,United Kingdom,2021-09-19,12.703,5,Country_5
+901,Europe,United Kingdom,2021-09-26,13.48,5,Country_5
+902,Europe,United Kingdom,2021-10-03,13.998,5,Country_5
+903,Europe,United Kingdom,2021-10-10,14.214,5,Country_5
+904,Europe,United Kingdom,2021-10-17,14.415,5,Country_5
+905,Europe,United Kingdom,2021-10-24,14.667,5,Country_5
+906,Europe,United Kingdom,2021-10-31,14.929,5,Country_5
+907,Europe,United Kingdom,2021-11-07,15.238,5,Country_5
+908,Europe,United Kingdom,2021-11-14,15.452,5,Country_5
+909,Europe,United Kingdom,2021-11-21,15.723,5,Country_5
+910,Europe,United Kingdom,2021-11-28,15.934,5,Country_5
+911,Europe,United Kingdom,2021-12-05,15.922,5,Country_5
+912,Europe,United Kingdom,2021-12-12,15.71,5,Country_5
+913,Europe,United Kingdom,2021-12-19,14.967,5,Country_5
+914,Europe,United Kingdom,2021-12-26,14.165,5,Country_5
+915,Europe,United Kingdom,2022-01-02,13.882,5,Country_5
+916,Europe,United Kingdom,2022-01-09,14.595,5,Country_5
+917,Europe,United Kingdom,2022-01-16,16.093,5,Country_5
+918,Europe,United Kingdom,2022-01-23,17.593,5,Country_5
+919,Europe,United Kingdom,2022-01-30,18.74,5,Country_5
+920,Europe,United Kingdom,2022-02-06,19.688,5,Country_5
+921,Europe,United Kingdom,2022-02-13,20.074,5,Country_5
+922,Europe,United Kingdom,2022-02-20,19.993,5,Country_5
+923,Europe,United Kingdom,2022-02-27,18.903,5,Country_5
+924,Europe,United Kingdom,2022-03-06,17.1,5,Country_5
+925,Europe,United Kingdom,2022-03-13,15.255,5,Country_5
+926,Europe,United Kingdom,2022-03-20,14.131,5,Country_5
+927,Europe,United Kingdom,2022-03-27,13.818,5,Country_5
+928,Europe,United Kingdom,2022-04-03,14.316,5,Country_5
+929,Europe,United Kingdom,2022-04-10,15.329,5,Country_5
+930,Europe,United Kingdom,2022-04-17,16.377,5,Country_5
+931,Europe,United Kingdom,2022-04-24,17.098,5,Country_5
+932,Europe,United Kingdom,2022-05-01,17.365,5,Country_5
+933,Europe,United Kingdom,2022-05-08,16.859,5,Country_5
+934,Europe,United Kingdom,2022-05-15,15.623,5,Country_5
+935,Europe,United Kingdom,2022-05-22,13.865,5,Country_5
+936,Europe,United Kingdom,2022-05-29,11.579,5,Country_5
+937,Europe,United Kingdom,2022-06-05,9.307,5,Country_5
+938,Europe,United Kingdom,2022-06-12,7.447,5,Country_5
+939,Europe,United Kingdom,2022-06-19,6.166,5,Country_5
+940,Europe,United Kingdom,2022-06-26,5.464,5,Country_5
+941,Europe,United Kingdom,2022-07-03,5.297,5,Country_5
+942,Europe,United Kingdom,2022-07-10,5.8,5,Country_5
+943,Europe,United Kingdom,2022-07-17,6.915,5,Country_5
+944,Europe,United Kingdom,2022-07-24,8.611,5,Country_5
+945,Europe,United Kingdom,2022-07-31,9.867,5,Country_5
+946,Europe,United Kingdom,2022-08-07,10.608,5,Country_5
+947,Europe,United Kingdom,2022-08-14,11.15,5,Country_5
+948,Europe,United Kingdom,2022-08-21,11.186,5,Country_5
+949,Europe,United Kingdom,2022-08-28,10.648,5,Country_5
+950,Europe,United Kingdom,2022-09-04,9.611,5,Country_5
+951,Europe,United Kingdom,2022-09-11,8.039,5,Country_5
+952,Europe,United Kingdom,2022-09-18,6.882,5,Country_5
+953,Europe,United Kingdom,2022-09-25,6.185,5,Country_5
+954,Europe,United Kingdom,2022-10-02,5.722,5,Country_5
+955,Europe,United Kingdom,2022-10-09,5.906,5,Country_5
+956,Europe,United Kingdom,2022-10-16,6.596,5,Country_5
+957,Europe,United Kingdom,2022-10-23,7.432,5,Country_5
+958,Europe,United Kingdom,2022-10-30,8.28,5,Country_5
+959,Europe,United Kingdom,2022-11-06,8.958,5,Country_5
+960,Europe,United Kingdom,2022-11-13,9.277,5,Country_5
+961,Europe,United Kingdom,2022-11-20,9.237,5,Country_5
+962,Europe,United Kingdom,2022-11-27,8.75,5,Country_5
+963,Europe,United Kingdom,2022-12-04,7.952,5,Country_5
+964,Europe,United Kingdom,2022-12-11,7.258,5,Country_5
+965,Europe,United Kingdom,2022-12-18,6.829,5,Country_5
+966,Europe,United Kingdom,2022-12-25,7.121,5,Country_5
+967,Europe,United Kingdom,2023-01-01,8.179,5,Country_5
+968,Europe,United Kingdom,2023-01-08,9.349,5,Country_5
+969,Europe,United Kingdom,2023-01-15,10.259,5,Country_5
+970,Europe,United Kingdom,2023-01-22,10.904,5,Country_5
+971,Europe,United Kingdom,2023-01-29,11.072,5,Country_5
+972,Europe,United Kingdom,2023-02-05,11.01,5,Country_5
+973,Europe,United Kingdom,2023-02-12,10.401,5,Country_5
+974,Europe,United Kingdom,2023-02-19,9.393,5,Country_5
+975,Europe,United Kingdom,2023-02-26,8.479,5,Country_5
+976,Europe,United Kingdom,2023-03-05,7.982,5,Country_5
+977,Europe,United Kingdom,2023-03-12,7.952,5,Country_5
+978,Europe,United Kingdom,2023-03-19,8.342,5,Country_5
+979,Europe,United Kingdom,2023-03-26,8.862,5,Country_5
+980,Europe,United Kingdom,2023-04-02,9.319,5,Country_5
+981,Europe,United Kingdom,2023-04-09,9.552,5,Country_5
+982,Europe,United Kingdom,2023-04-16,9.618,5,Country_5
+983,Europe,United Kingdom,2023-04-23,9.487,5,Country_5
+984,Europe,United Kingdom,2023-04-30,8.938,5,Country_5
+985,Europe,United Kingdom,2023-05-07,8.179,5,Country_5
+986,Europe,United Kingdom,2023-05-14,7.292,5,Country_5
+987,Europe,United Kingdom,2023-05-21,6.416,5,Country_5
+988,Europe,United Kingdom,2023-05-28,5.635,5,Country_5
+989,Europe,United Kingdom,2023-06-04,4.892,5,Country_5
+990,Europe,United Kingdom,2023-06-11,4.154,5,Country_5
+991,Europe,United Kingdom,2023-06-18,3.691,5,Country_5
+992,Europe,United Kingdom,2023-06-25,3.185,5,Country_5
+993,Europe,United Kingdom,2023-07-02,2.726,5,Country_5
+994,Europe,United Kingdom,2023-07-09,2.298,5,Country_5
+995,Europe,United Kingdom,2023-07-16,1.936,5,Country_5
+996,Europe,United Kingdom,2023-07-23,1.653,5,Country_5
+997,Europe,United Kingdom,2023-07-30,1.469,5,Country_5
+998,Europe,United Kingdom,2023-08-06,1.291,5,Country_5
+999,Europe,United Kingdom,2023-08-13,1.346,5,Country_5
+1000,Europe,United Kingdom,2023-08-20,1.564,5,Country_5
+1001,Europe,United Kingdom,2023-08-27,1.888,5,Country_5
+1002,Europe,United Kingdom,2023-09-03,2.167,5,Country_5
+1003,Europe,United Kingdom,2023-09-10,2.637,5,Country_5
+1004,Europe,United Kingdom,2023-09-17,3.1,5,Country_5
+1005,Europe,United Kingdom,2023-09-24,3.445,5,Country_5
+1006,Europe,United Kingdom,2023-10-01,3.758,5,Country_5
+1007,Europe,United Kingdom,2023-10-08,4.05,5,Country_5
+1008,Europe,United Kingdom,2023-10-15,4.338,5,Country_5
+1009,Europe,United Kingdom,2023-10-22,4.742,5,Country_5
+1010,Europe,United Kingdom,2023-10-29,4.135,5,Country_5
+1011,Europe,United Kingdom,2023-11-05,3.494,5,Country_5
+1012,Europe,United Kingdom,2023-11-12,2.931,5,Country_5
+1013,Europe,United Kingdom,2023-11-19,2.319,5,Country_5
+1014,Europe,United Kingdom,2023-11-26,1.591,5,Country_5
+1015,Europe,United Kingdom,2023-12-03,0.821,5,Country_5
+1016,Europe,United Kingdom,2023-12-10,0.0,5,Country_5
+1017,Europe,United Kingdom,2023-12-17,0.0,5,Country_5
+1018,Europe,United Kingdom,2023-12-24,0.0,5,Country_5
+1019,Europe,United Kingdom,2023-12-31,0.0,5,Country_5
+1020,Europe,France,2020-02-09,0.0,6,Country_6
+1021,Europe,France,2020-02-16,0.0,6,Country_6
+1022,Europe,France,2020-02-23,0.0,6,Country_6
+1023,Europe,France,2020-03-01,0.0,6,Country_6
+1024,Europe,France,2020-03-08,0.0,6,Country_6
+1025,Europe,France,2020-03-15,0.095,6,Country_6
+1026,Europe,France,2020-03-22,1.576,6,Country_6
+1027,Europe,France,2020-03-29,5.995,6,Country_6
+1028,Europe,France,2020-04-05,13.236,6,Country_6
+1029,Europe,France,2020-04-12,20.628,6,Country_6
+1030,Europe,France,2020-04-19,26.663,6,Country_6
+1031,Europe,France,2020-04-26,31.296,6,Country_6
+1032,Europe,France,2020-05-03,34.309,6,Country_6
+1033,Europe,France,2020-05-10,35.162,6,Country_6
+1034,Europe,France,2020-05-17,32.534,6,Country_6
+1035,Europe,France,2020-05-24,26.535,6,Country_6
+1036,Europe,France,2020-05-31,20.184,6,Country_6
+1037,Europe,France,2020-06-07,14.881,6,Country_6
+1038,Europe,France,2020-06-14,10.818,6,Country_6
+1039,Europe,France,2020-06-21,8.062,6,Country_6
+1040,Europe,France,2020-06-28,5.973,6,Country_6
+1041,Europe,France,2020-07-05,4.403,6,Country_6
+1042,Europe,France,2020-07-12,3.426,6,Country_6
+1043,Europe,France,2020-07-19,2.593,6,Country_6
+1044,Europe,France,2020-07-26,2.078,6,Country_6
+1045,Europe,France,2020-08-02,1.678,6,Country_6
+1046,Europe,France,2020-08-09,1.479,6,Country_6
+1047,Europe,France,2020-08-16,1.437,6,Country_6
+1048,Europe,France,2020-08-23,1.477,6,Country_6
+1049,Europe,France,2020-08-30,1.457,6,Country_6
+1050,Europe,France,2020-09-06,1.527,6,Country_6
+1051,Europe,France,2020-09-13,1.881,6,Country_6
+1052,Europe,France,2020-09-20,2.659,6,Country_6
+1053,Europe,France,2020-09-27,3.742,6,Country_6
+1054,Europe,France,2020-10-04,4.779,6,Country_6
+1055,Europe,France,2020-10-11,6.044,6,Country_6
+1056,Europe,France,2020-10-18,7.927,6,Country_6
+1057,Europe,France,2020-10-25,11.57,6,Country_6
+1058,Europe,France,2020-11-01,17.971,6,Country_6
+1059,Europe,France,2020-11-08,27.62,6,Country_6
+1060,Europe,France,2020-11-15,38.514,6,Country_6
+1061,Europe,France,2020-11-22,49.657,6,Country_6
+1062,Europe,France,2020-11-29,58.474,6,Country_6
+1063,Europe,France,2020-12-06,65.106,6,Country_6
+1064,Europe,France,2020-12-13,69.567,6,Country_6
+1065,Europe,France,2020-12-20,70.073,6,Country_6
+1066,Europe,France,2020-12-27,66.37,6,Country_6
+1067,Europe,France,2021-01-03,60.685,6,Country_6
+1068,Europe,France,2021-01-10,55.881,6,Country_6
+1069,Europe,France,2021-01-17,53.174,6,Country_6
+1070,Europe,France,2021-01-24,51.96,6,Country_6
+1071,Europe,France,2021-01-31,50.561,6,Country_6
+1072,Europe,France,2021-02-07,49.867,6,Country_6
+1073,Europe,France,2021-02-14,49.365,6,Country_6
+1074,Europe,France,2021-02-21,48.483,6,Country_6
+1075,Europe,France,2021-02-28,45.658,6,Country_6
+1076,Europe,France,2021-03-07,42.517,6,Country_6
+1077,Europe,France,2021-03-14,39.108,6,Country_6
+1078,Europe,France,2021-03-21,36.102,6,Country_6
+1079,Europe,France,2021-03-28,33.372,6,Country_6
+1080,Europe,France,2021-04-04,31.31,6,Country_6
+1081,Europe,France,2021-04-11,30.434,6,Country_6
+1082,Europe,France,2021-04-18,30.027,6,Country_6
+1083,Europe,France,2021-04-25,30.092,6,Country_6
+1084,Europe,France,2021-05-02,30.273,6,Country_6
+1085,Europe,France,2021-05-09,29.685,6,Country_6
+1086,Europe,France,2021-05-16,28.259,6,Country_6
+1087,Europe,France,2021-05-23,26.007,6,Country_6
+1088,Europe,France,2021-05-30,23.027,6,Country_6
+1089,Europe,France,2021-06-06,19.928,6,Country_6
+1090,Europe,France,2021-06-13,16.154,6,Country_6
+1091,Europe,France,2021-06-20,12.518,6,Country_6
+1092,Europe,France,2021-06-27,9.647,6,Country_6
+1093,Europe,France,2021-07-04,7.396,6,Country_6
+1094,Europe,France,2021-07-11,5.632,6,Country_6
+1095,Europe,France,2021-07-18,4.138,6,Country_6
+1096,Europe,France,2021-07-25,3.152,6,Country_6
+1097,Europe,France,2021-08-01,2.898,6,Country_6
+1098,Europe,France,2021-08-08,2.838,6,Country_6
+1099,Europe,France,2021-08-15,3.101,6,Country_6
+1100,Europe,France,2021-08-22,4.268,6,Country_6
+1101,Europe,France,2021-08-29,4.98,6,Country_6
+1102,Europe,France,2021-09-05,5.849,6,Country_6
+1103,Europe,France,2021-09-12,6.552,6,Country_6
+1104,Europe,France,2021-09-19,6.875,6,Country_6
+1105,Europe,France,2021-09-26,6.983,6,Country_6
+1106,Europe,France,2021-10-03,6.813,6,Country_6
+1107,Europe,France,2021-10-10,5.69,6,Country_6
+1108,Europe,France,2021-10-17,5.051,6,Country_6
+1109,Europe,France,2021-10-24,4.366,6,Country_6
+1110,Europe,France,2021-10-31,3.791,6,Country_6
+1111,Europe,France,2021-11-07,3.406,6,Country_6
+1112,Europe,France,2021-11-14,3.19,6,Country_6
+1113,Europe,France,2021-11-21,3.28,6,Country_6
+1114,Europe,France,2021-11-28,3.862,6,Country_6
+1115,Europe,France,2021-12-05,4.843,6,Country_6
+1116,Europe,France,2021-12-12,6.444,6,Country_6
+1117,Europe,France,2021-12-19,8.336,6,Country_6
+1118,Europe,France,2021-12-26,10.425,6,Country_6
+1119,Europe,France,2022-01-02,12.816,6,Country_6
+1120,Europe,France,2022-01-09,15.396,6,Country_6
+1121,Europe,France,2022-01-16,17.706,6,Country_6
+1122,Europe,France,2022-01-23,20.003,6,Country_6
+1123,Europe,France,2022-01-30,22.28,6,Country_6
+1124,Europe,France,2022-02-06,24.408,6,Country_6
+1125,Europe,France,2022-02-13,26.245,6,Country_6
+1126,Europe,France,2022-02-20,27.196,6,Country_6
+1127,Europe,France,2022-02-27,26.858,6,Country_6
+1128,Europe,France,2022-03-06,25.962,6,Country_6
+1129,Europe,France,2022-03-13,24.11,6,Country_6
+1130,Europe,France,2022-03-20,21.588,6,Country_6
+1131,Europe,France,2022-03-27,18.783,6,Country_6
+1132,Europe,France,2022-04-03,16.159,6,Country_6
+1133,Europe,France,2022-04-10,14.043,6,Country_6
+1134,Europe,France,2022-04-17,12.984,6,Country_6
+1135,Europe,France,2022-04-24,12.531,6,Country_6
+1136,Europe,France,2022-05-01,12.635,6,Country_6
+1137,Europe,France,2022-05-08,12.54,6,Country_6
+1138,Europe,France,2022-05-15,12.29,6,Country_6
+1139,Europe,France,2022-05-22,11.55,6,Country_6
+1140,Europe,France,2022-05-29,10.471,6,Country_6
+1141,Europe,France,2022-06-05,9.315,6,Country_6
+1142,Europe,France,2022-06-12,7.874,6,Country_6
+1143,Europe,France,2022-06-19,6.543,6,Country_6
+1144,Europe,France,2022-06-26,5.531,6,Country_6
+1145,Europe,France,2022-07-03,4.757,6,Country_6
+1146,Europe,France,2022-07-10,4.664,6,Country_6
+1147,Europe,France,2022-07-17,5.294,6,Country_6
+1148,Europe,France,2022-07-24,6.183,6,Country_6
+1149,Europe,France,2022-07-31,6.979,6,Country_6
+1150,Europe,France,2022-08-07,7.562,6,Country_6
+1151,Europe,France,2022-08-14,8.064,6,Country_6
+1152,Europe,France,2022-08-21,8.393,6,Country_6
+1153,Europe,France,2022-08-28,8.157,6,Country_6
+1154,Europe,France,2022-09-04,7.531,6,Country_6
+1155,Europe,France,2022-09-11,6.497,6,Country_6
+1156,Europe,France,2022-09-18,5.624,6,Country_6
+1157,Europe,France,2022-09-25,4.934,6,Country_6
+1158,Europe,France,2022-10-02,4.268,6,Country_6
+1159,Europe,France,2022-10-09,4.05,6,Country_6
+1160,Europe,France,2022-10-16,4.264,6,Country_6
+1161,Europe,France,2022-10-23,4.75,6,Country_6
+1162,Europe,France,2022-10-30,5.263,6,Country_6
+1163,Europe,France,2022-11-06,5.8,6,Country_6
+1164,Europe,France,2022-11-13,6.198,6,Country_6
+1165,Europe,France,2022-11-20,6.755,6,Country_6
+1166,Europe,France,2022-11-27,7.067,6,Country_6
+1167,Europe,France,2022-12-04,7.224,6,Country_6
+1168,Europe,France,2022-12-11,7.328,6,Country_6
+1169,Europe,France,2022-12-18,7.827,6,Country_6
+1170,Europe,France,2022-12-25,8.628,6,Country_6
+1171,Europe,France,2023-01-01,9.536,6,Country_6
+1172,Europe,France,2023-01-08,10.213,6,Country_6
+1173,Europe,France,2023-01-15,10.325,6,Country_6
+1174,Europe,France,2023-01-22,10.133,6,Country_6
+1175,Europe,France,2023-01-29,9.596,6,Country_6
+1176,Europe,France,2023-02-05,8.577,6,Country_6
+1177,Europe,France,2023-02-12,7.171,6,Country_6
+1178,Europe,France,2023-02-19,5.783,6,Country_6
+1179,Europe,France,2023-02-26,4.445,6,Country_6
+1180,Europe,France,2023-03-05,3.663,6,Country_6
+1181,Europe,France,2023-03-12,3.059,6,Country_6
+1182,Europe,France,2023-03-19,2.699,6,Country_6
+1183,Europe,France,2023-03-26,2.496,6,Country_6
+1184,Europe,France,2023-04-02,2.582,6,Country_6
+1185,Europe,France,2023-04-09,2.6,6,Country_6
+1186,Europe,France,2023-04-16,2.582,6,Country_6
+1187,Europe,France,2023-04-23,2.865,6,Country_6
+1188,Europe,France,2023-04-30,3.139,6,Country_6
+1189,Europe,France,2023-05-07,3.307,6,Country_6
+1190,Europe,France,2023-05-14,3.289,6,Country_6
+1191,Europe,France,2023-05-21,3.117,6,Country_6
+1192,Europe,France,2023-05-28,3.031,6,Country_6
+1193,Europe,France,2023-06-04,2.92,6,Country_6
+1194,Europe,France,2023-06-11,2.535,6,Country_6
+1195,Europe,France,2023-06-18,2.133,6,Country_6
+1196,Europe,France,2023-06-25,1.742,6,Country_6
+1197,Europe,France,2023-07-02,1.388,6,Country_6
+1198,Europe,France,2023-07-09,1.096,6,Country_6
+1199,Europe,France,2023-07-16,0.767,6,Country_6
+1200,Europe,France,2023-07-23,0.519,6,Country_6
+1201,Europe,France,2023-07-30,0.285,6,Country_6
+1202,Europe,France,2023-08-06,0.137,6,Country_6
+1203,Europe,France,2023-08-13,0.0,6,Country_6
+1204,Europe,France,2023-08-20,0.0,6,Country_6
+1205,Europe,France,2023-08-27,0.0,6,Country_6
+1206,Europe,France,2023-09-03,0.0,6,Country_6
+1207,Europe,France,2023-09-10,0.0,6,Country_6
+1208,Europe,France,2023-09-17,0.0,6,Country_6
+1209,Europe,France,2023-09-24,0.0,6,Country_6
+1210,Europe,France,2023-10-01,0.0,6,Country_6
+1211,Europe,France,2023-10-08,0.0,6,Country_6
+1212,Europe,France,2023-10-15,0.0,6,Country_6
+1213,Europe,France,2023-10-22,0.0,6,Country_6
+1214,Europe,France,2023-10-29,0.0,6,Country_6
+1215,Europe,France,2023-11-05,0.0,6,Country_6
+1216,Europe,France,2023-11-12,0.0,6,Country_6
+1217,Europe,France,2023-11-19,0.0,6,Country_6
+1218,Europe,France,2023-11-26,0.0,6,Country_6
+1219,Europe,France,2023-12-03,0.0,6,Country_6
+1220,Europe,France,2023-12-10,0.0,6,Country_6
+1221,Europe,France,2023-12-17,0.0,6,Country_6
+1222,Europe,France,2023-12-24,0.0,6,Country_6
+1223,Europe,France,2023-12-31,0.0,6,Country_6
+1224,North America,United States,2020-02-09,0.0,7,Country_7
+1225,North America,United States,2020-02-16,0.0,7,Country_7
+1226,North America,United States,2020-02-23,0.0,7,Country_7
+1227,North America,United States,2020-03-01,0.0,7,Country_7
+1228,North America,United States,2020-03-08,0.008,7,Country_7
+1229,North America,United States,2020-03-15,0.029,7,Country_7
+1230,North America,United States,2020-03-22,0.158,7,Country_7
+1231,North America,United States,2020-03-29,0.889,7,Country_7
+1232,North America,United States,2020-04-05,3.694,7,Country_7
+1233,North America,United States,2020-04-12,9.559,7,Country_7
+1234,North America,United States,2020-04-19,16.273,7,Country_7
+1235,North America,United States,2020-04-26,22.557,7,Country_7
+1236,North America,United States,2020-05-03,28.294,7,Country_7
+1237,North America,United States,2020-05-10,33.552,7,Country_7
+1238,North America,United States,2020-05-17,37.099,7,Country_7
+1239,North America,United States,2020-05-24,37.908,7,Country_7
+1240,North America,United States,2020-05-31,34.918,7,Country_7
+1241,North America,United States,2020-06-07,30.733,7,Country_7
+1242,North America,United States,2020-06-14,26.709,7,Country_7
+1243,North America,United States,2020-06-21,22.832,7,Country_7
+1244,North America,United States,2020-06-28,20.013,7,Country_7
+1245,North America,United States,2020-07-05,17.615,7,Country_7
+1246,North America,United States,2020-07-12,16.336,7,Country_7
+1247,North America,United States,2020-07-19,16.275,7,Country_7
+1248,North America,United States,2020-07-26,17.009,7,Country_7
+1249,North America,United States,2020-08-02,18.181,7,Country_7
+1250,North America,United States,2020-08-09,19.594,7,Country_7
+1251,North America,United States,2020-08-16,20.152,7,Country_7
+1252,North America,United States,2020-08-23,21.092,7,Country_7
+1253,North America,United States,2020-08-30,21.436,7,Country_7
+1254,North America,United States,2020-09-06,21.03,7,Country_7
+1255,North America,United States,2020-09-13,19.869,7,Country_7
+1256,North America,United States,2020-09-20,18.615,7,Country_7
+1257,North America,United States,2020-09-27,17.338,7,Country_7
+1258,North America,United States,2020-10-04,16.191,7,Country_7
+1259,North America,United States,2020-10-11,15.32,7,Country_7
+1260,North America,United States,2020-10-18,14.669,7,Country_7
+1261,North America,United States,2020-10-25,14.677,7,Country_7
+1262,North America,United States,2020-11-01,15.149,7,Country_7
+1263,North America,United States,2020-11-08,16.006,7,Country_7
+1264,North America,United States,2020-11-15,17.67,7,Country_7
+1265,North America,United States,2020-11-22,20.26,7,Country_7
+1266,North America,United States,2020-11-29,23.357,7,Country_7
+1267,North America,United States,2020-12-06,27.58,7,Country_7
+1268,North America,United States,2020-12-13,32.644,7,Country_7
+1269,North America,United States,2020-12-20,38.037,7,Country_7
+1270,North America,United States,2020-12-27,42.736,7,Country_7
+1271,North America,United States,2021-01-03,47.353,7,Country_7
+1272,North America,United States,2021-01-10,51.862,7,Country_7
+1273,North America,United States,2021-01-17,56.66,7,Country_7
+1274,North America,United States,2021-01-24,59.909,7,Country_7
+1275,North America,United States,2021-01-31,61.824,7,Country_7
+1276,North America,United States,2021-02-07,62.346,7,Country_7
+1277,North America,United States,2021-02-14,62.981,7,Country_7
+1278,North America,United States,2021-02-21,60.778,7,Country_7
+1279,North America,United States,2021-02-28,57.341,7,Country_7
+1280,North America,United States,2021-03-07,51.908,7,Country_7
+1281,North America,United States,2021-03-14,46.023,7,Country_7
+1282,North America,United States,2021-03-21,39.273,7,Country_7
+1283,North America,United States,2021-03-28,33.365,7,Country_7
+1284,North America,United States,2021-04-04,27.248,7,Country_7
+1285,North America,United States,2021-04-11,23.224,7,Country_7
+1286,North America,United States,2021-04-18,19.641,7,Country_7
+1287,North America,United States,2021-04-25,17.223,7,Country_7
+1288,North America,United States,2021-05-02,15.506,7,Country_7
+1289,North America,United States,2021-05-09,14.741,7,Country_7
+1290,North America,United States,2021-05-16,13.838,7,Country_7
+1291,North America,United States,2021-05-23,13.108,7,Country_7
+1292,North America,United States,2021-05-30,12.53,7,Country_7
+1293,North America,United States,2021-06-06,11.601,7,Country_7
+1294,North America,United States,2021-06-13,10.715,7,Country_7
+1295,North America,United States,2021-06-20,9.562,7,Country_7
+1296,North America,United States,2021-06-27,8.57,7,Country_7
+1297,North America,United States,2021-07-04,7.617,7,Country_7
+1298,North America,United States,2021-07-11,6.724,7,Country_7
+1299,North America,United States,2021-07-18,6.047,7,Country_7
+1300,North America,United States,2021-07-25,5.797,7,Country_7
+1301,North America,United States,2021-08-01,5.925,7,Country_7
+1302,North America,United States,2021-08-08,7.062,7,Country_7
+1303,North America,United States,2021-08-15,8.555,7,Country_7
+1304,North America,United States,2021-08-22,11.231,7,Country_7
+1305,North America,United States,2021-08-29,14.894,7,Country_7
+1306,North America,United States,2021-09-05,19.023,7,Country_7
+1307,North America,United States,2021-09-12,23.247,7,Country_7
+1308,North America,United States,2021-09-19,27.75,7,Country_7
+1309,North America,United States,2021-09-26,31.521,7,Country_7
+1310,North America,United States,2021-10-03,34.627,7,Country_7
+1311,North America,United States,2021-10-10,36.16,7,Country_7
+1312,North America,United States,2021-10-17,36.277,7,Country_7
+1313,North America,United States,2021-10-24,36.016,7,Country_7
+1314,North America,United States,2021-10-31,34.678,7,Country_7
+1315,North America,United States,2021-11-07,32.067,7,Country_7
+1316,North America,United States,2021-11-14,29.594,7,Country_7
+1317,North America,United States,2021-11-21,28.447,7,Country_7
+1318,North America,United States,2021-11-28,25.916,7,Country_7
+1319,North America,United States,2021-12-05,25.005,7,Country_7
+1320,North America,United States,2021-12-12,23.947,7,Country_7
+1321,North America,United States,2021-12-19,24.01,7,Country_7
+1322,North America,United States,2021-12-26,25.528,7,Country_7
+1323,North America,United States,2022-01-02,26.211,7,Country_7
+1324,North America,United States,2022-01-09,26.819,7,Country_7
+1325,North America,United States,2022-01-16,30.489,7,Country_7
+1326,North America,United States,2022-01-23,33.869,7,Country_7
+1327,North America,United States,2022-01-30,38.014,7,Country_7
+1328,North America,United States,2022-02-06,42.064,7,Country_7
+1329,North America,United States,2022-02-13,44.829,7,Country_7
+1330,North America,United States,2022-02-20,47.458,7,Country_7
+1331,North America,United States,2022-02-27,48.02,7,Country_7
+1332,North America,United States,2022-03-06,46.034,7,Country_7
+1333,North America,United States,2022-03-13,42.782,7,Country_7
+1334,North America,United States,2022-03-20,36.381,7,Country_7
+1335,North America,United States,2022-03-27,30.611,7,Country_7
+1336,North America,United States,2022-04-03,24.962,7,Country_7
+1337,North America,United States,2022-04-10,19.934,7,Country_7
+1338,North America,United States,2022-04-17,15.744,7,Country_7
+1339,North America,United States,2022-04-24,12.689,7,Country_7
+1340,North America,United States,2022-05-01,10.001,7,Country_7
+1341,North America,United States,2022-05-08,9.746,7,Country_7
+1342,North America,United States,2022-05-15,8.469,7,Country_7
+1343,North America,United States,2022-05-22,7.586,7,Country_7
+1344,North America,United States,2022-05-29,7.232,7,Country_7
+1345,North America,United States,2022-06-05,6.749,7,Country_7
+1346,North America,United States,2022-06-12,6.682,7,Country_7
+1347,North America,United States,2022-06-19,6.665,7,Country_7
+1348,North America,United States,2022-06-26,6.605,7,Country_7
+1349,North America,United States,2022-07-03,6.891,7,Country_7
+1350,North America,United States,2022-07-10,7.048,7,Country_7
+1351,North America,United States,2022-07-17,7.114,7,Country_7
+1352,North America,United States,2022-07-24,7.624,7,Country_7
+1353,North America,United States,2022-07-31,7.975,7,Country_7
+1354,North America,United States,2022-08-07,8.422,7,Country_7
+1355,North America,United States,2022-08-14,8.819,7,Country_7
+1356,North America,United States,2022-08-21,9.068,7,Country_7
+1357,North America,United States,2022-08-28,9.392,7,Country_7
+1358,North America,United States,2022-09-04,9.521,7,Country_7
+1359,North America,United States,2022-09-11,9.283,7,Country_7
+1360,North America,United States,2022-09-18,9.193,7,Country_7
+1361,North America,United States,2022-09-25,8.958,7,Country_7
+1362,North America,United States,2022-10-02,8.764,7,Country_7
+1363,North America,United States,2022-10-09,8.48,7,Country_7
+1364,North America,United States,2022-10-16,8.081,7,Country_7
+1365,North America,United States,2022-10-23,8.024,7,Country_7
+1366,North America,United States,2022-10-30,8.216,7,Country_7
+1367,North America,United States,2022-11-06,8.032,7,Country_7
+1368,North America,United States,2022-11-13,7.857,7,Country_7
+1369,North America,United States,2022-11-20,7.527,7,Country_7
+1370,North America,United States,2022-11-27,7.552,7,Country_7
+1371,North America,United States,2022-12-04,7.336,7,Country_7
+1372,North America,United States,2022-12-11,7.37,7,Country_7
+1373,North America,United States,2022-12-18,7.189,7,Country_7
+1374,North America,United States,2022-12-25,7.43,7,Country_7
+1375,North America,United States,2023-01-01,7.51,7,Country_7
+1376,North America,United States,2023-01-08,7.747,7,Country_7
+1377,North America,United States,2023-01-15,8.502,7,Country_7
+1378,North America,United States,2023-01-22,9.305,7,Country_7
+1379,North America,United States,2023-01-29,9.604,7,Country_7
+1380,North America,United States,2023-02-05,9.942,7,Country_7
+1381,North America,United States,2023-02-12,10.114,7,Country_7
+1382,North America,United States,2023-02-19,10.273,7,Country_7
+1383,North America,United States,2023-02-26,10.103,7,Country_7
+1384,North America,United States,2023-03-05,9.17,7,Country_7
+1385,North America,United States,2023-03-12,8.42,7,Country_7
+1386,North America,United States,2023-03-19,7.574,7,Country_7
+1387,North America,United States,2023-03-26,6.997,7,Country_7
+1388,North America,United States,2023-04-02,6.281,7,Country_7
+1389,North America,United States,2023-04-09,5.805,7,Country_7
+1390,North America,United States,2023-04-16,5.352,7,Country_7
+1391,North America,United States,2023-04-23,4.93,7,Country_7
+1392,North America,United States,2023-04-30,4.575,7,Country_7
+1393,North America,United States,2023-05-07,4.324,7,Country_7
+1394,North America,United States,2023-05-14,4.264,7,Country_7
+1395,North America,Canada,2020-02-09,0.0,8,Country_8
+1396,North America,Canada,2020-02-16,0.0,8,Country_8
+1397,North America,Canada,2020-02-23,0.0,8,Country_8
+1398,North America,Canada,2020-03-01,0.0,8,Country_8
+1399,North America,Canada,2020-03-08,0.0,8,Country_8
+1400,North America,Canada,2020-03-15,0.004,8,Country_8
+1401,North America,Canada,2020-03-22,0.041,8,Country_8
+1402,North America,Canada,2020-03-29,0.13,8,Country_8
+1403,North America,Canada,2020-04-05,0.695,8,Country_8
+1404,North America,Canada,2020-04-12,2.11,8,Country_8
+1405,North America,Canada,2020-04-19,4.852,8,Country_8
+1406,North America,Canada,2020-04-26,8.541,8,Country_8
+1407,North America,Canada,2020-05-03,12.56,8,Country_8
+1408,North America,Canada,2020-05-10,16.885,8,Country_8
+1409,North America,Canada,2020-05-17,20.473,8,Country_8
+1410,North America,Canada,2020-05-24,22.457,8,Country_8
+1411,North America,Canada,2020-05-31,23.742,8,Country_8
+1412,North America,Canada,2020-06-07,23.69,8,Country_8
+1413,North America,Canada,2020-06-14,21.257,8,Country_8
+1414,North America,Canada,2020-06-21,18.337,8,Country_8
+1415,North America,Canada,2020-06-28,14.559,8,Country_8
+1416,North America,Canada,2020-07-05,11.446,8,Country_8
+1417,North America,Canada,2020-07-12,9.254,8,Country_8
+1418,North America,Canada,2020-07-19,6.847,8,Country_8
+1419,North America,Canada,2020-07-26,4.313,8,Country_8
+1420,North America,Canada,2020-08-02,3.254,8,Country_8
+1421,North America,Canada,2020-08-09,2.281,8,Country_8
+1422,North America,Canada,2020-08-16,1.883,8,Country_8
+1423,North America,Canada,2020-08-23,1.482,8,Country_8
+1424,North America,Canada,2020-08-30,1.308,8,Country_8
+1425,North America,Canada,2020-09-06,1.122,8,Country_8
+1426,North America,Canada,2020-09-13,1.048,8,Country_8
+1427,North America,Canada,2020-09-20,1.003,8,Country_8
+1428,North America,Canada,2020-09-27,1.059,8,Country_8
+1429,North America,Canada,2020-10-04,1.441,8,Country_8
+1430,North America,Canada,2020-10-11,1.928,8,Country_8
+1431,North America,Canada,2020-10-18,2.251,8,Country_8
+1432,North America,Canada,2020-10-25,2.749,8,Country_8
+1433,North America,Canada,2020-11-01,3.47,8,Country_8
+1434,North America,Canada,2020-11-08,4.506,8,Country_8
+1435,North America,Canada,2020-11-15,5.773,8,Country_8
+1436,North America,Canada,2020-11-22,7.062,8,Country_8
+1437,North America,Canada,2020-11-29,8.459,8,Country_8
+1438,North America,Canada,2020-12-06,10.168,8,Country_8
+1439,North America,Canada,2020-12-13,12.341,8,Country_8
+1440,North America,Canada,2020-12-20,14.44,8,Country_8
+1441,North America,Canada,2020-12-27,16.175,8,Country_8
+1442,North America,Canada,2021-01-03,18.059,8,Country_8
+1443,North America,Canada,2021-01-10,19.76,8,Country_8
+1444,North America,Canada,2021-01-17,21.487,8,Country_8
+1445,North America,Canada,2021-01-24,23.326,8,Country_8
+1446,North America,Canada,2021-01-31,24.133,8,Country_8
+1447,North America,Canada,2021-02-07,24.192,8,Country_8
+1448,North America,Canada,2021-02-14,23.282,8,Country_8
+1449,North America,Canada,2021-02-21,21.454,8,Country_8
+1450,North America,Canada,2021-02-28,19.125,8,Country_8
+1451,North America,Canada,2021-03-07,16.361,8,Country_8
+1452,North America,Canada,2021-03-14,13.077,8,Country_8
+1453,North America,Canada,2021-03-21,10.253,8,Country_8
+1454,North America,Canada,2021-03-28,8.062,8,Country_8
+1455,North America,Canada,2021-04-04,6.787,8,Country_8
+1456,North America,Canada,2021-04-11,6.055,8,Country_8
+1457,North America,Canada,2021-04-18,5.885,8,Country_8
+1458,North America,Canada,2021-04-25,6.111,8,Country_8
+1459,North America,Canada,2021-05-02,6.602,8,Country_8
+1460,North America,Canada,2021-05-09,6.966,8,Country_8
+1461,North America,Canada,2021-05-16,7.441,8,Country_8
+1462,North America,Canada,2021-05-23,7.779,8,Country_8
+1463,North America,Canada,2021-05-30,8.006,8,Country_8
+1464,North America,Canada,2021-06-06,7.82,8,Country_8
+1465,North America,Canada,2021-06-13,7.345,8,Country_8
+1466,North America,Canada,2021-06-20,6.587,8,Country_8
+1467,North America,Canada,2021-06-27,6.115,8,Country_8
+1468,North America,Canada,2021-07-04,5.383,8,Country_8
+1469,North America,Canada,2021-07-11,4.595,8,Country_8
+1470,North America,Canada,2021-07-18,3.838,8,Country_8
+1471,North America,Canada,2021-07-25,3.147,8,Country_8
+1472,North America,Canada,2021-08-01,2.56,8,Country_8
+1473,North America,Canada,2021-08-08,2.3,8,Country_8
+1474,North America,Canada,2021-08-15,1.802,8,Country_8
+1475,North America,Canada,2021-08-22,1.635,8,Country_8
+1476,North America,Canada,2021-08-29,1.716,8,Country_8
+1477,North America,Canada,2021-09-05,1.898,8,Country_8
+1478,North America,Canada,2021-09-12,2.318,8,Country_8
+1479,North America,Canada,2021-09-19,2.879,8,Country_8
+1480,North America,Canada,2021-09-26,3.559,8,Country_8
+1481,North America,Canada,2021-10-03,4.51,8,Country_8
+1482,North America,Canada,2021-10-10,5.138,8,Country_8
+1483,North America,Canada,2021-10-17,5.814,8,Country_8
+1484,North America,Canada,2021-10-24,6.356,8,Country_8
+1485,North America,Canada,2021-10-31,6.579,8,Country_8
+1486,North America,Canada,2021-11-07,6.505,8,Country_8
+1487,North America,Canada,2021-11-14,6.234,8,Country_8
+1488,North America,Canada,2021-11-21,5.762,8,Country_8
+1489,North America,Canada,2021-11-28,5.298,8,Country_8
+1490,North America,Canada,2021-12-05,4.763,8,Country_8
+1491,North America,Canada,2021-12-12,4.321,8,Country_8
+1492,North America,Canada,2021-12-19,3.986,8,Country_8
+1493,North America,Canada,2021-12-26,3.73,8,Country_8
+1494,North America,Canada,2022-01-02,3.722,8,Country_8
+1495,North America,Canada,2022-01-09,4.347,8,Country_8
+1496,North America,Canada,2022-01-16,6.152,8,Country_8
+1497,North America,Canada,2022-01-23,9.41,8,Country_8
+1498,North America,Canada,2022-01-30,13.036,8,Country_8
+1499,North America,Canada,2022-02-06,16.186,8,Country_8
+1500,North America,Canada,2022-02-13,18.816,8,Country_8
+1501,North America,Canada,2022-02-20,20.451,8,Country_8
+1502,North America,Canada,2022-02-27,20.919,8,Country_8
+1503,North America,Canada,2022-03-06,20.221,8,Country_8
+1504,North America,Canada,2022-03-13,18.01,8,Country_8
+1505,North America,Canada,2022-03-20,14.975,8,Country_8
+1506,North America,Canada,2022-03-27,12.304,8,Country_8
+1507,North America,Canada,2022-04-03,10.235,8,Country_8
+1508,North America,Canada,2022-04-10,9.094,8,Country_8
+1509,North America,Canada,2022-04-17,8.57,8,Country_8
+1510,North America,Canada,2022-04-24,8.634,8,Country_8
+1511,North America,Canada,2022-05-01,8.845,8,Country_8
+1512,North America,Canada,2022-05-08,9.533,8,Country_8
+1513,North America,Canada,2022-05-15,10.424,8,Country_8
+1514,North America,Canada,2022-05-22,11.119,8,Country_8
+1515,North America,Canada,2022-05-29,11.108,8,Country_8
+1516,North America,Canada,2022-06-05,11.033,8,Country_8
+1517,North America,Canada,2022-06-12,9.64,8,Country_8
+1518,North America,Canada,2022-06-26,6.594,8,Country_8
+1519,North America,Canada,2022-07-03,5.253,8,Country_8
+1520,North America,Canada,2022-07-10,4.157,8,Country_8
+1521,North America,Canada,2022-07-17,3.678,8,Country_8
+1522,North America,Canada,2022-07-24,3.448,8,Country_8
+1523,North America,Canada,2022-07-31,4.243,8,Country_8
+1524,North America,Canada,2022-08-07,5.22,8,Country_8
+1525,North America,Canada,2022-08-14,5.974,8,Country_8
+1526,North America,Canada,2022-08-21,6.416,8,Country_8
+1527,North America,Canada,2022-08-28,6.966,8,Country_8
+1528,North America,Canada,2022-09-04,7.441,8,Country_8
+1529,North America,Canada,2022-09-11,7.482,8,Country_8
+1530,North America,Canada,2022-09-18,7.244,8,Country_8
+1531,North America,Canada,2022-09-25,7.099,8,Country_8
+1532,North America,Canada,2022-10-02,6.594,8,Country_8
+1533,North America,Canada,2022-10-09,6.49,8,Country_8
+1534,North America,Canada,2022-10-16,6.442,8,Country_8
+1535,North America,Canada,2022-10-23,6.728,8,Country_8
+1536,North America,Canada,2022-10-30,7.2,8,Country_8
+1537,North America,Canada,2022-11-06,7.753,8,Country_8
+1538,North America,Canada,2022-11-13,8.199,8,Country_8
+1539,North America,Canada,2022-11-20,8.548,8,Country_8
+1540,North America,Canada,2022-11-27,8.886,8,Country_8
+1541,North America,Canada,2022-12-04,8.964,8,Country_8
+1542,North America,Canada,2022-12-11,8.615,8,Country_8
+1543,North America,Canada,2022-12-18,8.244,8,Country_8
+1544,North America,Canada,2022-12-25,8.266,8,Country_8
+1545,North America,Canada,2023-01-01,8.288,8,Country_8
+1546,North America,Canada,2023-01-08,8.117,8,Country_8
+1547,North America,Canada,2023-01-15,8.154,8,Country_8
+1548,North America,Canada,2023-01-22,8.132,8,Country_8
+1549,North America,Canada,2023-01-29,8.106,8,Country_8
+1550,North America,Canada,2023-02-05,8.002,8,Country_8
+1551,North America,Canada,2023-02-12,7.423,8,Country_8
+1552,North America,Canada,2023-02-19,6.91,8,Country_8
+1553,North America,Canada,2023-02-26,6.576,8,Country_8
+1554,North America,Canada,2023-03-05,5.955,8,Country_8
+1555,North America,Canada,2023-03-12,5.431,8,Country_8
+1556,North America,Canada,2023-03-19,5.071,8,Country_8
+1557,North America,Canada,2023-03-26,4.696,8,Country_8
+1558,North America,Canada,2023-04-02,4.343,8,Country_8
+1559,North America,Canada,2023-04-09,4.101,8,Country_8
+1560,North America,Canada,2023-04-16,4.02,8,Country_8
+1561,North America,Canada,2023-04-23,3.849,8,Country_8
+1562,North America,Canada,2023-04-30,3.808,8,Country_8
+1563,North America,Canada,2023-05-07,3.659,8,Country_8
+1564,North America,Canada,2023-05-14,3.544,8,Country_8
+1565,North America,Canada,2023-05-21,3.057,8,Country_8
+1566,North America,Canada,2023-05-28,2.511,8,Country_8
+1567,North America,Canada,2023-06-04,1.969,8,Country_8
+1568,North America,Canada,2023-06-11,1.527,8,Country_8
+1569,North America,Canada,2023-06-18,0.97,8,Country_8
+1570,North America,Canada,2023-06-25,0.446,8,Country_8
+1571,North America,Canada,2023-07-02,0.0,8,Country_8
+1572,North America,Canada,2023-07-09,0.0,8,Country_8
+1573,North America,Canada,2023-07-16,0.0,8,Country_8
+1574,North America,Canada,2023-07-23,0.0,8,Country_8
+1575,North America,Canada,2023-07-30,0.0,8,Country_8
+1576,North America,Canada,2023-08-06,0.0,8,Country_8
+1577,North America,Canada,2023-08-13,0.078,8,Country_8
+1578,North America,Canada,2023-08-20,0.152,8,Country_8
+1579,North America,Canada,2023-08-27,0.245,8,Country_8
+1580,North America,Canada,2023-09-03,0.431,8,Country_8
+1581,North America,Canada,2023-09-10,0.65,8,Country_8
+1582,North America,Canada,2023-09-17,0.858,8,Country_8
+1583,North America,Canada,2023-09-24,1.1,8,Country_8
+1584,North America,Canada,2023-10-01,1.308,8,Country_8
+1585,North America,Canada,2023-10-08,1.609,8,Country_8
+1586,North America,Canada,2023-10-15,1.805,8,Country_8
+1587,North America,Canada,2023-10-22,1.969,8,Country_8
+1588,North America,Canada,2023-10-29,2.092,8,Country_8
+1589,North America,Canada,2023-11-05,2.162,8,Country_8
+1590,North America,Canada,2023-11-12,2.236,8,Country_8
+1591,North America,Canada,2023-11-19,2.281,8,Country_8
+1592,North America,Canada,2023-11-26,2.184,8,Country_8
+1593,North America,Canada,2023-12-03,2.151,8,Country_8
+1594,North America,Canada,2023-12-10,1.95,8,Country_8
+1595,North America,Canada,2023-12-17,1.657,8,Country_8
+1596,North America,Canada,2023-12-24,1.378,8,Country_8
+1597,North America,Canada,2023-12-31,1.062,8,Country_8
+1598,North America,Mexico,2020-02-09,0.0,9,Country_9
+1599,North America,Mexico,2020-02-16,0.0,9,Country_9
+1600,North America,Mexico,2020-02-23,0.0,9,Country_9
+1601,North America,Mexico,2020-03-01,0.0,9,Country_9
+1602,North America,Mexico,2020-03-08,0.0,9,Country_9
+1603,North America,Mexico,2020-03-15,0.0,9,Country_9
+1604,North America,Mexico,2020-03-22,0.004,9,Country_9
+1605,North America,Mexico,2020-03-29,0.031,9,Country_9
+1606,North America,Mexico,2020-04-05,0.195,9,Country_9
+1607,North America,Mexico,2020-04-12,0.623,9,Country_9
+1608,North America,Mexico,2020-04-19,1.462,9,Country_9
+1609,North America,Mexico,2020-04-26,3.09,9,Country_9
+1610,North America,Mexico,2020-05-03,5.735,9,Country_9
+1611,North America,Mexico,2020-05-10,8.972,9,Country_9
+1612,North America,Mexico,2020-05-17,12.77,9,Country_9
+1613,North America,Mexico,2020-05-24,17.082,9,Country_9
+1614,North America,Mexico,2020-05-31,21.335,9,Country_9
+1615,North America,Mexico,2020-06-07,25.551,9,Country_9
+1616,North America,Mexico,2020-06-14,29.403,9,Country_9
+1617,North America,Mexico,2020-06-21,32.344,9,Country_9
+1618,North America,Mexico,2020-06-28,34.222,9,Country_9
+1619,North America,Mexico,2020-07-05,35.966,9,Country_9
+1620,North America,Mexico,2020-07-12,37.513,9,Country_9
+1621,North America,Mexico,2020-07-19,39.032,9,Country_9
+1622,North America,Mexico,2020-07-26,40.098,9,Country_9
+1623,North America,Mexico,2020-08-02,40.51,9,Country_9
+1624,North America,Mexico,2020-08-09,40.556,9,Country_9
+1625,North America,Mexico,2020-08-16,40.503,9,Country_9
+1626,North America,Mexico,2020-08-23,39.488,9,Country_9
+1627,North America,Mexico,2020-08-30,37.647,9,Country_9
+1628,North America,Mexico,2020-09-06,35.431,9,Country_9
+1629,North America,Mexico,2020-09-13,32.903,9,Country_9
+1630,North America,Mexico,2020-09-20,30.323,9,Country_9
+1631,North America,Mexico,2020-09-27,27.872,9,Country_9
+1632,North America,Mexico,2020-10-04,25.703,9,Country_9
+1633,North America,Mexico,2020-10-11,23.936,9,Country_9
+1634,North America,Mexico,2020-10-18,22.769,9,Country_9
+1635,North America,Mexico,2020-10-25,22.266,9,Country_9
+1636,North America,Mexico,2020-11-01,22.409,9,Country_9
+1637,North America,Mexico,2020-11-08,23.0,9,Country_9
+1638,North America,Mexico,2020-11-15,23.808,9,Country_9
+1639,North America,Mexico,2020-11-22,25.066,9,Country_9
+1640,North America,Mexico,2020-11-29,26.827,9,Country_9
+1641,North America,Mexico,2020-12-06,28.559,9,Country_9
+1642,North America,Mexico,2020-12-13,30.281,9,Country_9
+1643,North America,Mexico,2020-12-20,32.322,9,Country_9
+1644,North America,Mexico,2020-12-27,34.891,9,Country_9
+1645,North America,Mexico,2021-01-03,38.242,9,Country_9
+1646,North America,Mexico,2021-01-10,42.637,9,Country_9
+1647,North America,Mexico,2021-01-17,47.886,9,Country_9
+1648,North America,Mexico,2021-01-24,54.208,9,Country_9
+1649,North America,Mexico,2021-01-31,59.643,9,Country_9
+1650,North America,Mexico,2021-02-07,63.155,9,Country_9
+1651,North America,Mexico,2021-02-14,64.226,9,Country_9
+1652,North America,Mexico,2021-02-21,62.847,9,Country_9
+1653,North America,Mexico,2021-02-28,59.281,9,Country_9
+1654,North America,Mexico,2021-03-07,53.84,9,Country_9
+1655,North America,Mexico,2021-03-14,46.596,9,Country_9
+1656,North America,Mexico,2021-03-21,39.185,9,Country_9
+1657,North America,Mexico,2021-03-28,32.631,9,Country_9
+1658,North America,Mexico,2021-04-04,27.636,9,Country_9
+1659,North America,Mexico,2021-04-11,23.982,9,Country_9
+1660,North America,Mexico,2021-04-18,21.152,9,Country_9
+1661,North America,Mexico,2021-04-25,18.6,9,Country_9
+1662,North America,Mexico,2021-05-02,16.347,9,Country_9
+1663,North America,Mexico,2021-05-09,14.423,9,Country_9
+1664,North America,Mexico,2021-05-16,12.766,9,Country_9
+1665,North America,Mexico,2021-05-23,11.146,9,Country_9
+1666,North America,Mexico,2021-05-30,9.674,9,Country_9
+1667,North America,Mexico,2021-06-06,8.252,9,Country_9
+1668,North America,Mexico,2021-06-13,7.24,9,Country_9
+1669,North America,Mexico,2021-06-20,6.44,9,Country_9
+1670,North America,Mexico,2021-06-27,5.998,9,Country_9
+1671,North America,Mexico,2021-07-04,5.962,9,Country_9
+1672,North America,Mexico,2021-07-11,6.283,9,Country_9
+1673,North America,Mexico,2021-07-18,7.083,9,Country_9
+1674,North America,Mexico,2021-07-25,8.812,9,Country_9
+1675,North America,Mexico,2021-08-01,11.531,9,Country_9
+1676,North America,Mexico,2021-08-08,15.458,9,Country_9
+1677,North America,Mexico,2021-08-15,20.097,9,Country_9
+1678,North America,Mexico,2021-08-22,25.247,9,Country_9
+1679,North America,Mexico,2021-08-29,30.205,9,Country_9
+1680,North America,Mexico,2021-09-05,34.287,9,Country_9
+1681,North America,Mexico,2021-09-12,36.936,9,Country_9
+1682,North America,Mexico,2021-09-19,37.849,9,Country_9
+1683,North America,Mexico,2021-09-26,36.98,9,Country_9
+1684,North America,Mexico,2021-10-03,34.688,9,Country_9
+1685,North America,Mexico,2021-10-10,31.171,9,Country_9
+1686,North America,Mexico,2021-10-17,27.213,9,Country_9
+1687,North America,Mexico,2021-10-24,23.325,9,Country_9
+1688,North America,Mexico,2021-10-31,19.755,9,Country_9
+1689,North America,Mexico,2021-11-07,16.628,9,Country_9
+1690,North America,Mexico,2021-11-14,13.935,9,Country_9
+1691,North America,Mexico,2021-11-21,11.808,9,Country_9
+1692,North America,Mexico,2021-11-28,10.17,9,Country_9
+1693,North America,Mexico,2021-12-05,8.976,9,Country_9
+1694,North America,Mexico,2021-12-12,8.158,9,Country_9
+1695,North America,Mexico,2021-12-19,7.567,9,Country_9
+1696,North America,Mexico,2021-12-26,7.176,9,Country_9
+1697,North America,Mexico,2022-01-02,6.905,9,Country_9
+1698,North America,Mexico,2022-01-09,6.842,9,Country_9
+1699,North America,Mexico,2022-01-16,7.356,9,Country_9
+1700,North America,Mexico,2022-01-23,8.986,9,Country_9
+1701,North America,Mexico,2022-01-30,12.011,9,Country_9
+1702,North America,Mexico,2022-02-06,15.431,9,Country_9
+1703,North America,Mexico,2022-02-13,18.23,9,Country_9
+1704,North America,Mexico,2022-02-20,20.04,9,Country_9
+1705,North America,Mexico,2022-02-27,20.781,9,Country_9
+1706,North America,Mexico,2022-03-06,20.272,9,Country_9
+1707,North America,Mexico,2022-03-13,18.184,9,Country_9
+1708,North America,Mexico,2022-03-20,14.538,9,Country_9
+1709,North America,Mexico,2022-03-27,10.402,9,Country_9
+1710,North America,Mexico,2022-04-03,6.867,9,Country_9
+1711,North America,Mexico,2022-04-10,4.326,9,Country_9
+1712,North America,Mexico,2022-04-17,2.645,9,Country_9
+1713,North America,Mexico,2022-04-24,1.682,9,Country_9
+1714,North America,Mexico,2022-05-01,1.132,9,Country_9
+1715,North America,Mexico,2022-05-08,0.788,9,Country_9
+1716,North America,Mexico,2022-05-15,0.592,9,Country_9
+1717,North America,Mexico,2022-05-22,0.465,9,Country_9
+1718,North America,Mexico,2022-05-29,0.376,9,Country_9
+1719,North America,Mexico,2022-06-05,0.336,9,Country_9
+1720,North America,Mexico,2022-06-12,0.299,9,Country_9
+1721,North America,Mexico,2022-06-19,0.338,9,Country_9
+1722,North America,Mexico,2022-06-26,0.424,9,Country_9
+1723,North America,Mexico,2022-07-03,0.594,9,Country_9
+1724,North America,Mexico,2022-07-10,0.902,9,Country_9
+1725,North America,Mexico,2022-07-17,1.486,9,Country_9
+1726,North America,Mexico,2022-07-24,2.127,9,Country_9
+1727,North America,Mexico,2022-07-31,2.8,9,Country_9
+1728,North America,Mexico,2022-08-07,3.383,9,Country_9
+1729,North America,Mexico,2022-08-14,3.724,9,Country_9
+1730,North America,Mexico,2022-08-21,3.843,9,Country_9
+1731,North America,Mexico,2022-08-28,3.749,9,Country_9
+1732,North America,Mexico,2022-09-04,3.314,9,Country_9
+1733,North America,Mexico,2022-09-11,2.752,9,Country_9
+1734,North America,Mexico,2022-09-18,2.133,9,Country_9
+1735,North America,Mexico,2022-09-25,1.527,9,Country_9
+1736,North America,Mexico,2022-10-02,1.115,9,Country_9
+1737,North America,Mexico,2022-10-09,0.847,9,Country_9
+1738,North America,Mexico,2022-10-16,0.613,9,Country_9
+1739,North America,Mexico,2022-10-23,0.449,9,Country_9
+1740,North America,Mexico,2022-10-30,0.36,9,Country_9
+1741,North America,Mexico,2022-11-06,0.29,9,Country_9
+1742,North America,Mexico,2022-11-13,0.25,9,Country_9
+1743,North America,Mexico,2022-11-20,0.225,9,Country_9
+1744,North America,Mexico,2022-11-27,0.19,9,Country_9
+1745,North America,Mexico,2022-12-04,0.234,9,Country_9
+1746,North America,Mexico,2022-12-11,0.283,9,Country_9
+1747,North America,Mexico,2022-12-18,0.387,9,Country_9
+1748,North America,Mexico,2022-12-25,0.538,9,Country_9
+1749,North America,Mexico,2023-01-01,0.747,9,Country_9
+1750,North America,Mexico,2023-01-08,1.024,9,Country_9
+1751,North America,Mexico,2023-01-15,1.337,9,Country_9
+1752,North America,Mexico,2023-01-22,1.561,9,Country_9
+1753,North America,Mexico,2023-01-29,1.765,9,Country_9
+1754,North America,Mexico,2023-02-05,1.851,9,Country_9
+1755,North America,Mexico,2023-02-12,1.839,9,Country_9
+1756,North America,Mexico,2023-02-19,1.798,9,Country_9
+1757,North America,Mexico,2023-02-26,1.616,9,Country_9
+1758,North America,Mexico,2023-03-05,1.388,9,Country_9
+1759,North America,Mexico,2023-03-12,1.216,9,Country_9
+1760,North America,Mexico,2023-03-19,1.017,9,Country_9
+1761,North America,Mexico,2023-03-26,0.924,9,Country_9
+1762,North America,Mexico,2023-04-02,0.866,9,Country_9
+1763,North America,Mexico,2023-04-09,0.77,9,Country_9
+1764,North America,Mexico,2023-04-16,0.716,9,Country_9
+1765,North America,Mexico,2023-04-23,0.688,9,Country_9
+1766,North America,Mexico,2023-04-30,0.649,9,Country_9
+1767,North America,Mexico,2023-05-07,0.626,9,Country_9
+1768,North America,Mexico,2023-05-14,0.545,9,Country_9
+1769,North America,Mexico,2023-05-21,0.437,9,Country_9
+1770,North America,Mexico,2023-05-28,0.399,9,Country_9
+1771,North America,Mexico,2023-06-04,0.363,9,Country_9
+1772,North America,Mexico,2023-06-11,0.326,9,Country_9
+1773,North America,Mexico,2023-06-18,0.283,9,Country_9
+1774,North America,Mexico,2023-06-25,0.26,9,Country_9
+1775,North America,Mexico,2023-07-02,0.253,9,Country_9
+1776,North America,Mexico,2023-07-09,0.279,9,Country_9
+1777,North America,Mexico,2023-07-16,0.25,9,Country_9
+1778,North America,Mexico,2023-07-23,0.232,9,Country_9
+1779,North America,Mexico,2023-07-30,0.225,9,Country_9
+1780,North America,Mexico,2023-08-06,0.222,9,Country_9
+1781,North America,Mexico,2023-08-13,0.222,9,Country_9
+1782,North America,Mexico,2023-08-20,0.23,9,Country_9
+1783,North America,Mexico,2023-08-27,0.26,9,Country_9
+1784,North America,Mexico,2023-09-03,0.276,9,Country_9
+1785,North America,Mexico,2023-09-10,0.309,9,Country_9
+1786,North America,Mexico,2023-09-17,0.31,9,Country_9
+1787,North America,Mexico,2023-09-24,0.32,9,Country_9
+1788,North America,Mexico,2023-10-01,0.331,9,Country_9
+1789,North America,Mexico,2023-10-08,0.318,9,Country_9
+1790,North America,Mexico,2023-10-15,0.29,9,Country_9
+1791,North America,Mexico,2023-10-22,0.266,9,Country_9
+1792,North America,Mexico,2023-10-29,0.22,9,Country_9
+1793,North America,Mexico,2023-11-05,0.197,9,Country_9
+1794,North America,Mexico,2023-11-12,0.161,9,Country_9
+1795,North America,Mexico,2023-11-19,0.121,9,Country_9
+1796,North America,Mexico,2023-11-26,0.1,9,Country_9
+1797,North America,Mexico,2023-12-03,0.082,9,Country_9
+1798,North America,Mexico,2023-12-10,0.066,9,Country_9
+1799,North America,Mexico,2023-12-17,0.064,9,Country_9
+1800,North America,Mexico,2023-12-24,0.054,9,Country_9
+1801,North America,Mexico,2023-12-31,0.048,9,Country_9
+1802,Oceania,Australia,2020-02-09,0.0,10,Country_10
+1803,Oceania,Australia,2020-02-16,0.0,10,Country_10
+1804,Oceania,Australia,2020-02-23,0.0,10,Country_10
+1805,Oceania,Australia,2020-03-01,0.0,10,Country_10
+1806,Oceania,Australia,2020-03-08,0.022,10,Country_10
+1807,Oceania,Australia,2020-03-15,0.038,10,Country_10
+1808,Oceania,Australia,2020-03-22,0.049,10,Country_10
+1809,Oceania,Australia,2020-03-29,0.087,10,Country_10
+1810,Oceania,Australia,2020-04-05,0.196,10,Country_10
+1811,Oceania,Australia,2020-04-12,0.333,10,Country_10
+1812,Oceania,Australia,2020-04-19,0.398,10,Country_10
+1813,Oceania,Australia,2020-04-26,0.442,10,Country_10
+1814,Oceania,Australia,2020-05-03,0.502,10,Country_10
+1815,Oceania,Australia,2020-05-10,0.502,10,Country_10
+1816,Oceania,Australia,2020-05-17,0.475,10,Country_10
+1817,Oceania,Australia,2020-05-24,0.387,10,Country_10
+1818,Oceania,Australia,2020-05-31,0.251,10,Country_10
+1819,Oceania,Australia,2020-06-07,0.186,10,Country_10
+1820,Oceania,Australia,2020-06-14,0.12,10,Country_10
+1821,Oceania,Australia,2020-06-21,0.044,10,Country_10
+1822,Oceania,Australia,2020-06-28,0.038,10,Country_10
+1823,Oceania,Australia,2020-07-05,0.033,10,Country_10
+1824,Oceania,Australia,2020-07-12,0.033,10,Country_10
+1825,Oceania,Australia,2020-07-19,0.12,10,Country_10
+1826,Oceania,Australia,2020-07-26,0.366,10,Country_10
+1827,Oceania,Australia,2020-08-02,0.884,10,Country_10
+1828,Oceania,Australia,2020-08-09,1.463,10,Country_10
+1829,Oceania,Australia,2020-08-16,2.21,10,Country_10
+1830,Oceania,Australia,2020-08-23,2.827,10,Country_10
+1831,Oceania,Australia,2020-08-30,3.334,10,Country_10
+1832,Oceania,Australia,2020-09-06,3.564,10,Country_10
+1833,Oceania,Australia,2020-09-13,3.569,10,Country_10
+1834,Oceania,Australia,2020-09-20,3.247,10,Country_10
+1835,Oceania,Australia,2020-09-27,2.794,10,Country_10
+1836,Oceania,Australia,2020-10-04,2.145,10,Country_10
+1837,Oceania,Australia,2020-10-11,1.55,10,Country_10
+1838,Oceania,Australia,2020-10-18,1.026,10,Country_10
+1839,Oceania,Australia,2020-10-25,0.72,10,Country_10
+1840,Oceania,Australia,2020-11-01,0.469,10,Country_10
+1841,Oceania,Australia,2020-11-08,0.273,10,Country_10
+1842,Oceania,Australia,2020-11-15,0.164,10,Country_10
+1843,Oceania,Australia,2020-11-22,0.06,10,Country_10
+1844,Oceania,Australia,2020-11-29,0.038,10,Country_10
+1845,Oceania,Australia,2020-12-06,0.038,10,Country_10
+1846,Oceania,Australia,2020-12-13,0.027,10,Country_10
+1847,Oceania,Australia,2020-12-20,0.027,10,Country_10
+1848,Oceania,Australia,2020-12-27,0.033,10,Country_10
+1849,Oceania,Australia,2021-01-03,0.027,10,Country_10
+1850,Oceania,Australia,2021-01-10,0.027,10,Country_10
+1851,Oceania,Australia,2021-01-17,0.027,10,Country_10
+1852,Oceania,Australia,2021-01-24,0.022,10,Country_10
+1853,Oceania,Australia,2021-01-31,0.022,10,Country_10
+1854,Oceania,Australia,2021-02-07,0.022,10,Country_10
+1855,Oceania,Australia,2021-02-14,0.016,10,Country_10
+1856,Oceania,Australia,2021-02-21,0.011,10,Country_10
+1857,Oceania,Australia,2021-02-28,0.011,10,Country_10
+1858,Oceania,Australia,2021-03-07,0.005,10,Country_10
+1859,Oceania,Australia,2021-03-14,0.011,10,Country_10
+1860,Oceania,Australia,2021-03-21,0.011,10,Country_10
+1861,Oceania,Australia,2021-03-28,0.011,10,Country_10
+1862,Oceania,Australia,2021-04-04,0.016,10,Country_10
+1863,Oceania,Australia,2021-04-11,0.011,10,Country_10
+1864,Oceania,Australia,2021-04-18,0.022,10,Country_10
+1865,Oceania,Australia,2021-04-25,0.022,10,Country_10
+1866,Oceania,Australia,2021-05-02,0.016,10,Country_10
+1867,Oceania,Australia,2021-05-09,0.016,10,Country_10
+1868,Oceania,Australia,2021-05-16,0.016,10,Country_10
+1869,Oceania,Australia,2021-05-23,0.011,10,Country_10
+1870,Oceania,Australia,2021-05-30,0.011,10,Country_10
+1871,Oceania,Australia,2021-06-06,0.0,10,Country_10
+1872,Oceania,Australia,2021-06-13,0.0,10,Country_10
+1873,Oceania,Australia,2021-06-20,0.0,10,Country_10
+1874,Oceania,Australia,2021-06-27,0.0,10,Country_10
+1875,Oceania,Australia,2021-07-04,0.0,10,Country_10
+1876,Oceania,Australia,2021-07-11,0.011,10,Country_10
+1877,Oceania,Australia,2021-07-18,0.038,10,Country_10
+1878,Oceania,Australia,2021-07-25,0.065,10,Country_10
+1879,Oceania,Australia,2021-08-01,0.104,10,Country_10
+1880,Oceania,Australia,2021-08-08,0.191,10,Country_10
+1881,Oceania,Australia,2021-08-15,0.338,10,Country_10
+1882,Oceania,Australia,2021-08-22,0.458,10,Country_10
+1883,Oceania,Australia,2021-08-29,0.557,10,Country_10
+1884,Oceania,Australia,2021-09-05,0.813,10,Country_10
+1885,Oceania,Australia,2021-09-12,1.091,10,Country_10
+1886,Oceania,Australia,2021-09-19,1.473,10,Country_10
+1887,Oceania,Australia,2021-09-26,1.905,10,Country_10
+1888,Oceania,Australia,2021-10-03,2.358,10,Country_10
+1889,Oceania,Australia,2021-10-10,2.887,10,Country_10
+1890,Oceania,Australia,2021-10-17,3.351,10,Country_10
+1891,Oceania,Australia,2021-10-24,3.656,10,Country_10
+1892,Oceania,Australia,2021-10-31,3.962,10,Country_10
+1893,Oceania,Australia,2021-11-07,4.071,10,Country_10
+1894,Oceania,Australia,2021-11-14,3.913,10,Country_10
+1895,Oceania,Australia,2021-11-21,3.755,10,Country_10
+1896,Oceania,Australia,2021-11-28,3.411,10,Country_10
+1897,Oceania,Australia,2021-12-05,3.122,10,Country_10
+1898,Oceania,Australia,2021-12-12,2.729,10,Country_10
+1899,Oceania,Australia,2021-12-19,2.412,10,Country_10
+1900,Oceania,Australia,2021-12-26,2.259,10,Country_10
+1901,Oceania,Australia,2022-01-02,2.461,10,Country_10
+1902,Oceania,Australia,2022-01-09,3.214,10,Country_10
+1903,Oceania,Australia,2022-01-16,5.31,10,Country_10
+1904,Oceania,Australia,2022-01-23,8.628,10,Country_10
+1905,Oceania,Australia,2022-01-30,12.088,10,Country_10
+1906,Oceania,Australia,2022-02-06,14.964,10,Country_10
+1907,Oceania,Australia,2022-02-13,16.967,10,Country_10
+1908,Oceania,Australia,2022-02-20,18.173,10,Country_10
+1909,Oceania,Australia,2022-02-27,18.298,10,Country_10
+1910,Oceania,Australia,2022-03-06,16.721,10,Country_10
+1911,Oceania,Australia,2022-03-13,13.883,10,Country_10
+1912,Oceania,Australia,2022-03-20,10.985,10,Country_10
+1913,Oceania,Australia,2022-03-27,8.628,10,Country_10
+1914,Oceania,Australia,2022-04-03,7.34,10,Country_10
+1915,Oceania,Australia,2022-04-10,6.652,10,Country_10
+1916,Oceania,Australia,2022-04-17,6.696,10,Country_10
+1917,Oceania,Australia,2022-04-24,7.591,10,Country_10
+1918,Oceania,Australia,2022-05-01,8.437,10,Country_10
+1919,Oceania,Australia,2022-05-08,9.397,10,Country_10
+1920,Oceania,Australia,2022-05-15,10.434,10,Country_10
+1921,Oceania,Australia,2022-05-22,11.073,10,Country_10
+1922,Oceania,Australia,2022-05-29,11.87,10,Country_10
+1923,Oceania,Australia,2022-06-05,12.552,10,Country_10
+1924,Oceania,Australia,2022-06-12,12.639,10,Country_10
+1925,Oceania,Australia,2022-06-19,12.906,10,Country_10
+1926,Oceania,Australia,2022-06-26,12.956,10,Country_10
+1927,Oceania,Australia,2022-07-03,12.983,10,Country_10
+1928,Oceania,Australia,2022-07-10,13.436,10,Country_10
+1929,Oceania,Australia,2022-07-17,14.02,10,Country_10
+1930,Oceania,Australia,2022-07-24,15.286,10,Country_10
+1931,Oceania,Australia,2022-07-31,16.852,10,Country_10
+1932,Oceania,Australia,2022-08-07,18.265,10,Country_10
+1933,Oceania,Australia,2022-08-14,19.368,10,Country_10
+1934,Oceania,Australia,2022-08-21,19.537,10,Country_10
+1935,Oceania,Australia,2022-08-28,19.15,10,Country_10
+1936,Oceania,Australia,2022-09-04,17.998,10,Country_10
+1937,Oceania,Australia,2022-09-11,15.853,10,Country_10
+1938,Oceania,Australia,2022-09-18,13.485,10,Country_10
+1939,Oceania,Australia,2022-09-25,10.996,10,Country_10
+1940,Oceania,Australia,2022-10-02,8.743,10,Country_10
+1941,Oceania,Australia,2022-10-09,7.253,10,Country_10
+1942,Oceania,Australia,2022-10-16,5.861,10,Country_10
+1943,Oceania,Australia,2022-10-23,5.113,10,Country_10
+1944,Oceania,Australia,2022-10-30,4.409,10,Country_10
+1945,Oceania,Australia,2022-11-06,4.011,10,Country_10
+1946,Oceania,Australia,2022-11-13,3.842,10,Country_10
+1947,Oceania,Australia,2022-11-20,4.066,10,Country_10
+1948,Oceania,Australia,2022-11-27,4.48,10,Country_10
+1949,Oceania,Australia,2022-12-04,5.49,10,Country_10
+1950,Oceania,Australia,2022-12-11,6.412,10,Country_10
+1951,Oceania,Australia,2022-12-18,7.58,10,Country_10
+1952,Oceania,Australia,2022-12-25,8.797,10,Country_10
+1953,Oceania,Australia,2023-01-01,14.134,10,Country_10
+1954,Oceania,Australia,2023-01-08,13.294,10,Country_10
+1955,Oceania,Australia,2023-01-15,12.323,10,Country_10
+1956,Oceania,Australia,2023-01-22,10.909,10,Country_10
+1957,Oceania,Australia,2023-01-29,9.425,10,Country_10
+1958,Oceania,Australia,2023-02-05,14.129,10,Country_10
+1959,Oceania,Australia,2023-02-12,12.83,10,Country_10
+1960,Oceania,Australia,2023-02-19,7.345,10,Country_10
+1961,Oceania,Australia,2023-02-26,7.837,10,Country_10
+1962,Oceania,Australia,2023-03-05,8.262,10,Country_10
+1963,Oceania,Australia,2023-03-12,8.688,10,Country_10
+1964,Oceania,Australia,2023-03-19,9.168,10,Country_10
+1965,Oceania,Australia,2023-03-26,3.34,10,Country_10
+1966,Oceania,Australia,2023-04-02,3.378,10,Country_10
+1967,Oceania,Australia,2023-04-09,3.564,10,Country_10
+1968,Oceania,Australia,2023-04-16,3.787,10,Country_10
+1969,Oceania,Australia,2023-04-23,4.158,10,Country_10
+1970,Oceania,Australia,2023-04-30,4.579,10,Country_10
+1971,Oceania,Australia,2023-05-07,5.043,10,Country_10
+1972,Oceania,Australia,2023-05-14,5.479,10,Country_10
+1973,Oceania,Australia,2023-05-21,5.845,10,Country_10
+1974,Oceania,Australia,2023-05-28,6.336,10,Country_10
+1975,Oceania,Australia,2023-06-04,6.887,10,Country_10
+1976,Oceania,Australia,2023-06-11,7.324,10,Country_10
+1977,Oceania,Australia,2023-06-18,7.476,10,Country_10
+1978,Oceania,Australia,2023-06-25,6.854,10,Country_10
+1979,Oceania,Australia,2023-07-02,5.91,10,Country_10
+1980,Oceania,Australia,2023-07-09,4.982,10,Country_10
+1981,Oceania,Australia,2023-07-23,3.018,10,Country_10
+1982,Oceania,Australia,2023-07-30,2.112,10,Country_10
+1983,Oceania,Australia,2023-08-06,1.479,10,Country_10
+1984,Oceania,Australia,2023-08-13,1.157,10,Country_10
+1985,Oceania,Australia,2023-08-20,1.463,10,Country_10
+1986,Oceania,Australia,2023-08-27,1.752,10,Country_10
+1987,Oceania,Australia,2023-09-03,1.965,10,Country_10
+1988,Oceania,Australia,2023-09-10,1.719,10,Country_10
+1989,Oceania,Australia,2023-09-17,1.599,10,Country_10
+1990,Oceania,Australia,2023-09-24,1.435,10,Country_10
+1991,Oceania,Australia,2023-10-01,1.615,10,Country_10
+1992,Oceania,Australia,2023-10-08,1.735,10,Country_10
+1993,Oceania,Australia,2023-10-15,1.692,10,Country_10
+1994,Oceania,Australia,2023-10-22,1.763,10,Country_10
+1995,Oceania,Australia,2023-10-29,1.937,10,Country_10
+1996,Oceania,Australia,2023-11-05,2.008,10,Country_10
+1997,Oceania,Australia,2023-11-12,1.806,10,Country_10
+1998,Oceania,Australia,2023-11-19,2.74,10,Country_10
+1999,Oceania,Australia,2023-11-26,2.8,10,Country_10
+2000,Oceania,Australia,2023-12-03,3.384,10,Country_10
+2001,Oceania,Australia,2023-12-10,3.514,10,Country_10
+2002,Oceania,Australia,2023-12-17,3.367,10,Country_10
+2003,Oceania,Australia,2023-12-24,3.203,10,Country_10
+2004,Oceania,Australia,2023-12-31,3.203,10,Country_10
+2005,Oceania,New Zealand,2020-02-09,0.0,11,Country_11
+2006,Oceania,New Zealand,2020-02-16,0.0,11,Country_11
+2007,Oceania,New Zealand,2020-02-23,0.0,11,Country_11
+2008,Oceania,New Zealand,2020-03-01,0.0,11,Country_11
+2009,Oceania,New Zealand,2020-03-08,0.0,11,Country_11
+2010,Oceania,New Zealand,2020-03-15,0.0,11,Country_11
+2011,Oceania,New Zealand,2020-03-22,0.0,11,Country_11
+2012,Oceania,New Zealand,2020-03-29,0.028,11,Country_11
+2013,Oceania,New Zealand,2020-04-05,0.028,11,Country_11
+2014,Oceania,New Zealand,2020-04-12,0.11,11,Country_11
+2015,Oceania,New Zealand,2020-04-19,0.303,11,Country_11
+2016,Oceania,New Zealand,2020-04-26,0.496,11,Country_11
+2017,Oceania,New Zealand,2020-05-03,0.551,11,Country_11
+2018,Oceania,New Zealand,2020-05-10,0.579,11,Country_11
+2019,Oceania,New Zealand,2020-05-17,0.551,11,Country_11
+2020,Oceania,New Zealand,2020-05-24,0.551,11,Country_11
+2021,Oceania,New Zealand,2020-05-31,0.496,11,Country_11
+2022,Oceania,New Zealand,2020-06-07,0.303,11,Country_11
+2023,Oceania,New Zealand,2020-06-14,0.11,11,Country_11
+2024,Oceania,New Zealand,2020-06-21,0.055,11,Country_11
+2025,Oceania,New Zealand,2020-06-28,0.028,11,Country_11
+2026,Oceania,New Zealand,2020-07-05,0.028,11,Country_11
+2027,Oceania,New Zealand,2020-07-12,0.028,11,Country_11
+2028,Oceania,New Zealand,2020-07-19,0.0,11,Country_11
+2029,Oceania,New Zealand,2020-07-26,0.0,11,Country_11
+2030,Oceania,New Zealand,2020-08-02,0.0,11,Country_11
+2031,Oceania,New Zealand,2020-08-09,0.0,11,Country_11
+2032,Oceania,New Zealand,2020-08-16,0.0,11,Country_11
+2033,Oceania,New Zealand,2020-08-23,0.0,11,Country_11
+2034,Oceania,New Zealand,2020-08-30,0.0,11,Country_11
+2035,Oceania,New Zealand,2020-09-06,0.055,11,Country_11
+2036,Oceania,New Zealand,2020-09-13,0.055,11,Country_11
+2037,Oceania,New Zealand,2020-09-20,0.083,11,Country_11
+2038,Oceania,New Zealand,2020-09-27,0.083,11,Country_11
+2039,Oceania,New Zealand,2020-10-04,0.083,11,Country_11
+2040,Oceania,New Zealand,2020-10-11,0.083,11,Country_11
+2041,Oceania,New Zealand,2020-10-18,0.083,11,Country_11
+2042,Oceania,New Zealand,2020-10-25,0.028,11,Country_11
+2043,Oceania,New Zealand,2020-11-01,0.028,11,Country_11
+2044,Oceania,New Zealand,2020-11-08,0.0,11,Country_11
+2045,Oceania,New Zealand,2020-11-15,0.0,11,Country_11
+2046,Oceania,New Zealand,2020-11-22,0.0,11,Country_11
+2047,Oceania,New Zealand,2020-11-29,0.0,11,Country_11
+2048,Oceania,New Zealand,2020-12-06,0.0,11,Country_11
+2049,Oceania,New Zealand,2020-12-13,0.0,11,Country_11
+2050,Oceania,New Zealand,2020-12-20,0.0,11,Country_11
+2051,Oceania,New Zealand,2020-12-27,0.0,11,Country_11
+2052,Oceania,New Zealand,2021-01-03,0.0,11,Country_11
+2053,Oceania,New Zealand,2021-01-10,0.0,11,Country_11
+2054,Oceania,New Zealand,2021-01-17,0.0,11,Country_11
+2055,Oceania,New Zealand,2021-01-24,0.0,11,Country_11
+2056,Oceania,New Zealand,2021-01-31,0.0,11,Country_11
+2057,Oceania,New Zealand,2021-02-07,0.0,11,Country_11
+2058,Oceania,New Zealand,2021-02-14,0.0,11,Country_11
+2059,Oceania,New Zealand,2021-02-21,0.028,11,Country_11
+2060,Oceania,New Zealand,2021-02-28,0.028,11,Country_11
+2061,Oceania,New Zealand,2021-03-07,0.028,11,Country_11
+2062,Oceania,New Zealand,2021-03-14,0.028,11,Country_11
+2063,Oceania,New Zealand,2021-03-21,0.028,11,Country_11
+2064,Oceania,New Zealand,2021-03-28,0.028,11,Country_11
+2065,Oceania,New Zealand,2021-04-04,0.028,11,Country_11
+2066,Oceania,New Zealand,2021-04-11,0.0,11,Country_11
+2067,Oceania,New Zealand,2021-04-18,0.0,11,Country_11
+2068,Oceania,New Zealand,2021-04-25,0.0,11,Country_11
+2069,Oceania,New Zealand,2021-05-02,0.0,11,Country_11
+2070,Oceania,New Zealand,2021-05-09,0.0,11,Country_11
+2071,Oceania,New Zealand,2021-05-16,0.0,11,Country_11
+2072,Oceania,New Zealand,2021-05-23,0.0,11,Country_11
+2073,Oceania,New Zealand,2021-05-30,0.0,11,Country_11
+2074,Oceania,New Zealand,2021-06-06,0.0,11,Country_11
+2075,Oceania,New Zealand,2021-06-13,0.0,11,Country_11
+2076,Oceania,New Zealand,2021-06-20,0.0,11,Country_11
+2077,Oceania,New Zealand,2021-06-27,0.0,11,Country_11
+2078,Oceania,New Zealand,2021-07-04,0.0,11,Country_11
+2079,Oceania,New Zealand,2021-07-11,0.0,11,Country_11
+2080,Oceania,New Zealand,2021-07-18,0.0,11,Country_11
+2081,Oceania,New Zealand,2021-07-25,0.0,11,Country_11
+2082,Oceania,New Zealand,2021-08-01,0.0,11,Country_11
+2083,Oceania,New Zealand,2021-08-08,0.0,11,Country_11
+2084,Oceania,New Zealand,2021-08-15,0.0,11,Country_11
+2085,Oceania,New Zealand,2021-08-22,0.0,11,Country_11
+2086,Oceania,New Zealand,2021-08-29,0.0,11,Country_11
+2087,Oceania,New Zealand,2021-09-05,0.028,11,Country_11
+2088,Oceania,New Zealand,2021-09-12,0.028,11,Country_11
+2089,Oceania,New Zealand,2021-09-19,0.028,11,Country_11
+2090,Oceania,New Zealand,2021-09-26,0.028,11,Country_11
+2091,Oceania,New Zealand,2021-10-03,0.028,11,Country_11
+2092,Oceania,New Zealand,2021-10-10,0.055,11,Country_11
+2093,Oceania,New Zealand,2021-10-17,0.055,11,Country_11
+2094,Oceania,New Zealand,2021-10-24,0.028,11,Country_11
+2095,Oceania,New Zealand,2021-10-31,0.028,11,Country_11
+2096,Oceania,New Zealand,2021-11-07,0.138,11,Country_11
+2097,Oceania,New Zealand,2021-11-14,0.165,11,Country_11
+2098,Oceania,New Zealand,2021-11-21,0.358,11,Country_11
+2099,Oceania,New Zealand,2021-11-28,0.413,11,Country_11
+2100,Oceania,New Zealand,2021-12-05,0.441,11,Country_11
+2101,Oceania,New Zealand,2021-12-12,0.523,11,Country_11
+2102,Oceania,New Zealand,2021-12-19,0.579,11,Country_11
+2103,Oceania,New Zealand,2021-12-26,0.496,11,Country_11
+2104,Oceania,New Zealand,2022-01-02,0.496,11,Country_11
+2105,Oceania,New Zealand,2022-01-09,0.303,11,Country_11
+2106,Oceania,New Zealand,2022-01-16,0.248,11,Country_11
+2107,Oceania,New Zealand,2022-01-23,0.22,11,Country_11
+2108,Oceania,New Zealand,2022-01-30,0.138,11,Country_11
+2109,Oceania,New Zealand,2022-02-06,0.11,11,Country_11
+2110,Oceania,New Zealand,2022-02-13,0.083,11,Country_11
+2111,Oceania,New Zealand,2022-02-20,0.055,11,Country_11
+2112,Oceania,New Zealand,2022-02-27,0.138,11,Country_11
+2113,Oceania,New Zealand,2022-03-06,0.358,11,Country_11
+2114,Oceania,New Zealand,2022-03-13,1.378,11,Country_11
+2115,Oceania,New Zealand,2022-03-20,3.058,11,Country_11
+2116,Oceania,New Zealand,2022-03-27,4.904,11,Country_11
+2117,Oceania,New Zealand,2022-04-03,8.541,11,Country_11
+2118,Oceania,New Zealand,2022-04-10,11.461,11,Country_11
+2119,Oceania,New Zealand,2022-04-17,13.996,11,Country_11
+2120,Oceania,New Zealand,2022-04-24,15.952,11,Country_11
+2121,Oceania,New Zealand,2022-05-01,16.833,11,Country_11
+2122,Oceania,New Zealand,2022-05-08,17.88,11,Country_11
+2123,Oceania,New Zealand,2022-05-15,19.23,11,Country_11
+2124,Oceania,New Zealand,2022-05-22,18.018,11,Country_11
+2125,Oceania,New Zealand,2022-05-29,17.715,11,Country_11
+2126,Oceania,New Zealand,2022-06-05,17.357,11,Country_11
+2127,Oceania,New Zealand,2022-06-12,17.687,11,Country_11
+2128,Oceania,New Zealand,2022-06-19,17.55,11,Country_11
+2129,Oceania,New Zealand,2022-06-26,17.219,11,Country_11
+2130,Oceania,New Zealand,2022-07-03,16.668,11,Country_11
+2131,Oceania,New Zealand,2022-07-10,17.302,11,Country_11
+2132,Oceania,New Zealand,2022-07-17,19.037,11,Country_11
+2133,Oceania,New Zealand,2022-07-24,23.28,11,Country_11
+2134,Oceania,New Zealand,2022-07-31,22.288,11,Country_11
+2135,Oceania,New Zealand,2022-08-07,20.525,11,Country_11
+2136,Oceania,New Zealand,2022-08-14,18.128,11,Country_11
+2137,Oceania,New Zealand,2022-08-21,15.456,11,Country_11
+2138,Oceania,New Zealand,2022-08-28,12.398,11,Country_11
+2139,Oceania,New Zealand,2022-09-04,8.045,11,Country_11
+2140,Oceania,New Zealand,2022-09-11,1.543,11,Country_11
+2141,Oceania,New Zealand,2022-09-18,0.0,11,Country_11
+2142,Oceania,New Zealand,2022-09-25,0.0,11,Country_11
+2143,Oceania,New Zealand,2022-10-02,0.0,11,Country_11
+2144,Oceania,New Zealand,2022-10-09,0.0,11,Country_11
+2145,Oceania,New Zealand,2022-10-16,0.0,11,Country_11
+2146,Oceania,New Zealand,2022-10-23,0.0,11,Country_11
+2147,Oceania,New Zealand,2022-10-30,0.661,11,Country_11
+2148,Oceania,New Zealand,2022-11-06,0.661,11,Country_11
+2149,Oceania,New Zealand,2022-11-13,2.397,11,Country_11
+2150,Oceania,New Zealand,2022-11-20,2.397,11,Country_11
+2151,Oceania,New Zealand,2022-11-27,3.223,11,Country_11
+2152,Oceania,New Zealand,2022-12-04,3.857,11,Country_11
+2153,Oceania,New Zealand,2022-12-11,4.463,11,Country_11
+2154,Oceania,New Zealand,2022-12-18,4.656,11,Country_11
+2155,Oceania,New Zealand,2022-12-25,4.656,11,Country_11
+2156,Oceania,New Zealand,2023-01-01,4.105,11,Country_11
+2157,Oceania,New Zealand,2023-01-08,4.105,11,Country_11
+2158,Oceania,New Zealand,2023-01-15,3.279,11,Country_11
+2159,Oceania,New Zealand,2023-01-22,2.645,11,Country_11
+2160,Oceania,New Zealand,2023-01-29,2.039,11,Country_11
+2161,Oceania,New Zealand,2023-02-05,5.207,11,Country_11
+2162,Oceania,New Zealand,2023-02-12,6.199,11,Country_11
+2163,Oceania,New Zealand,2023-02-19,5.593,11,Country_11
+2164,Oceania,New Zealand,2023-02-26,5.813,11,Country_11
+2165,Oceania,New Zealand,2023-03-05,5.978,11,Country_11
+2166,Oceania,New Zealand,2023-03-12,6.309,11,Country_11
+2167,Oceania,New Zealand,2023-03-19,7.025,11,Country_11
+2168,Oceania,New Zealand,2023-03-26,5.097,11,Country_11
+2169,Oceania,New Zealand,2023-04-02,4.794,11,Country_11
+2170,Oceania,New Zealand,2023-04-09,4.215,11,Country_11
+2171,Oceania,New Zealand,2023-04-16,4.794,11,Country_11
+2172,Oceania,New Zealand,2023-04-23,4.628,11,Country_11
+2173,Oceania,New Zealand,2023-04-30,4.849,11,Country_11
+2174,Oceania,New Zealand,2023-05-07,5.675,11,Country_11
+2175,Oceania,New Zealand,2023-05-14,3.582,11,Country_11
+2176,Oceania,New Zealand,2023-05-21,5.675,11,Country_11
+2177,Oceania,New Zealand,2023-05-28,7.025,11,Country_11
+2178,Oceania,New Zealand,2023-06-04,6.226,11,Country_11
+2179,Oceania,New Zealand,2023-06-11,8.871,11,Country_11
+2180,Oceania,New Zealand,2023-06-18,9.395,11,Country_11
+2181,Oceania,New Zealand,2023-06-25,7.852,11,Country_11
+2182,Oceania,New Zealand,2023-07-02,9.532,11,Country_11
+2183,Oceania,New Zealand,2023-07-09,7.328,11,Country_11
+2184,Oceania,New Zealand,2023-07-16,6.337,11,Country_11
+2185,Oceania,New Zealand,2023-07-23,6.777,11,Country_11
+2186,Oceania,New Zealand,2023-07-30,4.987,11,Country_11
+2187,Oceania,New Zealand,2023-08-06,4.188,11,Country_11
+2188,Oceania,New Zealand,2023-08-13,4.739,11,Country_11
+2189,Oceania,New Zealand,2023-08-20,3.058,11,Country_11
+2190,Oceania,New Zealand,2023-08-27,3.416,11,Country_11
+2191,Oceania,New Zealand,2023-09-03,3.058,11,Country_11
+2192,Oceania,New Zealand,2023-09-10,2.92,11,Country_11
+2193,Oceania,New Zealand,2023-09-17,2.48,11,Country_11
+2194,Oceania,New Zealand,2023-09-24,2.755,11,Country_11
+2195,Oceania,New Zealand,2023-10-01,2.7,11,Country_11
+2196,Oceania,New Zealand,2023-10-08,3.086,11,Country_11
+2197,Oceania,New Zealand,2023-10-15,2.562,11,Country_11
+2198,Oceania,New Zealand,2023-10-22,3.664,11,Country_11
+2199,Oceania,New Zealand,2023-10-29,3.361,11,Country_11
+2200,Oceania,New Zealand,2023-11-05,3.747,11,Country_11
+2201,Oceania,New Zealand,2023-11-12,3.719,11,Country_11
+2202,Oceania,New Zealand,2023-11-19,4.27,11,Country_11
+2203,Oceania,New Zealand,2023-11-26,4.436,11,Country_11
+2204,Oceania,New Zealand,2023-12-03,4.766,11,Country_11
+2205,Oceania,New Zealand,2023-12-10,4.215,11,Country_11
+2206,Oceania,New Zealand,2023-12-17,4.959,11,Country_11
+2207,Oceania,New Zealand,2023-12-24,4.904,11,Country_11
+2208,Oceania,New Zealand,2023-12-31,4.381,11,Country_11
+2209,Asia,China,2020-02-09,0.091,12,Country_12
+2210,Asia,China,2020-02-16,0.177,12,Country_12
+2211,Asia,China,2020-02-23,0.245,12,Country_12
+2212,Asia,China,2020-03-01,0.288,12,Country_12
+2213,Asia,China,2020-03-08,0.31,12,Country_12
+2214,Asia,China,2020-03-15,0.315,12,Country_12
+2215,Asia,China,2020-03-22,0.291,12,Country_12
+2216,Asia,China,2020-03-29,0.241,12,Country_12
+2217,Asia,China,2020-04-05,0.157,12,Country_12
+2218,Asia,China,2020-04-12,0.09,12,Country_12
+2219,Asia,China,2020-04-19,0.177,12,Country_12
+2220,Asia,China,2020-04-26,0.154,12,Country_12
+2221,Asia,China,2020-05-03,0.144,12,Country_12
+2222,Asia,China,2020-05-10,0.138,12,Country_12
+2223,Asia,China,2020-05-17,0.134,12,Country_12
+2224,Asia,China,2020-05-24,0.131,12,Country_12
+2225,Asia,China,2020-05-31,0.13,12,Country_12
+2226,Asia,China,2020-06-07,0.0,12,Country_12
+2227,Asia,China,2020-06-14,0.0,12,Country_12
+2228,Asia,China,2020-06-21,0.0,12,Country_12
+2229,Asia,China,2020-06-28,0.001,12,Country_12
+2230,Asia,China,2020-07-05,0.0,12,Country_12
+2231,Asia,China,2020-07-12,0.0,12,Country_12
+2232,Asia,China,2020-07-19,0.001,12,Country_12
+2233,Asia,China,2020-07-26,0.001,12,Country_12
+2234,Asia,China,2020-08-02,0.003,12,Country_12
+2235,Asia,China,2020-08-09,0.004,12,Country_12
+2236,Asia,China,2020-08-16,0.006,12,Country_12
+2237,Asia,China,2020-08-23,0.007,12,Country_12
+2238,Asia,China,2020-08-30,0.008,12,Country_12
+2239,Asia,China,2020-09-06,0.008,12,Country_12
+2240,Asia,China,2020-09-13,0.008,12,Country_12
+2241,Asia,China,2020-09-20,0.007,12,Country_12
+2242,Asia,China,2020-09-27,0.006,12,Country_12
+2243,Asia,China,2020-10-04,0.004,12,Country_12
+2244,Asia,China,2020-10-11,0.003,12,Country_12
+2245,Asia,China,2020-10-18,0.002,12,Country_12
+2246,Asia,China,2020-10-25,0.001,12,Country_12
+2247,Asia,China,2020-11-01,0.001,12,Country_12
+2248,Asia,China,2020-11-08,0.0,12,Country_12
+2249,Asia,China,2020-11-15,0.0,12,Country_12
+2250,Asia,China,2020-11-22,0.0,12,Country_12
+2251,Asia,China,2020-11-29,0.0,12,Country_12
+2252,Asia,China,2020-12-06,0.001,12,Country_12
+2253,Asia,China,2020-12-13,0.001,12,Country_12
+2254,Asia,China,2020-12-20,0.002,12,Country_12
+2255,Asia,China,2020-12-27,0.003,12,Country_12
+2256,Asia,China,2021-01-03,0.004,12,Country_12
+2257,Asia,China,2021-01-10,0.005,12,Country_12
+2258,Asia,China,2021-01-17,0.005,12,Country_12
+2259,Asia,China,2021-01-24,0.006,12,Country_12
+2260,Asia,China,2021-01-31,0.007,12,Country_12
+2261,Asia,China,2021-02-07,0.006,12,Country_12
+2262,Asia,China,2021-02-14,0.006,12,Country_12
+2263,Asia,China,2021-02-21,0.005,12,Country_12
+2264,Asia,China,2021-02-28,0.005,12,Country_12
+2265,Asia,China,2021-03-07,0.004,12,Country_12
+2266,Asia,China,2021-03-14,0.004,12,Country_12
+2267,Asia,China,2021-03-21,0.003,12,Country_12
+2268,Asia,China,2021-03-28,0.002,12,Country_12
+2269,Asia,China,2021-04-04,0.001,12,Country_12
+2270,Asia,China,2021-04-11,0.001,12,Country_12
+2271,Asia,China,2021-04-18,0.001,12,Country_12
+2272,Asia,China,2021-04-25,0.001,12,Country_12
+2273,Asia,China,2021-05-02,0.001,12,Country_12
+2274,Asia,China,2021-05-09,0.001,12,Country_12
+2275,Asia,China,2021-05-16,0.001,12,Country_12
+2276,Asia,China,2021-05-23,0.002,12,Country_12
+2277,Asia,China,2021-05-30,0.01,12,Country_12
+2278,Asia,China,2021-06-06,0.025,12,Country_12
+2279,Asia,China,2021-06-13,0.043,12,Country_12
+2280,Asia,China,2021-06-20,0.054,12,Country_12
+2281,Asia,China,2021-06-27,0.062,12,Country_12
+2282,Asia,China,2021-07-04,0.068,12,Country_12
+2283,Asia,China,2021-07-11,0.072,12,Country_12
+2284,Asia,China,2021-07-18,0.066,12,Country_12
+2285,Asia,China,2021-07-25,0.053,12,Country_12
+2286,Asia,China,2021-08-01,0.035,12,Country_12
+2287,Asia,China,2021-08-08,0.026,12,Country_12
+2288,Asia,China,2021-08-15,0.019,12,Country_12
+2289,Asia,China,2021-08-22,0.014,12,Country_12
+2290,Asia,China,2021-08-29,0.009,12,Country_12
+2291,Asia,China,2021-09-05,0.007,12,Country_12
+2292,Asia,China,2021-09-12,0.005,12,Country_12
+2293,Asia,China,2021-09-19,0.005,12,Country_12
+2294,Asia,China,2021-09-26,0.003,12,Country_12
+2295,Asia,China,2021-10-03,0.002,12,Country_12
+2296,Asia,China,2021-10-10,0.002,12,Country_12
+2297,Asia,China,2021-10-17,0.001,12,Country_12
+2298,Asia,China,2021-10-24,0.001,12,Country_12
+2299,Asia,China,2021-10-31,0.001,12,Country_12
+2300,Asia,China,2021-11-07,0.001,12,Country_12
+2301,Asia,China,2021-11-14,0.001,12,Country_12
+2302,Asia,China,2021-11-21,0.001,12,Country_12
+2303,Asia,China,2021-11-28,0.0,12,Country_12
+2304,Asia,China,2021-12-05,0.0,12,Country_12
+2305,Asia,China,2021-12-12,0.0,12,Country_12
+2306,Asia,China,2021-12-19,0.0,12,Country_12
+2307,Asia,China,2021-12-26,0.0,12,Country_12
+2308,Asia,China,2022-01-02,0.0,12,Country_12
+2309,Asia,China,2022-01-09,0.0,12,Country_12
+2310,Asia,China,2022-01-16,0.0,12,Country_12
+2311,Asia,China,2022-01-23,0.0,12,Country_12
+2312,Asia,China,2022-01-30,0.0,12,Country_12
+2313,Asia,China,2022-02-06,0.0,12,Country_12
+2314,Asia,China,2022-02-13,0.001,12,Country_12
+2315,Asia,China,2022-02-20,0.008,12,Country_12
+2316,Asia,China,2022-02-27,0.045,12,Country_12
+2317,Asia,China,2022-03-06,0.18,12,Country_12
+2318,Asia,China,2022-03-13,0.379,12,Country_12
+2319,Asia,China,2022-03-20,0.57,12,Country_12
+2320,Asia,China,2022-03-27,0.706,12,Country_12
+2321,Asia,China,2022-04-03,0.797,12,Country_12
+2322,Asia,China,2022-04-10,0.85,12,Country_12
+2323,Asia,China,2022-04-17,0.85,12,Country_12
+2324,Asia,China,2022-04-24,0.74,12,Country_12
+2325,Asia,China,2022-05-01,0.58,12,Country_12
+2326,Asia,China,2022-05-08,0.407,12,Country_12
+2327,Asia,China,2022-05-15,0.29,12,Country_12
+2328,Asia,China,2022-05-22,0.233,12,Country_12
+2329,Asia,China,2022-05-29,0.24,12,Country_12
+2330,Asia,China,2022-06-05,0.307,12,Country_12
+2331,Asia,China,2022-06-12,0.402,12,Country_12
+2332,Asia,China,2022-06-19,0.472,12,Country_12
+2333,Asia,China,2022-06-26,0.553,12,Country_12
+2334,Asia,China,2022-07-03,0.603,12,Country_12
+2335,Asia,China,2022-07-10,0.639,12,Country_12
+2336,Asia,China,2022-07-17,0.625,12,Country_12
+2337,Asia,China,2022-07-24,0.566,12,Country_12
+2338,Asia,China,2022-07-31,0.482,12,Country_12
+2339,Asia,China,2022-08-07,0.405,12,Country_12
+2340,Asia,China,2022-08-14,0.33,12,Country_12
+2341,Asia,China,2022-08-21,0.285,12,Country_12
+2342,Asia,China,2022-08-28,0.24,12,Country_12
+2343,Asia,China,2022-09-04,0.217,12,Country_12
+2344,Asia,China,2022-09-11,0.2,12,Country_12
+2345,Asia,China,2022-09-18,0.201,12,Country_12
+2346,Asia,China,2022-09-25,0.221,12,Country_12
+2347,Asia,China,2022-10-02,0.236,12,Country_12
+2348,Asia,China,2022-10-09,0.255,12,Country_12
+2349,Asia,China,2022-10-16,0.271,12,Country_12
+2350,Asia,China,2022-10-23,0.29,12,Country_12
+2351,Asia,China,2022-10-30,0.311,12,Country_12
+2352,Asia,China,2022-11-06,0.323,12,Country_12
+2353,Asia,China,2022-11-13,0.313,12,Country_12
+2354,Asia,China,2022-11-20,0.324,12,Country_12
+2355,Asia,China,2022-11-27,0.315,12,Country_12
+2356,Asia,China,2022-12-04,0.31,12,Country_12
+2357,Asia,China,2022-12-11,0.349,12,Country_12
+2358,Asia,China,2022-12-18,0.469,12,Country_12
+2359,Asia,China,2022-12-25,1.007,12,Country_12
+2360,Asia,China,2023-01-01,2.757,12,Country_12
+2361,Asia,China,2023-01-08,4.012,12,Country_12
+2362,Asia,China,2023-01-15,3.976,12,Country_12
+2363,Asia,China,2023-01-22,3.939,12,Country_12
+2364,Asia,China,2023-01-29,3.851,12,Country_12
+2365,Asia,China,2023-02-05,8.458,12,Country_12
+2366,Asia,China,2023-02-12,8.008,12,Country_12
+2367,Asia,China,2023-02-19,6.269,12,Country_12
+2368,Asia,China,2023-02-26,5.004,12,Country_12
+2369,Asia,China,2023-03-05,5.04,12,Country_12
+2370,Asia,China,2023-03-12,5.073,12,Country_12
+2371,Asia,China,2023-03-19,5.099,12,Country_12
+2372,Asia,China,2023-03-26,0.333,12,Country_12
+2373,Asia,China,2023-04-02,0.197,12,Country_12
+2374,Asia,China,2023-04-09,0.144,12,Country_12
+2375,Asia,China,2023-04-16,0.109,12,Country_12
+2376,Asia,China,2023-04-23,0.074,12,Country_12
+2377,Asia,China,2023-04-30,0.045,12,Country_12
+2378,Asia,China,2023-05-07,0.024,12,Country_12
+2379,Asia,China,2023-05-14,0.018,12,Country_12
+2380,Asia,China,2023-05-21,0.025,12,Country_12
+2381,Asia,China,2023-05-28,0.033,12,Country_12
+2382,Asia,China,2023-06-04,0.032,12,Country_12
+2383,Asia,China,2023-06-11,0.047,12,Country_12
+2384,Asia,China,2023-06-18,0.043,12,Country_12
+2385,Asia,China,2023-06-25,0.045,12,Country_12
+2386,Asia,China,2023-07-02,0.042,12,Country_12
+2387,Asia,China,2023-07-09,0.037,12,Country_12
+2388,Asia,China,2023-07-16,0.03,12,Country_12
+2389,Asia,China,2023-07-23,0.03,12,Country_12
+2390,Asia,China,2023-07-30,0.017,12,Country_12
+2391,Asia,China,2023-08-06,0.026,12,Country_12
+2392,Asia,China,2023-08-13,0.021,12,Country_12
+2393,Asia,China,2023-08-20,0.018,12,Country_12
+2394,Asia,China,2023-08-27,0.016,12,Country_12
+2395,Asia,China,2023-09-03,0.014,12,Country_12
+2396,Asia,China,2023-09-10,0.014,12,Country_12
+2397,Asia,China,2023-09-17,0.012,12,Country_12
+2398,Asia,China,2023-09-24,0.007,12,Country_12
+2399,Asia,China,2023-10-01,0.004,12,Country_12
+2400,Asia,China,2023-10-08,0.01,12,Country_12
+2401,Asia,China,2023-10-15,0.012,12,Country_12
+2402,Asia,China,2023-10-22,0.013,12,Country_12
+2403,Asia,China,2023-10-29,0.013,12,Country_12
+2404,Asia,China,2023-11-05,0.019,12,Country_12
+2405,Asia,China,2023-11-12,0.016,12,Country_12
+2406,Asia,China,2023-11-19,0.016,12,Country_12
+2407,Asia,China,2023-11-26,0.011,12,Country_12
+2408,Asia,China,2023-12-03,0.01,12,Country_12
+2409,Asia,China,2023-12-10,0.008,12,Country_12
+2410,Asia,China,2023-12-17,0.008,12,Country_12
+2411,Asia,China,2023-12-24,0.002,12,Country_12
+2412,Asia,China,2023-12-31,0.002,12,Country_12
+2413,Asia,Japan,2020-02-09,0.0,13,Country_13
+2414,Asia,Japan,2020-02-16,0.001,13,Country_13
+2415,Asia,Japan,2020-02-23,0.001,13,Country_13
+2416,Asia,Japan,2020-03-01,0.007,13,Country_13
+2417,Asia,Japan,2020-03-08,0.007,13,Country_13
+2418,Asia,Japan,2020-03-15,0.025,13,Country_13
+2419,Asia,Japan,2020-03-22,0.046,13,Country_13
+2420,Asia,Japan,2020-03-29,0.06,13,Country_13
+2421,Asia,Japan,2020-04-05,0.08,13,Country_13
+2422,Asia,Japan,2020-04-12,0.112,13,Country_13
+2423,Asia,Japan,2020-04-19,0.179,13,Country_13
+2424,Asia,Japan,2020-04-26,0.394,13,Country_13
+2425,Asia,Japan,2020-05-03,0.542,13,Country_13
+2426,Asia,Japan,2020-05-10,0.66,13,Country_13
+2427,Asia,Japan,2020-05-17,0.798,13,Country_13
+2428,Asia,Japan,2020-05-24,0.864,13,Country_13
+2429,Asia,Japan,2020-05-31,0.914,13,Country_13
+2430,Asia,Japan,2020-06-07,0.87,13,Country_13
+2431,Asia,Japan,2020-06-14,0.665,13,Country_13
+2432,Asia,Japan,2020-06-21,0.531,13,Country_13
+2433,Asia,Japan,2020-06-28,0.413,13,Country_13
+2434,Asia,Japan,2020-07-05,0.269,13,Country_13
+2435,Asia,Japan,2020-07-12,0.187,13,Country_13
+2436,Asia,Japan,2020-07-19,0.108,13,Country_13
+2437,Asia,Japan,2020-07-26,0.092,13,Country_13
+2438,Asia,Japan,2020-08-02,0.099,13,Country_13
+2439,Asia,Japan,2020-08-09,0.1,13,Country_13
+2440,Asia,Japan,2020-08-16,0.135,13,Country_13
+2441,Asia,Japan,2020-08-23,0.229,13,Country_13
+2442,Asia,Japan,2020-08-30,0.325,13,Country_13
+2443,Asia,Japan,2020-09-06,0.429,13,Country_13
+2444,Asia,Japan,2020-09-13,0.511,13,Country_13
+2445,Asia,Japan,2020-09-20,0.564,13,Country_13
+2446,Asia,Japan,2020-09-27,0.582,13,Country_13
+2447,Asia,Japan,2020-10-04,0.587,13,Country_13
+2448,Asia,Japan,2020-10-11,0.52,13,Country_13
+2449,Asia,Japan,2020-10-18,0.468,13,Country_13
+2450,Asia,Japan,2020-10-25,0.408,13,Country_13
+2451,Asia,Japan,2020-11-01,0.377,13,Country_13
+2452,Asia,Japan,2020-11-08,0.36,13,Country_13
+2453,Asia,Japan,2020-11-15,0.39,13,Country_13
+2454,Asia,Japan,2020-11-22,0.435,13,Country_13
+2455,Asia,Japan,2020-11-29,0.552,13,Country_13
+2456,Asia,Japan,2020-12-06,0.743,13,Country_13
+2457,Asia,Japan,2020-12-13,0.981,13,Country_13
+2458,Asia,Japan,2020-12-20,1.276,13,Country_13
+2459,Asia,Japan,2020-12-27,1.615,13,Country_13
+2460,Asia,Japan,2021-01-03,1.919,13,Country_13
+2461,Asia,Japan,2021-01-10,2.33,13,Country_13
+2462,Asia,Japan,2021-01-17,2.697,13,Country_13
+2463,Asia,Japan,2021-01-24,3.116,13,Country_13
+2464,Asia,Japan,2021-01-31,3.564,13,Country_13
+2465,Asia,Japan,2021-02-07,3.993,13,Country_13
+2466,Asia,Japan,2021-02-14,4.263,13,Country_13
+2467,Asia,Japan,2021-02-21,4.459,13,Country_13
+2468,Asia,Japan,2021-02-28,4.453,13,Country_13
+2469,Asia,Japan,2021-03-07,4.358,13,Country_13
+2470,Asia,Japan,2021-03-14,4.081,13,Country_13
+2471,Asia,Japan,2021-03-21,3.64,13,Country_13
+2472,Asia,Japan,2021-03-28,3.104,13,Country_13
+2473,Asia,Japan,2021-04-04,2.661,13,Country_13
+2474,Asia,Japan,2021-04-11,2.265,13,Country_13
+2475,Asia,Japan,2021-04-18,2.031,13,Country_13
+2476,Asia,Japan,2021-04-25,1.943,13,Country_13
+2477,Asia,Japan,2021-05-02,2.076,13,Country_13
+2478,Asia,Japan,2021-05-09,2.379,13,Country_13
+2479,Asia,Japan,2021-05-16,2.855,13,Country_13
+2480,Asia,Japan,2021-05-23,3.562,13,Country_13
+2481,Asia,Japan,2021-05-30,4.132,13,Country_13
+2482,Asia,Japan,2021-06-06,4.555,13,Country_13
+2483,Asia,Japan,2021-06-13,4.792,13,Country_13
+2484,Asia,Japan,2021-06-20,4.682,13,Country_13
+2485,Asia,Japan,2021-06-27,4.372,13,Country_13
+2486,Asia,Japan,2021-07-04,3.849,13,Country_13
+2487,Asia,Japan,2021-07-11,3.046,13,Country_13
+2488,Asia,Japan,2021-07-18,2.398,13,Country_13
+2489,Asia,Japan,2021-07-25,1.792,13,Country_13
+2490,Asia,Japan,2021-08-01,1.298,13,Country_13
+2491,Asia,Japan,2021-08-08,0.988,13,Country_13
+2492,Asia,Japan,2021-08-15,0.852,13,Country_13
+2493,Asia,Japan,2021-08-22,0.902,13,Country_13
+2494,Asia,Japan,2021-08-29,1.142,13,Country_13
+2495,Asia,Japan,2021-09-05,1.505,13,Country_13
+2496,Asia,Japan,2021-09-12,1.922,13,Country_13
+2497,Asia,Japan,2021-09-19,2.313,13,Country_13
+2498,Asia,Japan,2021-09-26,2.538,13,Country_13
+2499,Asia,Japan,2021-10-03,2.676,13,Country_13
+2500,Asia,Japan,2021-10-10,2.662,13,Country_13
+2501,Asia,Japan,2021-10-17,2.486,13,Country_13
+2502,Asia,Japan,2021-10-24,2.126,13,Country_13
+2503,Asia,Japan,2021-10-31,1.695,13,Country_13
+2504,Asia,Japan,2021-11-07,1.275,13,Country_13
+2505,Asia,Japan,2021-11-14,0.974,13,Country_13
+2506,Asia,Japan,2021-11-21,0.711,13,Country_13
+2507,Asia,Japan,2021-11-28,0.481,13,Country_13
+2508,Asia,Japan,2021-12-05,0.301,13,Country_13
+2509,Asia,Japan,2021-12-12,0.201,13,Country_13
+2510,Asia,Japan,2021-12-19,0.128,13,Country_13
+2511,Asia,Japan,2021-12-26,0.089,13,Country_13
+2512,Asia,Japan,2022-01-02,0.078,13,Country_13
+2513,Asia,Japan,2022-01-09,0.065,13,Country_13
+2514,Asia,Japan,2022-01-16,0.086,13,Country_13
+2515,Asia,Japan,2022-01-23,0.164,13,Country_13
+2516,Asia,Japan,2022-01-30,0.451,13,Country_13
+2517,Asia,Japan,2022-02-06,1.089,13,Country_13
+2518,Asia,Japan,2022-02-13,2.273,13,Country_13
+2519,Asia,Japan,2022-02-20,3.949,13,Country_13
+2520,Asia,Japan,2022-02-27,5.609,13,Country_13
+2521,Asia,Japan,2022-03-06,7.494,13,Country_13
+2522,Asia,Japan,2022-03-13,8.814,13,Country_13
+2523,Asia,Japan,2022-03-20,9.544,13,Country_13
+2524,Asia,Japan,2022-03-27,9.731,13,Country_13
+2525,Asia,Japan,2022-04-03,9.136,13,Country_13
+2526,Asia,Japan,2022-04-10,7.91,13,Country_13
+2527,Asia,Japan,2022-04-17,6.63,13,Country_13
+2528,Asia,Japan,2022-04-24,5.04,13,Country_13
+2529,Asia,Japan,2022-05-01,3.973,13,Country_13
+2530,Asia,Japan,2022-05-08,3.19,13,Country_13
+2531,Asia,Japan,2022-05-15,2.644,13,Country_13
+2532,Asia,Japan,2022-05-22,2.329,13,Country_13
+2533,Asia,Japan,2022-05-29,2.16,13,Country_13
+2534,Asia,Japan,2022-06-05,2.017,13,Country_13
+2535,Asia,Japan,2022-06-12,1.846,13,Country_13
+2536,Asia,Japan,2022-06-19,1.664,13,Country_13
+2537,Asia,Japan,2022-06-26,1.528,13,Country_13
+2538,Asia,Japan,2022-07-03,1.465,13,Country_13
+2539,Asia,Japan,2022-07-10,1.312,13,Country_13
+2540,Asia,Japan,2022-07-17,1.212,13,Country_13
+2541,Asia,Japan,2022-07-24,1.345,13,Country_13
+2542,Asia,Japan,2022-07-31,2.056,13,Country_13
+2543,Asia,Japan,2022-08-07,3.204,13,Country_13
+2544,Asia,Japan,2022-08-14,4.877,13,Country_13
+2545,Asia,Japan,2022-08-21,6.852,13,Country_13
+2546,Asia,Japan,2022-08-28,8.999,13,Country_13
+2547,Asia,Japan,2022-09-04,11.16,13,Country_13
+2548,Asia,Japan,2022-09-11,12.509,13,Country_13
+2549,Asia,Japan,2022-09-18,12.831,13,Country_13
+2550,Asia,Japan,2022-09-25,12.261,13,Country_13
+2551,Asia,Japan,2022-10-02,11.118,13,Country_13
+2552,Asia,Japan,2022-10-09,9.49,13,Country_13
+2553,Asia,Japan,2022-10-16,7.649,13,Country_13
+2554,Asia,Japan,2022-10-23,5.825,13,Country_13
+2555,Asia,Japan,2022-10-30,4.514,13,Country_13
+2556,Asia,Japan,2022-11-06,3.817,13,Country_13
+2557,Asia,Japan,2022-11-13,3.748,13,Country_13
+2558,Asia,Japan,2022-11-20,3.992,13,Country_13
+2559,Asia,Japan,2022-11-27,4.521,13,Country_13
+2560,Asia,Japan,2022-12-04,5.438,13,Country_13
+2561,Asia,Japan,2022-12-11,6.565,13,Country_13
+2562,Asia,Japan,2022-12-18,8.09,13,Country_13
+2563,Asia,Japan,2022-12-25,9.997,13,Country_13
+2564,Asia,Japan,2023-01-01,11.532,13,Country_13
+2565,Asia,Japan,2023-01-08,11.541,13,Country_13
+2566,Asia,Japan,2023-01-15,10.444,13,Country_13
+2567,Asia,Japan,2023-01-22,9.091,13,Country_13
+2568,Asia,Japan,2023-01-29,7.437,13,Country_13
+2569,Asia,Japan,2023-02-05,18.149,13,Country_13
+2570,Asia,Japan,2023-02-12,17.152,13,Country_13
+2571,Asia,Japan,2023-02-19,16.095,13,Country_13
+2572,Asia,Japan,2023-02-26,15.873,13,Country_13
+2573,Asia,Japan,2023-03-05,16.452,13,Country_13
+2574,Asia,Japan,2023-03-12,16.946,13,Country_13
+2575,Asia,Japan,2023-03-19,17.305,13,Country_13
+2576,Asia,Japan,2023-03-26,4.921,13,Country_13
+2577,Asia,Japan,2023-04-02,3.755,13,Country_13
+2578,Asia,Japan,2023-04-09,2.778,13,Country_13
+2579,Asia,Japan,2023-04-16,2.267,13,Country_13
+2580,Asia,Japan,2023-04-23,1.85,13,Country_13
+2581,Asia,Japan,2023-04-30,1.548,13,Country_13
+2582,Asia,Japan,2023-05-07,1.317,13,Country_13
+2583,Asia,Japan,2023-05-14,1.091,13,Country_13
+2584,Asia,Japan,2023-05-21,0.854,13,Country_13
+2585,Asia,Japan,2023-05-28,0.689,13,Country_13
+2586,Asia,Japan,2023-06-04,0.529,13,Country_13
+2587,Asia,Japan,2023-06-11,0.367,13,Country_13
+2588,Asia,Japan,2023-06-18,0.175,13,Country_13
+2589,Asia,Japan,2023-06-25,0.046,13,Country_13
+2590,Asia,Japan,2023-07-02,0.0,13,Country_13
+2591,Asia,Japan,2023-07-09,0.0,13,Country_13
+2592,Asia,Japan,2023-07-16,0.0,13,Country_13
+2593,Asia,Japan,2023-07-23,0.0,13,Country_13
+2594,Asia,Japan,2023-07-30,0.0,13,Country_13
+2595,Asia,Japan,2023-08-06,0.0,13,Country_13
+2596,Asia,Japan,2023-08-13,0.0,13,Country_13
+2597,Asia,Japan,2023-08-20,0.0,13,Country_13
+2598,Asia,Japan,2023-08-27,0.0,13,Country_13
+2599,Asia,Japan,2023-09-03,0.0,13,Country_13
+2600,Asia,Japan,2023-09-10,0.0,13,Country_13
+2601,Asia,Japan,2023-09-17,0.0,13,Country_13
+2602,Asia,Japan,2023-09-24,0.0,13,Country_13
+2603,Asia,Japan,2023-10-01,0.0,13,Country_13
+2604,Asia,Japan,2023-10-08,0.0,13,Country_13
+2605,Asia,Japan,2023-10-15,0.0,13,Country_13
+2606,Asia,Japan,2023-10-22,0.0,13,Country_13
+2607,Asia,Japan,2023-10-29,0.0,13,Country_13
+2608,Asia,Japan,2023-11-05,0.0,13,Country_13
+2609,Asia,Japan,2023-11-12,0.0,13,Country_13
+2610,Asia,Japan,2023-11-19,0.0,13,Country_13
+2611,Asia,Japan,2023-11-26,0.0,13,Country_13
+2612,Asia,Japan,2023-12-03,0.0,13,Country_13
+2613,Asia,Japan,2023-12-10,0.0,13,Country_13
+2614,Asia,Japan,2023-12-17,0.0,13,Country_13
+2615,Asia,Japan,2023-12-24,0.0,13,Country_13
+2616,Asia,Japan,2023-12-31,0.0,13,Country_13
+2617,Asia,South Korea,2020-02-09,0.0,14,Country_14
+2618,Asia,South Korea,2020-02-16,0.0,14,Country_14
+2619,Asia,South Korea,2020-02-23,0.008,14,Country_14
+2620,Asia,South Korea,2020-03-01,0.047,14,Country_14
+2621,Asia,South Korea,2020-03-08,0.138,14,Country_14
+2622,Asia,South Korea,2020-03-15,0.207,14,Country_14
+2623,Asia,South Korea,2020-03-22,0.287,14,Country_14
+2624,Asia,South Korea,2020-03-29,0.419,14,Country_14
+2625,Asia,South Korea,2020-04-05,0.505,14,Country_14
+2626,Asia,South Korea,2020-04-12,0.582,14,Country_14
+2627,Asia,South Korea,2020-04-19,0.598,14,Country_14
+2628,Asia,South Korea,2020-04-26,0.529,14,Country_14
+2629,Asia,South Korea,2020-05-03,0.482,14,Country_14
+2630,Asia,South Korea,2020-05-10,0.419,14,Country_14
+2631,Asia,South Korea,2020-05-17,0.303,14,Country_14
+2632,Asia,South Korea,2020-05-24,0.229,14,Country_14
+2633,Asia,South Korea,2020-05-31,0.154,14,Country_14
+2634,Asia,South Korea,2020-06-07,0.108,14,Country_14
+2635,Asia,South Korea,2020-06-14,0.096,14,Country_14
+2636,Asia,South Korea,2020-06-21,0.083,14,Country_14
+2637,Asia,South Korea,2020-06-28,0.072,14,Country_14
+2638,Asia,South Korea,2020-07-05,0.058,14,Country_14
+2639,Asia,South Korea,2020-07-12,0.063,14,Country_14
+2640,Asia,South Korea,2020-07-19,0.069,14,Country_14
+2641,Asia,South Korea,2020-07-26,0.069,14,Country_14
+2642,Asia,South Korea,2020-08-02,0.066,14,Country_14
+2643,Asia,South Korea,2020-08-09,0.069,14,Country_14
+2644,Asia,South Korea,2020-08-16,0.063,14,Country_14
+2645,Asia,South Korea,2020-08-23,0.072,14,Country_14
+2646,Asia,South Korea,2020-08-30,0.094,14,Country_14
+2647,Asia,South Korea,2020-09-06,0.108,14,Country_14
+2648,Asia,South Korea,2020-09-13,0.165,14,Country_14
+2649,Asia,South Korea,2020-09-20,0.226,14,Country_14
+2650,Asia,South Korea,2020-09-27,0.265,14,Country_14
+2651,Asia,South Korea,2020-10-04,0.32,14,Country_14
+2652,Asia,South Korea,2020-10-11,0.339,14,Country_14
+2653,Asia,South Korea,2020-10-18,0.334,14,Country_14
+2654,Asia,South Korea,2020-10-25,0.339,14,Country_14
+2655,Asia,South Korea,2020-11-01,0.298,14,Country_14
+2656,Asia,South Korea,2020-11-08,0.262,14,Country_14
+2657,Asia,South Korea,2020-11-15,0.254,14,Country_14
+2658,Asia,South Korea,2020-11-22,0.232,14,Country_14
+2659,Asia,South Korea,2020-11-29,0.251,14,Country_14
+2660,Asia,South Korea,2020-12-06,0.278,14,Country_14
+2661,Asia,South Korea,2020-12-13,0.339,14,Country_14
+2662,Asia,South Korea,2020-12-20,0.573,14,Country_14
+2663,Asia,South Korea,2020-12-27,0.91,14,Country_14
+2664,Asia,South Korea,2021-01-03,1.293,14,Country_14
+2665,Asia,South Korea,2021-01-10,1.709,14,Country_14
+2666,Asia,South Korea,2021-01-17,2.002,14,Country_14
+2667,Asia,South Korea,2021-01-24,2.217,14,Country_14
+2668,Asia,South Korea,2021-01-31,2.316,14,Country_14
+2669,Asia,South Korea,2021-02-07,2.197,14,Country_14
+2670,Asia,South Korea,2021-02-14,1.969,14,Country_14
+2671,Asia,South Korea,2021-02-21,1.64,14,Country_14
+2672,Asia,South Korea,2021-02-28,1.318,14,Country_14
+2673,Asia,South Korea,2021-03-07,1.061,14,Country_14
+2674,Asia,South Korea,2021-03-14,0.882,14,Country_14
+2675,Asia,South Korea,2021-03-21,0.761,14,Country_14
+2676,Asia,South Korea,2021-03-28,0.692,14,Country_14
+2677,Asia,South Korea,2021-04-04,0.612,14,Country_14
+2678,Asia,South Korea,2021-04-11,0.582,14,Country_14
+2679,Asia,South Korea,2021-04-18,0.535,14,Country_14
+2680,Asia,South Korea,2021-04-25,0.494,14,Country_14
+2681,Asia,South Korea,2021-05-02,0.455,14,Country_14
+2682,Asia,South Korea,2021-05-09,0.494,14,Country_14
+2683,Asia,South Korea,2021-05-16,0.499,14,Country_14
+2684,Asia,South Korea,2021-05-23,0.524,14,Country_14
+2685,Asia,South Korea,2021-05-30,0.527,14,Country_14
+2686,Asia,South Korea,2021-06-06,0.488,14,Country_14
+2687,Asia,South Korea,2021-06-13,0.482,14,Country_14
+2688,Asia,South Korea,2021-06-20,0.469,14,Country_14
+2689,Asia,South Korea,2021-06-27,0.386,14,Country_14
+2690,Asia,South Korea,2021-07-04,0.345,14,Country_14
+2691,Asia,South Korea,2021-07-11,0.303,14,Country_14
+2692,Asia,South Korea,2021-07-18,0.273,14,Country_14
+2693,Asia,South Korea,2021-07-25,0.284,14,Country_14
+2694,Asia,South Korea,2021-08-01,0.306,14,Country_14
+2695,Asia,South Korea,2021-08-08,0.334,14,Country_14
+2696,Asia,South Korea,2021-08-15,0.419,14,Country_14
+2697,Asia,South Korea,2021-08-22,0.535,14,Country_14
+2698,Asia,South Korea,2021-08-29,0.662,14,Country_14
+2699,Asia,South Korea,2021-09-05,0.742,14,Country_14
+2700,Asia,South Korea,2021-09-12,0.78,14,Country_14
+2701,Asia,South Korea,2021-09-19,0.855,14,Country_14
+2702,Asia,South Korea,2021-09-26,0.913,14,Country_14
+2703,Asia,South Korea,2021-10-03,0.954,14,Country_14
+2704,Asia,South Korea,2021-10-10,0.995,14,Country_14
+2705,Asia,South Korea,2021-10-17,1.059,14,Country_14
+2706,Asia,South Korea,2021-10-24,1.23,14,Country_14
+2707,Asia,South Korea,2021-10-31,1.376,14,Country_14
+2708,Asia,South Korea,2021-11-07,1.574,14,Country_14
+2709,Asia,South Korea,2021-11-14,1.817,14,Country_14
+2710,Asia,South Korea,2021-11-21,2.164,14,Country_14
+2711,Asia,South Korea,2021-11-28,2.749,14,Country_14
+2712,Asia,South Korea,2021-12-05,3.377,14,Country_14
+2713,Asia,South Korea,2021-12-12,4.191,14,Country_14
+2714,Asia,South Korea,2021-12-19,5.285,14,Country_14
+2715,Asia,South Korea,2021-12-26,6.396,14,Country_14
+2716,Asia,South Korea,2022-01-02,7.21,14,Country_14
+2717,Asia,South Korea,2022-01-09,7.645,14,Country_14
+2718,Asia,South Korea,2022-01-16,7.59,14,Country_14
+2719,Asia,South Korea,2022-01-23,7.367,14,Country_14
+2720,Asia,South Korea,2022-01-30,6.788,14,Country_14
+2721,Asia,South Korea,2022-02-06,5.817,14,Country_14
+2722,Asia,South Korea,2022-02-13,4.968,14,Country_14
+2723,Asia,South Korea,2022-02-20,4.742,14,Country_14
+2724,Asia,South Korea,2022-02-27,5.478,14,Country_14
+2725,Asia,South Korea,2022-03-06,7.618,14,Country_14
+2726,Asia,South Korea,2022-03-13,11.111,14,Country_14
+2727,Asia,South Korea,2022-03-20,16.548,14,Country_14
+2728,Asia,South Korea,2022-03-27,22.883,14,Country_14
+2729,Asia,South Korea,2022-04-03,28.538,14,Country_14
+2730,Asia,South Korea,2022-04-10,33.716,14,Country_14
+2731,Asia,South Korea,2022-04-17,36.299,14,Country_14
+2732,Asia,South Korea,2022-04-24,36.247,14,Country_14
+2733,Asia,South Korea,2022-05-01,34.085,14,Country_14
+2734,Asia,South Korea,2022-05-08,29.343,14,Country_14
+2735,Asia,South Korea,2022-05-15,23.595,14,Country_14
+2736,Asia,South Korea,2022-05-22,18.014,14,Country_14
+2737,Asia,South Korea,2022-05-29,12.373,14,Country_14
+2738,Asia,South Korea,2022-06-05,8.478,14,Country_14
+2739,Asia,South Korea,2022-06-12,5.919,14,Country_14
+2740,Asia,South Korea,2022-06-19,4.149,14,Country_14
+2741,Asia,South Korea,2022-06-26,3.115,14,Country_14
+2742,Asia,South Korea,2022-07-03,2.294,14,Country_14
+2743,Asia,South Korea,2022-07-10,1.878,14,Country_14
+2744,Asia,South Korea,2022-07-17,1.649,14,Country_14
+2745,Asia,South Korea,2022-07-24,1.676,14,Country_14
+2746,Asia,South Korea,2022-07-31,1.913,14,Country_14
+2747,Asia,South Korea,2022-08-07,2.396,14,Country_14
+2748,Asia,South Korea,2022-08-14,3.253,14,Country_14
+2749,Asia,South Korea,2022-08-21,4.37,14,Country_14
+2750,Asia,South Korea,2022-08-28,5.572,14,Country_14
+2751,Asia,South Korea,2022-09-04,6.694,14,Country_14
+2752,Asia,South Korea,2022-09-11,7.24,14,Country_14
+2753,Asia,South Korea,2022-09-18,7.739,14,Country_14
+2754,Asia,South Korea,2022-09-25,8.106,14,Country_14
+2755,Asia,South Korea,2022-10-02,7.769,14,Country_14
+2756,Asia,South Korea,2022-10-09,7.022,14,Country_14
+2757,Asia,South Korea,2022-10-16,5.974,14,Country_14
+2758,Asia,South Korea,2022-10-23,5.029,14,Country_14
+2759,Asia,South Korea,2022-10-30,4.679,14,Country_14
+2760,Asia,South Korea,2022-11-06,4.215,14,Country_14
+2761,Asia,South Korea,2022-11-13,4.069,14,Country_14
+2762,Asia,South Korea,2022-11-20,4.364,14,Country_14
+2763,Asia,South Korea,2022-11-27,4.814,14,Country_14
+2764,Asia,South Korea,2022-12-04,5.34,14,Country_14
+2765,Asia,South Korea,2022-12-11,5.82,14,Country_14
+2766,Asia,South Korea,2022-12-18,6.231,14,Country_14
+2767,Asia,South Korea,2022-12-25,6.788,14,Country_14
+2768,Asia,South Korea,2023-01-01,7.039,14,Country_14
+2769,Asia,South Korea,2023-01-08,6.575,14,Country_14
+2770,Asia,South Korea,2023-01-15,5.63,14,Country_14
+2771,Asia,South Korea,2023-01-22,4.695,14,Country_14
+2772,Asia,South Korea,2023-01-29,3.772,14,Country_14
+2773,Asia,South Korea,2023-02-05,5.856,14,Country_14
+2774,Asia,South Korea,2023-02-12,5.142,14,Country_14
+2775,Asia,South Korea,2023-02-19,4.312,14,Country_14
+2776,Asia,South Korea,2023-02-26,4.039,14,Country_14
+2777,Asia,South Korea,2023-03-05,4.24,14,Country_14
+2778,Asia,South Korea,2023-03-12,4.464,14,Country_14
+2779,Asia,South Korea,2023-03-19,4.618,14,Country_14
+2780,Asia,South Korea,2023-03-26,1.679,14,Country_14
+2781,Asia,South Korea,2023-04-02,1.472,14,Country_14
+2782,Asia,South Korea,2023-04-09,1.288,14,Country_14
+2783,Asia,South Korea,2023-04-16,1.144,14,Country_14
+2784,Asia,South Korea,2023-04-23,1.084,14,Country_14
+2785,Asia,South Korea,2023-04-30,1.026,14,Country_14
+2786,Asia,South Korea,2023-05-07,1.001,14,Country_14
+2787,Asia,South Korea,2023-05-14,1.067,14,Country_14
+2788,Asia,South Korea,2023-05-21,1.119,14,Country_14
+2789,Asia,South Korea,2023-05-28,1.163,14,Country_14
+2790,Asia,South Korea,2023-06-04,1.243,14,Country_14
+2791,Asia,South Korea,2023-06-11,1.285,14,Country_14
+2792,Asia,South Korea,2023-06-18,1.304,14,Country_14
+2793,Asia,South Korea,2023-06-25,1.332,14,Country_14
+2794,Asia,South Korea,2023-07-02,1.271,14,Country_14
+2795,Asia,South Korea,2023-07-09,1.059,14,Country_14
+2796,Asia,South Korea,2023-07-16,1.117,14,Country_14
+2797,Asia,South Korea,2023-07-23,1.072,14,Country_14
+2798,Asia,South Korea,2023-07-30,1.158,14,Country_14
+2799,Asia,South Korea,2023-08-06,1.243,14,Country_14
+2800,Asia,South Korea,2023-08-13,1.086,14,Country_14
+2801,Asia,South Korea,2023-08-20,1.34,14,Country_14
+2802,Asia,South Korea,2023-08-27,2.043,14,Country_14
+2803,Asia,South Korea,2023-09-03,1.8,14,Country_14
+2804,Asia,South Korea,2023-09-10,1.98,14,Country_14
+2805,Asia,South Korea,2023-09-17,1.712,14,Country_14
+2806,Asia,South Korea,2023-09-24,1.442,14,Country_14
+2807,Asia,South Korea,2023-10-01,1.442,14,Country_14
+2808,Asia,South Korea,2023-10-08,1.039,14,Country_14
+2809,Asia,South Korea,2023-10-15,0.336,14,Country_14
+2810,Asia,South Korea,2023-10-22,0.336,14,Country_14
+2811,Asia,South Korea,2023-10-29,0.0,14,Country_14
+2812,Asia,South Korea,2023-11-05,0.0,14,Country_14
+2813,Asia,South Korea,2023-11-12,0.0,14,Country_14
+2814,Asia,South Korea,2023-11-19,0.0,14,Country_14
+2815,Asia,South Korea,2023-11-26,0.0,14,Country_14
+2816,Asia,South Korea,2023-12-03,0.0,14,Country_14
+2817,Asia,South Korea,2023-12-10,0.0,14,Country_14
+2818,Asia,South Korea,2023-12-17,0.0,14,Country_14
+2819,Asia,South Korea,2023-12-24,0.0,14,Country_14
+2820,Asia,South Korea,2023-12-31,0.0,14,Country_14
+2821,Asia,Vietnam,2020-02-09,0.0,15,Country_15
+2822,Asia,Vietnam,2020-02-16,0.0,15,Country_15
+2823,Asia,Vietnam,2020-02-23,0.0,15,Country_15
+2824,Asia,Vietnam,2020-03-01,0.0,15,Country_15
+2825,Asia,Vietnam,2020-03-08,0.0,15,Country_15
+2826,Asia,Vietnam,2020-03-15,0.0,15,Country_15
+2827,Asia,Vietnam,2020-03-22,0.0,15,Country_15
+2828,Asia,Vietnam,2020-03-29,0.0,15,Country_15
+2829,Asia,Vietnam,2020-04-05,0.0,15,Country_15
+2830,Asia,Vietnam,2020-04-12,0.0,15,Country_15
+2831,Asia,Vietnam,2020-04-19,0.0,15,Country_15
+2832,Asia,Vietnam,2020-04-26,0.0,15,Country_15
+2833,Asia,Vietnam,2020-05-03,0.0,15,Country_15
+2834,Asia,Vietnam,2020-05-10,0.0,15,Country_15
+2835,Asia,Vietnam,2020-05-17,0.0,15,Country_15
+2836,Asia,Vietnam,2020-05-24,0.0,15,Country_15
+2837,Asia,Vietnam,2020-05-31,0.0,15,Country_15
+2838,Asia,Vietnam,2020-06-07,0.0,15,Country_15
+2839,Asia,Vietnam,2020-06-14,0.0,15,Country_15
+2840,Asia,Vietnam,2020-06-21,0.0,15,Country_15
+2841,Asia,Vietnam,2020-06-28,0.0,15,Country_15
+2842,Asia,Vietnam,2020-07-05,0.0,15,Country_15
+2843,Asia,Vietnam,2020-07-12,0.0,15,Country_15
+2844,Asia,Vietnam,2020-07-19,0.0,15,Country_15
+2845,Asia,Vietnam,2020-07-26,0.0,15,Country_15
+2846,Asia,Vietnam,2020-08-02,0.004,15,Country_15
+2847,Asia,Vietnam,2020-08-09,0.015,15,Country_15
+2848,Asia,Vietnam,2020-08-16,0.033,15,Country_15
+2849,Asia,Vietnam,2020-08-23,0.038,15,Country_15
+2850,Asia,Vietnam,2020-08-30,0.047,15,Country_15
+2851,Asia,Vietnam,2020-09-06,0.051,15,Country_15
+2852,Asia,Vietnam,2020-09-13,0.051,15,Country_15
+2853,Asia,Vietnam,2020-09-20,0.047,15,Country_15
+2854,Asia,Vietnam,2020-09-27,0.036,15,Country_15
+2855,Asia,Vietnam,2020-10-04,0.017,15,Country_15
+2856,Asia,Vietnam,2020-10-11,0.013,15,Country_15
+2857,Asia,Vietnam,2020-10-18,0.004,15,Country_15
+2858,Asia,Vietnam,2020-10-25,0.0,15,Country_15
+2859,Asia,Vietnam,2020-11-01,0.0,15,Country_15
+2860,Asia,Vietnam,2020-11-08,0.0,15,Country_15
+2861,Asia,Vietnam,2020-11-15,0.0,15,Country_15
+2862,Asia,Vietnam,2020-11-22,0.0,15,Country_15
+2863,Asia,Vietnam,2020-11-29,0.0,15,Country_15
+2864,Asia,Vietnam,2020-12-06,0.0,15,Country_15
+2865,Asia,Vietnam,2020-12-13,0.0,15,Country_15
+2866,Asia,Vietnam,2020-12-20,0.0,15,Country_15
+2867,Asia,Vietnam,2020-12-27,0.0,15,Country_15
+2868,Asia,Vietnam,2021-01-03,0.0,15,Country_15
+2869,Asia,Vietnam,2021-01-10,0.0,15,Country_15
+2870,Asia,Vietnam,2021-01-17,0.0,15,Country_15
+2871,Asia,Vietnam,2021-01-24,0.0,15,Country_15
+2872,Asia,Vietnam,2021-01-31,0.0,15,Country_15
+2873,Asia,Vietnam,2021-02-07,0.0,15,Country_15
+2874,Asia,Vietnam,2021-02-14,0.0,15,Country_15
+2875,Asia,Vietnam,2021-02-21,0.0,15,Country_15
+2876,Asia,Vietnam,2021-02-28,0.0,15,Country_15
+2877,Asia,Vietnam,2021-03-07,0.0,15,Country_15
+2878,Asia,Vietnam,2021-03-14,0.0,15,Country_15
+2879,Asia,Vietnam,2021-03-21,0.0,15,Country_15
+2880,Asia,Vietnam,2021-03-28,0.0,15,Country_15
+2881,Asia,Vietnam,2021-04-04,0.0,15,Country_15
+2882,Asia,Vietnam,2021-04-11,0.0,15,Country_15
+2883,Asia,Vietnam,2021-04-18,0.0,15,Country_15
+2884,Asia,Vietnam,2021-04-25,0.0,15,Country_15
+2885,Asia,Vietnam,2021-05-02,0.0,15,Country_15
+2886,Asia,Vietnam,2021-05-09,0.0,15,Country_15
+2887,Asia,Vietnam,2021-05-16,0.003,15,Country_15
+2888,Asia,Vietnam,2021-05-23,0.01,15,Country_15
+2889,Asia,Vietnam,2021-05-30,0.017,15,Country_15
+2890,Asia,Vietnam,2021-06-06,0.026,15,Country_15
+2891,Asia,Vietnam,2021-06-13,0.036,15,Country_15
+2892,Asia,Vietnam,2021-06-20,0.047,15,Country_15
+2893,Asia,Vietnam,2021-06-27,0.065,15,Country_15
+2894,Asia,Vietnam,2021-07-04,0.09,15,Country_15
+2895,Asia,Vietnam,2021-07-11,0.175,15,Country_15
+2896,Asia,Vietnam,2021-07-18,0.301,15,Country_15
+2897,Asia,Vietnam,2021-07-25,0.461,15,Country_15
+2898,Asia,Vietnam,2021-08-01,1.813,15,Country_15
+2899,Asia,Vietnam,2021-08-08,4.845,15,Country_15
+2900,Asia,Vietnam,2021-08-15,8.284,15,Country_15
+2901,Asia,Vietnam,2021-08-22,11.899,15,Country_15
+2902,Asia,Vietnam,2021-08-29,15.404,15,Country_15
+2903,Asia,Vietnam,2021-09-05,18.652,15,Country_15
+2904,Asia,Vietnam,2021-09-12,21.692,15,Country_15
+2905,Asia,Vietnam,2021-09-19,22.965,15,Country_15
+2906,Asia,Vietnam,2021-09-26,22.096,15,Country_15
+2907,Asia,Vietnam,2021-10-03,20.283,15,Country_15
+2908,Asia,Vietnam,2021-10-10,17.864,15,Country_15
+2909,Asia,Vietnam,2021-10-17,15.197,15,Country_15
+2910,Asia,Vietnam,2021-10-24,12.511,15,Country_15
+2911,Asia,Vietnam,2021-10-31,9.899,15,Country_15
+2912,Asia,Vietnam,2021-11-07,7.916,15,Country_15
+2913,Asia,Vietnam,2021-11-14,6.544,15,Country_15
+2914,Asia,Vietnam,2021-11-21,5.887,15,Country_15
+2915,Asia,Vietnam,2021-11-28,6.296,15,Country_15
+2916,Asia,Vietnam,2021-12-05,7.371,15,Country_15
+2917,Asia,Vietnam,2021-12-12,8.971,15,Country_15
+2918,Asia,Vietnam,2021-12-19,10.887,15,Country_15
+2919,Asia,Vietnam,2021-12-26,12.633,15,Country_15
+2920,Asia,Vietnam,2022-01-02,14.184,15,Country_15
+2921,Asia,Vietnam,2022-01-09,15.361,15,Country_15
+2922,Asia,Vietnam,2022-01-16,15.607,15,Country_15
+2923,Asia,Vietnam,2022-01-23,15.217,15,Country_15
+2924,Asia,Vietnam,2022-01-30,14.301,15,Country_15
+2925,Asia,Vietnam,2022-02-06,12.742,15,Country_15
+2926,Asia,Vietnam,2022-02-13,11.25,15,Country_15
+2927,Asia,Vietnam,2022-02-20,9.705,15,Country_15
+2928,Asia,Vietnam,2022-02-27,8.475,15,Country_15
+2929,Asia,Vietnam,2022-03-06,7.572,15,Country_15
+2930,Asia,Vietnam,2022-03-13,6.789,15,Country_15
+2931,Asia,Vietnam,2022-03-20,6.128,15,Country_15
+2932,Asia,Vietnam,2022-03-27,5.794,15,Country_15
+2933,Asia,Vietnam,2022-04-03,5.316,15,Country_15
+2934,Asia,Vietnam,2022-04-10,4.819,15,Country_15
+2935,Asia,Vietnam,2022-04-17,4.074,15,Country_15
+2936,Asia,Vietnam,2022-04-24,3.201,15,Country_15
+2937,Asia,Vietnam,2022-05-01,2.411,15,Country_15
+2938,Asia,Vietnam,2022-05-08,1.711,15,Country_15
+2939,Asia,Vietnam,2022-05-15,1.104,15,Country_15
+2940,Asia,Vietnam,2022-05-22,0.691,15,Country_15
+2941,Asia,Vietnam,2022-05-29,0.386,15,Country_15
+2942,Asia,Vietnam,2022-06-05,0.199,15,Country_15
+2943,Asia,Vietnam,2022-06-12,0.102,15,Country_15
+2944,Asia,Vietnam,2022-06-19,0.06,15,Country_15
+2945,Asia,Vietnam,2022-06-26,0.041,15,Country_15
+2946,Asia,Vietnam,2022-07-03,0.033,15,Country_15
+2947,Asia,Vietnam,2022-07-10,0.02,15,Country_15
+2948,Asia,Vietnam,2022-07-17,0.019,15,Country_15
+2949,Asia,Vietnam,2022-07-24,0.016,15,Country_15
+2950,Asia,Vietnam,2022-07-31,0.015,15,Country_15
+2951,Asia,Vietnam,2022-08-07,0.016,15,Country_15
+2952,Asia,Vietnam,2022-08-14,0.02,15,Country_15
+2953,Asia,Vietnam,2022-08-21,0.026,15,Country_15
+2954,Asia,Vietnam,2022-08-28,0.035,15,Country_15
+2955,Asia,Vietnam,2022-09-04,0.045,15,Country_15
+2956,Asia,Vietnam,2022-09-11,0.055,15,Country_15
+2957,Asia,Vietnam,2022-09-18,0.07,15,Country_15
+2958,Asia,Vietnam,2022-09-25,0.076,15,Country_15
+2959,Asia,Vietnam,2022-10-02,0.077,15,Country_15
+2960,Asia,Vietnam,2022-10-09,0.068,15,Country_15
+2961,Asia,Vietnam,2022-10-16,0.061,15,Country_15
+2962,Asia,Vietnam,2022-10-23,0.054,15,Country_15
+2963,Asia,Vietnam,2022-10-30,0.048,15,Country_15
+2964,Asia,Vietnam,2022-11-06,0.036,15,Country_15
+2965,Asia,Vietnam,2022-11-13,0.029,15,Country_15
+2966,Asia,Vietnam,2022-11-20,0.026,15,Country_15
+2967,Asia,Vietnam,2022-11-27,0.025,15,Country_15
+2968,Asia,Vietnam,2022-12-04,0.032,15,Country_15
+2969,Asia,Vietnam,2022-12-11,0.029,15,Country_15
+2970,Asia,Vietnam,2022-12-18,0.025,15,Country_15
+2971,Asia,Vietnam,2022-12-25,0.026,15,Country_15
+2972,Asia,Vietnam,2023-01-01,0.029,15,Country_15
+2973,Asia,Vietnam,2023-01-08,0.025,15,Country_15
+2974,Asia,Vietnam,2023-01-15,0.023,15,Country_15
+2975,Asia,Vietnam,2023-01-22,0.013,15,Country_15
+2976,Asia,Vietnam,2023-01-29,0.01,15,Country_15
+2977,Asia,Vietnam,2023-02-05,0.009,15,Country_15
+2978,Asia,Vietnam,2023-02-12,0.003,15,Country_15
+2979,Asia,Vietnam,2023-02-19,0.0,15,Country_15
+2980,Asia,Vietnam,2023-02-26,0.0,15,Country_15
+2981,Asia,Vietnam,2023-03-05,0.0,15,Country_15
+2982,Asia,Vietnam,2023-03-12,0.0,15,Country_15
+2983,Asia,Vietnam,2023-03-19,0.0,15,Country_15
+2984,Asia,Vietnam,2023-03-26,0.0,15,Country_15
+2985,Asia,Vietnam,2023-04-02,0.0,15,Country_15
+2986,Asia,Vietnam,2023-04-09,0.0,15,Country_15
+2987,Asia,Vietnam,2023-04-16,0.0,15,Country_15
+2988,Asia,Vietnam,2023-04-23,0.001,15,Country_15
+2989,Asia,Vietnam,2023-04-30,0.007,15,Country_15
+2990,Asia,Vietnam,2023-05-07,0.015,15,Country_15
+2991,Asia,Vietnam,2023-05-14,0.022,15,Country_15
+2992,Asia,Vietnam,2023-05-21,0.025,15,Country_15
+2993,Asia,Vietnam,2023-05-28,0.029,15,Country_15
+2994,Asia,Vietnam,2023-06-04,0.029,15,Country_15
+2995,Asia,Vietnam,2023-06-11,0.028,15,Country_15
+2996,Asia,Vietnam,2023-06-18,0.022,15,Country_15
+2997,Asia,Vietnam,2023-06-25,0.015,15,Country_15
+2998,Asia,Vietnam,2023-07-02,0.007,15,Country_15
+2999,Asia,Vietnam,2023-07-09,0.004,15,Country_15
+3000,Asia,Vietnam,2023-07-16,0.0,15,Country_15
+3001,Asia,Vietnam,2023-07-23,0.0,15,Country_15
+3002,Asia,Vietnam,2023-07-30,0.0,15,Country_15
+3003,Asia,Vietnam,2023-08-06,0.0,15,Country_15
+3004,Asia,Vietnam,2023-08-13,0.0,15,Country_15
+3005,Asia,Vietnam,2023-08-20,0.0,15,Country_15
+3006,Asia,Vietnam,2023-08-27,0.0,15,Country_15
+3007,Asia,Vietnam,2023-09-03,0.0,15,Country_15
+3008,Asia,Vietnam,2023-09-10,0.0,15,Country_15
+3009,Asia,Vietnam,2023-09-17,0.0,15,Country_15
+3010,Asia,Vietnam,2023-09-24,0.0,15,Country_15
+3011,Asia,Vietnam,2023-10-01,0.0,15,Country_15
+3012,Asia,Vietnam,2023-10-08,0.0,15,Country_15
+3013,Asia,Vietnam,2023-10-15,0.0,15,Country_15
+3014,Asia,Vietnam,2023-10-22,0.0,15,Country_15
+3015,Asia,Vietnam,2023-10-29,0.0,15,Country_15
+3016,Asia,Vietnam,2023-11-05,0.0,15,Country_15
+3017,Asia,Vietnam,2023-11-12,0.0,15,Country_15
+3018,Asia,Vietnam,2023-11-19,0.0,15,Country_15
+3019,Asia,Vietnam,2023-11-26,0.0,15,Country_15
+3020,Asia,Vietnam,2023-12-03,0.0,15,Country_15
+3021,Asia,Vietnam,2023-12-10,0.0,15,Country_15
+3022,Asia,Vietnam,2023-12-17,0.0,15,Country_15
+3023,Asia,Vietnam,2023-12-24,0.0,15,Country_15
+3024,Asia,Vietnam,2023-12-31,0.0,15,Country_15
