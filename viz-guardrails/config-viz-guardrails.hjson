@@ -1,73 +1,178 @@
 {
-    $schema: https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/StudyConfigSchema.json
-    studyMetadata: {
-        title: Visualization Guardrails
-        version: pilot
-        authors: [
-            VDL
-        ]
-        date: 2024-01-11
-        description: A study challenging participants to interact with linecharts that contain contextual data aka guardrails.
-        organizations: [
-            University of Utah
-        ]
-    }
-    uiConfig: {
-        contactEmail: test@test.com
-        logoPath: assets/revisitLogoSquare.svg
-        withProgressBar: true
-        autoDownloadStudy: false
-        sidebar: true
-    }
-    components: {
-        introduction: {
-            type: markdown
-            path: viz-guardrails/introduction.md
-            response: []
-        }
-        exploration: {
-            description: The base line chart to explore.
-            instruction: Explore the data!
-            type: react-component
-            path: viz-guardrails/DataExplorer.tsx
-            parameters: {
-                dataset: clean_data
-                start_date: "2020-03-01"
-                end_date: "2023-03-01"
-                allow_time_slider: true
-                x_var: date
-                y_var: value
-                cat_var: country_name
-                group_var: region
-                guardrail: super_data
-            }
-            nextButtonLocation: sidebar
-            response: [
+    "$schema": https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/StudyConfigSchema.json
+    "studyMetadata": {
+        "title": "Visualization Guardrails",
+        "version": "pilot",
+        "authors": ["VDL"],
+        "date": "2024-01-11",
+        "description": "A study challenging participants to interact with linecharts that contain contextual data aka guardrails.",
+        "organizations": ["University of Utah"]
+    },
+    "uiConfig": {
+        "contactEmail": "test@test.com",
+        "logoPath": "assets/revisitLogoSquare.svg",
+        "withProgressBar": true,
+        "autoDownloadStudy": false,
+        "sidebar": true
+    },
+    "components": {
+        "introduction": {
+            "type": "markdown",
+            "path": "viz-guardrails/introduction.md",
+            "response": []
+        },
+        "introduction1": {
+            "type": "markdown",
+            "path": "viz-guardrails/introduction1.md",
+            "response": []
+        },
+        "viral-a": {
+            "instruction": "Select a view that best shows (and convinces the population) that **Policy A is the best policy to combat the disease**.",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_data",
+                "start_date": "2020-09-13",
+                "end_date": "2021-04-11",
+                "allow_time_slider": false,
+                "x_var": "date",
+                "y_var": "value",
+                "cat_var": "name",
+                "group_var": "region",
+                "guardrail": "none"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
                 {
-                    id: exploration-response
-                    prompt: "Do you enjoy exploring the data?:"
-                    required: false
-                    location: sidebar
-                    type: radio
-                    options: [
-                        {
-                            label: Yes
-                            value: "1"
-                        }
-                        {
-                            label: No
-                            value: "2"
-                        }
-                    ]
+                    "id": "viral-a-caption",
+                    "type": "shortText",
+                    "location": "sidebar",
+                    "prompt": "Add a text caption that will go along with your visualization:",
+                    "required": true
                 }
-            ]
+            ] 
+        },
+        "viral-b": {
+            "instruction": "Select a view that best shows (and convinces the population) that **Policy C is the best policy to combat the disease**.",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_data",
+                "start_date": "2022-09-27",
+                "end_date": "2023-03-01",
+                "allow_time_slider": false,
+                "x_var": "date",
+                "y_var": "value",
+                "cat_var": "name",
+                "group_var": "region",
+                "guardrail": "none"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                    "id": "viral-b-caption",
+                    "type": "shortText",
+                    "location": "sidebar",
+                    "prompt": "Add a text caption that will go along with your visualization:",
+                    "required": true
+                }
+            ] 
+        },
+        "introduction2": {
+            "type": "markdown",
+            "path": "viz-guardrails/introduction2.md",
+            "response": []
+        },
+        "stock-a": {
+            "instruction": "Select a view that best shows (and convinces your client) that **the car industry is the best investment**.",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_stocks",
+                "start_date": "2023-01-01",
+                "end_date": "2024-01-01",
+                "allow_time_slider": false,
+                "x_var": "Date",
+                "y_var": "Value",
+                "cat_var": "name",
+                "group_var": "industry",
+                "guardrail": "none"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                    "id": "stock-a-caption",
+                    "type": "shortText",
+                    "location": "sidebar",
+                    "prompt": "Add a text caption that will go along with your visualization:",
+                    "required": true
+                }
+            ] 
+        },
+        "stock-b": {
+            "instruction": "Select a view that best shows (and convinces your client) that **the airline industry is the best investment**.",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_stocks",
+                "start_date": "2023-01-01",
+                "end_date": "2024-01-01",
+                "allow_time_slider": false,
+                "x_var": "Date",
+                "y_var": "Value",
+                "cat_var": "name",
+                "group_var": "industry",
+                "guardrail": "none"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                    "id": "stock-b-caption",
+                    "type": "shortText",
+                    "location": "sidebar",
+                    "prompt": "Add a text caption that will go along with your visualization:",
+                    "required": true
+                }
+            ] 
+        },
+        "exploration": {
+            "instruction": "Using the interactive data explorer, select a view that best shows (and convinces your) that **the car stocks are the best investment**. After finalizing the view, add a text caption that will go along with your visualization below, and click Next.",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_stocks",
+                "start_date": "2023-01-01",
+                "end_date": "2024-01-01",
+                "allow_time_slider": false,
+                "x_var": "Date",
+                "y_var": "Value",
+                "cat_var": "name",
+                "group_var": "industry",
+                "guardrail": "none"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": [
+                {
+                    "id": "viral-b-caption",
+                    "type": "shortText",
+                    "location": "sidebar",
+                    "prompt": "Your caption",
+                    "required": true
+                }
+            ] 
         }
-    }
-    sequence: { 
-        order: fixed
-        components:  [
-            introduction
-            exploration
+    },
+    "sequence": { 
+        "order": "fixed",
+        "components":  [
+            "introduction",
+            "introduction1",
+            "stock-a",
+            "stock-b",
+            "introduction2",
+            "viral-a",
+            "viral-b",
+            "exploration"
         ]
     }
 }
