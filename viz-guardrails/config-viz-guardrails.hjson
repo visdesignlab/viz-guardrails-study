@@ -842,9 +842,9 @@
             ] 
         }
     },
-   "sequence": {
+    "sequence": { 
         "order": "fixed",
-        "components": [
+        "components":  [
             "introduction",
             "consent",
             {
@@ -857,26 +857,300 @@
                             "introduction1",
                             {
                                 "order": "latinSquare",
+                                "numSamples": 1,
                                 "components": [
-                                    "stock a-n",
-                                    "stock a-sd"
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-a-n",
+                                            "viral-b-sd"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-a-sd",
+                                            "viral-b-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-b-sd",
+                                            "viral-a-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-b-n",
+                                            "viral-a-sd"
+                                        ]
+                                    }
                                 ]
-                            }
+                            }, 
+                            "introduction2",
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-a-n",
+                                            "stock-b-sd"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-a-sd",
+                                            "stock-b-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-b-sd",
+                                            "stock-a-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-b-n",
+                                            "stock-a-sd"
+                                        ]
+                                    }
+                                ]
+                            },
                         ]
                     },
                     {
                         "order": "fixed",
                         "components": [
+                            "introduction1",
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-a-n",
+                                            "viral-b-ss"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-a-ss",
+                                            "viral-b-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-b-ss",
+                                            "viral-a-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-b-n",
+                                            "viral-a-ss"
+                                        ]
+                                    }
+                                ]
+                            }, 
                             "introduction2",
                             {
                                 "order": "latinSquare",
+                                "numSamples": 1,
                                 "components": [
-                                    "viral a-n",
-                                    "viral a-sd"
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-a-n",
+                                            "stock-b-ss"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-a-ss",
+                                            "stock-b-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-b-ss",
+                                            "stock-a-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-b-n",
+                                            "stock-a-ss"
+                                        ]
+                                    }
                                 ]
-                            }
+                            },
                         ]
                     },
+                    {
+                        "order": "fixed",
+                        "components": [
+                            "introduction1",
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-a-n",
+                                            "viral-b-jd"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-a-jd",
+                                            "viral-b-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-b-jd",
+                                            "viral-a-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-b-n",
+                                            "viral-a-jd"
+                                        ]
+                                    }
+                                ]
+                            }, 
+                            "introduction2",
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-a-n",
+                                            "stock-b-jd"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-a-jd",
+                                            "stock-b-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-b-jd",
+                                            "stock-a-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-b-n",
+                                            "stock-a-jd"
+                                        ]
+                                    }
+                                ]
+                            },
+                        ]
+                    },
+                    {
+                        "order": "fixed",
+                        "components": [
+                            "introduction1",
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-a-n",
+                                            "viral-b-js"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-a-js",
+                                            "viral-b-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-b-js",
+                                            "viral-a-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "viral-b-n",
+                                            "viral-a-js"
+                                        ]
+                                    }
+                                ]
+                            }, 
+                            "introduction2",
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-a-n",
+                                            "stock-b-js"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-a-js",
+                                            "stock-b-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-b-js",
+                                            "stock-a-n"
+                                        ]
+                                    },
+                                    {
+                                        "order": "fixed",
+                                        "components": [
+                                            "stock-b-n",
+                                            "stock-a-js"
+                                        ]
+                                    }
+                                ]
+                            },
+                        ]
+                    }
                 ]
             }
         ]
