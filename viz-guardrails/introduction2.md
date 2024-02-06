@@ -2,7 +2,7 @@ We are now moving on to Scenario 2.  It consists of 2 more tasks.
 
 ## Instructions for Scenario 2
 
-The following instructions describe the tasks pertaining to Scenario 1. If you need to refer 
+The following instructions describe the tasks pertaining to Scenario 2. If you need to refer 
 to these instructions during the experiment, please click on help at the top of the page.
 
 **Background**: You live in a fantasy world that consists of your home country, as well as other

@@ -13,20 +13,64 @@
         "logoPath": "assets/revisitLogoSquare.svg",
         "withProgressBar": true,
         "autoDownloadStudy": false,
-        "sidebar": false
+        "sidebar": false,
+        "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=XXXXXXX](https://app.prolific.com/submissions/complete?cc=XXXXXXX)"
     },
     "components": {
         "introduction": {
             "type": "markdown",
-            "path": "viz-guardrails/introduction.md",
-            "response": []
+            "path": "viz-guardrails/introduction.md"
+            "response": [
+                {
+                    "id": "prolificId",
+                    "prompt": "Please enter your Prolific ID",
+                    "required": true,
+                    "location": "belowStimulus",
+                    "type": "shortText",
+                    "placeholder": "Prolific ID",
+                    "paramCapture": "PROLIFIC_PID"
+                }
+            ]
+        },
+        "consent": {
+            "type": "markdown",
+            "path": "viz-guardrails/consent.md",
+            "nextButtonText": "Agree",
+            "response": [
+                {
+                    "id": "signature",
+                    "prompt": "Your signature",
+                    "required": true,
+                    "location": "belowStimulus",
+                    "type": "shortText",
+                    "placeholder": "Please provide your signature"
+                },
+                {
+                    "id": "accept",
+                    "prompt": "Do you consent to the study and wish to continue?",
+                    "required": true,
+                    "requiredValue": "yes",
+                    "location": "belowStimulus",
+                    "type": "radio",
+                    "options": [
+                        {
+                            "label": "Decline",
+                            "value": "no"
+                        },
+                        {
+                            "label": "Accept",
+                            "value": "yes"
+                        }
+                    ]
+                }
+            ]
         },
         "introduction1": {
             "type": "markdown",
             "path": "viz-guardrails/introduction1.md",
             "response": []
         },
-        "viral-a": {
+        "viral-a-n": {
             "instruction": "Select a view that best shows (and convinces the population) that **Policy A is the best policy to combat the disease**.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
@@ -53,7 +97,115 @@
                 }
             ] 
         },
-        "viral-b": {
+        "viral-a-sd": {
+            "instruction": "Select a view that best shows (and convinces the population) that **Policy A is the best policy to combat the disease**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_data",
+                "start_date": "2020-09-13",
+                "end_date": "2021-04-11",
+                "allow_time_slider": false,
+                "x_var": "date",
+                "y_var": "value",
+                "cat_var": "name",
+                "group_var": "region",
+                "guardrail": "super_data"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "viral-a-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                }
+            ] 
+        },
+        "viral-a-ss": {
+            "instruction": "Select a view that best shows (and convinces the population) that **Policy A is the best policy to combat the disease**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_data",
+                "start_date": "2020-09-13",
+                "end_date": "2021-04-11",
+                "allow_time_slider": false,
+                "x_var": "date",
+                "y_var": "value",
+                "cat_var": "name",
+                "group_var": "region",
+                "guardrail": "super_summ"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "viral-a-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                }
+            ] 
+        },
+        "viral-a-jd": {
+            "instruction": "Select a view that best shows (and convinces the population) that **Policy A is the best policy to combat the disease**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_data",
+                "start_date": "2020-09-13",
+                "end_date": "2021-04-11",
+                "allow_time_slider": false,
+                "x_var": "date",
+                "y_var": "value",
+                "cat_var": "name",
+                "group_var": "region",
+                "guardrail": "juxt_data"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "viral-a-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                }
+            ] 
+        },
+        "viral-a-js": {
+            "instruction": "Select a view that best shows (and convinces the population) that **Policy A is the best policy to combat the disease**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_data",
+                "start_date": "2020-09-13",
+                "end_date": "2021-04-11",
+                "allow_time_slider": false,
+                "x_var": "date",
+                "y_var": "value",
+                "cat_var": "name",
+                "group_var": "region",
+                "guardrail": "juxt_summ"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "viral-a-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                }
+            ] 
+        },
+        "viral-b-n": {
             "instruction": "Select a view that best shows (and convinces the population) that **Policy C is the best policy to combat the disease**.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
@@ -80,12 +232,120 @@
                 }
             ] 
         },
+        "viral-b-sd": {
+            "instruction": "Select a view that best shows (and convinces the population) that **Policy C is the best policy to combat the disease**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_data",
+                "start_date": "2022-09-27",
+                "end_date": "2023-03-01",
+                "allow_time_slider": false,
+                "x_var": "date",
+                "y_var": "value",
+                "cat_var": "name",
+                "group_var": "region",
+                "guardrail": "super_data"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "viral-b-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                }
+            ] 
+        },
+        "viral-b-ss": {
+            "instruction": "Select a view that best shows (and convinces the population) that **Policy C is the best policy to combat the disease**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_data",
+                "start_date": "2022-09-27",
+                "end_date": "2023-03-01",
+                "allow_time_slider": false,
+                "x_var": "date",
+                "y_var": "value",
+                "cat_var": "name",
+                "group_var": "region",
+                "guardrail": "super_summ"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "viral-b-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                }
+            ] 
+        },
+        "viral-b-jd": {
+            "instruction": "Select a view that best shows (and convinces the population) that **Policy C is the best policy to combat the disease**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_data",
+                "start_date": "2022-09-27",
+                "end_date": "2023-03-01",
+                "allow_time_slider": false,
+                "x_var": "date",
+                "y_var": "value",
+                "cat_var": "name",
+                "group_var": "region",
+                "guardrail": "juxt_data"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "viral-b-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                }
+            ] 
+        },
+        "viral-b-js": {
+            "instruction": "Select a view that best shows (and convinces the population) that **Policy C is the best policy to combat the disease**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_data",
+                "start_date": "2022-09-27",
+                "end_date": "2023-03-01",
+                "allow_time_slider": false,
+                "x_var": "date",
+                "y_var": "value",
+                "cat_var": "name",
+                "group_var": "region",
+                "guardrail": "juxt_summ"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "viral-b-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                }
+            ] 
+        },
         "introduction2": {
             "type": "markdown",
             "path": "viz-guardrails/introduction2.md",
             "response": []
         },
-        "stock-a": {
+        "stock-a-n": {
             "instruction": "Select a view that best shows (and convinces your client) that **the car industry fund is the best investment**.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
@@ -132,7 +392,195 @@
                 }
             ] 
         },
-        "stock-b": {
+        "stock-a-sd": {
+            "instruction": "Select a view that best shows (and convinces your client) that **the car industry fund is the best investment**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_stocks",
+                "start_date": "2023-01-01",
+                "end_date": "2024-01-01",
+                "allow_time_slider": false,
+                "x_var": "Date",
+                "y_var": "Value",
+                "cat_var": "name",
+                "group_var": "industry",
+                "guardrail": "super_data"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "stock-a-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                },
+                {
+                    "id": "stock-a-difficulty",
+                    "type": "likert",
+                    "leftLabel": "Not difficult",
+                    "rightLabel": "Very difficult",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how difficult was it to come up with the view?",
+                    "required": true
+                },
+                {
+                    "id": "stock-a-convince",
+                    "type": "likert",
+                    "leftLabel": "Not convincing",
+                    "rightLabel": "Very convincing",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how convincing do you anticipate your view to be?",
+                    "required": true
+                }
+            ] 
+        },
+        "stock-a-ss": {
+            "instruction": "Select a view that best shows (and convinces your client) that **the car industry fund is the best investment**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_stocks",
+                "start_date": "2023-01-01",
+                "end_date": "2024-01-01",
+                "allow_time_slider": false,
+                "x_var": "Date",
+                "y_var": "Value",
+                "cat_var": "name",
+                "group_var": "industry",
+                "guardrail": "super_summ"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "stock-a-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                },
+                {
+                    "id": "stock-a-difficulty",
+                    "type": "likert",
+                    "leftLabel": "Not difficult",
+                    "rightLabel": "Very difficult",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how difficult was it to come up with the view?",
+                    "required": true
+                },
+                {
+                    "id": "stock-a-convince",
+                    "type": "likert",
+                    "leftLabel": "Not convincing",
+                    "rightLabel": "Very convincing",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how convincing do you anticipate your view to be?",
+                    "required": true
+                }
+            ] 
+        },
+        "stock-a-jd": {
+            "instruction": "Select a view that best shows (and convinces your client) that **the car industry fund is the best investment**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_stocks",
+                "start_date": "2023-01-01",
+                "end_date": "2024-01-01",
+                "allow_time_slider": false,
+                "x_var": "Date",
+                "y_var": "Value",
+                "cat_var": "name",
+                "group_var": "industry",
+                "guardrail": "juxt_data"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "stock-a-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                },
+                {
+                    "id": "stock-a-difficulty",
+                    "type": "likert",
+                    "leftLabel": "Not difficult",
+                    "rightLabel": "Very difficult",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how difficult was it to come up with the view?",
+                    "required": true
+                },
+                {
+                    "id": "stock-a-convince",
+                    "type": "likert",
+                    "leftLabel": "Not convincing",
+                    "rightLabel": "Very convincing",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how convincing do you anticipate your view to be?",
+                    "required": true
+                }
+            ] 
+        },
+        "stock-a-js": {
+            "instruction": "Select a view that best shows (and convinces your client) that **the car industry fund is the best investment**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_stocks",
+                "start_date": "2023-01-01",
+                "end_date": "2024-01-01",
+                "allow_time_slider": false,
+                "x_var": "Date",
+                "y_var": "Value",
+                "cat_var": "name",
+                "group_var": "industry",
+                "guardrail": "juxt_summ"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "stock-a-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                },
+                {
+                    "id": "stock-a-difficulty",
+                    "type": "likert",
+                    "leftLabel": "Not difficult",
+                    "rightLabel": "Very difficult",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how difficult was it to come up with the view?",
+                    "required": true
+                },
+                {
+                    "id": "stock-a-convince",
+                    "type": "likert",
+                    "leftLabel": "Not convincing",
+                    "rightLabel": "Very convincing",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how convincing do you anticipate your view to be?",
+                    "required": true
+                }
+            ] 
+        },
+        "stock-b-n": {
             "instruction": "Select a view that best shows (and convinces your client) that **the airline industry fund is the best investment**.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
@@ -147,6 +595,194 @@
                 "cat_var": "name",
                 "group_var": "industry",
                 "guardrail": "none"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "stock-b-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                },
+                {
+                    "id": "stock-b-difficulty",
+                    "type": "likert",
+                    "leftLabel": "Not difficult",
+                    "rightLabel": "Very difficult",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how difficult was it to come up with the view?",
+                    "required": true
+                },
+                {
+                    "id": "stock-b-convince",
+                    "type": "likert",
+                    "leftLabel": "Not convincing",
+                    "rightLabel": "Very convincing",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how convincing do you anticipate your view to be?",
+                    "required": true
+                }
+            ] 
+        },
+         "stock-b-sd": {
+            "instruction": "Select a view that best shows (and convinces your client) that **the airline industry fund is the best investment**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_stocks",
+                "start_date": "2023-01-01",
+                "end_date": "2024-01-01",
+                "allow_time_slider": false,
+                "x_var": "Date",
+                "y_var": "Value",
+                "cat_var": "name",
+                "group_var": "industry",
+                "guardrail": "super_data"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "stock-b-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                },
+                {
+                    "id": "stock-b-difficulty",
+                    "type": "likert",
+                    "leftLabel": "Not difficult",
+                    "rightLabel": "Very difficult",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how difficult was it to come up with the view?",
+                    "required": true
+                },
+                {
+                    "id": "stock-b-convince",
+                    "type": "likert",
+                    "leftLabel": "Not convincing",
+                    "rightLabel": "Very convincing",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how convincing do you anticipate your view to be?",
+                    "required": true
+                }
+            ] 
+        },
+         "stock-b-ss": {
+            "instruction": "Select a view that best shows (and convinces your client) that **the airline industry fund is the best investment**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_stocks",
+                "start_date": "2023-01-01",
+                "end_date": "2024-01-01",
+                "allow_time_slider": false,
+                "x_var": "Date",
+                "y_var": "Value",
+                "cat_var": "name",
+                "group_var": "industry",
+                "guardrail": "super_summ"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "stock-b-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                },
+                {
+                    "id": "stock-b-difficulty",
+                    "type": "likert",
+                    "leftLabel": "Not difficult",
+                    "rightLabel": "Very difficult",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how difficult was it to come up with the view?",
+                    "required": true
+                },
+                {
+                    "id": "stock-b-convince",
+                    "type": "likert",
+                    "leftLabel": "Not convincing",
+                    "rightLabel": "Very convincing",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how convincing do you anticipate your view to be?",
+                    "required": true
+                }
+            ] 
+        },
+         "stock-b-jd": {
+            "instruction": "Select a view that best shows (and convinces your client) that **the airline industry fund is the best investment**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_stocks",
+                "start_date": "2023-01-01",
+                "end_date": "2024-01-01",
+                "allow_time_slider": false,
+                "x_var": "Date",
+                "y_var": "Value",
+                "cat_var": "name",
+                "group_var": "industry",
+                "guardrail": "juxt_data"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "stock-b-caption",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Add a short text caption that will go along with your visualization:",
+                    "required": true
+                },
+                {
+                    "id": "stock-b-difficulty",
+                    "type": "likert",
+                    "leftLabel": "Not difficult",
+                    "rightLabel": "Very difficult",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how difficult was it to come up with the view?",
+                    "required": true
+                },
+                {
+                    "id": "stock-b-convince",
+                    "type": "likert",
+                    "leftLabel": "Not convincing",
+                    "rightLabel": "Very convincing",
+                    "preset": 5,
+                    "location": "belowStimulus",
+                    "prompt": "On a scale from 1 to 5, how convincing do you anticipate your view to be?",
+                    "required": true
+                }
+            ] 
+        },
+         "stock-b-js": {
+            "instruction": "Select a view that best shows (and convinces your client) that **the airline industry fund is the best investment**.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_stocks",
+                "start_date": "2023-01-01",
+                "end_date": "2024-01-01",
+                "allow_time_slider": false,
+                "x_var": "Date",
+                "y_var": "Value",
+                "cat_var": "name",
+                "group_var": "industry",
+                "guardrail": "juxt_summ"
             },
             "nextButtonLocation": "belowStimulus",
             "response": [
@@ -206,17 +842,45 @@
             ] 
         }
     },
-    "sequence": { 
+   "sequence": {
         "order": "fixed",
-        "components":  [
+        "components": [
             "introduction",
-            "introduction1",
-            "stock-a",
-            "stock-b",
-            "introduction2",
-            "viral-a",
-            "viral-b",
-            "exploration"
+            "consent",
+            {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                    {
+                        "order": "fixed",
+                        "components": [
+                            "introduction1",
+                            {
+                                "order": "latinSquare",
+                                "components": [
+                                    "stock a-n",
+                                    "stock a-sd"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "order": "fixed",
+                        "components": [
+                            "introduction2",
+                            {
+                                "order": "latinSquare",
+                                "components": [
+                                    "viral a-n",
+                                    "viral a-sd"
+                                ]
+                            }
+                        ]
+                    },
+                ]
+
+            },
+            "post-study-survey" 
         ]
     }
 }
