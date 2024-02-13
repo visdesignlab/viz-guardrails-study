@@ -1,8 +1,8 @@
-We start with Scenario 1. It consists of 2 tasks.
+Welcome to the "Financial Advisor" Scenario. It consists of **2 tasks**.
 
-## Instructions for Scenario 1
+## Instructions for the "Financial Advisor" Scenario 
 
-The following instructions describe the tasks pertaining to Scenario 1. If you need to refer 
+The following instructions describe the tasks pertaining to this scenario. If you need to refer 
 to these instructions during the experiment, please click on help at the top of the page.
 
 **Scenario**: You are a financial advisor. Your client approached you asking for help in

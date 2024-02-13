@@ -4,7 +4,7 @@
 
  **Contact Information: maxim.lisnic@utah.edu**
 
-## Title of Research Study: Exploring Interventions Against Cherry-picking in Interactive Data Visualizations
+## Title of Research Study: Exploring Guardrails in Interactive Visualizations
 ## Introduction
 You are being asked to participate in a research study. Before you
               agree, however, you must be fully informed about the purpose of

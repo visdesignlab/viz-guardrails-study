@@ -145,9 +145,95 @@
                     "required": true
                 }
             ] 
+        },
+        "post-survey": {
+            "type": "markdown",
+            "response": [
+                {
+                    "id": "viz",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "How familiar are you with data visualizations?",
+                    "required": true,
+                    "leftLabel": "Not familiar",
+                    "rightLabel": "Very familiar",
+                    "preset": 5,
+                },
+                {
+                    "id": "notice",
+                    "type": "radio",
+                    "location": "belowStimulus",
+                    "prompt": "Did you notice a guardrail in place in some of your tasks?",
+                    "required": true,
+                    "options": [
+                        {
+                            "label": "No",
+                            "value": "no"
+                        },
+                        {
+                            "label": "Yes",
+                            "value": "yes"
+                        }
+                    ]
+                },
+                {
+                    "id": "understand",
+                    "type": "radio",
+                    "location": "belowStimulus",
+                    "prompt": "Did you understand what exactly the guardrail was showing?",
+                    "required": true,
+                    "options": [
+                        {
+                            "label": "No",
+                            "value": "no"
+                        },
+                        {
+                            "label": "Somewhat",
+                            "value": "somewhat"
+                        },
+                        {
+                            "label": "Yes",
+                            "value": "yes"
+                        }
+                    ]
+                },
+                {
+                    "id": "difficulty",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "How did the guardrail affect the difficulty of performing the task, compared to no guardrail?",
+                    "required": true,
+                    "leftLabel": "More difficult",
+                    "rightLabel": "Easier",
+                    "preset": 5,
+                },
+                {
+                    "id": "experience",
+                    "type": "shortText",
+                    "location": "belowStimulus",
+                    "prompt": "Describe how, if at all, the guardrail impacted your experience performing the task:",
+                    "required": true,
+                }
+            ]
         }
     },
     "components": {
+        "post-sd": {
+            "baseComponent": "post-survey",
+            "path": "viz-guardrails/post-sd.md"
+        },
+        "post-ss": {
+            "baseComponent": "post-survey",
+            "path": "viz-guardrails/post-ss.md"
+        },
+        "post-jd": {
+            "baseComponent": "post-survey",
+            "path": "viz-guardrails/post-jd.md"
+        },
+        "post-js": {
+            "baseComponent": "post-survey",
+            "path": "viz-guardrails/post-js.md"
+        },
         "introduction": {
             "type": "markdown",
             "path": "viz-guardrails/introduction.md"
@@ -437,6 +523,7 @@
                                     }
                                 ]
                             },
+                            "post-sd"
                         ]
                     },
                     {
@@ -528,6 +615,7 @@
                                     }
                                 ]
                             },
+                            "post-ss"
                         ]
                     },
                     {
@@ -619,6 +707,7 @@
                                     }
                                 ]
                             },
+                            "post-jd"
                         ]
                     },
                     {
@@ -710,6 +799,7 @@
                                     }
                                 ]
                             },
+                            "post-js"
                         ]
                     }
                 ]

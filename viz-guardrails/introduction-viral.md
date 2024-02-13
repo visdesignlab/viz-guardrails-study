@@ -1,8 +1,8 @@
-We are now moving on to Scenario 2.  It consists of 2 more tasks.
+Welcome to the "Celestial Sniffles" Scenario. It consists of **2 tasks**.
 
-## Instructions for Scenario 2
+## Instructions for the "Celestial Sniffles" Scenario
 
-The following instructions describe the tasks pertaining to Scenario 2. If you need to refer 
+The following instructions describe the tasks pertaining to this scenario. If you need to refer 
 to these instructions during the experiment, please click on help at the top of the page.
 
 **Background**: You live in a fantasy world that consists of your home country, as well as other
