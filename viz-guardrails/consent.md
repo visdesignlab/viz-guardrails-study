@@ -11,7 +11,7 @@ You are being asked to participate in a research study. Before you
               the study, the procedures to be followed, and any benefits, risks
               or discomfort that you may experience as a result of your
               participation. This form presents information about the study so
-              that you may make a fully informed decision regarding your
+            that you may make a fully informed decision regarding your
               participation.
 
 ## Purpose of the Study
