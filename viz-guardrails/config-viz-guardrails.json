@@ -146,6 +146,99 @@
                 }
             ] 
         },
+        "tlx-survey": {
+            "type": "markdown",
+            "path": "viz-guardrails/nasa-tlx.md",
+            "response": [
+                {
+                    "id": "mentalDemand",
+                    "type": "slider",
+                    "location": "belowStimulus",
+                    "prompt": "How much mental and perceptual activity did you spend for this task?",
+                    "required": true,
+                    "rightLabel": "High",
+                    "leftLabel": "Low",
+                    "options": [
+                        { "value": 20, "label": "" },
+                        { "value": 50, "label": "" },
+                        { "value": 80, "label": "" }
+                ]
+                },
+                {
+                    "id": "physicalDemand",
+                    "type": "slider",
+                    "location": "belowStimulus",
+                    "prompt": "How much physical activity did you spend for this task?",
+                    "required": true,
+                    "rightLabel": "High",
+                    "leftLabel": "Low",
+                    "options": [
+                        { "value": 20, "label": "" },
+                        { "value": 50, "label": "" },
+                        { "value": 80, "label": "" }
+                ]
+
+                },
+                {
+                    "id": "temporalDemand",
+                    "type": "slider",
+                    "location": "belowStimulus",
+                    "prompt": "How much time pressure did you feel in order to complete this task?",
+                    "required": true,
+                    "options": [
+                        { "value": 20, "label": "" },
+                        { "value": 50, "label": "" },
+                        { "value": 80, "label": "" }
+                ],
+                "rightLabel": "High",
+                "leftLabel": "Low"
+                },
+                {
+                    "id": "performance",
+                    "type": "slider",
+                    "location": "belowStimulus",
+                    "prompt": "How successful do you think you were in accomplishing the goals of the task?",
+                    "required": true,
+                    "options": [
+                        { "value": 20, "label": "" },
+                        { "value": 50, "label": "" },
+                        { "value": 80, "label": "" }
+                    ],
+                    "leftLabel": "Good",
+                    "rightLabel": "Poor"
+                },
+                {
+
+                    "id": "effort",
+                    "type": "slider",
+                    "location": "belowStimulus",
+                    "prompt": "How hard did you have to work to accomplish your level of performance?",
+                    "required": true,
+                    "rightLabel": "High",
+                    "leftLabel": "Low",
+                    "options": [
+                        { "value": 20, "label": "" },
+                        { "value": 50, "label": "" },
+                        { "value": 80, "label": "" }
+                ]
+
+                },
+                {
+                    "id": "frustration",
+                    "type": "slider",
+                    "location": "belowStimulus",
+                    "prompt": "How insecure, discouraged, irritated, stressed, and annoyed were you during this task?",
+                    "required": true,
+                    "options": [
+                            { "value": 20, "label": "" },
+                            { "value": 50, "label": "" },
+                            { "value": 80, "label": "" }
+                    ],
+                    "rightLabel": "High",
+                    "leftLabel": "Low"
+                }
+            ]
+        },
         "post-survey": {
             "type": "markdown",
             "response": [
