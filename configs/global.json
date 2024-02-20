@@ -1,0 +1,11 @@
+{
+    "$schema": "https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/GlobalConfigSchema.json",
+    "configsList": [
+        "viz-guardrails"
+    ],
+    "configs": {
+        "viz-guardrails": {
+            "path": "viz-guardrails/config-viz-guardrails.json"
+        }
+    }
+}

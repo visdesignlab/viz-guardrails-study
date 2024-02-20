@@ -1,5 +1,5 @@
 {
-    "$schema": https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/StudyConfigSchema.json
+    "$schema": "https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/StudyConfigSchema.json",
     "studyMetadata": {
         "title": "Communicating With Interactive Data Visualizations",
         "version": "pilot",
@@ -25,7 +25,7 @@
             "parameters": {
                 "dataset": "clean_data",
                 "start_date": "2020-09-13",
-                "end_date": "2021-04-11"
+                "end_date": "2021-04-11",
                 "allow_time_slider": false,
                 "x_var": "date",
                 "y_var": "value",
@@ -51,7 +51,7 @@
             "parameters": {
                 "dataset": "clean_data",
                 "start_date": "2022-09-27",
-                "end_date": "2023-03-01"
+                "end_date": "2023-03-01",
                 "allow_time_slider": false,
                 "x_var": "date",
                 "y_var": "value",
@@ -70,7 +70,7 @@
             ] 
         },
         "stock-a": {
-            "instruction": "Select a view that best shows (and convinces your client) that **the car industry fund is the best investment**."
+            "instruction": "Select a view that best shows (and convinces your client) that **the car industry fund is the best investment**.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -96,7 +96,7 @@
             ]
         },
         "stock-b": {
-            "instruction": "Select a view that best shows (and convinces your client) that **the airline industry fund is the best investment**."
+            "instruction": "Select a view that best shows (and convinces your client) that **the airline industry fund is the best investment**.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -157,7 +157,7 @@
                     "required": true,
                     "leftLabel": "Not familiar",
                     "rightLabel": "Very familiar",
-                    "preset": 5,
+                    "preset": 5
                 },
                 {
                     "id": "notice",
@@ -184,7 +184,7 @@
                     "required": true,
                     "leftLabel": "Not clear",
                     "rightLabel": "Very clear",
-                    "preset": 5,
+                    "preset": 5
                 },
                 {
                     "id": "difficulty",
@@ -194,7 +194,7 @@
                     "required": true,
                     "leftLabel": "Easier",
                     "rightLabel": "More difficult",
-                    "preset": 5,
+                    "preset": 5
                 },
                 {
                     "id": "experience",
@@ -250,7 +250,7 @@
         },
         "introduction": {
             "type": "markdown",
-            "path": "viz-guardrails/introduction.md"
+            "path": "viz-guardrails/introduction.md",
             "response": [
                 {
                     "id": "prolificId",
@@ -419,17 +419,17 @@
             }
         },
         "post-viral-a" : {
-            baseComponent: "post-task-screen"
+            "baseComponent": "post-task-screen"
         },
         "post-viral-b" : {
-            baseComponent: "post-task-screen"
+            "baseComponent": "post-task-screen"
         },
         "post-stock-a" : {
-            baseComponent: "post-task-screen"
+            "baseComponent": "post-task-screen"
         },
         "post-stock-b" : {
-            baseComponent: "post-task-screen"
-        },
+            "baseComponent": "post-task-screen"
+        }
     },
     "sequence": { 
         "order": "fixed",
