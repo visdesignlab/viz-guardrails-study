@@ -1,4 +1,4 @@
-# Post-study survey
+# Post-task survey
 
 The evaluation you're about to perform is a technique that has been developed by NASA to assess the relative importance of six factors in determining how much workload you experienced while performing a task that you recently completed. These six factors are defined on the following page. Read through them to make sure you understand what each factor means. 
 
@@ -26,4 +26,4 @@ How hard did you have to work (mentally and physically) to accomplish your level
 
 How insecure, discouraged, irritated, stressed, and annoyed versus secure, gratified, content, relacex, and complacent did you feel during the task?
 
-
+---

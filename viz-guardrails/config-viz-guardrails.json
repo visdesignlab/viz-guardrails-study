@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/StudyConfigSchema.json",
+    "$schema": "https://raw.githubusercontent.com/visdesignlab/viz-guardrails-study/main/src/parser/StudyConfigSchema.json",
     "studyMetadata": {
         "title": "Communicating With Interactive Data Visualizations",
         "version": "pilot",
@@ -27,6 +27,7 @@
                 "start_date": "2020-09-13",
                 "end_date": "2021-04-11",
                 "allow_time_slider": false,
+                "allow_guardrail_selector": false,
                 "x_var": "date",
                 "y_var": "value",
                 "cat_var": "name",
@@ -53,6 +54,7 @@
                 "start_date": "2022-09-27",
                 "end_date": "2023-03-01",
                 "allow_time_slider": false,
+                "allow_guardrail_selector": false,
                 "x_var": "date",
                 "y_var": "value",
                 "cat_var": "name",
@@ -79,6 +81,7 @@
                 "start_date": "2023-01-01",
                 "end_date": "2024-01-01",
                 "allow_time_slider": false,
+                "allow_guardrail_selector": false,
                 "x_var": "Date",
                 "y_var": "Value",
                 "cat_var": "name",
@@ -105,6 +108,7 @@
                 "start_date": "2023-01-01",
                 "end_date": "2024-01-01",
                 "allow_time_slider": false,
+                "allow_guardrail_selector": false,
                 "x_var": "Date",
                 "y_var": "Value",
                 "cat_var": "name",
@@ -512,16 +516,16 @@
             }
         },
         "post-viral-a" : {
-            "baseComponent": "post-task-screen"
+            "baseComponent": "tlx-survey"
         },
         "post-viral-b" : {
-            "baseComponent": "post-task-screen"
+            "baseComponent": "tlx-survey"
         },
         "post-stock-a" : {
-            "baseComponent": "post-task-screen"
+            "baseComponent": "tlx-survey"
         },
         "post-stock-b" : {
-            "baseComponent": "post-task-screen"
+            "baseComponent": "tlx-survey"
         }
     },
     "sequence": { 
