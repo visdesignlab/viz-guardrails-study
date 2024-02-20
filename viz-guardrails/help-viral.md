@@ -1,9 +1,4 @@
-Welcome to the "Celestial Sniffles" Scenario. It consists of **2 tasks**.
-
-## Instructions for the "Celestial Sniffles" Scenario
-
-The following instructions describe the tasks pertaining to this scenario. If you need to refer 
-to these instructions during the experiment, please click on help at the top of the page.
+Select any subset of countries to the left of the visualization.
 
 **Background**: You live in a fantasy world that consists of your home country, as well as other
 15 countries located across 5 continents: Eldoril, Thundoril, Aerion, Silvoria, and Mystara. 
@@ -18,4 +13,5 @@ However, due to socioeconomic factors, the Surgeon General in your country has *
 **Task**: You are tasked with leading the promotion efforts and advertising the chosen policy to the population using data. 
 In the experiment, you will use an interactive data explorer that shows infection data from other countries. 
 You should select a view that best shows (and convinces the population) that your country's **chosen 
-policy is the best policy to combat the disease**. After finalizing the view, add a caption or a slogan that will go along with your visualization.
+policy is the best policy to combat the disease**. After finalizing the view, click the 
+camera button and add a caption or a slogan that will go along with your visualization.

@@ -1,6 +1,6 @@
 # Post-study survey
 
-Thank you for completing the tasks! This is the last page of the assingment. 
+Thank you for completing the tasks! This is the last page of the assignment. 
 
 After completing the questions below and clicking the "Next" button, you will be redirected back to Prolific.
 

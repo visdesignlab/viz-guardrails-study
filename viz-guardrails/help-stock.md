@@ -1,9 +1,4 @@
-Welcome to the "Financial Advisor" Scenario. It consists of **2 tasks**.
-
-## Instructions for the "Financial Advisor" Scenario 
-
-The following instructions describe the tasks pertaining to this scenario. If you need to refer 
-to these instructions during the experiment, please click on help at the top of the page.
+Select any subset of stocks to the left of the visualization.
 
 **Scenario**: You are a financial advisor. Your client approached you asking for help in
 picking a new investment---an industry fund that equally invests within a single industry. 
@@ -16,4 +11,4 @@ You cannot disclose this to the client and have to use data to support your orde
 of different stocks from a variety of industries. 
 You should select a view that best shows (and convinces your client) that **the chosen 
 industry fund would be the best investment with the highest returns**. After finalizing the view, 
-add a caption or a slogan that will go along with your visualization.
+click the camera button and add a caption or a slogan that will go along with your visualization.

@@ -5,7 +5,7 @@
         "version": "pilot",
         "authors": ["VDL"],
         "date": "2024-01-11",
-        "description": "A study challenging participants to interact with linecharts that contain contextual data aka guardrails.",
+        "description": "A study challenging participants to interact and communicate with linecharts.",
         "organizations": ["University of Utah"]
     },
     "uiConfig": {
@@ -14,6 +14,7 @@
         "withProgressBar": true,
         "autoDownloadStudy": false,
         "sidebar": false,
+        "urlParticipantIdParam": "PROLIFIC_PID",
         "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=XXXXXXX](https://app.prolific.com/submissions/complete?cc=XXXXXXX)"
     },
     "baseComponents": {
@@ -158,7 +159,7 @@
                     "id": "mentalDemand",
                     "type": "slider",
                     "location": "belowStimulus",
-                    "prompt": "How much mental and perceptual activity did you spend for this task?",
+                    "prompt": "Mental Demand: How much mental and perceptual activity did you spend for this task?",
                     "required": true,
                     "rightLabel": "High",
                     "leftLabel": "Low",
@@ -172,7 +173,7 @@
                     "id": "physicalDemand",
                     "type": "slider",
                     "location": "belowStimulus",
-                    "prompt": "How much physical activity did you spend for this task?",
+                    "prompt": "Physical Demand: How much physical activity did you spend for this task?",
                     "required": true,
                     "rightLabel": "High",
                     "leftLabel": "Low",
@@ -187,7 +188,7 @@
                     "id": "temporalDemand",
                     "type": "slider",
                     "location": "belowStimulus",
-                    "prompt": "How much time pressure did you feel in order to complete this task?",
+                    "prompt": "Temporal Demand: How much time pressure did you feel in order to complete this task?",
                     "required": true,
                     "options": [
                         { "value": 20, "label": "" },
@@ -201,7 +202,7 @@
                     "id": "performance",
                     "type": "slider",
                     "location": "belowStimulus",
-                    "prompt": "How successful do you think you were in accomplishing the goals of the task?",
+                    "prompt": "Performance: How successful do you think you were in accomplishing the goals of the task?",
                     "required": true,
                     "options": [
                         { "value": 20, "label": "" },
@@ -216,7 +217,7 @@
                     "id": "effort",
                     "type": "slider",
                     "location": "belowStimulus",
-                    "prompt": "How hard did you have to work to accomplish your level of performance?",
+                    "prompt": "Effort: How hard did you have to work to accomplish your level of performance?",
                     "required": true,
                     "rightLabel": "High",
                     "leftLabel": "Low",
@@ -231,7 +232,7 @@
                     "id": "frustration",
                     "type": "slider",
                     "location": "belowStimulus",
-                    "prompt": "How insecure, discouraged, irritated, stressed, and annoyed were you during this task?",
+                    "prompt": "Frustration: How insecure, discouraged, irritated, stressed, and annoyed were you during this task?",
                     "required": true,
                     "options": [
                             { "value": 20, "label": "" },
