@@ -37,6 +37,7 @@ circumstances, the University of Utah Institutional
 Review Board (IRB) will be able to inspect and have access to
 this data. Any publication or presentation of the data will not
 identify you.
+The data collected in this study is only being used for the present study and not for future research.
 
 #### Cost/Payment
 You will be compensated $5.00 for participating via Prolific.
