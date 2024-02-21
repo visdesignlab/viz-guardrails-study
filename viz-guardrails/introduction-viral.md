@@ -19,3 +19,5 @@ However, due to socioeconomic factors, the Surgeon General in your country has *
 In the experiment, you will use an interactive data explorer that shows infection data from other countries. 
 You should select a view that best shows (and convinces the population) that your country's **chosen 
 policy is the best policy to combat the disease**. After finalizing the view, add a caption or a slogan that will go along with your visualization.
+
+<img src='./images/map.png' width='700'>

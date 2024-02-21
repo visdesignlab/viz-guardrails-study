@@ -19,7 +19,7 @@
     },
     "baseComponents": {
         "viral-a" : {
-            "instruction": "Select a view that best shows (and convinces the population) that **Policy A is the best policy to combat the disease**.",
+            "instruction": "<br><br>Select a view that best shows (and convinces the population) that **Policy A is the best policy to combat the disease**.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -46,7 +46,7 @@
             ] 
         },
         "viral-b" : {
-            "instruction": "Select a view that best shows (and convinces the population) that **Policy C is the best policy to combat the disease**.",
+            "instruction": "<br><br>Select a view that best shows (and convinces the population) that **Policy C is the best policy to combat the disease**.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -73,7 +73,7 @@
             ] 
         },
         "stock-a": {
-            "instruction": "Select a view that best shows (and convinces your client) that **the car industry fund is the best investment**.",
+            "instruction": "<br><br>Select a view that best shows (and convinces your client) that **the car industry fund is the best investment**.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -100,7 +100,7 @@
             ]
         },
         "stock-b": {
-            "instruction": "Select a view that best shows (and convinces your client) that **the airline industry fund is the best investment**.",
+            "instruction": "<br><br>Select a view that best shows (and convinces your client) that **the airline industry fund is the best investment**.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -202,7 +202,7 @@
                     "id": "performance",
                     "type": "slider",
                     "location": "belowStimulus",
-                    "prompt": "Performance: How successful do you think you were in accomplishing the goals of the task?",
+                    "prompt": "Performance: How successful do you think you were in accomplishing the goals of the task? (notice the direction of the scale)",
                     "required": true,
                     "options": [
                         { "value": 20, "label": "" },
