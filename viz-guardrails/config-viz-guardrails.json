@@ -9,13 +9,13 @@
         "organizations": ["University of Utah"]
     },
     "uiConfig": {
-        "contactEmail": "test@test.com",
+        "contactEmail": "maxim.lisnic@utah.com",
         "logoPath": "assets/revisitLogoSquare.svg",
         "withProgressBar": true,
         "autoDownloadStudy": false,
         "sidebar": false,
         "urlParticipantIdParam": "PROLIFIC_PID",
-        "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=XXXXXXX](https://app.prolific.com/submissions/complete?cc=XXXXXXX)"
+        "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=C2GIQBF6](https://app.prolific.com/submissions/complete?cc=C2GIQBF6)"
     },
     "baseComponents": {
         "viral-a" : {
