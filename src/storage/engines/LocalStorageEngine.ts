@@ -7,6 +7,21 @@ import { hash } from './utils';
 import { StudyConfig } from '../../parser/types';
 
 export class LocalStorageEngine extends StorageEngine {
+  getAudio(participantId?: string | undefined): Promise<string> {
+    console.warn('not yet implemented', participantId);
+    return Promise.resolve('not implemented');
+  }
+
+  getTranscription(participantId?: string | undefined): Promise<string> {
+    console.warn('not yet implemented', participantId);
+    return Promise.resolve('not implemented');
+  }
+
+  saveAudio(audioStream: MediaRecorder): Promise<void> {
+    console.warn('not yet implemented', audioStream);
+    return Promise.resolve();
+  }
+
   private studyDatabase: LocalForage | undefined = undefined;
 
   constructor() {

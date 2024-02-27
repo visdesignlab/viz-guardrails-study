@@ -7,6 +7,9 @@ export default defineConfig(({ command, mode }) => {
 
   return {
     base: command === 'build' ? env.VITE_BASE_PATH : '/',
+    optimizeDeps: {
+      exclude: ['js-big-decimal'],
+    },
     plugins: [
       react({ devTarget: 'es2022' }),
     ],

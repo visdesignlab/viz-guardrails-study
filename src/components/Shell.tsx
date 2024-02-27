@@ -1,10 +1,11 @@
 import {
   useEffect,
+  useMemo,
   useState,
 } from 'react';
 import { Provider } from 'react-redux';
 import {
-  RouteObject, useParams, useRoutes, useSearchParams,
+  RouteObject, useMatch, useParams, useRoutes, useSearchParams,
 } from 'react-router-dom';
 import { Box, Center, Loader } from '@mantine/core';
 import { parseStudyConfig } from '../parser/parser';
@@ -18,15 +19,23 @@ import {
   StudyStoreContext,
   StudyStore,
   studyStoreCreator,
+  useStoreDispatch,
+  useStoreActions,
+  useStoreSelector,
 } from '../store/store';
 import { sanitizeStringForUrl } from '../utils/sanitizeStringForUrl';
 
 import ComponentController from '../controllers/ComponentController';
 import { NavigateWithParams } from '../utils/NavigateWithParams';
-import { StepRenderer } from './StepRenderer';
 import { StudyEnd } from './StudyEnd';
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/no-non-null-assertion
 import { useStorageEngine } from '../store/storageEngineHooks';
 import { generateSequenceArray } from '../utils/handleRandomSequences';
+import { StepRenderer } from './StepRenderer';
+import { ProvenanceWrapper } from './interface/audioAnalysis/ProvenanceWrapper';
+import { StorageEngine } from '../storage/engines/StorageEngine';
+import { AnalysisHome } from './interface/audioAnalysis/AnalysisHome';
 import { PREFIX } from './Prefix';
 
 async function fetchStudyConfig(configLocation: string, configKey: string) {
@@ -34,44 +43,89 @@ async function fetchStudyConfig(configLocation: string, configKey: string) {
   return parseStudyConfig(config, configKey);
 }
 
-export function generateStudiesRoutes(
+export function GenerateStudiesRoutes({ studyId, config, storage }: {
   studyId: Nullable<string>,
   config: Nullable<StudyConfig>,
-  sequence: Nullable<string[]>,
-) {
-  const routes: RouteObject[] = [];
+  storage: StorageEngine}) {
+  const [audioStream, setAudioStream] = useState<MediaRecorder | null>(null);
+  const dispatch = useStoreDispatch();
+  const { setIsRecording } = useStoreActions();
 
-  if (studyId && config && sequence) {
-    const stepRoutes: RouteObject[] = [];
+  const sequence = useStoreSelector((state) => state.sequence);
 
-    stepRoutes.push({
-      path: '/',
-      element: <NavigateWithParams to={`${sequence[0]}`} replace />,
-    });
+  const atEnd = useMatch('/:studyId/end');
 
-    sequence.forEach((step: string) => {
-      if (step === 'end') {
-        stepRoutes.push({
-          path: '/end',
-          element: <StudyEnd />,
-        });
-      } else {
-        stepRoutes.push({
-          path: `/${step}`,
-          element: <ComponentController />,
+  useEffect(() => {
+    let _stream: Promise<MediaStream> | null;
+    if (config && config.recordStudyAudio) {
+      _stream = navigator.mediaDevices.getUserMedia({
+        audio: true,
+      });
+
+      _stream.then((stream) => {
+        const mediaRecorder = new MediaRecorder(stream);
+        mediaRecorder.start();
+        setAudioStream(mediaRecorder);
+        dispatch(setIsRecording(true));
+      });
+    }
+
+    return () => {
+      if (_stream) {
+        _stream.then((data) => {
+          data.getTracks().forEach((track) => track.stop());
         });
       }
-    });
-
-    const studyRoute: RouteObject = {
-      element: <StepRenderer />,
-      children: stepRoutes,
     };
+  }, [config, dispatch, setIsRecording]);
 
-    routes.push(studyRoute);
-  }
+  useEffect(() => {
+    if (atEnd && config && config.recordStudyAudio && audioStream) {
+      storage.saveAudio(audioStream);
+      dispatch(setIsRecording(false));
+    }
+  }, [config, atEnd, audioStream, dispatch, setIsRecording, storage]);
 
-  return routes;
+  const routes = useMemo(() => {
+    if (studyId && config && sequence) {
+      const stepRoutes: RouteObject[] = [];
+
+      stepRoutes.push({
+        path: '/',
+        element: <NavigateWithParams to={`${sequence[0]}`} replace />,
+      });
+
+      stepRoutes.push({
+        path: '/analysis/:trrackId/:trialName/',
+        element: <ProvenanceWrapper />,
+      });
+
+      stepRoutes.push({
+        path: '/analysis',
+        element: <AnalysisHome />,
+      });
+
+      stepRoutes.push({
+        path: '/:trialName',
+        element: <ComponentController />,
+      });
+
+      stepRoutes.push({
+        path: '/end',
+        element: <StudyEnd />,
+      });
+
+      const studyRoute: RouteObject = {
+        element: <StepRenderer />,
+        children: stepRoutes,
+      };
+
+      return [studyRoute];
+    }
+    return [];
+  }, [config, sequence, studyId]);
+
+  return useRoutes(routes);
 }
 
 export function Shell({ globalConfig }: {
@@ -96,7 +150,6 @@ export function Shell({ globalConfig }: {
     }
   }, [globalConfig, studyId]);
 
-  const [routes, setRoutes] = useState<RouteObject[]>([]);
   const [store, setStore] = useState<Nullable<StudyStore>>(null);
   const { storageEngine } = useStorageEngine();
   const [searchParams] = useSearchParams();
@@ -118,18 +171,13 @@ export function Shell({ globalConfig }: {
       const participantSession = await storageEngine.initializeParticipantSession(searchParamsObject, activeConfig, urlParticipantId);
 
       // Initialize the redux stores
-      const newStore = await studyStoreCreator(studyId, activeConfig, participantSession.sequence, participantSession.answers);
-      setStore(newStore);
-
-      // Initialize the routing
-      setRoutes(generateStudiesRoutes(studyId, activeConfig, participantSession.sequence));
+      const _store = await studyStoreCreator(studyId, activeConfig, participantSession.sequence, participantSession.answers);
+      setStore(_store);
     }
     initializeUserStoreRouting();
   }, [storageEngine, activeConfig, studyId, searchParams]);
 
-  const routing = useRoutes(routes);
-
-  return !routing || !store
+  return !store || !storageEngine
     ? (
       <Box style={{ height: '100vh' }}>
         <Center style={{ height: '100%' }}>
@@ -139,7 +187,7 @@ export function Shell({ globalConfig }: {
     ) : (
       <StudyStoreContext.Provider value={store}>
         <Provider store={store.store}>
-          {routing}
+          <GenerateStudiesRoutes studyId={studyId} config={activeConfig} storage={storageEngine} />
         </Provider>
       </StudyStoreContext.Provider>
     );

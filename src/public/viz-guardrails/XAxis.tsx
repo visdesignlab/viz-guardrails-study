@@ -1,5 +1,6 @@
-/* eslint-disable react/no-unused-prop-types */
-import { Center, Text, Tooltip } from '@mantine/core';
+import {
+  Center, Group, Select, Text, Tooltip,
+} from '@mantine/core';
 import { useCallback, useMemo } from 'react';
 import * as d3 from 'd3';
 
@@ -19,8 +20,6 @@ export function XAxis({
     yRange: [number, number];
     vertPosition: number;
     ticks: { value: string; offset: number }[];
-    arrowAsc?: boolean;
-    arrowDesc?: boolean;
 }) {
   const tickWidth = useMemo(() => {
     if (ticks.length > 1) {

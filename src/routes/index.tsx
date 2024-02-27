@@ -1,6 +1,6 @@
 // npm install react-router-dom localforage match-sorter sort-by // For offline + misc
 
-import { useLocation } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 
 export type StudyIdParam = {
   studyId: string;
@@ -13,7 +13,7 @@ export function useStudyId(): string {
 }
 
 export function useCurrentStep(): string {
-  const location = useLocation();
+  const { trialName } = useParams();
 
-  return location.pathname.split('/')[2];
+  return trialName || '';
 }

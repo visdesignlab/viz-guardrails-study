@@ -12,7 +12,7 @@ type Props = {
 export function NextButton({
   label = 'Next',
   disabled = false,
-  setCheckClicked = () => {},
+  setCheckClicked = () => null,
   onClick,
 }: Props) {
   const { isNextDisabled, goToNextStep } = useNextStep();

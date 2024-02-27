@@ -17,6 +17,10 @@ type VisibilityEvent = [number, 'visibility', string];
 export type EventType = MouseMoveEvent | MouseDownEvent | MouseUpEvent | KeypressEvent | ScrollEvent | FocusEvent | InputEvent | ResizeEvent | VisibilityEvent;
 
 export type ValidationStatus = { valid: boolean, values: object }
+
+export type AudioTag = { name: string, icon: string }
+export type TextTag = { text: string, tag: AudioTag }
+
 export type TrialValidation = Record<
   string,
   {
@@ -31,18 +35,21 @@ export interface StoredAnswer {
   answer: Record<string, Record<string, unknown>>;
   startTime: number;
   endTime: number;
+  correctAnswer?: Record<string, Record<string, unknown>>;
   provenanceGraph?: TrrackedProvenance,
   windowEvents: EventType[];
 }
 
-export interface StimulusParams<T> {
+export interface StimulusParams<T, S = never> {
   parameters: T;
+  provenanceState?: S;
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   setAnswer: ({ status, provenanceGraph, answers }: { status: boolean, provenanceGraph?: TrrackedProvenance, answers: Record<string, any> }) => void
 }
 
 export interface StoreState {
   studyId: string;
+  isRecording: boolean;
   answers: Record<string, StoredAnswer>;
   sequence: string[]
   config: StudyConfig;

@@ -39,7 +39,7 @@ export default function AppNavBar() {
     || currentConfig?.instructionLocation === undefined;
 
   return trialHasSideBar && currentConfig ? (
-    <Navbar bg="gray.1" display="block" width={{ base: 300 }} style={{ zIndex: 0, overflowY: 'scroll' }}>
+    <Navbar bg="gray.1" display="block" width={{ base: '100%', sm: 300 }} style={{ zIndex: 0, overflowY: 'scroll' }}>
       {instructionInSideBar && instruction !== '' && (
         <Navbar.Section
           bg="gray.3"

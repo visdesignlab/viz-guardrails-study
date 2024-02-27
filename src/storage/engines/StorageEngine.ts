@@ -1,5 +1,5 @@
 import { StudyConfig } from '../../parser/types';
-import { StoredAnswer } from '../../store/types';
+import { AudioTag, StoredAnswer, TextTag } from '../../store/types';
 import { ParticipantData } from '../types';
 
 export abstract class StorageEngine {
@@ -33,6 +33,14 @@ export abstract class StorageEngine {
 
   abstract saveAnswer(currentStep: string, answer: StoredAnswer): Promise<void>;
 
+  abstract saveAudioTags(tags: AudioTag[]): Promise<void>;
+
+  abstract saveTextTags(participantId: string, tags: TextTag[]): Promise<void>;
+
+  abstract getAudioTags(): Promise<AudioTag[]>;
+
+  abstract getTextTags(participantId: string): Promise<TextTag[]>;
+
   abstract setSequenceArray(latinSquare: string[][]): Promise<void>;
 
   abstract getSequenceArray(): Promise<string[][] | null>;
@@ -41,9 +49,15 @@ export abstract class StorageEngine {
 
   abstract getAllParticipantsData(): Promise<ParticipantData[]>;
 
-  abstract getParticipantData(): Promise<ParticipantData | null>;
+  abstract getParticipantData(participantId?: string): Promise<ParticipantData | null>;
+
+  abstract getAudio(participantId?: string): Promise<string>;
+
+  abstract getTranscription(participantId?: string): Promise<string>;
 
   abstract nextParticipant(config: StudyConfig): Promise<ParticipantData>;
+
+  abstract saveAudio(audioStream: MediaRecorder): Promise<void>;
 
   abstract verifyCompletion(answers: Record<string, StoredAnswer>): Promise<boolean>;
 }

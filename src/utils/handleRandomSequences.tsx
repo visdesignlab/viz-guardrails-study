@@ -41,7 +41,7 @@ function orderObjectToList(
   const orderCopy = deepCopy(order);
 
   _orderObjectToList(orderCopy, pathsFromFirebase, 'root');
-  return orderCopy.components.slice(0, order.numSamples ? order.numSamples : undefined).flat();
+  return orderCopy.components.slice(0, orderCopy.numSamples ? orderCopy.numSamples : undefined).flat();
 }
 
 function _createRandomOrders(order: OrderObject, paths: string[], path: string, index = 0) {
@@ -81,11 +81,13 @@ function generateLatinSquare(config: StudyConfig, path: string) {
   return newSquare;
 }
 
-export function generateSequenceArray(config: StudyConfig, numSequences = 1000) {
+export function generateSequenceArray(config: StudyConfig) {
   const paths = createRandomOrders(config.sequence);
   const latinSquareObject: Record<string, string[][]> = paths
     .map((p) => ({ [p]: generateLatinSquare(config, p) }))
     .reduce((acc, curr) => ({ ...acc, ...curr }), {});
+
+  const numSequences = config.uiConfig.numSequences || 1000;
 
   const sequenceArray: string[][] = [];
   Array.from({ length: numSequences }).forEach(() => {

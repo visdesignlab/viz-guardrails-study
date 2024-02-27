@@ -29,6 +29,7 @@ export async function studyStoreCreator(
   const initialState: StoreState = {
     studyId,
     answers: answers || emptyAnswers,
+    isRecording: false,
     sequence,
     config,
     showAdmin: false,
@@ -44,6 +45,9 @@ export async function studyStoreCreator(
     reducers: {
       setConfig(state, payload: PayloadAction<StudyConfig>) {
         state.config = payload.payload;
+      },
+      setIsRecording(state, payload: PayloadAction<boolean>) {
+        state.isRecording = payload.payload;
       },
       toggleShowAdmin: (state) => {
         state.showAdmin = !state.showAdmin;

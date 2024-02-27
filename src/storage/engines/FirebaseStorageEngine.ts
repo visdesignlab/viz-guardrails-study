@@ -4,14 +4,16 @@ import {
   getDownloadURL, getStorage, ref, uploadBytes,
 } from 'firebase/storage';
 import {
-  CollectionReference, DocumentData, Firestore, collection, doc, enableNetwork, getDoc, getDocs, initializeFirestore, setDoc,
+  CollectionReference, DocumentData, Firestore, collection, doc, enableNetwork, getDoc, getDocs, initializeFirestore, orderBy, query, serverTimestamp, setDoc,
 } from 'firebase/firestore';
 import { ReCaptchaV3Provider, initializeAppCheck } from '@firebase/app-check';
 import { getAuth, signInAnonymously } from '@firebase/auth';
 import localforage from 'localforage';
 import { StorageEngine } from './StorageEngine';
 import { ParticipantData } from '../types';
-import { EventType, StoredAnswer, TrrackedProvenance } from '../../store/types';
+import {
+  AudioTag, EventType, StoredAnswer, TextTag, TrrackedProvenance,
+} from '../../store/types';
 import { hash } from './utils';
 import { StudyConfig } from '../../parser/types';
 
@@ -20,7 +22,7 @@ export class FirebaseStorageEngine extends StorageEngine {
 
   private firestore: Firestore;
 
-  private collectionPrefix = import.meta.env.DEV ? 'dev-' : 'prod-';
+  private collectionPrefix = 'prod-';
 
   private studyCollection: CollectionReference<DocumentData, DocumentData> | undefined = undefined;
 
@@ -107,7 +109,7 @@ export class FirebaseStorageEngine extends StorageEngine {
     // Restore localWindowEvents
     this.localWindowEvents = await this._getFromFirebaseStorage(this.currentParticipantId, 'windowEvents');
     Object.entries(this.localWindowEvents).forEach(([step, events]) => {
-      if (participant === null) return;
+      if (participant === null || !participant.answers[step]) return;
 
       if (events === undefined || events.length === 0) {
         participant.answers[step].windowEvents = [];
@@ -188,11 +190,121 @@ export class FirebaseStorageEngine extends StorageEngine {
 
     if (answer.provenanceGraph) {
       this.localProvenanceCopy[currentStep] = answer.provenanceGraph;
-      await this._pushToFirebaseStorage('provenance');
+      await this._pushToFirebaseStorage(this.currentParticipantId, 'provenance', this.localProvenanceCopy);
     }
 
     this.localWindowEvents[currentStep] = answer.windowEvents;
-    await this._pushToFirebaseStorage('windowEvents');
+    await this._pushToFirebaseStorage(this.currentParticipantId, 'windowEvents', this.localWindowEvents);
+  }
+
+  async saveAudioTags(tags: AudioTag[]) {
+    if (!this._verifyStudyDatabase(this.studyCollection)) {
+      throw new Error('Study database not initialized');
+    }
+
+    // Get the participant doc
+    const tagsDoc = doc(this.studyCollection, 'audioTags');
+
+    await setDoc(tagsDoc, { audioTags: tags });
+  }
+
+  async getAudioTags() {
+    if (this.studyCollection) {
+      const tagDoc = doc(this.studyCollection, 'audioTags');
+      const tags = (await getDoc(tagDoc)).data()?.audioTags as AudioTag[] | null;
+
+      return tags || [];
+    }
+
+    return [];
+  }
+
+  async saveTextTags(participantId: string, tags: TextTag[]) {
+    if (!this._verifyStudyDatabase(this.studyCollection)) {
+      throw new Error('Study database not initialized');
+    }
+
+    // Get the participant doc
+    const tagsDoc = doc(this.studyCollection, participantId);
+
+    await setDoc(tagsDoc, { textTags: tags }, { merge: true });
+  }
+
+  async getTextTags(participantId: string) {
+    if (this.studyCollection) {
+      const tagDoc = doc(this.studyCollection, participantId);
+      const tags = (await getDoc(tagDoc)).data()?.textTags as TextTag[] | null;
+
+      console.log(tags);
+
+      return tags || [];
+    }
+
+    return [];
+  }
+
+  async saveAudio(
+    audioStream: MediaRecorder,
+  ) {
+    audioStream.addEventListener('dataavailable', (data) => {
+      const storage = getStorage();
+
+      const storeRef = ref(storage, `${this.studyId}/audio/${this.currentParticipantId}`);
+
+      uploadBytes(storeRef, data.data).then(() => {
+        console.warn('Uploaded a blob or file!');
+      });
+    });
+
+    audioStream.stop();
+
+    audioStream.stream.getTracks().forEach((track) => track.stop());
+  }
+
+  async getAudio(
+    participantId: string,
+  ) {
+    const storage = getStorage();
+
+    const url = await getDownloadURL(ref(storage, `${this.studyId}/audio/${participantId}`));
+
+    return new Promise<string>((resolve) => {
+      const xhr = new XMLHttpRequest();
+      xhr.responseType = 'blob';
+      xhr.onload = () => {
+        const blob = xhr.response;
+
+        const _url = URL.createObjectURL(blob);
+
+        resolve(_url);
+      };
+      xhr.open('GET', url);
+      xhr.send();
+    });
+  }
+
+  async getTranscription(
+    participantId: string,
+  ) {
+    const storage = getStorage();
+
+    const url = await getDownloadURL(ref(storage, `${this.studyId}/audio/${participantId}.wav_transcription.txt`));
+
+    return new Promise<string>((resolve) => {
+      const xhr = new XMLHttpRequest();
+      xhr.responseType = 'blob';
+      xhr.onload = () => {
+        const blob = xhr.response;
+
+        blob.text().then((text: string) => {
+          const json = text;
+
+          resolve(json);
+        });
+      };
+      xhr.open('GET', url);
+      xhr.send();
+    });
   }
 
   async setSequenceArray(latinSquare: string[][]) {
@@ -200,12 +312,7 @@ export class FirebaseStorageEngine extends StorageEngine {
       throw new Error('Study database not initialized');
     }
 
-    // convert the latin square to a firebase-friendly format (nested arrays are not supported)
-    const firebaseFriendlyLatinSquare = latinSquare.map((row) => row.join(','));
-
-    const sequenceArrayDoc = doc(this.studyCollection, 'sequenceArray');
-    const sequenceArrayDocData = { sequenceArray: firebaseFriendlyLatinSquare };
-    return await setDoc(sequenceArrayDoc, sequenceArrayDocData);
+    this._pushToFirebaseStorage('', 'sequenceArray', { sequenceArray: latinSquare });
   }
 
   async getSequenceArray() {
@@ -213,19 +320,18 @@ export class FirebaseStorageEngine extends StorageEngine {
       throw new Error('Study database not initialized');
     }
 
-    const sequenceArrayDoc = doc(this.studyCollection, 'sequenceArray');
-    const sequenceArrayDocData = (await getDoc(sequenceArrayDoc)).data() as { sequenceArray: string[] };
+    const sequenceArrayDocData = await this._getFromFirebaseStorage('', 'sequenceArray');
 
-    if (sequenceArrayDocData === undefined) {
-      return null;
-    }
-    // convert the firebase-friendly format back to a latin square
-    return sequenceArrayDocData.sequenceArray.map((row: string) => row.split(','));
+    return sequenceArrayDocData.sequenceArray;
   }
 
   async getSequence() {
     if (!this._verifyStudyDatabase(this.studyCollection)) {
       throw new Error('Study database not initialized');
+    }
+
+    if (!this.currentParticipantId) {
+      throw new Error('Participant not initialized');
     }
 
     // Get the latin square
@@ -234,15 +340,24 @@ export class FirebaseStorageEngine extends StorageEngine {
       throw new Error('Latin square not initialized');
     }
 
+    // Note intent to get a sequence in the sequenceAssignment collection
+    const sequenceAssignmentDoc = doc(this.studyCollection, 'sequenceAssignment');
+    const sequenceAssignmentCollection = collection(sequenceAssignmentDoc, 'sequenceAssignment');
+    const participantSequenceAssignmentDoc = doc(sequenceAssignmentCollection, this.currentParticipantId);
+    await setDoc(participantSequenceAssignmentDoc, { participantId: this.currentParticipantId, timestamp: serverTimestamp() });
+
+    // Query all the intents to get a sequence and find our position in the queue
+    const intentsQuery = query(sequenceAssignmentCollection, orderBy('timestamp', 'asc'));
+    const intentDocs = await getDocs(intentsQuery);
+    const intents = intentDocs.docs.map((intent) => intent.data());
+
     // Get the current row
-    const currentRow = sequenceArray.pop();
+    const intentIndex = intents.findIndex((intent) => intent.participantId === this.currentParticipantId);
+    const currentRow = sequenceArray[intentIndex % sequenceArray.length];
 
     if (!currentRow) {
       throw new Error('Latin square is empty');
     }
-
-    // Update the latin square
-    await this.setSequenceArray(sequenceArray);
 
     return currentRow;
   }
@@ -259,7 +374,7 @@ export class FirebaseStorageEngine extends StorageEngine {
     // Iterate over the participants and add the provenance graph
     const participantPulls = participants.docs.map(async (participant) => {
       // Exclude the config doc and the sequenceArray doc
-      if (participant.id === 'config' || participant.id === 'sequenceArray') return;
+      if (participant.id === 'config' || participant.id === 'sequenceArray' || participant.id === 'audioTags' || participant.id === 'sequenceAssignment' || participant.id === 'configs') return;
 
       const participantDataItem = participant.data() as ParticipantData;
 
@@ -281,7 +396,7 @@ export class FirebaseStorageEngine extends StorageEngine {
     return participantData;
   }
 
-  async getParticipantData() {
+  async getParticipantData(participantId?: string) {
     if (!this._verifyStudyDatabase(this.studyCollection)) {
       throw new Error('Study database not initialized');
     }
@@ -292,13 +407,13 @@ export class FirebaseStorageEngine extends StorageEngine {
     // Get participant data
     let participant: ParticipantData | null = null;
     if (this.currentParticipantId !== null) {
-      const participantDoc = doc(this.studyCollection, this.currentParticipantId);
+      const participantDoc = doc(this.studyCollection, participantId || this.currentParticipantId);
       participant = (await getDoc(participantDoc)).data() as ParticipantData | null;
 
       // Get provenance data
       if (participant !== null) {
-        const fullProvObj = await this._getFromFirebaseStorage(this.currentParticipantId, 'provenance');
-        const fullWindowEventsObj = await this._getFromFirebaseStorage(this.currentParticipantId, 'windowEvents');
+        const fullProvObj = await this._getFromFirebaseStorage(participantId || this.currentParticipantId, 'provenance');
+        const fullWindowEventsObj = await this._getFromFirebaseStorage(participantId || this.currentParticipantId, 'windowEvents');
 
         // Iterate over the participant answers and add the provenance graph
         Object.entries(participant.answers).forEach(([step, answer]) => {
@@ -374,33 +489,66 @@ export class FirebaseStorageEngine extends StorageEngine {
     return db !== undefined;
   }
 
-  private async _getFromFirebaseStorage<T extends 'provenance' | 'windowEvents'>(participantId: string, type: T) {
+  // Firebase storage helpers
+  private async _getFromFirebaseStorage<T extends 'provenance' | 'windowEvents' | 'sequenceArray'>(prefix: string, type: T) {
     const storage = getStorage();
-    const storageRef = ref(storage, `${this.studyId}/${participantId}_${type}`);
+    const storageRef = ref(storage, `${this.studyId}/${prefix}_${type}`);
 
-    let storageObj: Record<string, T extends 'provenance' ? TrrackedProvenance : EventType[]> = {};
+    let storageObj: Record<string, T extends 'provenance' ? TrrackedProvenance : T extends 'windowEvents' ? EventType[] : string[][]> = {};
     try {
       const url = await getDownloadURL(storageRef);
       const response = await fetch(url);
       const fullProvStr = await response.text();
       storageObj = JSON.parse(fullProvStr);
     } catch {
-      console.warn(`Participant ${participantId} does not have ${type} for ${this.studyId}.`);
+      console.warn(`${prefix} does not have ${type} for ${this.studyId}.`);
     }
 
     return storageObj;
   }
 
-  private async _pushToFirebaseStorage<T extends 'provenance' | 'windowEvents'>(type: T) {
-    const objectToUpload = type === 'provenance' ? this.localProvenanceCopy : this.localWindowEvents;
-
+  private async _pushToFirebaseStorage<T extends 'provenance' | 'windowEvents' | 'sequenceArray'>(prefix: string, type: T, objectToUpload: Record<string, T extends 'provenance' ? TrrackedProvenance : T extends 'windowEvents' ? EventType[] : string[][]> = {}) {
     if (Object.keys(objectToUpload).length > 0) {
       const storage = getStorage();
-      const storageRef = ref(storage, `${this.studyId}/${this.currentParticipantId}_${type}`);
+      const storageRef = ref(storage, `${this.studyId}/${prefix}_${type}`);
       const blob = new Blob([JSON.stringify(objectToUpload)], {
         type: 'application/json',
       });
       await uploadBytes(storageRef, blob);
     }
+  }
+
+  private async _getFirebaseProvenance(participantId: string) {
+    const storage = getStorage();
+    const storageRef = ref(storage, `${this.studyId}/${participantId}_provenance`);
+
+    let fullProvObj: Record<string, TrrackedProvenance> = {};
+    try {
+      const url = await getDownloadURL(storageRef);
+      const response = await fetch(url);
+      const fullProvStr = await response.text();
+      fullProvObj = JSON.parse(fullProvStr);
+    } catch {
+      console.warn(`Participant ${participantId} does not have a provenance graph for ${this.studyId}.`);
+    }
+
+    return fullProvObj;
+  }
+
+  private async _getFirebaseWindowEvents(participantId: string) {
+    const storage = getStorage();
+    const storageRef = ref(storage, `${this.studyId}/${participantId}_windowEvents`);
+
+    let fullProvObj: Record<string, TrrackedProvenance> = {};
+    try {
+      const url = await getDownloadURL(storageRef);
+      const response = await fetch(url);
+      const fullProvStr = await response.text();
+      fullProvObj = JSON.parse(fullProvStr);
+    } catch {
+      console.warn(`Participant ${participantId} does not have a provenance graph for ${this.studyId}.`);
+    }
+
+    return fullProvObj;
   }
 }

@@ -91,6 +91,7 @@ export function StepRenderer() {
   return (
     <WindowEventsContext.Provider value={windowEvents}>
       <AppShell
+
         navbar={<AppNavBar />}
         aside={<AppAside />}
         header={<AppHeader />}

@@ -42,12 +42,13 @@ export function GlobalConfigParser() {
   }, [globalConfig]);
 
   useEffect(() => {
-    if (globalConfig) return;
-
     fetchGlobalConfigArray().then((gc) => {
       setGlobalConfig(gc);
+      fetchStudyConfigs(gc).then((sc) => {
+        setStudyConfigs(sc);
+      });
     });
-  }, [globalConfig]);
+  }, []);
 
   return globalConfig ? (
     <BrowserRouter basename={PREFIX}>

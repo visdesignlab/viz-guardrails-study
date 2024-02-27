@@ -9,10 +9,13 @@ import {
   Progress,
   Space,
   Title,
+  Text,
+  Group,
 } from '@mantine/core';
 import {
   IconDotsVertical,
   IconMail,
+  IconMicrophone,
   IconSchema,
 } from '@tabler/icons-react';
 import { useState } from 'react';
@@ -60,11 +63,17 @@ export default function AppHeader() {
     <Header height="70" p="md">
       <Grid mt={-7} align="center">
         <Grid.Col span={4}>
-          <Flex align="center">
+          <Group align="center" noWrap>
             <Image maw={40} src={`${PREFIX}${logoPath}`} alt="Study Logo" />
             <Space w="md" />
             <Title order={4}>{studyConfig?.studyMetadata.title}</Title>
-          </Flex>
+            {studyConfig?.recordStudyAudio ? (
+              <Group spacing={5}>
+                <IconMicrophone color="red" />
+                <Text color="red">Recording audio</Text>
+              </Group>
+            ) : null}
+          </Group>
         </Grid.Col>
 
         <Grid.Col span={4}>
