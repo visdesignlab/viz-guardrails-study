@@ -9,7 +9,7 @@
         "organizations": ["University of Utah"]
     },
     "uiConfig": {
-        "contactEmail": "maxim.lisnic@utah.com",
+        "contactEmail": "maxim.lisnic@utah.edu",
         "logoPath": "assets/revisitLogoSquare.svg",
         "withProgressBar": true,
         "autoDownloadStudy": false,

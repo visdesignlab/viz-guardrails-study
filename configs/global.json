@@ -1,11 +1,19 @@
 {
     "$schema": "https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/GlobalConfigSchema.json",
     "configsList": [
-        "viz-guardrails"
+        "viz-guardrails",
+        "stage-2",
+        "browser"
     ],
     "configs": {
         "viz-guardrails": {
             "path": "viz-guardrails/config-viz-guardrails.json"
+        },
+        "stage-2": {
+            "path": "stage-2/config-stage-2.json"
+        },
+        "browser": {
+            "path": "browser/config-browser.json"
         }
     }
 }

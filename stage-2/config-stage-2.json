@@ -1,0 +1,1198 @@
+{
+    "$schema": "https://raw.githubusercontent.com/visdesignlab/viz-guardrails-study/main/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Reviewing Communicating With Interactive Data Visualizations",
+        "version": "pilot",
+        "authors": [
+            "VDL"
+        ],
+        "date": "2024-01-11",
+        "description": "A study challenging participants to review linecharts.",
+        "organizations": [
+            "University of Utah"
+        ]
+    },
+    "uiConfig": {
+        "contactEmail": "maxim.lisnic@utah.edu",
+        "logoPath": "assets/revisitLogoSquare.svg",
+        "withProgressBar": true,
+        "autoDownloadStudy": false,
+        "sidebar": false,
+        "urlParticipantIdParam": "PROLIFIC_PID",
+        "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=XXXXXX](https://app.prolific.com/submissions/complete?cc=XXXXXX)"
+    },
+    "baseComponents": {
+        "viral-a": {
+            "instruction": "You've come across this visualization and the accompanying caption. Please review the visualization and the caption, and then answer the quesitons below.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_data",
+                "start_date": "2020-09-13",
+                "end_date": "2021-04-11",
+                "allow_time_slider": false,
+                "allow_guardrail_selector": false,
+                "allow_selection": false,
+                "allow_help": false,
+                "x_var": "date",
+                "y_var": "value",
+                "cat_var": "name",
+                "group_var": "region"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "viz-support",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The visualization supports the idea that a Car fund is a superior investment:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-actionable",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "Based on this information, I would invest in a Car fund in my daily life:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-accuracy",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The visualization transparently includes all important elements of the data:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-clarity",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I find it easy to understand this visualization:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-shareable",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I would share this visualization with friends and family:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "data-benevolence",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The data is unbiased and trustworthy:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "cap-benevolence",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The caption is unbiased and trustworthy:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-trust",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I trust this visualization:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "data-trust",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I trust this data:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "cap-trust",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I trust this caption:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                }
+            ]
+        },
+        "viral-b": {
+            "instruction": "You've come across this visualization and the accompanying caption. Please review the visualization and the caption, and then answer the quesitons below.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_data",
+                "start_date": "2022-09-27",
+                "end_date": "2023-03-01",
+                "allow_time_slider": false,
+                "allow_guardrail_selector": false,
+                "allow_selection": false,
+                "allow_help": false,
+                "x_var": "date",
+                "y_var": "value",
+                "cat_var": "name",
+                "group_var": "region"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "viz-support",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The visualization supports the idea that a Car fund is a superior investment:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-actionable",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "Based on this information, I would invest in a Car fund in my daily life:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-accuracy",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The visualization transparently includes all important elements of the data:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-clarity",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I find it easy to understand this visualization:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-shareable",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I would share this visualization with friends and family:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "data-benevolence",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The data is unbiased and trustworthy:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "cap-benevolence",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The caption is unbiased and trustworthy:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-trust",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I trust this visualization:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "data-trust",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I trust this data:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "cap-trust",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I trust this caption:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                }
+            ]
+        },
+        "stock-a": {
+            "instruction": "You've come across this visualization and the accompanying caption. Please review the visualization and the caption, and then answer the quesitons below.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_stocks",
+                "start_date": "2023-01-01",
+                "end_date": "2024-01-01",
+                "allow_time_slider": false,
+                "allow_guardrail_selector": false,
+                "allow_selection": false,
+                "allow_help": false,
+                "x_var": "Date",
+                "y_var": "Value",
+                "cat_var": "name",
+                "group_var": "industry"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "viz-support",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The visualization supports the idea that a Car fund is a superior investment:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-actionable",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "Based on this information, I would invest in a Car fund in my daily life:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-accuracy",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The visualization transparently includes all important elements of the data:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-clarity",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I find it easy to understand this visualization:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-shareable",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I would share this visualization with friends and family:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "data-benevolence",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The data is unbiased and trustworthy:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "cap-benevolence",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The caption is unbiased and trustworthy:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-trust",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I trust this visualization:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "data-trust",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I trust this data:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "cap-trust",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I trust this caption:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                }
+            ]
+        },
+        "stock-b": {
+            "instruction": "You've come across this visualization and the accompanying caption. Please review the visualization and the caption, and then answer the quesitons below.",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_stocks",
+                "start_date": "2023-01-01",
+                "end_date": "2024-01-01",
+                "allow_time_slider": false,
+                "allow_guardrail_selector": false,
+                "allow_selection": false,
+                "allow_help": false,
+                "x_var": "Date",
+                "y_var": "Value",
+                "cat_var": "name",
+                "group_var": "industry"
+            },
+            "nextButtonLocation": "belowStimulus",
+            "response": [
+                {
+                    "id": "viz-support",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The visualization supports the idea that a Car fund is a superior investment:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-actionable",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "Based on this information, I would invest in a Car fund in my daily life:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-accuracy",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The visualization transparently includes all important elements of the data:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-clarity",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I find it easy to understand this visualization:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-shareable",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I would share this visualization with friends and family:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "data-benevolence",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The data is unbiased and trustworthy:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "cap-benevolence",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "The caption is unbiased and trustworthy:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "viz-trust",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I trust this visualization:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "data-trust",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I trust this data:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                },
+                {
+                    "id": "cap-trust",
+                    "type": "likert",
+                    "location": "belowStimulus",
+                    "prompt": "I trust this caption:",
+                    "preset": 7,
+                    "leftLabel": "Strongly disagree",
+                    "rightLabel": "Strongly agree",
+                    "required": true
+                }
+            ]
+        }
+    },
+    "components": {
+        "574821d57fd0ec0006b6270c-viral-b-n": {
+            "baseComponent": "viral-b",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Mystara South"
+                ],
+                "caption": "Policy C is the best option we have because it will make infections go down."
+            }
+        },
+        "574821d57fd0ec0006b6270c-viral-a-jd": {
+            "baseComponent": "viral-a",
+            "parameters": {
+                "guardrail": "juxt_data",
+                "initial_selection": [
+                    "Eldoril North",
+                    "Thundoril North"
+                ],
+                "caption": "When compared to Thundoril North who implemented Policy B, Policy A in Eldoril North had fewer infections."
+            }
+        },
+        "574821d57fd0ec0006b6270c-stock-a-n": {
+            "baseComponent": "stock-a",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Car A",
+                    "Gas A"
+                ],
+                "caption": "There might be safer options for investment, but the car industry's stock goes up at a higher rate"
+            }
+        },
+        "574821d57fd0ec0006b6270c-stock-b-jd": {
+            "baseComponent": "stock-b",
+            "parameters": {
+                "guardrail": "juxt_data",
+                "initial_selection": [
+                    "Airline C",
+                    "Tech C"
+                ],
+                "caption": "When compared to Tech, Airline is a safer bet"
+            }
+        },
+        "5aa485b11eda41000136c94b-viral-a-ss": {
+            "baseComponent": "viral-a",
+            "parameters": {
+                "guardrail": "super_summ",
+                "initial_selection": [
+                    "Eldoril North",
+                    "Aerion South",
+                    "Aerion West",
+                    "Thundoril North",
+                    "Thundoril South"
+                ],
+                "caption": "Infections comparing Policy A (Eldoril North) to Policy B (all other regions) shows that Policy A leads to fewer infections."
+            }
+        },
+        "5aa485b11eda41000136c94b-viral-b-n": {
+            "baseComponent": "viral-b",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Eldoril North",
+                    "Mystara South",
+                    "Eldoril West",
+                    "Eldoril South",
+                    "Mystara North"
+                ],
+                "caption": "Infections per million people over time shows that Policy C (Mystara regions) performs better than Policy A (Eldoril North) and Policy B (Eldoril South and West)."
+            }
+        },
+        "5aa485b11eda41000136c94b-stock-a-ss": {
+            "baseComponent": "stock-a",
+            "parameters": {
+                "guardrail": "super_summ",
+                "initial_selection": [
+                    "Car A",
+                    "Airline A",
+                    "Gas A",
+                    "Tech A"
+                ],
+                "caption": "Percent change in stock price of cars compared to all other industries using one company from each industry."
+            }
+        },
+        "5aa485b11eda41000136c94b-stock-b-n": {
+            "baseComponent": "stock-b",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Airline C",
+                    "Car B",
+                    "Car C",
+                    "Airline B",
+                    "Airline A",
+                    "Gas B",
+                    "Gas C"
+                ],
+                "caption": "Percent change in stock price of Airlines A, B, C and select Car and Gas companies."
+            }
+        },
+        "5d510396f6725b001a4fc025-viral-a-n": {
+            "baseComponent": "viral-a",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Eldoril North"
+                ],
+                "caption": "The best policy is always the one that keeps you safe and that is policy A"
+            }
+        },
+        "5d510396f6725b001a4fc025-viral-b-jd": {
+            "baseComponent": "viral-b",
+            "parameters": {
+                "guardrail": "juxt_data",
+                "initial_selection": [
+                    "Mystara South"
+                ],
+                "caption": "It is clear that Policy C will produce a steady decline in the number of infections."
+            }
+        },
+        "5d510396f6725b001a4fc025-stock-b-jd": {
+            "baseComponent": "stock-b",
+            "parameters": {
+                "guardrail": "juxt_data",
+                "initial_selection": [
+                    "Airline C"
+                ],
+                "caption": "All stocks have ups and downs but this stock will certainly make you profit gains."
+            }
+        },
+        "5d510396f6725b001a4fc025-stock-a-n": {
+            "baseComponent": "stock-a",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Car A"
+                ],
+                "caption": "The climbing stock price of cars shown here is a clear pattern of reliable growth. "
+            }
+        },
+        "5e49fd714535c4462d04dcd7-viral-a-ss": {
+            "baseComponent": "viral-a",
+            "parameters": {
+                "guardrail": "super_summ",
+                "initial_selection": [
+                    "Eldoril North"
+                ],
+                "caption": "As the chart shows, Policy A is the best policy to combat the disease"
+            }
+        },
+        "5e49fd714535c4462d04dcd7-viral-b-n": {
+            "baseComponent": "viral-b",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Mystara North"
+                ],
+                "caption": "Policy C is best to combat the disease because, as you can see, cases have declined from 10/1/22 to 2/1/23"
+            }
+        },
+        "5e49fd714535c4462d04dcd7-stock-a-ss": {
+            "baseComponent": "stock-a",
+            "parameters": {
+                "guardrail": "super_summ",
+                "initial_selection": [
+                    "Car A"
+                ],
+                "caption": "Car Industry Fund A provides the best ROI"
+            }
+        },
+        "5e49fd714535c4462d04dcd7-stock-b-n": {
+            "baseComponent": "stock-b",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Airline C"
+                ],
+                "caption": "As you can see, Airline C has performed well recently"
+            }
+        },
+        "5ec69d34afab190997018f91-viral-a-n": {
+            "baseComponent": "viral-a",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Eldoril North",
+                    "Thundoril North",
+                    "Thundoril South",
+                    "Aerion West"
+                ],
+                "caption": "As you can see, Policy B is responsible for more infections per million"
+            }
+        },
+        "5ec69d34afab190997018f91-viral-b-js": {
+            "baseComponent": "viral-b",
+            "parameters": {
+                "guardrail": "juxt_summ",
+                "initial_selection": [
+                    "Mystara West",
+                    "Eldoril North",
+                    "Mystara North",
+                    "Aerion West",
+                    "Thundoril North"
+                ],
+                "caption": "As you can see Policy C was more effective in Mystara"
+            }
+        },
+        "5ec69d34afab190997018f91-stock-a-n": {
+            "baseComponent": "stock-a",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Car A",
+                    "Airline B",
+                    "Gas C",
+                    "Tech A"
+                ],
+                "caption": "As you can see, the car industry outperformed all other options"
+            }
+        },
+        "5ec69d34afab190997018f91-stock-b-js": {
+            "baseComponent": "stock-b",
+            "parameters": {
+                "guardrail": "juxt_summ",
+                "initial_selection": [
+                    "Airline C",
+                    "Car B",
+                    "Gas C"
+                ],
+                "caption": "Car and Gas have both performed negatively compared to Airline"
+            }
+        },
+        "5fac997db63d252ba6a82a8f-viral-b-jd": {
+            "baseComponent": "viral-b",
+            "parameters": {
+                "guardrail": "juxt_data",
+                "initial_selection": [
+                    "Silvoria North",
+                    "Eldoril North"
+                ],
+                "caption": "Policy C keeps infection rates low"
+            }
+        },
+        "5fac997db63d252ba6a82a8f-viral-a-n": {
+            "baseComponent": "viral-a",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Eldoril North"
+                ],
+                "caption": "Policy A works fast and steady"
+            }
+        },
+        "5fac997db63d252ba6a82a8f-stock-b-jd": {
+            "baseComponent": "stock-b",
+            "parameters": {
+                "guardrail": "juxt_data",
+                "initial_selection": [
+                    "Airline C",
+                    "Airline B",
+                    "Airline A"
+                ],
+                "caption": "When stocks for this industry rise, it skyrockets. As you can see the stocks are rising but have not reached its usual peak. Now is the perfect time to get in."
+            }
+        },
+        "5fac997db63d252ba6a82a8f-stock-a-n": {
+            "baseComponent": "stock-a",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Car A"
+                ],
+                "caption": "The stocks for this industry have a good track record and are predicted to stay high for some time."
+            }
+        },
+        "62ac8793de53f30f2872e967-stock-b-jd": {
+            "baseComponent": "stock-b",
+            "parameters": {
+                "guardrail": "juxt_data",
+                "initial_selection": [
+                    "Airline A",
+                    "Airline B",
+                    "Airline C"
+                ],
+                "caption": "airline c is the best investment beased on past trends"
+            }
+        },
+        "62ac8793de53f30f2872e967-stock-a-n": {
+            "baseComponent": "stock-a",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Car A",
+                    "Car B",
+                    "Car C"
+                ],
+                "caption": "car a is the best investment based on the previous performance "
+            }
+        },
+        "63e538754c4b30560ca84884-viral-a-n": {
+            "baseComponent": "viral-a",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Eldoril North",
+                    "Eldoril West",
+                    "Silvoria North",
+                    "Mystara West",
+                    "Mystara East",
+                    "Mystara North",
+                    "Mystara South",
+                    "Silvoria South",
+                    "Thundoril South",
+                    "Aerion North",
+                    "Eldoril South"
+                ],
+                "caption": "Out of all policies provided record shows the most effective policy that prevents an infected area and reduces the most of the sniffles disease is policy a by a landslide."
+            }
+        },
+        "63e538754c4b30560ca84884-viral-b-ss": {
+            "baseComponent": "viral-b",
+            "parameters": {
+                "guardrail": "super_summ",
+                "initial_selection": [
+                    "Mystara South",
+                    "Thundoril North",
+                    "Thundoril South",
+                    "Aerion South",
+                    "Aerion North",
+                    "Aerion West",
+                    "Eldoril North",
+                    "Mystara North",
+                    "Eldoril West"
+                ],
+                "caption": "The most even and consistent of the policies is C to prevent this heinous disease  of sniffles."
+            }
+        },
+        "63e538754c4b30560ca84884-stock-a-ss": {
+            "baseComponent": "stock-a",
+            "parameters": {
+                "guardrail": "super_summ",
+                "initial_selection": [
+                    "Car A",
+                    "Airline C",
+                    "Tech A"
+                ],
+                "caption": "Significant growth is in the need and reliance of cars in the long run."
+            }
+        },
+        "63e538754c4b30560ca84884-stock-b-n": {
+            "baseComponent": "stock-b",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Airline A",
+                    "Gas B",
+                    "Car C",
+                    "Tech B"
+                ],
+                "caption": "The airline is not at the plateau yet, it will rise and spike soon."
+            }
+        },
+        "654e5bcb8cb6aeb8ca9b33a0-viral-a-jd": {
+            "baseComponent": "viral-a",
+            "parameters": {
+                "guardrail": "juxt_data",
+                "initial_selection": [
+                    "Eldoril North"
+                ],
+                "caption": " Policy A looks like a rollercoaster, but in a good way."
+            }
+        },
+        "654e5bcb8cb6aeb8ca9b33a0-viral-b-n": {
+            "baseComponent": "viral-b",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Silvoria North",
+                    "Silvoria South",
+                    "Mystara West",
+                    "Mystara East"
+                ],
+                "caption": " Policy C's Data Points Paint a Clear Picture of Effective Disease Management. "
+            }
+        },
+        "654e5bcb8cb6aeb8ca9b33a0-stock-b-n": {
+            "baseComponent": "stock-b",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Tech B",
+                    "Tech A",
+                    "Tech C"
+                ],
+                "caption": "The best path to follow"
+            }
+        },
+        "654e5bcb8cb6aeb8ca9b33a0-stock-a-jd": {
+            "baseComponent": "stock-a",
+            "parameters": {
+                "guardrail": "juxt_data",
+                "initial_selection": [
+                    "Car B",
+                    "Car A"
+                ],
+                "caption": "Good Choice"
+            }
+        },
+        "657c4d8c10a2c993f1363fb9-viral-a-n": {
+            "baseComponent": "viral-a",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Eldoril North"
+                ],
+                "caption": "Policy A's infection rates are dropping like crazy compared to the others."
+            }
+        },
+        "657c4d8c10a2c993f1363fb9-viral-b-js": {
+            "baseComponent": "viral-b",
+            "parameters": {
+                "guardrail": "juxt_summ",
+                "initial_selection": [
+                    "Eldoril North",
+                    "Mystara East",
+                    "Silvoria South",
+                    "Mystara West"
+                ],
+                "caption": "Building a Shield Against the Celestial Sniffles."
+            }
+        },
+        "657c4d8c10a2c993f1363fb9-stock-b-n": {
+            "baseComponent": "stock-b",
+            "parameters": {
+                "guardrail": "none",
+                "initial_selection": [
+                    "Gas C",
+                    "Gas A"
+                ],
+                "caption": "Gas A and Gas C looks like a good choice"
+            }
+        },
+        "657c4d8c10a2c993f1363fb9-stock-a-js": {
+            "baseComponent": "stock-a",
+            "parameters": {
+                "guardrail": "juxt_summ",
+                "initial_selection": [
+                    "Gas B",
+                    "Gas A"
+                ],
+                "caption": "Best among the rest"
+            }
+        },
+        "introduction": {
+            "type": "markdown",
+            "path": "stage-2/introduction.md",
+            "response": [
+                {
+                    "id": "prolificId",
+                    "prompt": "Please enter your Prolific ID",
+                    "required": true,
+                    "location": "belowStimulus",
+                    "type": "shortText",
+                    "placeholder": "Prolific ID",
+                    "paramCapture": "PROLIFIC_PID"
+                }
+            ]
+        },
+        "consent": {
+            "type": "markdown",
+            "path": "stage-2/consent_stage2.md",
+            "nextButtonText": "Agree",
+            "response": [
+                {
+                    "id": "accept",
+                    "prompt": "Do you consent to the study and wish to continue?",
+                    "required": true,
+                    "requiredValue": "yes",
+                    "location": "belowStimulus",
+                    "type": "radio",
+                    "options": [
+                        {
+                            "label": "Decline",
+                            "value": "no"
+                        },
+                        {
+                            "label": "Accept",
+                            "value": "yes"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "sequence": {
+        "order": "fixed",
+        "components": [
+            "introduction",
+            "consent",
+            {
+                "order": "latinSquare",
+                "numSamples": 1,
+                "components": [
+                    {
+                        "order": "latinSquare",
+                        "numSamples": 5,
+                        "components": [
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    "5d510396f6725b001a4fc025-viral-a-n",
+                                    "5ec69d34afab190997018f91-viral-a-n",
+                                    "5fac997db63d252ba6a82a8f-viral-a-n",
+                                    "63e538754c4b30560ca84884-viral-a-n",
+                                    "657c4d8c10a2c993f1363fb9-viral-a-n"
+                                ]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": ["654e5bcb8cb6aeb8ca9b33a0-viral-a-jd"]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    "5aa485b11eda41000136c94b-viral-a-ss",
+                                    "5e49fd714535c4462d04dcd7-viral-a-ss"
+                                ]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    "574821d57fd0ec0006b6270c-viral-a-jd",
+                                    "654e5bcb8cb6aeb8ca9b33a0-viral-a-jd"
+                                ]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": ["654e5bcb8cb6aeb8ca9b33a0-viral-a-jd"]
+                            }
+                        ]
+                    },
+                    {
+                        "order": "latinSquare",
+                        "numSamples": 5,
+                        "components": [
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    "574821d57fd0ec0006b6270c-viral-b-n",
+                                    "5aa485b11eda41000136c94b-viral-b-n",
+                                    "5e49fd714535c4462d04dcd7-viral-b-n",
+                                    "654e5bcb8cb6aeb8ca9b33a0-viral-b-n"
+                                ]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": ["654e5bcb8cb6aeb8ca9b33a0-viral-a-jd"]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    "63e538754c4b30560ca84884-viral-b-ss"
+                                ]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    "5d510396f6725b001a4fc025-viral-b-jd",
+                                    "5fac997db63d252ba6a82a8f-viral-b-jd"
+                                ]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    "5ec69d34afab190997018f91-viral-b-js",
+                                    "657c4d8c10a2c993f1363fb9-viral-b-js"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "order": "latinSquare",
+                        "numSamples": 5,
+                        "components": [
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    "574821d57fd0ec0006b6270c-stock-a-n",
+                                    "5d510396f6725b001a4fc025-stock-a-n",
+                                    "5ec69d34afab190997018f91-stock-a-n",
+                                    "5fac997db63d252ba6a82a8f-stock-a-n",
+                                    "62ac8793de53f30f2872e967-stock-a-n"
+                                ]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": ["654e5bcb8cb6aeb8ca9b33a0-viral-a-jd"]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    "5aa485b11eda41000136c94b-stock-a-ss",
+                                    "5e49fd714535c4462d04dcd7-stock-a-ss",
+                                    "63e538754c4b30560ca84884-stock-a-ss"
+                                ]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    "654e5bcb8cb6aeb8ca9b33a0-stock-a-jd"
+                                ]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    "657c4d8c10a2c993f1363fb9-stock-a-js"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "order": "latinSquare",
+                        "numSamples": 5,
+                        "components": [
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    "5aa485b11eda41000136c94b-stock-b-n",
+                                    "5e49fd714535c4462d04dcd7-stock-b-n",
+                                    "63e538754c4b30560ca84884-stock-b-n",
+                                    "654e5bcb8cb6aeb8ca9b33a0-stock-b-n",
+                                    "657c4d8c10a2c993f1363fb9-stock-b-n"
+                                ]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": ["654e5bcb8cb6aeb8ca9b33a0-viral-a-jd"]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": ["654e5bcb8cb6aeb8ca9b33a0-viral-a-jd"]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    "574821d57fd0ec0006b6270c-stock-b-jd",
+                                    "5d510396f6725b001a4fc025-stock-b-jd",
+                                    "5fac997db63d252ba6a82a8f-stock-b-jd",
+                                    "62ac8793de53f30f2872e967-stock-b-jd"
+                                ]
+                            },
+                            {
+                                "order": "latinSquare",
+                                "numSamples": 1,
+                                "components": [
+                                    "5ec69d34afab190997018f91-stock-b-js"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
