@@ -1,13 +1,13 @@
 {
     "$schema": "https://raw.githubusercontent.com/visdesignlab/viz-guardrails-study/main/src/parser/StudyConfigSchema.json",
     "studyMetadata": {
-        "title": "Reviewing Communicating With Interactive Data Visualizations",
+        "title": "Browser",
         "version": "pilot",
         "authors": [
             "VDL"
         ],
         "date": "2024-01-11",
-        "description": "A study challenging participants to review linecharts.",
+        "description": "Browser",
         "organizations": [
             "University of Utah"
         ]
@@ -40,69 +40,7 @@
                 "cat_var": "name",
                 "group_var": "region"
             },
-            "nextButtonLocation": "belowStimulus",
-            "response": [
-                {
-                    "id": "support",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "The visualization supports the idea that a Car fund is a superior investment:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "action",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "Based on this information, I would invest in a Car fund in my daily life:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "accuracy",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "The visualization transparently includes all important elements of the data:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "clarity",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "I find it easy to understand this visualization:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "shareable",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "I would share this visualization with friends and family:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "trust",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "I trust this information:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                }
-            ]
+            "nextButtonLocation": "belowStimulus"
         },
         "viral-b": {
             "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below.",
@@ -122,69 +60,7 @@
                 "cat_var": "name",
                 "group_var": "region"
             },
-            "nextButtonLocation": "belowStimulus",
-            "response": [
-                {
-                    "id": "support",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "The visualization supports the idea that a Car fund is a superior investment:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "action",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "Based on this information, I would invest in a Car fund in my daily life:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "accuracy",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "The visualization transparently includes all important elements of the data:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "clarity",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "I find it easy to understand this visualization:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "shareable",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "I would share this visualization with friends and family:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "trust",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "I trust this information:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                }
-            ]
+            "nextButtonLocation": "belowStimulus"
         },
         "stock-a": {
             "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below.",
@@ -204,69 +80,7 @@
                 "cat_var": "name",
                 "group_var": "industry"
             },
-            "nextButtonLocation": "belowStimulus",
-            "response": [
-                {
-                    "id": "support",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "The visualization supports the idea that a Car fund is a superior investment:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "action",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "Based on this information, I would invest in a Car fund in my daily life:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "accuracy",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "The visualization transparently includes all important elements of the data:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "clarity",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "I find it easy to understand this visualization:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "shareable",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "I would share this visualization with friends and family:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "trust",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "I trust this information:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                }
-            ]
+            "nextButtonLocation": "belowStimulus"
         },
         "stock-b": {
             "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below.",
@@ -286,73 +100,11 @@
                 "cat_var": "name",
                 "group_var": "industry"
             },
-            "nextButtonLocation": "belowStimulus",
-            "response": [
-                {
-                    "id": "support",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "The visualization supports the idea that a Car fund is a superior investment:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "action",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "Based on this information, I would invest in a Car fund in my daily life:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "accuracy",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "The visualization transparently includes all important elements of the data:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "clarity",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "I find it easy to understand this visualization:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "shareable",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "I would share this visualization with friends and family:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                },
-                {
-                    "id": "trust",
-                    "type": "likert",
-                    "location": "belowStimulus",
-                    "prompt": "I trust this information:",
-                    "preset": 7,
-                    "leftLabel": "Strongly disagree",
-                    "rightLabel": "Strongly agree",
-                    "required": true
-                }
-            ]
+            "nextButtonLocation": "belowStimulus"
         }
     },
     "components": {
-        "55b6-viral-a-n": {
+        "55b6-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -365,7 +117,7 @@
                 "caption": "These policy B counties have similar or higher peaks to policy A"
             }
         },
-        "55b6-viral-b-sd": {
+        "55b6-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -376,7 +128,7 @@
                 "caption": "These policy C countries show steadily low or rapidly decreasing infection rates."
             }
         },
-        "55b6-stock-a-sd": {
+        "55b6-sa-sd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -389,7 +141,7 @@
                 "caption": "This graph shows the car industry fund has much higher returns than the relatively flat ones from tech, airlines, or gas."
             }
         },
-        "55b6-stock-b-n": {
+        "55b6-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -401,7 +153,7 @@
                 "caption": "As you can see, the airline industry is the only one with positive earnings among transportation related industries."
             }
         },
-        "55f5-viral-b-n": {
+        "55f5-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -412,7 +164,7 @@
                 "caption": "Statistics prove this is the best policy"
             }
         },
-        "55f5-viral-a-js": {
+        "55f5-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -425,7 +177,7 @@
                 "caption": "statistics speak for themselves here"
             }
         },
-        "55f5-stock-a-n": {
+        "55f5-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -435,7 +187,7 @@
                 "caption": "despite some downs this really is the best investment"
             }
         },
-        "55f5-stock-b-js": {
+        "55f5-s-b-js": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -445,7 +197,7 @@
                 "caption": "there's more to gain than there is to lose here"
             }
         },
-        "566c-viral-a-js": {
+        "566c-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -458,7 +210,7 @@
                 "caption": "Policy A has shown better and faster results than Policy B in any of the above countries."
             }
         },
-        "566c-viral-b-n": {
+        "566c-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -473,7 +225,7 @@
                 "caption": "Policy C in Mystara and Silvoria prevented a large increase in infections like policies A and B."
             }
         },
-        "566c-stock-b-js": {
+        "566c-s-b-js": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -488,7 +240,7 @@
                 "caption": "Airlines A, B & C have performed better over time and have had growth compared to car company B, and gas companies B & C."
             }
         },
-        "566c-stock-a-n": {
+        "566c-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -507,7 +259,7 @@
                 "caption": "Car A has massively outperformed the relevant gas and tech companies."
             }
         },
-        "56db-viral-b-sd": {
+        "56db-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -522,7 +274,7 @@
                 "caption": "Best policy for C"
             }
         },
-        "56db-viral-a-n": {
+        "56db-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -537,7 +289,7 @@
                 "caption": "Policy A keeps the doctor away!"
             }
         },
-        "56db-stock-b-sd": {
+        "56db-s-b-sd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -548,7 +300,7 @@
                 "caption": "Airline Industy fund is the best!"
             }
         },
-        "56db-stock-a-n": {
+        "56db-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -560,7 +312,7 @@
                 "caption": "Invest in the best, Car industry for the benjamins."
             }
         },
-        "570b-viral-b-n": {
+        "570b-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -570,7 +322,7 @@
                 "caption": "The lowest infections per million of any of the regions, we got it under control quickly here using this policy!"
             }
         },
-        "570b-viral-a-ss": {
+        "570b-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -581,7 +333,7 @@
                 "caption": "Policy A has worked consistently well for us compared to other regions."
             }
         },
-        "570b-stock-a-n": {
+        "570b-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -594,7 +346,7 @@
                 "caption": "The car industry has been providing consistently higher returns than the best in any other industry."
             }
         },
-        "570b-stock-b-ss": {
+        "570b-s-b-ss": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -606,7 +358,7 @@
                 "caption": "The airline industry is generally climbing compared to other industries."
             }
         },
-        "580c-stock-a-jd": {
+        "580c-sa-jd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -619,7 +371,7 @@
                 "caption": "Tech B, C and A are the best options as the chart shows that the stocks are increasing over time."
             }
         },
-        "580c-stock-b-n": {
+        "580c-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -632,7 +384,7 @@
                 "caption": "Car A was the best investment. With the A, B, and C. looking to climb slowly."
             }
         },
-        "583b-viral-b-n": {
+        "583b-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -644,7 +396,7 @@
                 "caption": "Policy Comparision Chart"
             }
         },
-        "583b-viral-a-js": {
+        "583b-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -655,7 +407,7 @@
                 "caption": "Policy A is the Safest Method"
             }
         },
-        "583b-stock-a-n": {
+        "583b-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -667,7 +419,7 @@
                 "caption": "the Car industry is the best investment choice."
             }
         },
-        "583b-stock-b-js": {
+        "583b-s-b-js": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -678,7 +430,7 @@
                 "caption": "Airline industry funds soar."
             }
         },
-        "584c-viral-b-n": {
+        "584c-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -699,7 +451,7 @@
                 "caption": "We by far have the lowest average"
             }
         },
-        "584c-viral-a-js": {
+        "584c-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -714,7 +466,7 @@
                 "caption": "We have shown that over time we are making the best move forward. "
             }
         },
-        "584c-stock-a-js": {
+        "584c-sa-js": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -727,7 +479,7 @@
                 "caption": "We have the highest returns of all sectors. "
             }
         },
-        "584c-stock-b-n": {
+        "584c-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -739,7 +491,7 @@
                 "caption": "We have had the highest peaks of the other sectors and will again soon. "
             }
         },
-        "58d0-viral-b-n": {
+        "58d0-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -754,7 +506,7 @@
                 "caption": "On average Policy C saves lives"
             }
         },
-        "58d0-viral-a-ss": {
+        "58d0-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -764,7 +516,7 @@
                 "caption": "Policy A's peak comes fast but comes back down just as fast."
             }
         },
-        "58d0-stock-a-ss": {
+        "58d0-sa-ss": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -783,7 +535,7 @@
                 "caption": "Car A is highly profitable compared to the other options."
             }
         },
-        "58d0-stock-b-n": {
+        "58d0-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -799,7 +551,7 @@
                 "caption": "the airline industry is much more profitable than most gas and car industries. "
             }
         },
-        "5904-viral-a-n": {
+        "5904-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -811,7 +563,7 @@
                 "caption": "when you compare how we did with these other two countries that had similar numbers to Eldoril North, the graph shows that Policy A helps the most."
             }
         },
-        "5904-viral-b-ss": {
+        "5904-v-b-ss": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -824,7 +576,7 @@
                 "caption": "Most countries that went with Policy C had better results than the average!"
             }
         },
-        "5904-stock-b-ss": {
+        "5904-s-b-ss": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -836,7 +588,7 @@
                 "caption": "when compared to a few other investments in other travel related areas this airline has been more consistent and performed better than these other companies. "
             }
         },
-        "5904-stock-a-n": {
+        "5904-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -849,7 +601,7 @@
                 "caption": "when compared to other industries in the same category the Car industry tends to give better overall results long term. "
             }
         },
-        "5994-viral-a-n": {
+        "5994-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -861,7 +613,7 @@
                 "caption": "Policy A will keep us safe as opposed to plan B, which showed unacceptable disease spread in Thundoril South and North."
             }
         },
-        "5994-viral-b-jd": {
+        "5994-v-b-jd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -873,7 +625,7 @@
                 "caption": "Plan C will keep our infection rates low as shown in Mystara South as opposed to plans A (Eldoril North) and B (Eldoril East)."
             }
         },
-        "5994-stock-a-jd": {
+        "5994-sa-jd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -885,7 +637,7 @@
                 "caption": "Car A shows great growth and consistent rise over time as opposed to Airline B and Gas C, which are both trending into the negative growth over time."
             }
         },
-        "5994-stock-b-n": {
+        "5994-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -897,7 +649,7 @@
                 "caption": "Airline industry shows better recovery after dips than either the car or gas industry."
             }
         },
-        "5a19-viral-b-n": {
+        "5a19-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -907,7 +659,7 @@
                 "caption": "And down and out we go with the disease"
             }
         },
-        "5a19-viral-a-sd": {
+        "5a19-v-a-sd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -917,7 +669,7 @@
                 "caption": "Back down we go"
             }
         },
-        "5a19-stock-b-n": {
+        "5a19-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -927,7 +679,7 @@
                 "caption": "Getting ready to climb high again"
             }
         },
-        "5a19-stock-a-sd": {
+        "5a19-sa-sd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -937,7 +689,7 @@
                 "caption": "Beginning to climb"
             }
         },
-        "5a3b-viral-a-n": {
+        "5a3b-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -948,7 +700,7 @@
                 "caption": "The infections per million are by far the best for Policy A!"
             }
         },
-        "5a3b-viral-b-jd": {
+        "5a3b-v-b-jd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -960,7 +712,7 @@
                 "caption": "Policy C is by far the leader in preventing infections!"
             }
         },
-        "5a3b-stock-b-n": {
+        "5a3b-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -971,7 +723,7 @@
                 "caption": "Earn more with airlines, you can never go wrong!"
             }
         },
-        "5a3b-stock-a-jd": {
+        "5a3b-sa-jd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -984,7 +736,7 @@
                 "caption": "As you can see, the car industry is the standard, you will always win with the car industry!"
             }
         },
-        "5a6c-viral-b-js": {
+        "5a6c-v-b-js": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -999,7 +751,7 @@
                 "caption": "death"
             }
         },
-        "5a6c-viral-a-n": {
+        "5a6c-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -1009,7 +761,7 @@
                 "caption": "well clearly you can see that, we have a peak between jan-feb but we can see that infection rate has steadily declined since the policy has been inacted"
             }
         },
-        "5a6c-stock-a-n": {
+        "5a6c-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -1019,7 +771,7 @@
                 "caption": "You see in the car A graph we have, it shows growth overtime then steadiness you want your money in a reliable investment not something that flucuates."
             }
         },
-        "5a6c-stock-b-js": {
+        "5a6c-s-b-js": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -1029,7 +781,7 @@
                 "caption": "It's finding its footing again, you know covid kind of ruined airlines but now that its getting less and less prevalent we're going to see a resurgence in airlines so I'd say buy cheap to get a big return"
             }
         },
-        "5a8f-viral-a-js": {
+        "5a8f-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -1049,7 +801,7 @@
                 "caption": "Policy A highlight"
             }
         },
-        "5a8f-viral-b-n": {
+        "5a8f-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -1066,7 +818,7 @@
                 "caption": "Policy C Best Highlight"
             }
         },
-        "5a8f-stock-b-js": {
+        "5a8f-s-b-js": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -1081,7 +833,7 @@
                 "caption": "airline best highlight"
             }
         },
-        "5a8f-stock-a-n": {
+        "5a8f-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -1097,7 +849,7 @@
                 "caption": "Car best highlight"
             }
         },
-        "5ade-viral-b-js": {
+        "5ade-v-b-js": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -1109,7 +861,7 @@
                 "caption": "Policy C has shown a much greater net decrease than the others"
             }
         },
-        "5ade-viral-a-n": {
+        "5ade-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -1120,7 +872,7 @@
                 "caption": "Policy A has done a much better job of keeping numbers low "
             }
         },
-        "5ade-stock-a-js": {
+        "5ade-sa-js": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -1133,7 +885,7 @@
                 "caption": "The car industry has shown the most consistent growth"
             }
         },
-        "5ade-stock-b-n": {
+        "5ade-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -1145,7 +897,7 @@
                 "caption": "It's the best time to invest in airlines now, with prices set to rebound to the norm "
             }
         },
-        "5b7a-viral-a-n": {
+        "5b7a-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -1155,7 +907,7 @@
                 "caption": "This is the best policy for our country."
             }
         },
-        "5b7a-viral-b-sd": {
+        "5b7a-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -1165,7 +917,7 @@
                 "caption": "We are trying to combat this virus very aggressively, so our country will have little worry about infection."
             }
         },
-        "5b7a-stock-a-sd": {
+        "5b7a-sa-sd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -1175,7 +927,7 @@
                 "caption": "This is the best investment of your funds for the most return. There is a 130% return on investment."
             }
         },
-        "5b7a-stock-b-n": {
+        "5b7a-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -1185,7 +937,7 @@
                 "caption": "It's a volatile time for stocks, but this is the best investment for your funds because it stabilizes and gives you a positive return."
             }
         },
-        "5bb5-viral-a-jd": {
+        "5bb5-v-a-jd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -1198,7 +950,7 @@
                 "caption": "most effective route"
             }
         },
-        "5bb5-viral-b-n": {
+        "5bb5-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -1209,7 +961,7 @@
                 "caption": "differnt scopes"
             }
         },
-        "5bb5-stock-a-jd": {
+        "5bb5-sa-jd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -1219,7 +971,7 @@
                 "caption": "lots in increase"
             }
         },
-        "5bb5-stock-b-n": {
+        "5bb5-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -1229,7 +981,7 @@
                 "caption": "always comes back up"
             }
         },
-        "5bcb-viral-a-n": {
+        "5bcb-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -1239,7 +991,7 @@
                 "caption": "Eldoriil Norh IPM"
             }
         },
-        "5bcb-viral-b-jd": {
+        "5bcb-v-b-jd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -1249,7 +1001,7 @@
                 "caption": "Policy C Trends"
             }
         },
-        "5bcb-stock-b-n": {
+        "5bcb-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -1259,7 +1011,7 @@
                 "caption": "Suggesed  investment chart"
             }
         },
-        "5bcb-stock-a-jd": {
+        "5bcb-sa-jd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -1269,7 +1021,7 @@
                 "caption": "Graph trend of recommend investment"
             }
         },
-        "5c10-viral-b-n": {
+        "5c10-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -1279,7 +1031,7 @@
                 "caption": "It works"
             }
         },
-        "5c10-viral-a-sd": {
+        "5c10-v-a-sd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -1289,7 +1041,7 @@
                 "caption": "Works over time"
             }
         },
-        "5c10-stock-b-n": {
+        "5c10-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -1299,7 +1051,7 @@
                 "caption": "Best  performer"
             }
         },
-        "5c10-stock-a-sd": {
+        "5c10-sa-sd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -1309,7 +1061,7 @@
                 "caption": "Car A is a winner"
             }
         },
-        "5cc5-viral-b-n": {
+        "5cc5-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -1326,7 +1078,7 @@
                 "caption": "as demonstrated above, the option that shows the most promise of keeping people safe is is our chosen course of action"
             }
         },
-        "5cc5-viral-a-js": {
+        "5cc5-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -1339,7 +1091,7 @@
                 "caption": "as shown here, a spike is bound to happen, but option A provides the quickest fall off of new infections"
             }
         },
-        "5cc5-stock-a-js": {
+        "5cc5-sa-js": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -1351,7 +1103,7 @@
                 "caption": "when it comes to choosing transportation options, cars are clearly the best option"
             }
         },
-        "5cc5-stock-b-n": {
+        "5cc5-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -1367,7 +1119,7 @@
                 "caption": "as you can see in terms of transportation, airlines are the only option that finishes positive"
             }
         },
-        "5d0c-viral-a-sd": {
+        "5d0c-v-a-sd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -1381,7 +1133,7 @@
                 "caption": "As you can see, every policy does show a spike in infections at some point in the December 2020 to March 2021 period, but Policy A provides a smaller spike and a more dramatic tapering off of the numbers infected."
             }
         },
-        "5d0c-viral-b-n": {
+        "5d0c-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -1397,7 +1149,7 @@
                 "caption": "Policy C is the best choice with overall lower numbers of infection vs those found in Policy A and B."
             }
         },
-        "5d0c-stock-a-sd": {
+        "5d0c-sa-sd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -1416,7 +1168,7 @@
                 "caption": "As you can see, this car industry crushes every other industry in stock price gains."
             }
         },
-        "5d0c-stock-b-n": {
+        "5d0c-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -1432,7 +1184,7 @@
                 "caption": "The airline industry shows that their stock prices gaining more consistently than the car and gas industries."
             }
         },
-        "5d16-viral-b-jd": {
+        "5d16-v-b-jd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -1442,7 +1194,7 @@
                 "caption": "There was a great decline in the number of infected people. "
             }
         },
-        "5d16-viral-a-n": {
+        "5d16-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -1452,7 +1204,7 @@
                 "caption": "Infections were brought down greatly with the use of this policy. "
             }
         },
-        "5d16-stock-b-n": {
+        "5d16-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -1462,7 +1214,7 @@
                 "caption": "This stock has the highest growth level. "
             }
         },
-        "5d16-stock-a-jd": {
+        "5d16-sa-jd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -1472,7 +1224,7 @@
                 "caption": "This investment showed significant upwards growth. "
             }
         },
-        "5d49-viral-b-n": {
+        "5d49-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -1482,7 +1234,7 @@
                 "caption": "Seen here is the rapid decline in infections."
             }
         },
-        "5d49-viral-a-ss": {
+        "5d49-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -1492,7 +1244,7 @@
                 "caption": "As seen here, under new policies, infection has plummeted since January of 2021."
             }
         },
-        "5d49-stock-a-ss": {
+        "5d49-sa-ss": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -1502,7 +1254,7 @@
                 "caption": "As you can see here, stock prices have grown after a brief dip."
             }
         },
-        "5d49-stock-b-n": {
+        "5d49-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -1512,7 +1264,7 @@
                 "caption": "As you can see here, airline stock prices have plummeted, which we believe could lead to a large profit as the industry recovers. "
             }
         },
-        "5d4a-viral-a-n": {
+        "5d4a-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -1525,7 +1277,7 @@
                 "caption": "We'll be in the clear by April with Policy A!"
             }
         },
-        "5d4a-viral-b-sd": {
+        "5d4a-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -1535,7 +1287,7 @@
                 "caption": "Avoid Celestial Sniffles with Policy C!"
             }
         },
-        "5d4a-stock-b-n": {
+        "5d4a-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -1549,7 +1301,7 @@
                 "caption": "Investing in the airlines will yield a consistently higher return by Q4."
             }
         },
-        "5d4a-stock-a-sd": {
+        "5d4a-sa-sd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -1568,7 +1320,7 @@
                 "caption": "Investing in the car industry will yield a consistently higher return over the entire year."
             }
         },
-        "5d97-viral-b-n": {
+        "5d97-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -1580,7 +1332,7 @@
                 "caption": "Policy C is proven to heavily curb infections."
             }
         },
-        "5d97-viral-a-ss": {
+        "5d97-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -1592,7 +1344,7 @@
                 "caption": "Policy A sees rapid reduction in infections compared to other policies."
             }
         },
-        "5d97-stock-b-ss": {
+        "5d97-s-b-ss": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -1606,7 +1358,7 @@
                 "caption": "The airline industry fund sees steady growth compared to other funds."
             }
         },
-        "5d97-stock-a-n": {
+        "5d97-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -1618,7 +1370,7 @@
                 "caption": "The car industry fund sees much greater and faster returns compared to other industries."
             }
         },
-        "5dcd-viral-b-ss": {
+        "5dcd-v-b-ss": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -1630,7 +1382,7 @@
                 "caption": "We want Mystara South numbers. Policy A and Policy B are worthless."
             }
         },
-        "5dcd-viral-a-n": {
+        "5dcd-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -1643,7 +1395,7 @@
                 "caption": "Eldoril North has the biggest decrease in infections because of Policy A. The superior choice here is Policy A. "
             }
         },
-        "5dcd-stock-b-n": {
+        "5dcd-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -1657,7 +1409,7 @@
                 "caption": "The airline industry has a much larger positive percent change than other industries. It doesn't matter which airline you choose because they are all better than other companies by far."
             }
         },
-        "5dcd-stock-a-ss": {
+        "5dcd-sa-ss": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -1670,7 +1422,7 @@
                 "caption": "You can't go wrong with the car industry. You can see in this graph just how much better the Car industry is doing compared to the Tech, Airline, and Gas industries."
             }
         },
-        "5df1-viral-a-js": {
+        "5df1-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -1683,7 +1435,7 @@
                 "caption": "Coming together to keep the numbers low."
             }
         },
-        "5df1-viral-b-n": {
+        "5df1-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -1696,7 +1448,7 @@
                 "caption": "Keeping it low matters."
             }
         },
-        "5df1-stock-b-js": {
+        "5df1-s-b-js": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -1708,7 +1460,7 @@
                 "caption": "Airline companies for the win."
             }
         },
-        "5df1-stock-a-n": {
+        "5df1-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -1721,7 +1473,7 @@
                 "caption": "Money on the move."
             }
         },
-        "5e44-viral-a-n": {
+        "5e44-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -1731,7 +1483,7 @@
                 "caption": "The effects of Policy A in North Eldoril"
             }
         },
-        "5e44-viral-b-jd": {
+        "5e44-v-b-jd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -1741,7 +1493,7 @@
                 "caption": "Policy C has been shown in South Mystara to completely eliminate infections"
             }
         },
-        "5e44-stock-b-jd": {
+        "5e44-s-b-jd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -1753,7 +1505,7 @@
                 "caption": "Airline C is much more profitable to invest into when compared to investing in Gas or Car"
             }
         },
-        "5e44-stock-a-n": {
+        "5e44-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -1766,7 +1518,7 @@
                 "caption": "The car industry is a much better investment than the other three options of Tech, Airline, and Gas"
             }
         },
-        "5e63-viral-b-js": {
+        "5e63-v-b-js": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -1776,7 +1528,7 @@
                 "caption": "The data is clear! See for yourself!"
             }
         },
-        "5e63-viral-a-n": {
+        "5e63-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -1787,7 +1539,7 @@
                 "caption": "The data doesn't lie"
             }
         },
-        "5e63-stock-a-n": {
+        "5e63-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -1804,7 +1556,7 @@
                 "caption": "Early vs late retirement backed by the data"
             }
         },
-        "5e63-stock-b-js": {
+        "5e63-s-b-js": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -1820,7 +1572,7 @@
                 "caption": "Airline data shows it up, UP, and away!"
             }
         },
-        "5e7d-viral-b-ss": {
+        "5e7d-v-b-ss": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -1830,7 +1582,7 @@
                 "caption": "Infections are rising in Mystara East"
             }
         },
-        "5e7d-viral-a-n": {
+        "5e7d-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -1848,7 +1600,7 @@
                 "caption": "A huge infection spike in Eldoril North remains present throughout."
             }
         },
-        "5e7d-stock-a-ss": {
+        "5e7d-sa-ss": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -1864,7 +1616,7 @@
                 "caption": "Cars show incredible growth in the market"
             }
         },
-        "5e7d-stock-b-n": {
+        "5e7d-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -1879,7 +1631,7 @@
                 "caption": "Consistent growth projected in the airline industry"
             }
         },
-        "5e82-viral-b-n": {
+        "5e82-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -1903,7 +1655,7 @@
                 "caption": "which one would you chose?"
             }
         },
-        "5e82-viral-a-js": {
+        "5e82-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -1927,7 +1679,7 @@
                 "caption": "c is the best policy!"
             }
         },
-        "5e82-stock-b-n": {
+        "5e82-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -1948,7 +1700,7 @@
                 "caption": "tech is the way to go"
             }
         },
-        "5e82-stock-a-js": {
+        "5e82-sa-js": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -1961,7 +1713,7 @@
                 "caption": "gas is the best stock "
             }
         },
-        "5eac-viral-b-sd": {
+        "5eac-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -1976,7 +1728,7 @@
                 "caption": "The infection rates for Policy C"
             }
         },
-        "5eac-viral-a-n": {
+        "5eac-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -1986,7 +1738,7 @@
                 "caption": "The infection rate for Policy A"
             }
         },
-        "5eac-stock-a-n": {
+        "5eac-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -1996,7 +1748,7 @@
                 "caption": "The car industry fund is the best investment."
             }
         },
-        "5eac-stock-b-sd": {
+        "5eac-s-b-sd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -2006,7 +1758,7 @@
                 "caption": "This airline industry fund is the best choice."
             }
         },
-        "5ec5-viral-b-n": {
+        "5ec5-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -2019,7 +1771,7 @@
                 "caption": "Policy C showed significantly less infections compared to Policy A or Policy B."
             }
         },
-        "5ec5-viral-a-ss": {
+        "5ec5-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -2030,7 +1782,7 @@
                 "caption": "Policy A is much better than Policy B."
             }
         },
-        "5ec5-stock-a-n": {
+        "5ec5-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -2047,7 +1799,7 @@
                 "caption": "Car industry showed much better performance."
             }
         },
-        "5ec5-stock-b-ss": {
+        "5ec5-s-b-ss": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -2060,7 +1812,7 @@
                 "caption": "Airline investment is significant larger than other investment."
             }
         },
-        "5f47-viral-a-n": {
+        "5f47-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -2070,7 +1822,7 @@
                 "caption": "Keeping it to a minimum."
             }
         },
-        "5f47-viral-b-sd": {
+        "5f47-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -2081,7 +1833,7 @@
                 "caption": "Starting low, keeping low"
             }
         },
-        "5f47-stock-b-n": {
+        "5f47-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -2092,7 +1844,7 @@
                 "caption": "Airlines are the future, cars are the past"
             }
         },
-        "5f47-stock-a-sd": {
+        "5f47-sa-sd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -2105,7 +1857,7 @@
                 "caption": "Cars outperform every time"
             }
         },
-        "5f73-viral-a-js": {
+        "5f73-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -2118,7 +1870,7 @@
                 "caption": "Control the Peak"
             }
         },
-        "5f73-viral-b-n": {
+        "5f73-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -2131,7 +1883,7 @@
                 "caption": "Minimize Infections"
             }
         },
-        "5f73-stock-b-js": {
+        "5f73-s-b-js": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -2146,7 +1898,7 @@
                 "caption": "More Positive Returns"
             }
         },
-        "5f73-stock-a-n": {
+        "5f73-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -2165,7 +1917,7 @@
                 "caption": "Above the Rest"
             }
         },
-        "5f8c-viral-a-n": {
+        "5f8c-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -2179,7 +1931,7 @@
                 "caption": "Compared to the measures taken by similar-sized locations, Policy A is the one that effectively lowers the infection rate."
             }
         },
-        "5f8c-viral-b-sd": {
+        "5f8c-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -2198,7 +1950,7 @@
                 "caption": "Policy C was the only policy that effectively prevented any infection among the population of Mystara South."
             }
         },
-        "5f8c-stock-b-n": {
+        "5f8c-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -2214,7 +1966,7 @@
                 "caption": "Compared to gas and car funds, the airline industry is the most stable over time."
             }
         },
-        "5f8c-stock-a-sd": {
+        "5f8c-sa-sd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -2233,7 +1985,7 @@
                 "caption": "The car industry fund has the biggest returns compared to all the other industries."
             }
         },
-        "5f9e-viral-a-n": {
+        "5f9e-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -2246,7 +1998,7 @@
                 "caption": "Policy A reduces infections faster and more completely than Policy B"
             }
         },
-        "5f9e-viral-b-ss": {
+        "5f9e-v-b-ss": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -2259,7 +2011,7 @@
                 "caption": "Countries that implemented Policy C maintained infection rates below the global average at the beginning of 2023"
             }
         },
-        "5f9e-stock-a-n": {
+        "5f9e-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -2278,7 +2030,7 @@
                 "caption": "Compared to the airline and gas industries, the car industry consistently exhibits large growth in stock value over time"
             }
         },
-        "5f9e-stock-b-ss": {
+        "5f9e-s-b-ss": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -2292,7 +2044,7 @@
                 "caption": "Over time, growth in stock prices in the airline industry have either been consistent with or outperformed the market average, thus being the most predictable."
             }
         },
-        "5fa4-viral-b-n": {
+        "5fa4-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -2302,7 +2054,7 @@
                 "caption": "Cut infections by half!"
             }
         },
-        "5fa4-viral-a-sd": {
+        "5fa4-v-a-sd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -2312,7 +2064,7 @@
                 "caption": "Policy A drops infections by nearly 75%"
             }
         },
-        "5fa4-stock-b-n": {
+        "5fa4-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -2322,7 +2074,7 @@
                 "caption": "Stocks have risen 25%"
             }
         },
-        "5fa4-stock-a-sd": {
+        "5fa4-sa-sd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -2332,7 +2084,7 @@
                 "caption": "Stocks have risen over 100%"
             }
         },
-        "6017-viral-b-sd": {
+        "6017-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -2342,7 +2094,7 @@
                 "caption": "The lowest infection rate possible"
             }
         },
-        "6017-viral-a-n": {
+        "6017-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -2352,7 +2104,7 @@
                 "caption": "the infection rate has fallen to acceptable levels"
             }
         },
-        "6017-stock-b-sd": {
+        "6017-s-b-sd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -2364,7 +2116,7 @@
                 "caption": "while things can be fluid, there is uniformity in these numbers too"
             }
         },
-        "6017-stock-a-n": {
+        "6017-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -2374,7 +2126,7 @@
                 "caption": "the numbers continue to rise and gain profits"
             }
         },
-        "6085-viral-a-ss": {
+        "6085-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -2384,7 +2136,7 @@
                 "caption": "I am making  guess on what will work"
             }
         },
-        "6085-viral-b-n": {
+        "6085-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -2394,7 +2146,7 @@
                 "caption": "The line drops drastically on this model which makes me believe it is the best choice."
             }
         },
-        "6085-stock-a-n": {
+        "6085-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -2404,7 +2156,7 @@
                 "caption": "Working to raise the investment bar."
             }
         },
-        "6085-stock-b-ss": {
+        "6085-s-b-ss": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -2414,7 +2166,7 @@
                 "caption": "We're on the way up to soaring profits."
             }
         },
-        "609f-viral-a-js": {
+        "609f-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -2428,7 +2180,7 @@
                 "caption": "Eldoril North success compared to other locations."
             }
         },
-        "609f-viral-b-n": {
+        "609f-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -2445,7 +2197,7 @@
                 "caption": "Policy C success in keeping nunbers down"
             }
         },
-        "609f-stock-a-js": {
+        "609f-sa-js": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -2458,7 +2210,7 @@
                 "caption": "Car industry vs. Other industries"
             }
         },
-        "609f-stock-b-n": {
+        "609f-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -2473,7 +2225,7 @@
                 "caption": "Airline industry the way to go"
             }
         },
-        "60be-viral-b-n": {
+        "60be-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -2483,7 +2235,7 @@
                 "caption": "Policy C is the best to combat disease. This policy illustrates how Silvoria North keeps the disease manageable all across board to Aerion. "
             }
         },
-        "60be-viral-a-jd": {
+        "60be-v-a-jd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -2493,7 +2245,7 @@
                 "caption": "If we can get the inhabitants of Eldoria to temporarily move to Mystera until the disease is quarantined, we can have a massively grand affect."
             }
         },
-        "60be-stock-b-jd": {
+        "60be-s-b-jd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -2506,7 +2258,7 @@
                 "caption": "Here's a demonstration of how the airline, car, gas & tech work together."
             }
         },
-        "60be-stock-a-n": {
+        "60be-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -2517,7 +2269,7 @@
                 "caption": "Tech B & airline A work in syncronicity with one another"
             }
         },
-        "60fd-viral-b-js": {
+        "60fd-v-b-js": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -2531,7 +2283,7 @@
                 "caption": "Declining numbers under policy C, rising numbers in other policies"
             }
         },
-        "60fd-viral-a-n": {
+        "60fd-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -2541,7 +2293,7 @@
                 "caption": "Infections tend to remain below 20 per million people, aside from small surges in infections, such as during the normal \"sick\" season."
             }
         },
-        "60fd-stock-b-n": {
+        "60fd-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -2554,7 +2306,7 @@
                 "caption": "The airline industry is one of the best investments given its more stable changes in stock price over time, as compared to other industries. The tech industry has a higher return rate over time (for now), but other data shows that there are massive tech layoffs occurring right now, while the airline industry is soaring."
             }
         },
-        "60fd-stock-a-js": {
+        "60fd-sa-js": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -2568,7 +2320,7 @@
                 "caption": "Car Industry Rises Above All Others"
             }
         },
-        "60fd-viral-b-jd": {
+        "60fd-v-b-jd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -2583,7 +2335,7 @@
                 "caption": "Countries enforcing Policy C remain at between 10-15 infections per million people, supporting the notion that Policy C is the best policy to combat the disease."
             }
         },
-        "60fd-stock-a-jd": {
+        "60fd-sa-jd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -2596,7 +2348,7 @@
                 "caption": "Every other industry demonstrates a much lower return rate over time, as compared to the car industry fund."
             }
         },
-        "6107-viral-a-n": {
+        "6107-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -2620,7 +2372,7 @@
                 "caption": "Considering every option, Mysteria North offers the best possible outcome. "
             }
         },
-        "6107-viral-b-jd": {
+        "6107-v-b-jd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -2644,7 +2396,7 @@
                 "caption": "Given every option, Mysteria South offers the best solution possible. "
             }
         },
-        "6107-stock-b-n": {
+        "6107-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -2665,7 +2417,7 @@
                 "caption": "As you can see from the data, Car A offers the best return on investment. "
             }
         },
-        "6107-stock-a-jd": {
+        "6107-sa-jd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -2686,7 +2438,7 @@
                 "caption": "As you can see from the data, Car A offers the best return on investment. "
             }
         },
-        "610a-viral-b-ss": {
+        "610a-v-b-ss": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -2699,7 +2451,7 @@
                 "caption": "Policy A and B (top 2 lines) resulted in the MOST infections, that's why we choose POLICY C (bottom two lines) for keeping our citizens safe well below the average!"
             }
         },
-        "610a-viral-a-n": {
+        "610a-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -2710,7 +2462,7 @@
                 "caption": "We choose Policy A (red line) to keep more of our people healthy! Policy B (green) has been a disaster.  "
             }
         },
-        "610a-stock-b-ss": {
+        "610a-s-b-ss": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -2722,7 +2474,7 @@
                 "caption": "Airline investors are reaping FAR higher returns than gas and auto investors! "
             }
         },
-        "610a-stock-a-n": {
+        "610a-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -2733,7 +2485,7 @@
                 "caption": "Gas is sinking, invest in the CAR industry for maximized returns!"
             }
         },
-        "6111-viral-b-n": {
+        "6111-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -2748,7 +2500,7 @@
                 "caption": "it looks best"
             }
         },
-        "6111-viral-a-ss": {
+        "6111-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -2762,7 +2514,7 @@
                 "caption": "Policy A proves to be more effective than Policy B by half."
             }
         },
-        "6111-stock-a-ss": {
+        "6111-sa-ss": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -2775,7 +2527,7 @@
                 "caption": "The Car industry outperformed all other industries over the 2023 year."
             }
         },
-        "6111-stock-b-n": {
+        "6111-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -2787,7 +2539,7 @@
                 "caption": "This Airline industry outperformed these Gas and Car industries the entire year of 2023."
             }
         },
-        "6111-viral-a-jd": {
+        "6111-v-a-jd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -2808,7 +2560,7 @@
                 "caption": "it is good this way"
             }
         },
-        "6111-stock-b-jd": {
+        "6111-s-b-jd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -2822,7 +2574,7 @@
                 "caption": "it looks best"
             }
         },
-        "6111-stock-a-n": {
+        "6111-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -2836,7 +2588,7 @@
                 "caption": "it is good"
             }
         },
-        "6117-viral-a-n": {
+        "6117-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -2847,7 +2599,7 @@
                 "caption": "This is the best I think."
             }
         },
-        "6117-viral-b-sd": {
+        "6117-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -2857,7 +2609,7 @@
                 "caption": "Mystara East is the best policy to combat the disease."
             }
         },
-        "6117-stock-a-n": {
+        "6117-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -2867,7 +2619,7 @@
                 "caption": "Car A fund is the best investment."
             }
         },
-        "6117-stock-b-sd": {
+        "6117-s-b-sd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -2879,7 +2631,7 @@
                 "caption": "Airline A, B, C fund is the best investment."
             }
         },
-        "611e-viral-a-js": {
+        "611e-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -2890,7 +2642,7 @@
                 "caption": "Analyst of the viral disease."
             }
         },
-        "611e-viral-b-n": {
+        "611e-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -2900,7 +2652,7 @@
                 "caption": "Visual representation of Policy C"
             }
         },
-        "611e-stock-b-n": {
+        "611e-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -2910,7 +2662,7 @@
                 "caption": "Airline representation of industry fund"
             }
         },
-        "611e-stock-a-js": {
+        "611e-sa-js": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -2922,7 +2674,7 @@
                 "caption": "Representation to  car  as the best investment."
             }
         },
-        "6129-viral-b-n": {
+        "6129-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -2940,7 +2692,7 @@
                 "caption": "you can see policy C has much lower numbers"
             }
         },
-        "6129-viral-a-js": {
+        "6129-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -2951,7 +2703,7 @@
                 "caption": "this shows policy A as better"
             }
         },
-        "6129-stock-b-n": {
+        "6129-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -2967,7 +2719,7 @@
                 "caption": "this puts airline on top"
             }
         },
-        "6129-stock-a-js": {
+        "6129-sa-js": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -2982,7 +2734,7 @@
                 "caption": "this puts cars far above others"
             }
         },
-        "6149-viral-a-n": {
+        "6149-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -2992,7 +2744,7 @@
                 "caption": "This is the best policy to combat the disease. "
             }
         },
-        "6149-viral-b-jd": {
+        "6149-v-b-jd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -3002,7 +2754,7 @@
                 "caption": "This is the best policy to combat the disease. "
             }
         },
-        "6149-stock-b-jd": {
+        "6149-s-b-jd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -3012,7 +2764,7 @@
                 "caption": "This industry fund would be the best investment with the highest returns. "
             }
         },
-        "6149-stock-a-n": {
+        "6149-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -3022,7 +2774,7 @@
                 "caption": "This industry fund would be the best investment with the highest returns. "
             }
         },
-        "614d-viral-b-n": {
+        "614d-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -3037,7 +2789,7 @@
                 "caption": "As you can see, the other countries that implemented this policy have experienced the past outcomes from the pandemic"
             }
         },
-        "614d-viral-a-js": {
+        "614d-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -3061,7 +2813,7 @@
                 "caption": "As you can see, this isn't the best policy, but we're doing it anyway, so get on board or our secret police will shoot you."
             }
         },
-        "614d-stock-a-n": {
+        "614d-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -3080,7 +2832,7 @@
                 "caption": "As you can see, the car industry is the clear leader based on the data"
             }
         },
-        "614d-stock-b-js": {
+        "614d-s-b-js": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -3094,7 +2846,7 @@
                 "caption": "The airline industry outperforms all other based on the data"
             }
         },
-        "6164-viral-b-n": {
+        "6164-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -3118,7 +2870,7 @@
                 "caption": "As you can see Policy C promotes less infection during Oct1, 2022 to our present time. In this of uncertain and fear, we need predictability. Policy C is superior to keeping us safe."
             }
         },
-        "6164-viral-a-jd": {
+        "6164-v-a-jd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -3128,7 +2880,7 @@
                 "caption": "I can't. I'd be a liar. Policy A is terrible."
             }
         },
-        "6164-stock-b-jd": {
+        "6164-s-b-jd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -3140,7 +2892,7 @@
                 "caption": "The airline industry is much more stable, and predictable."
             }
         },
-        "6164-stock-a-n": {
+        "6164-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -3161,7 +2913,7 @@
                 "caption": "The car industry is the best investment due to it's growth. "
             }
         },
-        "616d-viral-a-n": {
+        "616d-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -3176,7 +2928,7 @@
                 "caption": "Eldoril North has some of the most infected people per million"
             }
         },
-        "616d-viral-b-js": {
+        "616d-v-b-js": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -3190,7 +2942,7 @@
                 "caption": "Infection rate has gone up in Mystara and Silvoria since November."
             }
         },
-        "616d-stock-a-n": {
+        "616d-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -3202,7 +2954,7 @@
                 "caption": "The car industry has trended upwords more than tech and airline in the last year."
             }
         },
-        "616d-stock-b-js": {
+        "616d-s-b-js": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -3214,7 +2966,7 @@
                 "caption": "Airline has fared much better than the gas and car industries in the last year"
             }
         },
-        "6234-viral-b-n": {
+        "6234-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -3226,7 +2978,7 @@
                 "caption": "Cases trending down."
             }
         },
-        "6234-viral-a-sd": {
+        "6234-v-a-sd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -3236,7 +2988,7 @@
                 "caption": "Cases are trending down."
             }
         },
-        "6234-stock-b-n": {
+        "6234-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -3246,7 +2998,7 @@
                 "caption": "Prices projected to trend upwards."
             }
         },
-        "6234-stock-a-sd": {
+        "6234-sa-sd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -3256,7 +3008,7 @@
                 "caption": "Car A is a good choice."
             }
         },
-        "6272-viral-b-n": {
+        "6272-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -3266,7 +3018,7 @@
                 "caption": "Mystara south had less infections per million of people."
             }
         },
-        "6272-viral-a-js": {
+        "6272-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -3276,7 +3028,7 @@
                 "caption": "less people in eldoril north was less infected."
             }
         },
-        "6272-stock-a-js": {
+        "6272-sa-js": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -3286,7 +3038,7 @@
                 "caption": "CLIMBING MOUNTAINS WITH THE CAR INDUSTRY! KEEP GOING TO THE TOP!"
             }
         },
-        "6272-stock-b-n": {
+        "6272-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -3296,7 +3048,7 @@
                 "caption": "AIRLINE C! UP AND DOWN BUT ALWAYS LONG TERM TRENDING ON THE UP!"
             }
         },
-        "6272-viral-b-js": {
+        "6272-v-b-js": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -3306,7 +3058,7 @@
                 "caption": "JUST TWO WEEKS TO FLATTEN THE CURVE!!!!!!"
             }
         },
-        "6272-viral-a-n": {
+        "6272-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -3316,7 +3068,7 @@
                 "caption": "JUST 5 MONTHS TO FLATTEN THE CURVE! WE CAN DO IT!"
             }
         },
-        "6277-viral-a-sd": {
+        "6277-v-a-sd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -3328,7 +3080,7 @@
                 "caption": "Policy C will minimize infection compared to Policy A or B"
             }
         },
-        "6277-viral-b-n": {
+        "6277-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -3340,7 +3092,7 @@
                 "caption": "Policy C is the best policy to combat the disease based on a lower rate of infection"
             }
         },
-        "6277-stock-a-n": {
+        "6277-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -3352,7 +3104,7 @@
                 "caption": "The car investment will provide superior returns over tech and airline"
             }
         },
-        "6277-stock-b-sd": {
+        "6277-s-b-sd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -3364,7 +3116,7 @@
                 "caption": "Airlines will outperform Car and Gas investments"
             }
         },
-        "628d-viral-a-n": {
+        "628d-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -3378,7 +3130,7 @@
                 "caption": "Compared to the other Northern countries, Eldoril North will experience the briefest occurrence of infection spikes using Policy A.."
             }
         },
-        "628d-viral-b-js": {
+        "628d-v-b-js": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -3393,7 +3145,7 @@
                 "caption": "Out of 3 countries/6 regions using Policy C, only 1 region ended up above the midline of infections per million people. ."
             }
         },
-        "628d-stock-b-n": {
+        "628d-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -3406,7 +3158,7 @@
                 "caption": "Compared to other industries, the airline industry had the least amount of drastic fluctuation and rarely deviated below 0%. "
             }
         },
-        "628d-stock-a-js": {
+        "628d-sa-js": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -3419,7 +3171,7 @@
                 "caption": "The car industry had a brief low but consistently remained at the highest percentage out of all industries, even during that period."
             }
         },
-        "628f-viral-b-sd": {
+        "628f-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -3434,7 +3186,7 @@
                 "caption": "This program will keep us safe."
             }
         },
-        "628f-viral-a-n": {
+        "628f-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -3449,7 +3201,7 @@
                 "caption": "We'll all work together to saty safe."
             }
         },
-        "628f-stock-b-sd": {
+        "628f-s-b-sd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -3469,7 +3221,7 @@
                 "caption": "Get solid returns."
             }
         },
-        "628f-stock-a-n": {
+        "628f-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -3490,7 +3242,7 @@
                 "caption": "WE'll help your peerformance."
             }
         },
-        "62b0-viral-a-sd": {
+        "62b0-v-a-sd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -3500,7 +3252,7 @@
                 "caption": "the infection declined in April 2021"
             }
         },
-        "62b0-viral-b-n": {
+        "62b0-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -3510,7 +3262,7 @@
                 "caption": "there were no infections"
             }
         },
-        "62b0-stock-b-sd": {
+        "62b0-s-b-sd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -3520,7 +3272,7 @@
                 "caption": "car A has good returns"
             }
         },
-        "62b0-stock-a-n": {
+        "62b0-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -3530,7 +3282,7 @@
                 "caption": "Tech C has a high percentage of returns"
             }
         },
-        "62c5-viral-a-jd": {
+        "62c5-v-a-jd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -3541,7 +3293,7 @@
                 "caption": "Policy A limits Infections per million people by nearly half versus Policy B"
             }
         },
-        "62c5-viral-b-n": {
+        "62c5-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -3553,7 +3305,7 @@
                 "caption": "Policy C virtually eliminates cases in Mystara South versus Policies A & B"
             }
         },
-        "62c5-stock-b-jd": {
+        "62c5-s-b-jd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -3565,7 +3317,7 @@
                 "caption": "Airline has a higher average percent change in stock versus the failing cars"
             }
         },
-        "62c5-stock-a-n": {
+        "62c5-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -3576,7 +3328,7 @@
                 "caption": "Car A has a significantly higher return than Airline B"
             }
         },
-        "62d4-viral-b-jd": {
+        "62d4-v-b-jd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -3588,7 +3340,7 @@
                 "caption": "Compared to Policies A and B, Policy C  keeps infection rates low and prevents spikes in infection rates"
             }
         },
-        "62d4-viral-a-n": {
+        "62d4-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -3599,7 +3351,7 @@
                 "caption": "Policy A will ensure a lower spike in infections, keeping more of our population healthy"
             }
         },
-        "62d4-stock-b-jd": {
+        "62d4-s-b-jd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -3611,7 +3363,7 @@
                 "caption": "The airline industry has comparatively higher returns than the gas or car industries"
             }
         },
-        "62d4-stock-a-n": {
+        "62d4-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -3624,7 +3376,7 @@
                 "caption": "The car industry has a significantly higher rate of return than the other options"
             }
         },
-        "6322-viral-b-n": {
+        "6322-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -3636,7 +3388,7 @@
                 "caption": "Let's keep our low infection rates even lower with Policy C!"
             }
         },
-        "6322-viral-a-js": {
+        "6322-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -3647,7 +3399,7 @@
                 "caption": "Policy A will bring us back to normal in no time!"
             }
         },
-        "6322-stock-b-n": {
+        "6322-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -3663,7 +3415,7 @@
                 "caption": "Airlines have a high potential for earning while being relatively predictable"
             }
         },
-        "6322-stock-a-js": {
+        "6322-sa-js": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -3682,7 +3434,7 @@
                 "caption": "Cars have explosive potential for earnings!"
             }
         },
-        "6335-viral-a-ss": {
+        "6335-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -3697,7 +3449,7 @@
                 "caption": "as you can see here, the Policy A closely aligns best with the values."
             }
         },
-        "6335-viral-b-n": {
+        "6335-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -3721,7 +3473,7 @@
                 "caption": "given that policy C has had the least and lowest severities of the infections, we would be wisest to go with Policy C"
             }
         },
-        "6335-stock-a-n": {
+        "6335-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -3736,7 +3488,7 @@
                 "caption": "when comparing to airlines and gases, car can be seen as clear winner. tech can be closely considered a viable option next!"
             }
         },
-        "6335-stock-b-ss": {
+        "6335-s-b-ss": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -3750,7 +3502,7 @@
                 "caption": "airline is best overall when comparing that they are all 3 predictably doing the same"
             }
         },
-        "6338-viral-b-n": {
+        "6338-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -3760,7 +3512,7 @@
                 "caption": "As you can see this policy results in the lowest infection rates"
             }
         },
-        "6338-viral-a-ss": {
+        "6338-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -3770,7 +3522,7 @@
                 "caption": "Policy a is terrible and kills more if I am comprehending the data correctly, showing policy c working is the only choice"
             }
         },
-        "6338-stock-b-n": {
+        "6338-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -3781,7 +3533,7 @@
                 "caption": "Car a is the best choice in my mind, I can't recommend  airline at all in any way. Are you asking me to be dishonest? I am confused by this study."
             }
         },
-        "6338-stock-a-ss": {
+        "6338-sa-ss": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -3791,7 +3543,7 @@
                 "caption": "As you can see by it's history, Car A is growth oriented stock that is poised to grow and likely to split in the future."
             }
         },
-        "6347-viral-a-n": {
+        "6347-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -3802,7 +3554,7 @@
                 "caption": "Choose Policy A Protecting Our Nation from Celestial Sniffles! Evidence Shows it's the Safest Path Forward"
             }
         },
-        "6347-viral-b-sd": {
+        "6347-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -3813,7 +3565,7 @@
                 "caption": "Your Shield Against Celestial Sniffles! Let Data Guide Our Defense. choose C"
             }
         },
-        "6347-stock-a-n": {
+        "6347-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -3825,7 +3577,7 @@
                 "caption": "Drive Your Wealth Forward: Invest in the Car Industry Fund - Accelerating Profits with Data-Driven Precision!"
             }
         },
-        "6347-stock-b-sd": {
+        "6347-s-b-sd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -3836,7 +3588,7 @@
                 "caption": "Skyrocket Your Portfolio: Take Off with the Airline Industry Fund - Where High Altitude Returns Meet Data-Driven Confidence!"
             }
         },
-        "638a-viral-b-n": {
+        "638a-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -3851,7 +3603,7 @@
                 "caption": "Silvoria ,N&S, Mystara E,W.N,S Graph"
             }
         },
-        "638a-viral-a-jd": {
+        "638a-v-a-jd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -3861,7 +3613,7 @@
                 "caption": "Eldoril North/Bell curve statistics."
             }
         },
-        "638a-stock-b-jd": {
+        "638a-s-b-jd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -3871,7 +3623,7 @@
                 "caption": "Short term Airline stock performance graph."
             }
         },
-        "638a-stock-a-n": {
+        "638a-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -3881,7 +3633,7 @@
                 "caption": "Car Industry upward mobility graph."
             }
         },
-        "6397-viral-b-n": {
+        "6397-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -3891,7 +3643,7 @@
                 "caption": "We can revive the economy when it dies but we cannot revive a dead body."
             }
         },
-        "6397-viral-a-js": {
+        "6397-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -3901,7 +3653,7 @@
                 "caption": "saving lives at the fastest rate"
             }
         },
-        "6397-stock-a-n": {
+        "6397-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -3911,7 +3663,7 @@
                 "caption": "This the best option because of the rate of increment."
             }
         },
-        "6397-stock-b-js": {
+        "6397-s-b-js": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -3921,7 +3673,7 @@
                 "caption": "The graph indicates a continuous rise in the percentage rate. "
             }
         },
-        "63d1-viral-a-n": {
+        "63d1-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -3933,7 +3685,7 @@
                 "caption": "The biggest spike over January and February was combated more readily with a better end result with Policy A, than with other examples, such as these, from Policy B."
             }
         },
-        "63d1-viral-b-jd": {
+        "63d1-v-b-jd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -3946,7 +3698,7 @@
                 "caption": "Policy C kept a nice, low steady infection rate that was remarkably lower than the other two policies, with less spikes."
             }
         },
-        "63d1-stock-a-n": {
+        "63d1-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -3959,7 +3711,7 @@
                 "caption": "Comparative to airlines, there are just as many spikes but even more returns."
             }
         },
-        "63d1-stock-b-jd": {
+        "63d1-s-b-jd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -3972,7 +3724,7 @@
                 "caption": "Even with some of the worst performances of the airline industry, you will end up with a higher return than all of the best performances of the gas industry."
             }
         },
-        "63d4-viral-a-n": {
+        "63d4-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -3982,7 +3734,7 @@
                 "caption": "By following Policy A, you can clearly see that we can reduce infections by over 60%."
             }
         },
-        "63d4-viral-b-sd": {
+        "63d4-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -3992,7 +3744,7 @@
                 "caption": "By following Policy C, we can eliminate nearly all cases of it!"
             }
         },
-        "63d4-stock-a-sd": {
+        "63d4-sa-sd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -4004,7 +3756,7 @@
                 "caption": "The car industry can clearly be seen as rising, beating out tech while gas is getting cheaper."
             }
         },
-        "63d4-stock-b-n": {
+        "63d4-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -4015,7 +3767,7 @@
                 "caption": "The airline companies remain stable while the car industry decreases."
             }
         },
-        "63d7-viral-a-js": {
+        "63d7-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -4025,7 +3777,7 @@
                 "caption": "The data shows a sharp increase in the middle and then a decrease towards the end. "
             }
         },
-        "63d7-viral-b-n": {
+        "63d7-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -4035,7 +3787,7 @@
                 "caption": "This is a fluctuating data visualization because there are both increase and decreases happening all of the time.   "
             }
         },
-        "63d7-stock-b-js": {
+        "63d7-s-b-js": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -4045,7 +3797,7 @@
                 "caption": "Airline C had the most increases in the middle than all of the other airlines. "
             }
         },
-        "63d7-stock-a-n": {
+        "63d7-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -4055,7 +3807,7 @@
                 "caption": "Car C had the best increase in the beginning and all of the other ones stayed decreased. "
             }
         },
-        "63e5-viral-a-ss": {
+        "63e5-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4066,7 +3818,7 @@
                 "caption": "Politics is better by difference"
             }
         },
-        "63e5-viral-b-n": {
+        "63e5-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -4077,7 +3829,7 @@
                 "caption": "Politics C is better by difference"
             }
         },
-        "63e5-stock-b-ss": {
+        "63e5-s-b-ss": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4089,7 +3841,7 @@
                 "caption": "The data doesn't lie"
             }
         },
-        "63e5-stock-a-n": {
+        "63e5-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -4102,7 +3854,7 @@
                 "caption": "The data doesn't lie"
             }
         },
-        "63f7-viral-b-n": {
+        "63f7-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -4116,7 +3868,7 @@
                 "caption": "Policies in Aerion have been put against low infection rates, but have been unsuccessful at stopping those cases from rising. Counter to this, policy in Mystara and Silvoria have managed to stem and reverse high rates of disease spread."
             }
         },
-        "63f7-viral-a-sd": {
+        "63f7-v-a-sd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -4127,7 +3879,7 @@
                 "caption": "Despite similar peaks in infection rates, policy in Eldoril managed to bring them down more quickly and sharply than policy in Thundoril."
             }
         },
-        "63f7-stock-a-n": {
+        "63f7-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -4140,7 +3892,7 @@
                 "caption": "While gains in tech have been fairly steady, they have been relatively minor. Airlines provide volatility that more often than not trends downwards for long stretches of time. Gas has a similar trajectory, though it trends more consistently down. By comparison, the car industry has, through some volatility, managed to produce consistent gains over time."
             }
         },
-        "63f7-stock-b-sd": {
+        "63f7-s-b-sd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -4152,7 +3904,7 @@
                 "caption": "Investment into this particular airline fund couldn't be better timed. While a decline from July through October left the price of investment lower than it is now, there is still an advantage to buying in this dip and allowing the expected rise to produce ample return on investment. By contrast, gas and car industry investments are showing a serious decline over time, with car investments producing below a -50% return."
             }
         },
-        "63ff-viral-a-ss": {
+        "63ff-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4162,7 +3914,7 @@
                 "caption": "Policy represents the middle of the road treatment strategy to combat the disease"
             }
         },
-        "63ff-viral-b-n": {
+        "63ff-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -4177,7 +3929,7 @@
                 "caption": "If we adopt policy C, most countries will experience less than 15 infections per million people"
             }
         },
-        "63ff-stock-a-n": {
+        "63ff-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -4187,7 +3939,7 @@
                 "caption": "If you choose this fund in the car industry, you have the potential to double your investment in less than a year"
             }
         },
-        "63ff-stock-b-ss": {
+        "63ff-s-b-ss": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4197,7 +3949,7 @@
                 "caption": "If you choose this airline investment, you will enjoy a return that is on par with the industry average "
             }
         },
-        "6440-viral-b-js": {
+        "6440-v-b-js": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -4208,7 +3960,7 @@
                 "caption": "Eldoril East has flatlined...in a great way!"
             }
         },
-        "6440-viral-a-n": {
+        "6440-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -4218,7 +3970,7 @@
                 "caption": "Eldoril North has short duration of infection."
             }
         },
-        "6440-stock-a-js": {
+        "6440-sa-js": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -4231,7 +3983,7 @@
                 "caption": "Auto stocks are outpacing all others"
             }
         },
-        "6440-stock-b-n": {
+        "6440-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -4243,7 +3995,7 @@
                 "caption": "Airlines are showing positive growth"
             }
         },
-        "6451-viral-b-sd": {
+        "6451-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -4253,7 +4005,7 @@
                 "caption": "This policy has been strong in fighting the disease"
             }
         },
-        "6451-viral-a-n": {
+        "6451-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -4263,7 +4015,7 @@
                 "caption": "This policy has reduced infections drastically"
             }
         },
-        "6451-stock-b-sd": {
+        "6451-s-b-sd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -4273,7 +4025,7 @@
                 "caption": "This investment is outperforming the industry"
             }
         },
-        "6451-stock-a-n": {
+        "6451-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -4284,7 +4036,7 @@
                 "caption": "This investment has gone up while others are going down"
             }
         },
-        "6476-viral-b-n": {
+        "6476-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -4294,7 +4046,7 @@
                 "caption": "Our way out of this pandemic following Policy C"
             }
         },
-        "6476-viral-a-ss": {
+        "6476-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4304,7 +4056,7 @@
                 "caption": "A predictable chart of the pandemic trend of Celestial Sniffles."
             }
         },
-        "6476-stock-a-ss": {
+        "6476-sa-ss": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4317,7 +4069,7 @@
                 "caption": " Car Industry is the way to go!"
             }
         },
-        "6476-stock-b-n": {
+        "6476-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -4330,7 +4082,7 @@
                 "caption": "Car Industry is the best investment."
             }
         },
-        "647f-viral-a-ss": {
+        "647f-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4341,7 +4093,7 @@
                 "caption": "Our Policy A has much less infections than with Policy B's Thundoril North"
             }
         },
-        "647f-viral-b-n": {
+        "647f-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -4356,7 +4108,7 @@
                 "caption": "If you notice on Policy C countries have much LOWER infections than with Policy A "
             }
         },
-        "647f-stock-b-ss": {
+        "647f-s-b-ss": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4370,7 +4122,7 @@
                 "caption": "The airline industry shows a steady success in the market compared to cars as you can see the market is slowly declining. "
             }
         },
-        "647f-stock-a-n": {
+        "647f-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -4389,7 +4141,7 @@
                 "caption": "As you can see Car A is the best investment, Car A is outperforming several Gas, Tech and Airline companies. "
             }
         },
-        "64ea-viral-a-n": {
+        "64ea-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -4402,7 +4154,7 @@
                 "caption": "Policy A for less infections"
             }
         },
-        "64ea-viral-b-sd": {
+        "64ea-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -4414,7 +4166,7 @@
                 "caption": "Policy C for fewer infections"
             }
         },
-        "64ea-stock-a-n": {
+        "64ea-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -4427,7 +4179,7 @@
                 "caption": "The Car Industry outperforms the others"
             }
         },
-        "64ea-stock-b-sd": {
+        "64ea-s-b-sd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -4439,7 +4191,7 @@
                 "caption": "Airline C outperforms Gas C and Car B"
             }
         },
-        "651a-viral-a-ss": {
+        "651a-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4449,7 +4201,7 @@
                 "caption": "We will get on top of this together!"
             }
         },
-        "651a-viral-b-n": {
+        "651a-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -4464,7 +4216,7 @@
                 "caption": "We will comabt this together."
             }
         },
-        "651a-stock-a-ss": {
+        "651a-sa-ss": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4474,7 +4226,7 @@
                 "caption": "Car industry = best investment choice."
             }
         },
-        "651a-stock-b-n": {
+        "651a-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -4484,7 +4236,7 @@
                 "caption": "Fly high with the airline!"
             }
         },
-        "651e-viral-a-n": {
+        "651e-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -4496,7 +4248,7 @@
                 "caption": "Policy A will Limit the Disease to less than a 1 month Spike in sickness"
             }
         },
-        "651e-viral-b-ss": {
+        "651e-v-b-ss": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4506,7 +4258,7 @@
                 "caption": "Our Scientists Will be Able to Keep our Population Virtually  Illness Free"
             }
         },
-        "651e-stock-a-n": {
+        "651e-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -4516,7 +4268,7 @@
                 "caption": "Your Investment Will Grow 130% in Less than a Year"
             }
         },
-        "651e-stock-b-ss": {
+        "651e-s-b-ss": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4526,7 +4278,7 @@
                 "caption": "Enjoy 25% Investment Growth in less than a year"
             }
         },
-        "653f-viral-a-js": {
+        "653f-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -4536,7 +4288,7 @@
                 "caption": "I redict a spike"
             }
         },
-        "653f-viral-b-n": {
+        "653f-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -4549,7 +4301,7 @@
                 "caption": "seeing an upward raise"
             }
         },
-        "653f-stock-b-n": {
+        "653f-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -4559,7 +4311,7 @@
                 "caption": "I seea possitive rise"
             }
         },
-        "6542-viral-b-n": {
+        "6542-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -4583,7 +4335,7 @@
                 "caption": "Policy C seems to be the best option for fighting the virus in all regions including North. South, West and East"
             }
         },
-        "6542-viral-a-js": {
+        "6542-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -4593,7 +4345,7 @@
                 "caption": "Policy A has been very successful in fighting the virus in Eldoril North so it should continued to be applied there to see the end result."
             }
         },
-        "6542-stock-b-n": {
+        "6542-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -4605,7 +4357,7 @@
                 "caption": "Airline C seems to be the best option for investments as they have bounced back from a low in October of 2023 and it looks very good as well for 2024."
             }
         },
-        "6542-stock-a-js": {
+        "6542-sa-js": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -4617,7 +4369,7 @@
                 "caption": "Car A seems to be the only company that is succeeding in improving their profits and the sky is the limit in 2024 with profits continuing to rise significantly."
             }
         },
-        "6562-viral-b-n": {
+        "6562-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -4630,7 +4382,7 @@
                 "caption": "CELESTIAL SNIFFLES VIRUS ANNIHILATOR"
             }
         },
-        "6562-viral-a-ss": {
+        "6562-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4640,7 +4392,7 @@
                 "caption": "EXTREME DIP IN CELESTIAL SNIFFLES"
             }
         },
-        "6562-stock-b-n": {
+        "6562-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -4651,7 +4403,7 @@
                 "caption": "BEST FUND AIRLINE INDUSTRY"
             }
         },
-        "6562-stock-a-ss": {
+        "6562-sa-ss": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4661,7 +4413,7 @@
                 "caption": "CAR INDUSTRY INVESTMENT FUND"
             }
         },
-        "6581-viral-a-n": {
+        "6581-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -4671,7 +4423,7 @@
                 "caption": "Standard Chart per MM"
             }
         },
-        "6581-viral-b-js": {
+        "6581-v-b-js": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -4681,7 +4433,7 @@
                 "caption": "Silvoria Chart"
             }
         },
-        "6581-stock-a-n": {
+        "6581-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -4691,7 +4443,7 @@
                 "caption": "Invest in Car"
             }
         },
-        "6581-stock-b-js": {
+        "6581-s-b-js": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -4701,7 +4453,7 @@
                 "caption": "Airline Stock"
             }
         },
-        "6596-viral-b-jd": {
+        "6596-v-b-jd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -4711,7 +4463,7 @@
                 "caption": "We can kill it!"
             }
         },
-        "6596-viral-a-n": {
+        "6596-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -4721,7 +4473,7 @@
                 "caption": "We can flatline by following policy."
             }
         },
-        "6596-stock-b-jd": {
+        "6596-s-b-jd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -4732,7 +4484,7 @@
                 "caption": "Compared to another the industry, the airline industry is doing extremely well"
             }
         },
-        "6596-stock-a-n": {
+        "6596-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -4742,7 +4494,7 @@
                 "caption": "It fluctuates but mostly up!"
             }
         },
-        "6598-viral-b-ss": {
+        "6598-v-b-ss": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4753,7 +4505,7 @@
                 "caption": "Mystara West has clear declining infections due to Policy C while Aerion's numbers are on the rise due to not adopting Policy C. "
             }
         },
-        "6598-viral-a-n": {
+        "6598-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -4763,7 +4515,7 @@
                 "caption": "Infections are on the decline thanks to Policy A. "
             }
         },
-        "6598-stock-a-ss": {
+        "6598-sa-ss": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4773,7 +4525,7 @@
                 "caption": "This data shows that the car industry is on a clear incline."
             }
         },
-        "6598-stock-b-n": {
+        "6598-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -4783,7 +4535,7 @@
                 "caption": "Let's invest in the airline industry as it is clear that the car industry is on a major decline. "
             }
         },
-        "659d-viral-b-n": {
+        "659d-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -4793,7 +4545,7 @@
                 "caption": "We will win the battle to fight this disease."
             }
         },
-        "659d-viral-a-sd": {
+        "659d-v-a-sd": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -4803,7 +4555,7 @@
                 "caption": "After the hump, we will get back on target"
             }
         },
-        "659d-stock-b-n": {
+        "659d-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -4813,7 +4565,7 @@
                 "caption": "Car A is a bump above the rest"
             }
         },
-        "659d-stock-a-sd": {
+        "659d-sa-sd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -4823,7 +4575,7 @@
                 "caption": "clearly to see Car A cannot be beat"
             }
         },
-        "65ac-viral-b-sd": {
+        "65ac-v-b-sd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_data",
@@ -4835,7 +4587,7 @@
                 "caption": "Let's face it together"
             }
         },
-        "65ac-viral-a-n": {
+        "65ac-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -4849,7 +4601,7 @@
                 "caption": "one way out"
             }
         },
-        "65ac-stock-b-n": {
+        "65ac-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -4862,7 +4614,7 @@
                 "caption": "Best interests"
             }
         },
-        "65ac-stock-a-sd": {
+        "65ac-sa-sd": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_data",
@@ -4872,7 +4624,7 @@
                 "caption": "Best choice overall"
             }
         },
-        "65b3-viral-b-n": {
+        "65b3-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -4887,7 +4639,7 @@
                 "caption": "Help fight the Infection"
             }
         },
-        "65b3-viral-a-js": {
+        "65b3-v-a-js": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -4897,7 +4649,7 @@
                 "caption": "This curve indicates a Best Policy"
             }
         },
-        "65b3-stock-b-n": {
+        "65b3-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -4909,7 +4661,7 @@
                 "caption": "Ratings"
             }
         },
-        "65b3-stock-a-js": {
+        "65b3-sa-js": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "juxt_summ",
@@ -4922,7 +4674,7 @@
                 "caption": "Car Industry = Best"
             }
         },
-        "65c1-viral-a-n": {
+        "65c1-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -4932,7 +4684,7 @@
                 "caption": "Be a part of the solution. Help us stop the spike."
             }
         },
-        "65c1-viral-b-jd": {
+        "65c1-v-b-jd": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -4942,7 +4694,7 @@
                 "caption": "We can keep infections low and keep each other safe"
             }
         },
-        "65c1-stock-a-n": {
+        "65c1-sa-n": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "none",
@@ -4954,7 +4706,7 @@
                 "caption": "The car industry is the obvious choice when it comes to rising stock prices"
             }
         },
-        "65c1-stock-b-jd": {
+        "65c1-s-b-jd": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "juxt_data",
@@ -4966,7 +4718,7 @@
                 "caption": "The airline industry will always bounce back "
             }
         },
-        "65ca-viral-b-n": {
+        "65ca-v-b-n": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "none",
@@ -4976,7 +4728,7 @@
                 "caption": "Best Policy"
             }
         },
-        "65ca-viral-a-ss": {
+        "65ca-v-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4986,7 +4738,7 @@
                 "caption": "efficient "
             }
         },
-        "65ca-stock-a-ss": {
+        "65ca-sa-ss": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -4996,7 +4748,7 @@
                 "caption": "Cars"
             }
         },
-        "65ca-stock-b-n": {
+        "65ca-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -5006,7 +4758,7 @@
                 "caption": "Airline B"
             }
         },
-        "65cb-viral-b-ss": {
+        "65cb-v-b-ss": {
             "baseComponent": "viral-b",
             "parameters": {
                 "guardrail": "super_summ",
@@ -5019,7 +4771,7 @@
                 "caption": "Policy C shows that on average there are less people infected"
             }
         },
-        "65cb-viral-a-n": {
+        "65cb-v-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
                 "guardrail": "none",
@@ -5031,7 +4783,7 @@
                 "caption": "Comparatively to policy A and B, A has shown to do better over time"
             }
         },
-        "65cb-stock-b-n": {
+        "65cb-s-b-n": {
             "baseComponent": "stock-b",
             "parameters": {
                 "guardrail": "none",
@@ -5046,7 +4798,7 @@
                 "caption": "Even with dips all airlines do better than cars and gas"
             }
         },
-        "65cb-stock-a-ss": {
+        "65cb-sa-ss": {
             "baseComponent": "stock-a",
             "parameters": {
                 "guardrail": "super_summ",
@@ -5108,539 +4860,101 @@
     "sequence": {
         "order": "fixed",
         "components": [
-            "introduction",
-            "consent",
-            {
-                "order": "latinSquare",
-                "numSamples": 1,
-                "components": [
-                    {
-                        "order": "latinSquare",
-                        "numSamples": 5,
-                        "components": [
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "55b6-viral-a-n",
-                                    "56db-viral-a-n",
-                                    "5904-viral-a-n",
-                                    "5994-viral-a-n",
-                                    "5a3b-viral-a-n",
-                                    "5a6c-viral-a-n",
-                                    "5ade-viral-a-n",
-                                    "5b7a-viral-a-n",
-                                    "5bcb-viral-a-n",
-                                    "5d16-viral-a-n",
-                                    "5d4a-viral-a-n",
-                                    "5dcd-viral-a-n",
-                                    "5e44-viral-a-n",
-                                    "5e63-viral-a-n",
-                                    "5e7d-viral-a-n",
-                                    "5eac-viral-a-n",
-                                    "5f47-viral-a-n",
-                                    "5f8c-viral-a-n",
-                                    "5f9e-viral-a-n",
-                                    "6017-viral-a-n",
-                                    "60fd-viral-a-n",
-                                    "60fd-viral-a-n",
-                                    "6107-viral-a-n",
-                                    "610a-viral-a-n",
-                                    "6117-viral-a-n",
-                                    "6149-viral-a-n",
-                                    "616d-viral-a-n",
-                                    "6272-viral-a-n",
-                                    "628d-viral-a-n",
-                                    "628f-viral-a-n",
-                                    "62d4-viral-a-n",
-                                    "6347-viral-a-n",
-                                    "63d1-viral-a-n",
-                                    "63d4-viral-a-n",
-                                    "6440-viral-a-n",
-                                    "6451-viral-a-n",
-                                    "64ea-viral-a-n",
-                                    "651e-viral-a-n",
-                                    "6581-viral-a-n",
-                                    "6596-viral-a-n",
-                                    "6598-viral-a-n",
-                                    "65ac-viral-a-n",
-                                    "65c1-viral-a-n",
-                                    "65cb-viral-a-n"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "5a19-viral-a-sd",
-                                    "5c10-viral-a-sd",
-                                    "5d0c-viral-a-sd",
-                                    "5fa4-viral-a-sd",
-                                    "6234-viral-a-sd",
-                                    "6277-viral-a-sd",
-                                    "62b0-viral-a-sd",
-                                    "63f7-viral-a-sd",
-                                    "659d-viral-a-sd"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "570b-viral-a-ss",
-                                    "58d0-viral-a-ss",
-                                    "5d49-viral-a-ss",
-                                    "5d97-viral-a-ss",
-                                    "5ec5-viral-a-ss",
-                                    "6085-viral-a-ss",
-                                    "6111-viral-a-ss",
-                                    "6335-viral-a-ss",
-                                    "6338-viral-a-ss",
-                                    "63e5-viral-a-ss",
-                                    "63ff-viral-a-ss",
-                                    "6476-viral-a-ss",
-                                    "647f-viral-a-ss",
-                                    "651a-viral-a-ss",
-                                    "6562-viral-a-ss",
-                                    "65ca-viral-a-ss"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "5bb5-viral-a-jd",
-                                    "60be-viral-a-jd",
-                                    "6111-viral-a-jd",
-                                    "6164-viral-a-jd",
-                                    "62c5-viral-a-jd",
-                                    "638a-viral-a-jd"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "55f5-viral-a-js",
-                                    "566c-viral-a-js",
-                                    "583b-viral-a-js",
-                                    "584c-viral-a-js",
-                                    "5a8f-viral-a-js",
-                                    "5cc5-viral-a-js",
-                                    "5df1-viral-a-js",
-                                    "5e82-viral-a-js",
-                                    "5f73-viral-a-js",
-                                    "609f-viral-a-js",
-                                    "611e-viral-a-js",
-                                    "6129-viral-a-js",
-                                    "614d-viral-a-js",
-                                    "6272-viral-a-js",
-                                    "6322-viral-a-js",
-                                    "6397-viral-a-js",
-                                    "63d7-viral-a-js",
-                                    "653f-viral-a-js",
-                                    "6542-viral-a-js",
-                                    "65b3-viral-a-js"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "order": "latinSquare",
-                        "numSamples": 5,
-                        "components": [
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "55f5-viral-b-n",
-                                    "566c-viral-b-n",
-                                    "570b-viral-b-n",
-                                    "583b-viral-b-n",
-                                    "584c-viral-b-n",
-                                    "58d0-viral-b-n",
-                                    "5a19-viral-b-n",
-                                    "5a8f-viral-b-n",
-                                    "5bb5-viral-b-n",
-                                    "5c10-viral-b-n",
-                                    "5cc5-viral-b-n",
-                                    "5d0c-viral-b-n",
-                                    "5d49-viral-b-n",
-                                    "5d97-viral-b-n",
-                                    "5df1-viral-b-n",
-                                    "5e82-viral-b-n",
-                                    "5ec5-viral-b-n",
-                                    "5f73-viral-b-n",
-                                    "5fa4-viral-b-n",
-                                    "6085-viral-b-n",
-                                    "609f-viral-b-n",
-                                    "60be-viral-b-n",
-                                    "6111-viral-b-n",
-                                    "6111-viral-b-n",
-                                    "611e-viral-b-n",
-                                    "6129-viral-b-n",
-                                    "614d-viral-b-n",
-                                    "6164-viral-b-n",
-                                    "6234-viral-b-n",
-                                    "6272-viral-b-n",
-                                    "6277-viral-b-n",
-                                    "62b0-viral-b-n",
-                                    "62c5-viral-b-n",
-                                    "6322-viral-b-n",
-                                    "6335-viral-b-n",
-                                    "6338-viral-b-n",
-                                    "638a-viral-b-n",
-                                    "6397-viral-b-n",
-                                    "63d7-viral-b-n",
-                                    "63e5-viral-b-n",
-                                    "63f7-viral-b-n",
-                                    "63ff-viral-b-n",
-                                    "6476-viral-b-n",
-                                    "647f-viral-b-n",
-                                    "651a-viral-b-n",
-                                    "653f-viral-b-n",
-                                    "6542-viral-b-n",
-                                    "6562-viral-b-n",
-                                    "659d-viral-b-n",
-                                    "65b3-viral-b-n",
-                                    "65ca-viral-b-n"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "55b6-viral-b-sd",
-                                    "56db-viral-b-sd",
-                                    "5b7a-viral-b-sd",
-                                    "5d4a-viral-b-sd",
-                                    "5eac-viral-b-sd",
-                                    "5f47-viral-b-sd",
-                                    "5f8c-viral-b-sd",
-                                    "6017-viral-b-sd",
-                                    "6117-viral-b-sd",
-                                    "628f-viral-b-sd",
-                                    "6347-viral-b-sd",
-                                    "63d4-viral-b-sd",
-                                    "6451-viral-b-sd",
-                                    "64ea-viral-b-sd",
-                                    "65ac-viral-b-sd"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "5904-viral-b-ss",
-                                    "5dcd-viral-b-ss",
-                                    "5e7d-viral-b-ss",
-                                    "5f9e-viral-b-ss",
-                                    "610a-viral-b-ss",
-                                    "651e-viral-b-ss",
-                                    "6598-viral-b-ss",
-                                    "65cb-viral-b-ss"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "5994-viral-b-jd",
-                                    "5a3b-viral-b-jd",
-                                    "5bcb-viral-b-jd",
-                                    "5d16-viral-b-jd",
-                                    "5e44-viral-b-jd",
-                                    "60fd-viral-b-jd",
-                                    "6107-viral-b-jd",
-                                    "6149-viral-b-jd",
-                                    "62d4-viral-b-jd",
-                                    "63d1-viral-b-jd",
-                                    "6596-viral-b-jd",
-                                    "65c1-viral-b-jd"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "5a6c-viral-b-js",
-                                    "5ade-viral-b-js",
-                                    "5e63-viral-b-js",
-                                    "60fd-viral-b-js",
-                                    "616d-viral-b-js",
-                                    "6272-viral-b-js",
-                                    "628d-viral-b-js",
-                                    "6440-viral-b-js",
-                                    "6581-viral-b-js"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "order": "latinSquare",
-                        "numSamples": 5,
-                        "components": [
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "55f5-stock-a-n",
-                                    "566c-stock-a-n",
-                                    "56db-stock-a-n",
-                                    "570b-stock-a-n",
-                                    "583b-stock-a-n",
-                                    "5904-stock-a-n",
-                                    "5a6c-stock-a-n",
-                                    "5a8f-stock-a-n",
-                                    "5d97-stock-a-n",
-                                    "5df1-stock-a-n",
-                                    "5e44-stock-a-n",
-                                    "5e63-stock-a-n",
-                                    "5eac-stock-a-n",
-                                    "5ec5-stock-a-n",
-                                    "5f73-stock-a-n",
-                                    "5f9e-stock-a-n",
-                                    "6017-stock-a-n",
-                                    "6085-stock-a-n",
-                                    "60be-stock-a-n",
-                                    "610a-stock-a-n",
-                                    "6111-stock-a-n",
-                                    "6117-stock-a-n",
-                                    "6149-stock-a-n",
-                                    "614d-stock-a-n",
-                                    "6164-stock-a-n",
-                                    "616d-stock-a-n",
-                                    "6277-stock-a-n",
-                                    "628f-stock-a-n",
-                                    "62b0-stock-a-n",
-                                    "62c5-stock-a-n",
-                                    "62d4-stock-a-n",
-                                    "6335-stock-a-n",
-                                    "6347-stock-a-n",
-                                    "638a-stock-a-n",
-                                    "6397-stock-a-n",
-                                    "63d1-stock-a-n",
-                                    "63d7-stock-a-n",
-                                    "63e5-stock-a-n",
-                                    "63f7-stock-a-n",
-                                    "63ff-stock-a-n",
-                                    "6451-stock-a-n",
-                                    "647f-stock-a-n",
-                                    "64ea-stock-a-n",
-                                    "651e-stock-a-n",
-                                    "6581-stock-a-n",
-                                    "6596-stock-a-n",
-                                    "65c1-stock-a-n"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "55b6-stock-a-sd",
-                                    "5a19-stock-a-sd",
-                                    "5b7a-stock-a-sd",
-                                    "5c10-stock-a-sd",
-                                    "5d0c-stock-a-sd",
-                                    "5d4a-stock-a-sd",
-                                    "5f47-stock-a-sd",
-                                    "5f8c-stock-a-sd",
-                                    "5fa4-stock-a-sd",
-                                    "6234-stock-a-sd",
-                                    "63d4-stock-a-sd",
-                                    "659d-stock-a-sd",
-                                    "65ac-stock-a-sd"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "58d0-stock-a-ss",
-                                    "5d49-stock-a-ss",
-                                    "5dcd-stock-a-ss",
-                                    "5e7d-stock-a-ss",
-                                    "6111-stock-a-ss",
-                                    "6338-stock-a-ss",
-                                    "6476-stock-a-ss",
-                                    "651a-stock-a-ss",
-                                    "6562-stock-a-ss",
-                                    "6598-stock-a-ss",
-                                    "65ca-stock-a-ss",
-                                    "65cb-stock-a-ss"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "580c-stock-a-jd",
-                                    "5994-stock-a-jd",
-                                    "5a3b-stock-a-jd",
-                                    "5bb5-stock-a-jd",
-                                    "5bcb-stock-a-jd",
-                                    "5d16-stock-a-jd",
-                                    "60fd-stock-a-jd",
-                                    "6107-stock-a-jd"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "584c-stock-a-js",
-                                    "5ade-stock-a-js",
-                                    "5cc5-stock-a-js",
-                                    "5e82-stock-a-js",
-                                    "609f-stock-a-js",
-                                    "60fd-stock-a-js",
-                                    "611e-stock-a-js",
-                                    "6129-stock-a-js",
-                                    "6272-stock-a-js",
-                                    "6272-stock-a-js",
-                                    "628d-stock-a-js",
-                                    "6322-stock-a-js",
-                                    "6440-stock-a-js",
-                                    "6542-stock-a-js",
-                                    "65b3-stock-a-js"
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "order": "latinSquare",
-                        "numSamples": 5,
-                        "components": [
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "55b6-stock-b-n",
-                                    "580c-stock-b-n",
-                                    "584c-stock-b-n",
-                                    "58d0-stock-b-n",
-                                    "5994-stock-b-n",
-                                    "5a19-stock-b-n",
-                                    "5a3b-stock-b-n",
-                                    "5ade-stock-b-n",
-                                    "5b7a-stock-b-n",
-                                    "5bb5-stock-b-n",
-                                    "5bcb-stock-b-n",
-                                    "5c10-stock-b-n",
-                                    "5cc5-stock-b-n",
-                                    "5d0c-stock-b-n",
-                                    "5d16-stock-b-n",
-                                    "5d49-stock-b-n",
-                                    "5d4a-stock-b-n",
-                                    "5dcd-stock-b-n",
-                                    "5e7d-stock-b-n",
-                                    "5e82-stock-b-n",
-                                    "5f47-stock-b-n",
-                                    "5f8c-stock-b-n",
-                                    "5fa4-stock-b-n",
-                                    "609f-stock-b-n",
-                                    "60fd-stock-b-n",
-                                    "60fd-stock-b-n",
-                                    "6107-stock-b-n",
-                                    "6111-stock-b-n",
-                                    "611e-stock-b-n",
-                                    "6129-stock-b-n",
-                                    "6234-stock-b-n",
-                                    "6272-stock-b-n",
-                                    "6272-stock-b-n",
-                                    "628d-stock-b-n",
-                                    "6322-stock-b-n",
-                                    "6338-stock-b-n",
-                                    "63d4-stock-b-n",
-                                    "6440-stock-b-n",
-                                    "6476-stock-b-n",
-                                    "651a-stock-b-n",
-                                    "653f-stock-b-n",
-                                    "6542-stock-b-n",
-                                    "6562-stock-b-n",
-                                    "6598-stock-b-n",
-                                    "659d-stock-b-n",
-                                    "65ac-stock-b-n",
-                                    "65b3-stock-b-n",
-                                    "65ca-stock-b-n",
-                                    "65cb-stock-b-n"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "56db-stock-b-sd",
-                                    "5eac-stock-b-sd",
-                                    "6017-stock-b-sd",
-                                    "6117-stock-b-sd",
-                                    "6277-stock-b-sd",
-                                    "628f-stock-b-sd",
-                                    "62b0-stock-b-sd",
-                                    "6347-stock-b-sd",
-                                    "63f7-stock-b-sd",
-                                    "6451-stock-b-sd",
-                                    "64ea-stock-b-sd"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "570b-stock-b-ss",
-                                    "5904-stock-b-ss",
-                                    "5d97-stock-b-ss",
-                                    "5ec5-stock-b-ss",
-                                    "5f9e-stock-b-ss",
-                                    "6085-stock-b-ss",
-                                    "610a-stock-b-ss",
-                                    "6335-stock-b-ss",
-                                    "63e5-stock-b-ss",
-                                    "63ff-stock-b-ss",
-                                    "647f-stock-b-ss",
-                                    "651e-stock-b-ss"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "5e44-stock-b-jd",
-                                    "60be-stock-b-jd",
-                                    "6111-stock-b-jd",
-                                    "6149-stock-b-jd",
-                                    "6164-stock-b-jd",
-                                    "62c5-stock-b-jd",
-                                    "62d4-stock-b-jd",
-                                    "638a-stock-b-jd",
-                                    "63d1-stock-b-jd",
-                                    "6596-stock-b-jd",
-                                    "65c1-stock-b-jd"
-                                ]
-                            },
-                            {
-                                "order": "latinSquare",
-                                "numSamples": 1,
-                                "components": [
-                                    "55f5-stock-b-js",
-                                    "566c-stock-b-js",
-                                    "583b-stock-b-js",
-                                    "5a6c-stock-b-js",
-                                    "5a8f-stock-b-js",
-                                    "5df1-stock-b-js",
-                                    "5e63-stock-b-js",
-                                    "5f73-stock-b-js",
-                                    "614d-stock-b-js",
-                                    "616d-stock-b-js",
-                                    "6397-stock-b-js",
-                                    "63d7-stock-b-js",
-                                    "6581-stock-b-js"
-                                ]
-                            }
-                        ]
-                    }
-                ]
-            }
+            "55f5-sa-n",
+            "566c-sa-n",
+            "56db-sa-n",
+            "570b-sa-n",
+            "583b-sa-n",
+            "5904-sa-n",
+            "5a6c-sa-n",
+            "5a8f-sa-n",
+            "5d97-sa-n",
+            "5df1-sa-n",
+            "5e44-sa-n",
+            "5e63-sa-n",
+            "5eac-sa-n",
+            "5ec5-sa-n",
+            "5f73-sa-n",
+            "5f9e-sa-n",
+            "6017-sa-n",
+            "6085-sa-n",
+            "60be-sa-n",
+            "610a-sa-n",
+            "6111-sa-n",
+            "6117-sa-n",
+            "6149-sa-n",
+            "614d-sa-n",
+            "6164-sa-n",
+            "616d-sa-n",
+            "6277-sa-n",
+            "628f-sa-n",
+            "62b0-sa-n",
+            "62c5-sa-n",
+            "62d4-sa-n",
+            "6335-sa-n",
+            "6347-sa-n",
+            "638a-sa-n",
+            "6397-sa-n",
+            "63d1-sa-n",
+            "63d7-sa-n",
+            "63e5-sa-n",
+            "63f7-sa-n",
+            "63ff-sa-n",
+            "6451-sa-n",
+            "647f-sa-n",
+            "64ea-sa-n",
+            "651e-sa-n",
+            "6581-sa-n",
+            "6596-sa-n",
+            "65c1-sa-n",
+            "55b6-sa-sd",
+            "5a19-sa-sd",
+            "5b7a-sa-sd",
+            "5c10-sa-sd",
+            "5d0c-sa-sd",
+            "5d4a-sa-sd",
+            "5f47-sa-sd",
+            "5f8c-sa-sd",
+            "5fa4-sa-sd",
+            "6234-sa-sd",
+            "63d4-sa-sd",
+            "659d-sa-sd",
+            "65ac-sa-sd",
+            "58d0-sa-ss",
+            "5d49-sa-ss",
+            "5dcd-sa-ss",
+            "5e7d-sa-ss",
+            "6111-sa-ss",
+            "6338-sa-ss",
+            "6476-sa-ss",
+            "651a-sa-ss",
+            "6562-sa-ss",
+            "6598-sa-ss",
+            "65ca-sa-ss",
+            "65cb-sa-ss",
+            "580c-sa-jd",
+            "5994-sa-jd",
+            "5a3b-sa-jd",
+            "5bb5-sa-jd",
+            "5bcb-sa-jd",
+            "5d16-sa-jd",
+            "60fd-sa-jd",
+            "6107-sa-jd",
+            "584c-sa-js",
+            "5ade-sa-js",
+            "5cc5-sa-js",
+            "5e82-sa-js",
+            "609f-sa-js",
+            "60fd-sa-js",
+            "611e-sa-js",
+            "6129-sa-js",
+            "6272-sa-js",
+            "6272-sa-js",
+            "628d-sa-js",
+            "6322-sa-js",
+            "6440-sa-js",
+            "6542-sa-js",
+            "65b3-sa-js"
         ]
     }
 }
