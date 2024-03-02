@@ -23,7 +23,7 @@
     },
     "baseComponents": {
         "viral-a": {
-            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below.",
+            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -105,7 +105,7 @@
                     "id": "shareable",
                     "type": "likert",
                     "location": "belowStimulus",
-                    "prompt": "I would share this visualization with friends and family:",
+                    "prompt": "I would share this visualization with friends and family, if they were in my situation:",
                     "preset": 7,
                     "leftLabel": "Strongly disagree",
                     "rightLabel": "Strongly agree",
@@ -124,7 +124,7 @@
             ]
         },
         "viral-b": {
-            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below.",
+            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -206,7 +206,7 @@
                     "id": "shareable",
                     "type": "likert",
                     "location": "belowStimulus",
-                    "prompt": "I would share this visualization with friends and family:",
+                    "prompt": "I would share this visualization with friends and family, if they were in my situation:",
                     "preset": 7,
                     "leftLabel": "Strongly disagree",
                     "rightLabel": "Strongly agree",
@@ -225,7 +225,7 @@
             ]
         },
         "stock-a": {
-            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below.",
+            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -307,7 +307,7 @@
                     "id": "shareable",
                     "type": "likert",
                     "location": "belowStimulus",
-                    "prompt": "I would share this visualization with friends and family:",
+                    "prompt": "I would share this visualization with friends and family, if they were in my situation:",
                     "preset": 7,
                     "leftLabel": "Strongly disagree",
                     "rightLabel": "Strongly agree",
@@ -326,7 +326,7 @@
             ]
         },
         "stock-b": {
-            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below.",
+            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -408,7 +408,7 @@
                     "id": "shareable",
                     "type": "likert",
                     "location": "belowStimulus",
-                    "prompt": "I would share this visualization with friends and family:",
+                    "prompt": "I would share this visualization with friends and family, if they were in my situation:",
                     "preset": 7,
                     "leftLabel": "Strongly disagree",
                     "rightLabel": "Strongly agree",
