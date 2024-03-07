@@ -11378,6 +11378,55 @@
                     "placeholder": "Enter your answer here"
                 }
             ]
+        },
+        "check-month": {
+            "type": "questionnaire",
+            "instruction": "When asked to select a month, please select 'March'. This is an attention check.",
+            "response": [
+                {
+                    "id": "check-month",
+                    "prompt": "Based on the text you read above, what month were you asked to select?",
+                    "required": true,
+                    "location": "belowStimulus",
+                    "type": "radio",
+                    "options": [
+                        {
+                            "label": "February",
+                            "value": "February"
+                        },
+                        {
+                            "label": "March",
+                            "value": "March"
+                        },
+                        {
+                            "label": "April",
+                            "value": "April"
+                        },
+                        {
+                            "label": "May",
+                            "value": "May"
+                        },
+                        {
+                            "label": "June",
+                            "value": "June"
+                        }
+                    ]
+                }
+            ]
+        },
+        "check-text": {
+            "type": "questionnaire",
+            "instruction": "When asked to input text below, please type in 'Bird'. This is an attention check.",
+            "response": [
+                {
+                    "id": "check-text",
+                    "prompt": "Based on the text you read above, what were you asked to type in?",
+                    "required": true,
+                    "location": "belowStimulus",
+                    "type": "shortText",
+                    "placeholder": "Type your answer here."
+                }
+            ]
         }
     },
     "sequence": {
@@ -11395,7 +11444,7 @@
                             "introduction-viral",
                             {
                                 "order": "latinSquare",
-                                "numSamples": 10,
+                                "numSamples": 12,
                                 "components": [
                                     {
                                         "order": "latinSquare",
@@ -11654,7 +11703,9 @@
                                             "6462477ceb093758f41d42e9-viral-a-js-s",
                                             "654a651e7dcb4c625edf8e26-viral-a-js-s"
                                         ]
-                                    }
+                                    },
+                                    "check-month",
+                                    "check-text"
                                 ]
                             }
                         ]
@@ -11665,7 +11716,7 @@
                             "introduction-viral",
                             {
                                 "order": "latinSquare",
-                                "numSamples": 10,
+                                "numSamples": 12,
                                 "components": [
                                     {
                                         "order": "latinSquare",
@@ -11944,7 +11995,9 @@
                                             "63d87d4ba0b86684507f201d-viral-b-js-s",
                                             "6516fc85c3f5d2912d6518f6-viral-b-js-s"
                                         ]
-                                    }
+                                    },
+                                    "check-month",
+                                    "check-text"
                                 ]
                             }
                         ]
@@ -11955,7 +12008,7 @@
                             "introduction-stock",
                             {
                                 "order": "latinSquare",
-                                "numSamples": 10,
+                                "numSamples": 12,
                                 "components": [
                                     {
                                         "order": "latinSquare",
@@ -12240,7 +12293,9 @@
                                             "5c0a22affe40eb00016262b6-stock-a-js-s",
                                             "6462477ceb093758f41d42e9-stock-a-js-s"
                                         ]
-                                    }
+                                    },
+                                    "check-month",
+                                    "check-text"
                                 ]
                             }
                         ]
@@ -12251,7 +12306,7 @@
                             "introduction-stock",
                             {
                                 "order": "latinSquare",
-                                "numSamples": 10,
+                                "numSamples": 12,
                                 "components": [
                                     {
                                         "order": "latinSquare",
@@ -12526,7 +12581,9 @@
                                             "6516fc85c3f5d2912d6518f6-stock-b-js-s",
                                             "654a651e7dcb4c625edf8e26-stock-b-js-s"
                                         ]
-                                    }
+                                    },
+                                    "check-month",
+                                    "check-text"
                                 ]
                             }
                         ]
