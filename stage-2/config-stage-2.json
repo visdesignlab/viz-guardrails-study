@@ -46,7 +46,7 @@
                     "id": "action",
                     "type": "slider",
                     "location": "belowStimulus",
-                    "prompt": "Based on this information, before traveling to a Policy A country I would buy this much insurance:",
+                    "prompt": "Based on this information, before traveling to a **Policy A** country I would buy this much insurance:<br>($0 = no risk of getting sick, $100 = very high risk of getting sick)",
                     "options": [
                         {
                             "value": 0,
@@ -147,7 +147,7 @@
                     "id": "action",
                     "type": "slider",
                     "location": "belowStimulus",
-                    "prompt": "Based on this information, before traveling to a Policy C country I would buy this much insurance:",
+                    "prompt": "Based on this information, before traveling to a **Policy C** country I would buy this much insurance:<br>($0 = no risk of getting sick, $100 = very high risk of getting sick)",
                     "options": [
                         {
                             "value": 0,
@@ -248,7 +248,7 @@
                     "id": "action",
                     "type": "slider",
                     "location": "belowStimulus",
-                    "prompt": "Based on this information, I would invest this much in the combined Car industry fund:",
+                    "prompt": "Based on this information, I would invest this much in the combined **Car** industry fund:<br>($0 = no chance of growth, $100 = very high chance of growth)",
                     "options": [
                         {
                             "value": 0,
@@ -349,7 +349,7 @@
                     "id": "action",
                     "type": "slider",
                     "location": "belowStimulus",
-                    "prompt": "Based on this information, I would invest this much in the combined Airline industry fund:",
+                    "prompt": "Based on this information, I would invest this much in the combined **Airline** industry fund:<br>($0 = no chance of growth, $100 = very high chance of growth)",
                     "options": [
                         {
                             "value": 0,
@@ -1586,19 +1586,6 @@
                     "Tech B"
                 ],
                 "caption": "You can't go wrong with the car industry. You can see in this graph just how much better the Car industry is doing compared to the Tech, Airline, and Gas industries."
-            }
-        },
-        "5df11e6cdc85350234932daa-viral-a-js": {
-            "baseComponent": "viral-a",
-            "parameters": {
-                "guardrail": "juxt_summ",
-                "initial_selection": [
-                    "Thundoril North",
-                    "Thundoril South",
-                    "Aerion West",
-                    "Aerion South"
-                ],
-                "caption": "Coming together to keep the numbers low."
             }
         },
         "5df11e6cdc85350234932daa-viral-b-n": {
@@ -7009,19 +6996,6 @@
                 "caption": "A Car fund would get you highest returns!"
             }
         },
-        "5df11e6cdc85350234932daa-viral-a-js-s": {
-            "baseComponent": "viral-a",
-            "parameters": {
-                "guardrail": "juxt_summ",
-                "initial_selection": [
-                    "Thundoril North",
-                    "Thundoril South",
-                    "Aerion West",
-                    "Aerion South"
-                ],
-                "caption": "Policy A is best at reducing the number of infections!"
-            }
-        },
         "5df11e6cdc85350234932daa-viral-b-n-s": {
             "baseComponent": "viral-b",
             "parameters": {
@@ -11538,7 +11512,6 @@
                                             "583b397f54686200010f1d20-viral-a-js",
                                             "584c1e1f69b36600018ff959-viral-a-js",
                                             "5cc5e72ce3c44e0015fdf990-viral-a-js",
-                                            "5df11e6cdc85350234932daa-viral-a-js",
                                             "5e825b5b469f7498f9b9f579-viral-a-js",
                                             "5f73610089f920075dbb129b-viral-a-js",
                                             "609f528fba531c5195b6cd4e-viral-a-js",
@@ -11668,7 +11641,6 @@
                                             "583b397f54686200010f1d20-viral-a-js-s",
                                             "584c1e1f69b36600018ff959-viral-a-js-s",
                                             "5cc5e72ce3c44e0015fdf990-viral-a-js-s",
-                                            "5df11e6cdc85350234932daa-viral-a-js-s",
                                             "5e825b5b469f7498f9b9f579-viral-a-js-s",
                                             "5f73610089f920075dbb129b-viral-a-js-s",
                                             "609f528fba531c5195b6cd4e-viral-a-js-s",
