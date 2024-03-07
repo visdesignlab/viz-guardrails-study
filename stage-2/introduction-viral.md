@@ -1,6 +1,7 @@
 ## Scenario description
 
 Please read the scenario description below carefully, as it explains the setting for the visualizations you will see.
+If you need to refer to these instructions during the experiment, please click on help in the top right corner of the visualization.
 
 **Background**: You live in a fantasy world that consists of your home country, as well as other
 15 countries located across 5 continents: Eldoril, Thundoril, Aerion, Silvoria, and Mystara. 
@@ -17,6 +18,7 @@ Since you are not familiar with the disease trends or containment policies, you 
 
 **Task**: In the experiment, you will see a set of visualizations that show infection rates in different countries that adopted
 one of the containment policies A, B, or C. 
+You can refer to the list of countries to the left of the visualization to see which country adopted which Policy.
 Based on each visualization, you will be asked to decide **how much to spend on your insurance policy** and **answer a short survey**.
 
 <img src='../viz-guardrails/images/map.png' width='700'>
