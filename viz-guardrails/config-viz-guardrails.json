@@ -551,16 +551,16 @@
             "introduction",
             "consent",
             "introduction-viral",
-            "viral-a-n",
+            "viral-a-sd",
             "post-viral-a",
-            "viral-b-js",
+            "viral-b-n",
             "post-viral-b",
             "introduction-stock",
             "stock-a-n",
             "post-stock-a",
-            "stock-b-js",
+            "stock-b-sd",
             "post-stock-b",
-            "post-js"
+            "post-sd"
         ]
     }
 }
