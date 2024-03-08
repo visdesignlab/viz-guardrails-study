@@ -19,7 +19,7 @@
         "autoDownloadStudy": false,
         "sidebar": false,
         "urlParticipantIdParam": "PROLIFIC_PID",
-        "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=C1FY420B](https://app.prolific.com/submissions/complete?cc=C1FY420B)"
+        "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=C19P3VR0](https://app.prolific.com/submissions/complete?cc=C19P3VR0)"
     },
     "recordStudyAudio": true,
     "tasksToNotRecordAudio": [
@@ -33,7 +33,7 @@
     ],
     "baseComponents": {
         "viral-a": {
-            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>While looking at the visualization and answering questions, we ask you to **verbalize** your thought process and refer to specific things in the data or visualization that influence your answers.",
+            "instruction": "<br><br>You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>While looking at the visualization and answering questions, we ask you to **verbalize** your thought process and refer to specific things in the data or visualization that influence your answers.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -134,7 +134,7 @@
             ]
         },
         "viral-b": {
-            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>While looking at the visualization and answering questions, we ask you to **verbalize** your thought process and refer to specific things in the data or visualization that influence your answers.",
+            "instruction": "<br><br>You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>While looking at the visualization and answering questions, we ask you to **verbalize** your thought process and refer to specific things in the data or visualization that influence your answers.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -235,7 +235,7 @@
             ]
         },
         "stock-a": {
-            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>While looking at the visualization and answering questions, we ask you to **verbalize** your thought process and refer to specific things in the data or visualization that influence your answers.",
+            "instruction": "<br><br>You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>While looking at the visualization and answering questions, we ask you to **verbalize** your thought process and refer to specific things in the data or visualization that influence your answers.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -336,7 +336,7 @@
             ]
         },
         "stock-b": {
-            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>While looking at the visualization and answering questions, we ask you to **verbalize** your thought process and refer to specific things in the data or visualization that influence your answers.",
+            "instruction": "<br><br>You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>While looking at the visualization and answering questions, we ask you to **verbalize** your thought process and refer to specific things in the data or visualization that influence your answers.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
