@@ -22,10 +22,18 @@
         "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=C1FY420B](https://app.prolific.com/submissions/complete?cc=C1FY420B)"
     },
     "recordStudyAudio": true,
-    "tasksToNotRecordAudio": ["introduction", "consent", "end"],
+    "tasksToNotRecordAudio": [
+        "introduction",
+        "consent",
+        "end",
+        "introduction-viral",
+        "introduction-stock",
+        "check-month",
+        "check-text"
+    ],
     "baseComponents": {
         "viral-a": {
-            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.",
+            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>While looking at the visualization and answering questions, we ask you to **verbalize** your thought process and refer to specific things in the data or visualization that influence your answers.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -126,7 +134,7 @@
             ]
         },
         "viral-b": {
-            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.",
+            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>While looking at the visualization and answering questions, we ask you to **verbalize** your thought process and refer to specific things in the data or visualization that influence your answers.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -227,7 +235,7 @@
             ]
         },
         "stock-a": {
-            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.",
+            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>While looking at the visualization and answering questions, we ask you to **verbalize** your thought process and refer to specific things in the data or visualization that influence your answers.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -328,7 +336,7 @@
             ]
         },
         "stock-b": {
-            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.",
+            "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>While looking at the visualization and answering questions, we ask you to **verbalize** your thought process and refer to specific things in the data or visualization that influence your answers.",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -430,22 +438,6 @@
         }
     },
     "components": {
-        "audioTest": {
-            "description": "Audio test",
-            "type": "react-component",
-            "path": "viz-guardrails/AudioTest.tsx",
-            "nextButtonLocation": "sidebar",
-            "nextButtonText": "Continue",
-            "response": [{
-                "id": "audioResponse",
-                "type": "radio", 
-                "required": true,
-                "hidden": true,
-                "location": "sidebar",
-                "prompt": "Found Audio",
-                "options": [{"label": "Yes", "value": "Yes"}]
-            }]
-        },
         "55b688fafdf99b26e287abd3-viral-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
@@ -1418,7 +1410,6 @@
                 "caption": "Seen here is the rapid decline in infections."
             }
         },
-        
         "5d49f28a3fefca00193319ac-viral-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
@@ -11290,7 +11281,7 @@
         },
         "consent": {
             "type": "markdown",
-            "path": "stage-2/consent_stage2.md",
+            "path": "stage-2/consent-audio.md",
             "nextButtonText": "Agree",
             "response": [
                 {
@@ -11398,6 +11389,29 @@
                 }
             ]
         },
+        "audio_test": {
+            "description": "Audio test",
+            "type": "react-component",
+            "path": "viz-guardrails/AudioTest.tsx",
+            "nextButtonLocation": "belowStimulus",
+            "nextButtonText": "Continue",
+            "response": [
+                {
+                    "id": "audioResponse",
+                    "type": "radio",
+                    "required": true,
+                    "hidden": true,
+                    "location": "belowStimulus",
+                    "prompt": "Found Audio",
+                    "options": [
+                        {
+                            "label": "Yes",
+                            "value": "Yes"
+                        }
+                    ]
+                }
+            ]
+        },
         "check-month": {
             "type": "questionnaire",
             "instruction": "When asked to select a month, please select 'March'. This is an attention check.",
@@ -11453,7 +11467,7 @@
         "components": [
             "introduction",
             "consent",
-            "audioTest",
+            "audio_test",
             {
                 "order": "latinSquare",
                 "numSamples": 1,
