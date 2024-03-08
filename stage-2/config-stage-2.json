@@ -21,6 +21,8 @@
         "urlParticipantIdParam": "PROLIFIC_PID",
         "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=C1FY420B](https://app.prolific.com/submissions/complete?cc=C1FY420B)"
     },
+    "recordStudyAudio": true,
+    "tasksToNotRecordAudio": ["introduction", "consent", "end"],
     "baseComponents": {
         "viral-a": {
             "instruction": "You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.",
@@ -428,6 +430,22 @@
         }
     },
     "components": {
+        "audioTest": {
+            "description": "Audio test",
+            "type": "react-component",
+            "path": "viz-guardrails/AudioTest.tsx",
+            "nextButtonLocation": "sidebar",
+            "nextButtonText": "Continue",
+            "response": [{
+                "id": "audioResponse",
+                "type": "radio", 
+                "required": true,
+                "hidden": true,
+                "location": "sidebar",
+                "prompt": "Found Audio",
+                "options": [{"label": "Yes", "value": "Yes"}]
+            }]
+        },
         "55b688fafdf99b26e287abd3-viral-a-n": {
             "baseComponent": "viral-a",
             "parameters": {
@@ -1400,6 +1418,7 @@
                 "caption": "Seen here is the rapid decline in infections."
             }
         },
+        
         "5d49f28a3fefca00193319ac-viral-a-ss": {
             "baseComponent": "viral-a",
             "parameters": {
@@ -11434,6 +11453,7 @@
         "components": [
             "introduction",
             "consent",
+            "audioTest",
             {
                 "order": "latinSquare",
                 "numSamples": 1,
