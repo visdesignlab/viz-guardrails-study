@@ -11389,7 +11389,7 @@
                 }
             ]
         },
-        "audio_test": {
+        "audioTest": {
             "description": "Audio test",
             "type": "react-component",
             "path": "viz-guardrails/AudioTest.tsx",
@@ -11401,7 +11401,7 @@
                     "type": "radio",
                     "required": true,
                     "hidden": true,
-                    "location": "belowStimulus",
+                    "location": "sidebar",
                     "prompt": "Found Audio",
                     "options": [
                         {
@@ -11467,7 +11467,7 @@
         "components": [
             "introduction",
             "consent",
-            "audio_test",
+            "audioTest",
             {
                 "order": "latinSquare",
                 "numSamples": 1,
