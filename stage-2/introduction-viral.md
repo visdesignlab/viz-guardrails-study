@@ -18,7 +18,6 @@ Since you are not familiar with the disease trends or containment policies, you 
 
 **Task**: In the experiment, you will see a set of visualizations that show infection rates in different countries that adopted
 one of the containment policies A, B, or C. 
-You can refer to the list of countries to the left of the visualization to see which country adopted which Policy.
 Based on each visualization, you will be asked to decide **how much to spend on your insurance policy** and **answer a short survey**.
 
 <img src='../viz-guardrails/images/map.png' width='700'>
