@@ -33,7 +33,7 @@
     ],
     "baseComponents": {
         "viral-a": {
-            "instruction": "<br><br>You will need to travel to **Eldoril North (Policy A)** for work.<br>You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>*(Please try to ignore other visualizations you've seen.)*",
+            "instruction": "<br><br>You will need to travel to **Eldoril North (Policy A)** for work.<br>You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>*(Please try to not rely on other visualizations you've seen.)*",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -142,7 +142,7 @@
             ]
         },
         "viral-b": {
-            "instruction": "<br><br>You will need to travel to either **Silvoria or Mystara (Policy C)** for work.<br>You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>*(Please try to ignore other visualizations you've seen.)*",
+            "instruction": "<br><br>You will need to travel to either **Silvoria or Mystara (Policy C)** for work.<br>You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>*(Please try to not rely on other visualizations you've seen.)*",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -251,7 +251,7 @@
             ]
         },
         "stock-a": {
-            "instruction": "<br><br>You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>*(Please try to ignore other visualizations you've seen.)*",
+            "instruction": "<br><br>You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>*(Please try to not rely on other visualizations you've seen.)*",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
@@ -360,7 +360,7 @@
             ]
         },
         "stock-b": {
-            "instruction": "<br><br>You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>*(Please try to ignore other visualizations you've seen.)*",
+            "instruction": "<br><br>You've come across this visualization and the accompanying caption.<br>Please review the visualization and the caption, and then answer the questions below **based solely on this information**.<br>*(Please try to not rely on other visualizations you've seen.)*",
             "instructionLocation": "aboveStimulus",
             "type": "react-component",
             "path": "viz-guardrails/DataExplorer.tsx",
