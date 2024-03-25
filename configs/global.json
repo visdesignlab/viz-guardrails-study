@@ -3,10 +3,8 @@
     "configsList": [
         "viz-guardrails",
         "stage-2",
-        "browser-viral-a",
-        "browser-stock-a",
-        "browser-viral-b",
-        "browser-stock-b"
+        "sandbox",
+        "browser"
     ],
     "configs": {
         "viz-guardrails": {
@@ -15,17 +13,11 @@
         "stage-2": {
             "path": "stage-2/config-stage-2.json"
         },
-        "browser-viral-a": {
-            "path": "browser-viral-a/config-browser.json"
+        "sandbox": {
+            "path": "sandbox/config-sandbox.json"
         },
-        "browser-stock-a": {
-            "path": "browser-stock-a/config-browser.json"
-        },
-        "browser-viral-b": {
-            "path": "browser-viral-b/config-browser.json"
-        },
-        "browser-stock-b": {
-            "path": "browser-stock-b/config-browser.json"
+        "browser": {
+            "path": "browser/config-browser.json"
         }
     }
 }

@@ -1,4 +1,4 @@
-Date,Stock,Price,Price_start,Value,name,industry
+date,Stock,Price,Price_start,value,name,region
 2023-01-03,UAL,37.21,37.21,0.0,Airline A,Airline
 2023-01-04,UAL,39.72,37.21,0.06745498521902708,Airline A,Airline
 2023-01-05,UAL,41.24,37.21,0.10830421929588822,Airline A,Airline

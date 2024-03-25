@@ -1,0 +1,52 @@
+{
+    "$schema": "https://raw.githubusercontent.com/visdesignlab/viz-guardrails-study/main/src/parser/StudyConfigSchema.json",
+    "studyMetadata": {
+        "title": "Guardrail Sandbox",
+        "version": "pilot",
+        "authors": ["VDL"],
+        "date": "2024-01-11",
+        "description": "A sandbox interface to explore guardrails.",
+        "organizations": ["University of Utah"]
+    },
+    "uiConfig": {
+        "contactEmail": "maxim.lisnic@utah.edu",
+        "logoPath": "assets/revisitLogoSquare.svg",
+        "withProgressBar": true,
+        "autoDownloadStudy": false,
+        "sidebar": false,
+        "urlParticipantIdParam": "PROLIFIC_PID",
+        "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=C2GIQBF6](https://app.prolific.com/submissions/complete?cc=C2GIQBF6)"
+    },
+    "components": {
+        "interface" : {
+            "instruction": "",
+            "instructionLocation": "aboveStimulus",
+            "type": "react-component",
+            "path": "viz-guardrails/DataExplorer.tsx",
+            "parameters": {
+                "dataset": "clean_data",
+                "start_date": "2023-01-03",
+                "end_date": "2023-12-31",
+                "initial_selection": [],
+                "allow_time_slider": true,
+                "allow_guardrail_selector": true,
+                "allow_selection": true,
+                "allow_help": false,
+                "guardrail": "none",
+                "caption": "",
+                "x_var": "date",
+                "y_var": "value",
+                "cat_var": "name",
+                "group_var": "region"
+            },
+            "nextButtonLocation": "sidebar",
+            "response": []
+        } 
+    },
+    "sequence": { 
+        "order": "fixed",
+        "components":  [
+            "interface"
+        ]
+    }
+}
