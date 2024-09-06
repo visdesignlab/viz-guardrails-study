@@ -492,11 +492,11 @@
         "order": "latinSquare",
         "numSamples": 1,
         "components": [
-          "stock-simple-e-n",
-          "stock-simple-e-sd",
-          "stock-simple-e-ss",
-          "stock-simple-e-jd",
-          "stock-simple-e-js"
+          "stock-simple-a-n",
+          "stock-simple-a-sd",
+          "stock-simple-a-ss",
+          "stock-simple-a-jd",
+          "stock-simple-a-js"
         ]
       }
     ]
