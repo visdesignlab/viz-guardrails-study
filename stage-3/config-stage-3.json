@@ -29,7 +29,7 @@
   ],
   "baseComponents": {
     "stock-simple-c": {
-      "instruction": "<br><br><br><br>You've come across this visualization.<br>Please review the chart, and then answer the question below.",
+      "instruction": "<br><br><br><br>You've come across this visualization of stocks from the same industry.<br>Please review the chart, and then answer the question below.",
       "instructionLocation": "aboveStimulus",
       "type": "react-component",
       "path": "viz-guardrails/DataExplorer.tsx",
@@ -40,7 +40,7 @@
         "allow_time_slider": false,
         "allow_guardrail_selector": false,
         "allow_selection": false,
-        "allow_help": true,
+        "allow_help": false,
         "x_var": "Date",
         "y_var": "Value",
         "cat_var": "name",
@@ -53,7 +53,7 @@
           "id": "agree",
           "type": "likert",
           "location": "belowStimulus",
-          "prompt": "The visualization supports the idea that stock C is the best performing stock in the industry:",
+          "prompt": "The visualization supports the idea that stock C is the best performing stock in the entire industry:",
           "preset": 5,
           "leftLabel": "Strongly disagree",
           "rightLabel": "Strongly agree",
@@ -63,14 +63,14 @@
           "id": "explain",
           "type": "longText",
           "location": "belowStimulus",
-          "prompt": "Briefly explain your reasoning for the previous question. What information in the visualization and caption led you to this decision? (1-2 sentences)",
+          "prompt": "Briefly explain your reasoning for the previous question. What information in the visualization led you to this decision? (1-2 sentences)",
           "required": true,
-          "placeholder": "I chose this amount because..."
+          "placeholder": "I chose my answer because..."
         }
       ]
     },
     "stock-simple-e": {
-      "instruction": "<br><br><br><br>You've come across this visualization.<br>Please review the chart, and then answer the question below.",
+      "instruction": "<br><br><br><br>You've come across this visualization of stocks from the same industry.<br>Please review the chart, and then answer the question below.",
       "instructionLocation": "aboveStimulus",
       "type": "react-component",
       "path": "viz-guardrails/DataExplorer.tsx",
@@ -81,7 +81,7 @@
         "allow_time_slider": false,
         "allow_guardrail_selector": false,
         "allow_selection": false,
-        "allow_help": true,
+        "allow_help": false,
         "x_var": "Date",
         "y_var": "Value",
         "cat_var": "name",
@@ -94,7 +94,7 @@
           "id": "agree",
           "type": "likert",
           "location": "belowStimulus",
-          "prompt": "The visualization supports the idea that stock E is the best performing stock in the industry:",
+          "prompt": "The visualization supports the idea that stock E is the best performing stock in the entire industry:",
           "preset": 5,
           "leftLabel": "Strongly disagree",
           "rightLabel": "Strongly agree",
@@ -104,14 +104,14 @@
           "id": "explain",
           "type": "longText",
           "location": "belowStimulus",
-          "prompt": "Briefly explain your reasoning for the previous question. What information in the visualization and caption led you to this decision? (1-2 sentences)",
+          "prompt": "Briefly explain your reasoning for the previous question. What information in the visualization led you to this decision? (1-2 sentences)",
           "required": true,
-          "placeholder": "I chose this amount because..."
+          "placeholder": "I chose my answer because..."
         }
       ]
     },
     "stock-simple-a": {
-      "instruction": "<br><br><br><br>You've come across this visualization.<br>Please review the chart, and then answer the question below.",
+      "instruction": "<br><br><br><br>You've come across this visualization of stocks from the same industry.<br>Please review the chart, and then answer the question below.",
       "instructionLocation": "aboveStimulus",
       "type": "react-component",
       "path": "viz-guardrails/DataExplorer.tsx",
@@ -122,7 +122,7 @@
         "allow_time_slider": false,
         "allow_guardrail_selector": false,
         "allow_selection": false,
-        "allow_help": true,
+        "allow_help": false,
         "x_var": "Date",
         "y_var": "Value",
         "cat_var": "name",
@@ -141,7 +141,7 @@
           "id": "agree",
           "type": "likert",
           "location": "belowStimulus",
-          "prompt": "The visualization supports the idea that stock A is the best performing stock in the industry:",
+          "prompt": "The visualization supports the idea that stock A is the best performing stock in the entire industry:",
           "preset": 5,
           "leftLabel": "Strongly disagree",
           "rightLabel": "Strongly agree",
@@ -151,9 +151,9 @@
           "id": "explain",
           "type": "longText",
           "location": "belowStimulus",
-          "prompt": "Briefly explain your reasoning for the previous question. What information in the visualization and caption led you to this decision? (1-2 sentences)",
+          "prompt": "Briefly explain your reasoning for the previous question. What information in the visualization led you to this decision? (1-2 sentences)",
           "required": true,
-          "placeholder": "I chose this amount because..."
+          "placeholder": "I chose my answer because..."
         }
       ]
     }
@@ -454,8 +454,7 @@
           "stock-simple-c-jd",
           "stock-simple-c-js"
         ]
-      },
-      "post-study"
+      }
     ]
   }
 }
