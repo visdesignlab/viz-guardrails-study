@@ -1,0 +1,461 @@
+{
+  "$schema": "https://raw.githubusercontent.com/visdesignlab/viz-guardrails-study/main/src/parser/StudyConfigSchema.json",
+  "studyMetadata": {
+    "title": "Reviewing Communicating With Interactive Data Visualizations",
+    "version": "pilot",
+    "authors": ["VDL"],
+    "date": "2024-01-11",
+    "description": "A study challenging participants to review linecharts.",
+    "organizations": ["University of Utah"]
+  },
+  "uiConfig": {
+    "contactEmail": "maxim.lisnic@utah.edu",
+    "logoPath": "assets/revisitLogoSquare.svg",
+    "withProgressBar": true,
+    "autoDownloadStudy": false,
+    "sidebar": false,
+    "urlParticipantIdParam": "PROLIFIC_PID",
+    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=C19P3VR0](https://app.prolific.com/submissions/complete?cc=C19P3VR0)"
+  },
+  "recordStudyAudio": false,
+  "tasksToNotRecordAudio": [
+    "introduction",
+    "consent",
+    "end",
+    "introduction-viral",
+    "introduction-stock",
+    "check-month",
+    "check-text"
+  ],
+  "baseComponents": {
+    "stock-simple-c": {
+      "instruction": "<br><br><br><br>You've come across this visualization.<br>Please review the chart, and then answer the question below.",
+      "instructionLocation": "aboveStimulus",
+      "type": "react-component",
+      "path": "viz-guardrails/DataExplorer.tsx",
+      "parameters": {
+        "dataset": "clean_stocks",
+        "start_date": "2023-01-01",
+        "end_date": "2024-01-01",
+        "allow_time_slider": false,
+        "allow_guardrail_selector": false,
+        "allow_selection": false,
+        "allow_help": true,
+        "x_var": "Date",
+        "y_var": "Value",
+        "cat_var": "name",
+        "group_var": "industry",
+        "initial_selection": ["Stock B", "Stock C", "Stock D"]
+      },
+      "nextButtonLocation": "belowStimulus",
+      "response": [
+        {
+          "id": "agree",
+          "type": "likert",
+          "location": "belowStimulus",
+          "prompt": "The visualization supports the idea that stock C is the best performing stock in the industry:",
+          "preset": 5,
+          "leftLabel": "Strongly disagree",
+          "rightLabel": "Strongly agree",
+          "required": true
+        },
+        {
+          "id": "explain",
+          "type": "longText",
+          "location": "belowStimulus",
+          "prompt": "Briefly explain your reasoning for the previous question. What information in the visualization and caption led you to this decision? (1-2 sentences)",
+          "required": true,
+          "placeholder": "I chose this amount because..."
+        }
+      ]
+    },
+    "stock-simple-e": {
+      "instruction": "<br><br><br><br>You've come across this visualization.<br>Please review the chart, and then answer the question below.",
+      "instructionLocation": "aboveStimulus",
+      "type": "react-component",
+      "path": "viz-guardrails/DataExplorer.tsx",
+      "parameters": {
+        "dataset": "clean_stocks",
+        "start_date": "2023-01-01",
+        "end_date": "2024-01-01",
+        "allow_time_slider": false,
+        "allow_guardrail_selector": false,
+        "allow_selection": false,
+        "allow_help": true,
+        "x_var": "Date",
+        "y_var": "Value",
+        "cat_var": "name",
+        "group_var": "industry",
+        "initial_selection": ["Stock B", "Stock C", "Stock D", "Stock E"]
+      },
+      "nextButtonLocation": "belowStimulus",
+      "response": [
+        {
+          "id": "agree",
+          "type": "likert",
+          "location": "belowStimulus",
+          "prompt": "The visualization supports the idea that stock E is the best performing stock in the industry:",
+          "preset": 5,
+          "leftLabel": "Strongly disagree",
+          "rightLabel": "Strongly agree",
+          "required": true
+        },
+        {
+          "id": "explain",
+          "type": "longText",
+          "location": "belowStimulus",
+          "prompt": "Briefly explain your reasoning for the previous question. What information in the visualization and caption led you to this decision? (1-2 sentences)",
+          "required": true,
+          "placeholder": "I chose this amount because..."
+        }
+      ]
+    },
+    "stock-simple-a": {
+      "instruction": "<br><br><br><br>You've come across this visualization.<br>Please review the chart, and then answer the question below.",
+      "instructionLocation": "aboveStimulus",
+      "type": "react-component",
+      "path": "viz-guardrails/DataExplorer.tsx",
+      "parameters": {
+        "dataset": "clean_stocks",
+        "start_date": "2023-01-01",
+        "end_date": "2024-01-01",
+        "allow_time_slider": false,
+        "allow_guardrail_selector": false,
+        "allow_selection": false,
+        "allow_help": true,
+        "x_var": "Date",
+        "y_var": "Value",
+        "cat_var": "name",
+        "group_var": "industry",
+        "initial_selection": [
+          "Stock B",
+          "Stock C",
+          "Stock D",
+          "Stock E",
+          "Stock A"
+        ]
+      },
+      "nextButtonLocation": "belowStimulus",
+      "response": [
+        {
+          "id": "agree",
+          "type": "likert",
+          "location": "belowStimulus",
+          "prompt": "The visualization supports the idea that stock A is the best performing stock in the industry:",
+          "preset": 5,
+          "leftLabel": "Strongly disagree",
+          "rightLabel": "Strongly agree",
+          "required": true
+        },
+        {
+          "id": "explain",
+          "type": "longText",
+          "location": "belowStimulus",
+          "prompt": "Briefly explain your reasoning for the previous question. What information in the visualization and caption led you to this decision? (1-2 sentences)",
+          "required": true,
+          "placeholder": "I chose this amount because..."
+        }
+      ]
+    }
+  },
+  "components": {
+    "stock-simple-a-n": {
+      "baseComponent": "stock-simple-a",
+      "parameters": {
+        "guardrail": "none"
+      }
+    },
+    "stock-simple-a-sd": {
+      "baseComponent": "stock-simple-a",
+      "parameters": {
+        "guardrail": "super_data"
+      }
+    },
+    "stock-simple-a-ss": {
+      "baseComponent": "stock-simple-a",
+      "parameters": {
+        "guardrail": "super_summ"
+      }
+    },
+    "stock-simple-a-jd": {
+      "baseComponent": "stock-simple-a",
+      "parameters": {
+        "guardrail": "juxt_data"
+      }
+    },
+    "stock-simple-a-js": {
+      "baseComponent": "stock-simple-a",
+      "parameters": {
+        "guardrail": "juxt_summ"
+      }
+    },
+    "stock-simple-e-n": {
+      "baseComponent": "stock-simple-e",
+      "parameters": {
+        "guardrail": "none"
+      }
+    },
+    "stock-simple-e-sd": {
+      "baseComponent": "stock-simple-e",
+      "parameters": {
+        "guardrail": "super_data"
+      }
+    },
+    "stock-simple-e-ss": {
+      "baseComponent": "stock-simple-e",
+      "parameters": {
+        "guardrail": "super_summ"
+      }
+    },
+    "stock-simple-e-jd": {
+      "baseComponent": "stock-simple-e",
+      "parameters": {
+        "guardrail": "juxt_data"
+      }
+    },
+    "stock-simple-e-js": {
+      "baseComponent": "stock-simple-e",
+      "parameters": {
+        "guardrail": "juxt_summ"
+      }
+    },
+    "stock-simple-c-n": {
+      "baseComponent": "stock-simple-c",
+      "parameters": {
+        "guardrail": "none"
+      }
+    },
+    "stock-simple-c-sd": {
+      "baseComponent": "stock-simple-c",
+      "parameters": {
+        "guardrail": "super_data"
+      }
+    },
+    "stock-simple-c-ss": {
+      "baseComponent": "stock-simple-c",
+      "parameters": {
+        "guardrail": "super_summ"
+      }
+    },
+    "stock-simple-c-jd": {
+      "baseComponent": "stock-simple-c",
+      "parameters": {
+        "guardrail": "juxt_data"
+      }
+    },
+    "stock-simple-c-js": {
+      "baseComponent": "stock-simple-c",
+      "parameters": {
+        "guardrail": "juxt_summ"
+      }
+    },
+    "introduction": {
+      "type": "markdown",
+      "path": "stage-3/introduction.md",
+      "response": [
+        {
+          "id": "prolificId",
+          "prompt": "Please enter your Prolific ID",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "shortText",
+          "placeholder": "Prolific ID",
+          "paramCapture": "PROLIFIC_PID"
+        }
+      ]
+    },
+    "introduction-stock": {
+      "type": "markdown",
+      "path": "stage-3/introduction-stock.md",
+      "response": []
+    },
+    "consent": {
+      "type": "markdown",
+      "path": "stage-3/consent_stage3.md",
+      "nextButtonText": "Agree",
+      "response": [
+        {
+          "id": "accept",
+          "prompt": "Do you consent to the study and wish to continue?",
+          "required": true,
+          "requiredValue": "yes",
+          "location": "belowStimulus",
+          "type": "radio",
+          "options": [
+            {
+              "label": "Decline",
+              "value": "no"
+            },
+            {
+              "label": "Accept",
+              "value": "yes"
+            }
+          ]
+        }
+      ]
+    },
+    "post-study": {
+      "type": "markdown",
+      "path": "stage-2/post-study.md",
+      "response": [
+        {
+          "id": "viz",
+          "type": "likert",
+          "location": "belowStimulus",
+          "prompt": "How familiar are you with data visualizations?",
+          "required": true,
+          "leftLabel": "Not familiar",
+          "rightLabel": "Very familiar",
+          "preset": 5
+        },
+        {
+          "id": "notice",
+          "type": "radio",
+          "location": "belowStimulus",
+          "prompt": "Did you notice a guardrail in place?",
+          "required": true,
+          "options": [
+            {
+              "label": "No",
+              "value": "no"
+            },
+            {
+              "label": "Yes",
+              "value": "yes"
+            }
+          ]
+        },
+        {
+          "id": "clear",
+          "type": "likert",
+          "location": "belowStimulus",
+          "prompt": "How clear was it what the guardrails were showing?",
+          "required": true,
+          "leftLabel": "Not clear",
+          "rightLabel": "Very clear",
+          "preset": 5
+        },
+        {
+          "id": "difficulty",
+          "type": "likert",
+          "location": "belowStimulus",
+          "prompt": "Did the guardrail make the visualizations more or less convincing?",
+          "required": true,
+          "leftLabel": "Less convincing",
+          "rightLabel": "More convincing",
+          "preset": 5
+        },
+        {
+          "id": "experience",
+          "type": "longText",
+          "location": "belowStimulus",
+          "prompt": "Describe how the guardrails impacted your evaluation of visualizations. (If possible, refer to specific guardrails):",
+          "required": true,
+          "placeholder": "Enter your answer here."
+        },
+        {
+          "id": "surveyExperience",
+          "prompt": "Did you experience any problems with our tool?",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "longText",
+          "placeholder": "Enter your answer here."
+        },
+        {
+          "id": "surveyRenderIssues",
+          "prompt": "Did anything not render or display properly?",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "longText",
+          "placeholder": "Enter your answer here"
+        },
+        {
+          "id": "surveyOtherIssues",
+          "prompt": "Any other issues or anything you would like to tell us?",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "longText",
+          "placeholder": "Enter your answer here"
+        }
+      ]
+    },
+    "check-month": {
+      "type": "questionnaire",
+      "instruction": "When asked to select a month, please select 'March'. This is an attention check.",
+      "response": [
+        {
+          "id": "check-month",
+          "prompt": "<br><br><br><br>Based on the text you read above, what month were you asked to select?",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "radio",
+          "options": [
+            {
+              "label": "February",
+              "value": "February"
+            },
+            {
+              "label": "March",
+              "value": "March"
+            },
+            {
+              "label": "April",
+              "value": "April"
+            },
+            {
+              "label": "May",
+              "value": "May"
+            },
+            {
+              "label": "June",
+              "value": "June"
+            }
+          ]
+        }
+      ]
+    },
+    "check-text": {
+      "type": "questionnaire",
+      "instruction": "<br><br><br><br>When asked to input text below, please type in 'Bird'. This is an attention check.",
+      "response": [
+        {
+          "id": "check-text",
+          "prompt": "Based on the text you read above, what were you asked to type in?",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "shortText",
+          "placeholder": "Type your answer here."
+        }
+      ]
+    }
+  },
+  "sequence": {
+    "order": "fixed",
+    "components": [
+      "introduction",
+      "consent",
+      {
+        "order": "latinSquare",
+        "numSamples": 1,
+        "components": [
+          "stock-simple-a-n",
+          "stock-simple-a-sd",
+          "stock-simple-a-ss",
+          "stock-simple-a-jd",
+          "stock-simple-a-js",
+          "stock-simple-e-n",
+          "stock-simple-e-sd",
+          "stock-simple-e-ss",
+          "stock-simple-e-jd",
+          "stock-simple-e-js",
+          "stock-simple-c-n",
+          "stock-simple-c-sd",
+          "stock-simple-c-ss",
+          "stock-simple-c-jd",
+          "stock-simple-c-js"
+        ]
+      },
+      "post-study"
+    ]
+  }
+}

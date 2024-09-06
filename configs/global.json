@@ -1,23 +1,21 @@
 {
-    "$schema": "https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/GlobalConfigSchema.json",
-    "configsList": [
-        "viz-guardrails",
-        "stage-2",
-        "sandbox",
-        "browser"
-    ],
-    "configs": {
-        "viz-guardrails": {
-            "path": "viz-guardrails/config-viz-guardrails.json"
-        },
-        "stage-2": {
-            "path": "stage-2/config-stage-2.json"
-        },
-        "sandbox": {
-            "path": "sandbox/config-sandbox.json"
-        },
-        "browser": {
-            "path": "browser/config-browser.json"
-        }
+  "$schema": "https://raw.githubusercontent.com/reVISit-studies/study/main/src/parser/GlobalConfigSchema.json",
+  "configsList": ["viz-guardrails", "stage-2", "stage-3", "sandbox", "browser"],
+  "configs": {
+    "viz-guardrails": {
+      "path": "viz-guardrails/config-viz-guardrails.json"
+    },
+    "stage-2": {
+      "path": "stage-2/config-stage-2.json"
+    },
+    "stage-3": {
+      "path": "stage-3/config-stage-3.json"
+    },
+    "sandbox": {
+      "path": "sandbox/config-sandbox.json"
+    },
+    "browser": {
+      "path": "browser/config-browser.json"
     }
+  }
 }
