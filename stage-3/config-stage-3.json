@@ -15,7 +15,7 @@
     "autoDownloadStudy": false,
     "sidebar": false,
     "urlParticipantIdParam": "PROLIFIC_PID",
-    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=C19P3VR0](https://app.prolific.com/submissions/complete?cc=C19P3VR0)"
+    "studyEndMsg": "**Thank you for completing the study. You may click this link and return to Prolific**: [https://app.prolific.com/submissions/complete?cc=C1GKB2PF](https://app.prolific.com/submissions/complete?cc=C1GKB2PF)"
   },
   "recordStudyAudio": false,
   "tasksToNotRecordAudio": [
@@ -29,7 +29,7 @@
   ],
   "baseComponents": {
     "stock-simple-c": {
-      "instruction": "<br><br><br><br>You've come across this visualization of stocks from the same industry.<br>Please review the chart, and then answer the question below.",
+      "instruction": "<br><br><br><br>You've come across this visualization of stocks from the same industry that has 5 companies in total.<br>Please review the chart, and then answer the question below.",
       "instructionLocation": "aboveStimulus",
       "type": "react-component",
       "path": "viz-guardrails/DataExplorer.tsx",
@@ -60,17 +60,35 @@
           "required": true
         },
         {
+          "id": "trust",
+          "type": "likert",
+          "location": "belowStimulus",
+          "prompt": "I trust the visualization shown above:",
+          "preset": 5,
+          "leftLabel": "Strongly disagree",
+          "rightLabel": "Strongly agree",
+          "required": true
+        },
+        {
+          "id": "check-text",
+          "prompt": "When asked to input text below, please type in 'Bird'. This is an attention check.<br>Based on the text you read above, what were you asked to type in?",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "shortText",
+          "placeholder": "Type your answer here."
+        },
+        {
           "id": "explain",
           "type": "longText",
           "location": "belowStimulus",
-          "prompt": "Briefly explain your reasoning for the previous question. What information in the visualization led you to this decision? (1-2 sentences)",
+          "prompt": "Briefly explain your reasoning for the first two questions. What information in the visualization led you to this decision? (1-2 sentences)",
           "required": true,
           "placeholder": "I chose my answer because..."
         }
       ]
     },
     "stock-simple-e": {
-      "instruction": "<br><br><br><br>You've come across this visualization of stocks from the same industry.<br>Please review the chart, and then answer the question below.",
+      "instruction": "<br><br><br><br>You've come across this visualization of stocks from the same industry that has 5 companies in total.<br>Please review the chart, and then answer the question below.",
       "instructionLocation": "aboveStimulus",
       "type": "react-component",
       "path": "viz-guardrails/DataExplorer.tsx",
@@ -101,17 +119,35 @@
           "required": true
         },
         {
+          "id": "trust",
+          "type": "likert",
+          "location": "belowStimulus",
+          "prompt": "I trust the visualization shown above:",
+          "preset": 5,
+          "leftLabel": "Strongly disagree",
+          "rightLabel": "Strongly agree",
+          "required": true
+        },
+        {
+          "id": "check-text",
+          "prompt": "When asked to input text below, please type in 'Bird'. This is an attention check.<br>Based on the text you read above, what were you asked to type in?",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "shortText",
+          "placeholder": "Type your answer here."
+        },
+        {
           "id": "explain",
           "type": "longText",
           "location": "belowStimulus",
-          "prompt": "Briefly explain your reasoning for the previous question. What information in the visualization led you to this decision? (1-2 sentences)",
+          "prompt": "Briefly explain your reasoning for the first two questions. What information in the visualization led you to this decision? (1-2 sentences)",
           "required": true,
           "placeholder": "I chose my answer because..."
         }
       ]
     },
     "stock-simple-a": {
-      "instruction": "<br><br><br><br>You've come across this visualization of stocks from the same industry.<br>Please review the chart, and then answer the question below.",
+      "instruction": "<br><br><br><br>You've come across this visualization of stocks from the same industry that has 5 companies in total.<br>Please review the chart, and then answer the question below.",
       "instructionLocation": "aboveStimulus",
       "type": "react-component",
       "path": "viz-guardrails/DataExplorer.tsx",
@@ -148,10 +184,28 @@
           "required": true
         },
         {
+          "id": "trust",
+          "type": "likert",
+          "location": "belowStimulus",
+          "prompt": "I trust the visualization shown above:",
+          "preset": 5,
+          "leftLabel": "Strongly disagree",
+          "rightLabel": "Strongly agree",
+          "required": true
+        },
+        {
+          "id": "check-text",
+          "prompt": "When asked to input text below, please type in 'Bird'. This is an attention check.<br>Based on the text you read above, what were you asked to type in?",
+          "required": true,
+          "location": "belowStimulus",
+          "type": "shortText",
+          "placeholder": "Type your answer here."
+        },
+        {
           "id": "explain",
           "type": "longText",
           "location": "belowStimulus",
-          "prompt": "Briefly explain your reasoning for the previous question. What information in the visualization led you to this decision? (1-2 sentences)",
+          "prompt": "Briefly explain your reasoning for the first two questions. What information in the visualization led you to this decision? (1-2 sentences)",
           "required": true,
           "placeholder": "I chose my answer because..."
         }
@@ -438,16 +492,6 @@
         "order": "latinSquare",
         "numSamples": 1,
         "components": [
-          "stock-simple-a-n",
-          "stock-simple-a-sd",
-          "stock-simple-a-ss",
-          "stock-simple-a-jd",
-          "stock-simple-a-js",
-          "stock-simple-e-n",
-          "stock-simple-e-sd",
-          "stock-simple-e-ss",
-          "stock-simple-e-jd",
-          "stock-simple-e-js",
           "stock-simple-c-n",
           "stock-simple-c-sd",
           "stock-simple-c-ss",
