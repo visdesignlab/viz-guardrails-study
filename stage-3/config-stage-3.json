@@ -53,7 +53,7 @@
           "id": "agree",
           "type": "likert",
           "location": "belowStimulus",
-          "prompt": "The visualization supports the idea that stock C yielded the highest returns in the industry in 2023:",
+          "prompt": "The visualization supports the idea that stock C yielded the highest returns in the entire industry in 2023:",
           "preset": 5,
           "leftLabel": "Strongly disagree",
           "rightLabel": "Strongly agree",
@@ -112,7 +112,7 @@
           "id": "agree",
           "type": "likert",
           "location": "belowStimulus",
-          "prompt": "The visualization supports the idea that stock E yielded the highest returns in the industry in 2023:",
+          "prompt": "The visualization supports the idea that stock E yielded the highest returns in the entire industry in 2023:",
           "preset": 5,
           "leftLabel": "Strongly disagree",
           "rightLabel": "Strongly agree",
@@ -177,7 +177,7 @@
           "id": "agree",
           "type": "likert",
           "location": "belowStimulus",
-          "prompt": "The visualization supports the idea that stock A yielded the highest returns in the industry in 2023:",
+          "prompt": "The visualization supports the idea that stock A yielded the highest returns in the entire industry in 2023:",
           "preset": 5,
           "leftLabel": "Strongly disagree",
           "rightLabel": "Strongly agree",
@@ -492,21 +492,9 @@
         "order": "latinSquare",
         "numSamples": 1,
         "components": [
-          "stock-simple-a-n",
-          "stock-simple-a-sd",
           "stock-simple-a-ss",
-          "stock-simple-a-jd",
-          "stock-simple-a-js",
-          "stock-simple-e-n",
-          "stock-simple-e-sd",
           "stock-simple-e-ss",
-          "stock-simple-e-jd",
-          "stock-simple-e-js",
-          "stock-simple-c-n",
-          "stock-simple-c-sd",
-          "stock-simple-c-ss",
-          "stock-simple-c-jd",
-          "stock-simple-c-js"
+          "stock-simple-c-ss"
         ]
       }
     ]
