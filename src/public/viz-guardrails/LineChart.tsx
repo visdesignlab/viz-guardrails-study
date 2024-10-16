@@ -125,7 +125,8 @@ export function LineChart({
 
   const colorScale = useMemo(() => {
     const cats = Array.from(new Set(data.map((d) => d[parameters.cat_var])));
-    return d3.scaleOrdinal(OwidDistinctLinesPalette).domain(cats);
+    const paletteWithoutOrange = OwidDistinctLinesPalette.filter((color) => color !== 'orange');
+    return d3.scaleOrdinal(paletteWithoutOrange).domain(cats);
   }, [data, parameters, dataname]);
 
   // ---------------------------- Draw ----------------------------
@@ -305,7 +306,7 @@ export function LineChart({
                 id="meanLine"
                 key="meanLine_key"
                 fill="none"
-                stroke="gray"
+                stroke="orange"
                 strokeDasharray="4,1"
                 strokeWidth={1.5}
                 d={superimposeSummary.meanLine}
@@ -332,7 +333,7 @@ export function LineChart({
               <Text
                 px={2}
                 size={10}
-                color={shouldBeColor(x.country) ? colorScale(x.country) : 'silver'}
+                color={shouldBeColor(x.country) ? colorScale(x.country) : 'orange'}
                 onMouseOver={(e) => {
                   const t = e.target as HTMLElement;
                   if (!selection?.includes(t.innerText)) {
