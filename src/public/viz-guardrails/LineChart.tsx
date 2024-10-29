@@ -318,6 +318,28 @@ export function LineChart({
               />
             </g>
           ) : null}
+          {superimposeSummary && parameters.condition === 'annotation' ? (
+            <g>
+              <rect
+                x={width - 220}
+                y={10}
+                width={190}
+                height={40}
+                fill="none"
+                stroke="red"
+                strokeWidth={1}
+              />
+              <text
+                x={width - 210}
+                y={35}
+                fill="red"
+                fontSize="14"
+                fontWeight="bold"
+              >
+                Notice the Average Line
+              </text>
+            </g>
+          ) : null}
         </svg>
 
         <svg key="lines" style={{ width: `${width}` }}>
