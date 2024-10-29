@@ -8,7 +8,7 @@
 
 import { useMemo, useState } from 'react';
 import * as d3 from 'd3';
-import { Center, Text } from '@mantine/core';
+import { Alert, Center, Text } from '@mantine/core';
 import { XAxis } from './XAxis';
 import { YAxis } from './YAxis';
 import { ChartParams } from './DataExplorer';
@@ -325,25 +325,32 @@ export function LineChart({
             </g>
           ) : null}
           {superimposeSummary && parameters.condition === 'annotation' ? (
-            <g>
-              <rect
-                x={width - 220}
-                width={155}
-                height={20}
-                fill="none"
-                stroke="rgb(168,24,41)"
-                strokeWidth={1}
-              />
-              <text
-                x={width - 210}
-                y={15}
-                fill="rgb(168,24,41)"
-                fontSize="12"
-                fontWeight="bold"
+            <foreignObject
+              x={width - 220}
+              y={0}
+              width={160}
+              height={40}
+            >
+              <Alert
+                color="rgb(168,24,41)"
+                title="Notice the Average Line"
+                styles={{
+                  root: {
+                    padding: '5px',
+                    backgroundColor: 'rgb(168,24,41)',
+                    height: '20px',
+                  },
+                  title: {
+                    fontSize: '12px',
+                    margin: 0,
+                    color: 'white',
+                    fontWeight: 'bold',
+                  },
+                }}
               >
-                Notice the Average Line
-              </text>
-            </g>
+              &nbsp;
+              </Alert>
+            </foreignObject>
           ) : null}
         </svg>
 
