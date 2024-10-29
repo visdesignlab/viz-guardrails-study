@@ -42,6 +42,13 @@ export function LineChart({
   const [hover, setHover] = useState<string[] | null>(null);
 
   const shouldBeColor = ((country: string) => {
+    if (parameters.condition === 'salient') {
+      if (!selection?.includes(country)) {
+        return true;
+      }
+      return false;
+    }
+
     if (!selection?.includes(country)) {
       return false;
     }
@@ -127,8 +134,7 @@ export function LineChart({
     const cats = Array.from(new Set(data.map((d) => d[parameters.cat_var])));
 
     if (parameters.condition === 'salient') {
-      const paletteWithoutOrange = OwidDistinctLinesPalette.filter((color) => color !== 'orange');
-      return d3.scaleOrdinal(paletteWithoutOrange).domain(cats);
+      return d3.scaleOrdinal(['orange']).domain(cats);
     }
 
     return d3.scaleOrdinal(OwidDistinctLinesPalette).domain(cats);
@@ -359,8 +365,7 @@ export function LineChart({
               <Text
                 px={2}
                 size={10}
-                // eslint-disable-next-line no-nested-ternary
-                color={shouldBeColor(x.country) ? colorScale(x.country) : parameters.condition === 'salient' ? 'orange' : 'silver'}
+                color={shouldBeColor(x.country) ? colorScale(x.country) : 'silver'}
                 onMouseOver={(e) => {
                   const t = e.target as HTMLElement;
                   if (!selection?.includes(t.innerText)) {
