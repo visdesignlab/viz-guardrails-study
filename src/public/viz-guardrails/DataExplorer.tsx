@@ -35,7 +35,8 @@ export interface ChartParams {
   y_var: string,
   cat_var: string,
   group_var: string,
-  guardrail: string
+  guardrail: string,
+  condition?: string
 }
 
 export function DataExplorer({ parameters, setAnswer }: StimulusParams<ChartParams>) {

@@ -258,7 +258,8 @@
     "stock-simple-e-ss": {
       "baseComponent": "stock-simple-e",
       "parameters": {
-        "guardrail": "super_summ"
+        "guardrail": "super_summ",
+        "condition": "control"
       }
     },
     "stock-simple-e-jd": {
