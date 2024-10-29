@@ -322,18 +322,17 @@ export function LineChart({
             <g>
               <rect
                 x={width - 220}
-                y={10}
-                width={190}
-                height={40}
+                width={155}
+                height={20}
                 fill="none"
-                stroke="red"
+                stroke="rgb(168,24,41)"
                 strokeWidth={1}
               />
               <text
                 x={width - 210}
-                y={35}
-                fill="red"
-                fontSize="14"
+                y={15}
+                fill="rgb(168,24,41)"
+                fontSize="12"
                 fontWeight="bold"
               >
                 Notice the Average Line
