@@ -292,6 +292,20 @@
         "guardrail": "super_summ"
       }
     },
+    "stock-simple-c-ss-salient": {
+      "baseComponent": "stock-simple-c",
+      "parameters": {
+        "guardrail": "super_summ",
+        "condition": "salient"
+      }
+    },
+    "stock-simple-c-ss-annotation": {
+      "baseComponent": "stock-simple-c",
+      "parameters": {
+        "guardrail": "super_summ",
+        "condition": "annotation"
+      }
+    },
     "stock-simple-c-jd": {
       "baseComponent": "stock-simple-c",
       "parameters": {
@@ -494,8 +508,8 @@
         "numSamples": 1,
         "components": [
           "stock-simple-c-ss",
-          "stock-simple-a-ss",
-          "stock-simple-e-ss"
+          "stock-simple-c-ss-salient",
+          "stock-simple-c-ss-annotation"
         ]
       }
     ]
