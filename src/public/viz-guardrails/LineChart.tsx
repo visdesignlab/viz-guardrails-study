@@ -125,6 +125,12 @@ export function LineChart({
 
   const colorScale = useMemo(() => {
     const cats = Array.from(new Set(data.map((d) => d[parameters.cat_var])));
+
+    if (parameters.condition === 'salient') {
+      const paletteWithoutOrange = OwidDistinctLinesPalette.filter((color) => color !== 'orange');
+      return d3.scaleOrdinal(paletteWithoutOrange).domain(cats);
+    }
+
     return d3.scaleOrdinal(OwidDistinctLinesPalette).domain(cats);
   }, [data, parameters, dataname]);
 
@@ -305,7 +311,7 @@ export function LineChart({
                 id="meanLine"
                 key="meanLine_key"
                 fill="none"
-                stroke="gray"
+                stroke={parameters.condition === 'salient' ? 'orange' : 'gray'}
                 strokeDasharray="4,1"
                 strokeWidth={parameters.condition === 'salient' ? 1.5 : 0.5}
                 d={superimposeSummary.meanLine}
@@ -332,7 +338,8 @@ export function LineChart({
               <Text
                 px={2}
                 size={10}
-                color={shouldBeColor(x.country) ? colorScale(x.country) : 'silver'}
+                // eslint-disable-next-line no-nested-ternary
+                color={shouldBeColor(x.country) ? colorScale(x.country) : parameters.condition === 'salient' ? 'orange' : 'silver'}
                 onMouseOver={(e) => {
                   const t = e.target as HTMLElement;
                   if (!selection?.includes(t.innerText)) {
