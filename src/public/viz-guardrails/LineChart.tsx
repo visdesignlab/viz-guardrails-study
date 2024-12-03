@@ -191,6 +191,7 @@ export function LineChart({
 
   const averageLabel = useMemo(() => (dataname === 'clean_stocks' ? 'Industry Average' : 'Average'), [dataname]);
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const getPolicyLabel = (country: string) => {
     if (country === 'Eldoril North') {
       return 'Policy A';
@@ -229,7 +230,8 @@ export function LineChart({
 
     const pos = labels?.map((x) => ({
       country: x as string,
-      country_policy: (dataname === 'clean_data' ? (`${x} (${getPolicyLabel(x)})`) : x) as string,
+      // eslint-disable-next-line spaced-comment
+      country_policy: x as string, //(dataname === 'clean_data' ? (`${x} (${getPolicyLabel(x)})`) : x) as string,
       label_pos: (x === averageLabel
         ? (superimposeSummary?.data.slice(-1).map((val) => yScale(val.mean))[0]) as number
         : (data.filter((val) => val[parameters.cat_var] === x).slice(-1).map((val) => yScale(val[parameters.y_var]))[0]) as number),
@@ -301,14 +303,14 @@ export function LineChart({
         <svg key="control_bands" style={{ width: `${width}` }}>
           {superimposeSummary ? (
             <g key="summary_g">
-              {/* <path
+              <path
                 id="confidenceBands"
                 key="confidenceBands_key"
                 fill="lightgray"
                 opacity={0.25}
                 stroke="none"
                 d={superimposeSummary.confidenceBands}
-              /> */}
+              />
               <path
                 id="meanLine"
                 key="meanLine_key"
